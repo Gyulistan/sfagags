@@ -1,0 +1,1026 @@
+#Cosmetic tags of Vanila
+#==================================
+
+MAL_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+INS_HOL = {
+    color = rgb { 203 138 74 }
+    color_ui = rgb { 255 179 96 }
+}
+
+HUN_EMPIRE = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+AUS_NOT_WHITE = {	
+	color = rgb { 249 126 98 }
+	color_ui = rgb { 255 164 127 }
+}
+
+SCA_UNIFIED = {
+	color = rgb { 0 102 204 }
+	color_ui = rgb { 0 102 204 }
+}
+
+NDC_UNIFIED = {
+	color = rgb { 0 76 153 }
+	color_ui = rgb { 0 76 153 }
+}
+
+GCO_UNIFIED = {
+	color = rgb { 255 255 51 }
+	color_ui = rgb { 255 255 51 }
+}
+
+PLC_UNIFIED = {
+	color = rgb { 255 125 160 }
+	color_ui = rgb { 255 125 160 }
+}
+
+UNL_UNIFIED = {
+	color = rgb { 255 128 0 }
+	color_ui = rgb { 255 128 0 }
+}
+
+USC_UNIFIED = {
+	color = rgb { 103 204 255 }
+	color_ui = rgb { 103 204 255 }
+}
+
+BAL_UNIFIED = {
+	color = rgb { 0 102 102 }
+	color_ui = rgb { 0 102 102 }
+}
+
+OTT_UNIFIED = {
+	color = rgb { 178 255 102 }
+	color_ui = rgb { 178 255 102 }
+}
+
+EUR_UNIFIED = {
+	color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}
+
+MUT_UNIFIED = {
+	color = rgb { 153 153 0 }
+	color_ui = rgb { 153 153 0 }
+}
+
+SPQR_UNIFIED = {
+	color = rgb { 153 0 0 }
+	color_ui = rgb { 153 0 0 }
+}
+
+PER_UNIFIED = {
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 255 215 0 }
+}
+
+BYZ_UNIFIED = {
+	color = rgb { 143 12 125 }
+	color_ui = rgb { 143 12 125 }
+}
+
+ARA_UNIFIED = {
+	color = rgb { 85 102 0 }
+	color_ui = rgb { 85 102 0 }
+}
+
+MAJ_UNIFIED = {
+	color = rgb { 255 51 51 }
+	color_ui = rgb { 255 51 51 }
+}
+
+RAT_UNIFIED = {
+	color = rgb { 255 255 51 }
+	color_ui = rgb { 255 255 51 }
+}
+
+HRE_UNIFIED = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}
+
+NOR_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+HOL_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+BEL_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+BLR_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+UKR_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+SPR_civil_war = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 245 123 38 }
+}
+
+GER_civil_war = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+
+GER_provisional_gvt = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
+}
+
+GER_german_empire = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
+}
+
+GER_german_monarchy = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CHI_warlord_leader = {
+	color = hsv { 0.18 0.6 0.9 } #255 244 190
+	color_ui = hsv { 0.18 0.3 0.9 }
+}
+MAN_restored = {
+	color = rgb { 237 152 18 }
+	color_ui = rgb { 224 139 5 }
+}
+JAP_showa_restoration = {
+	color = rgb { 230 230 230 }
+}
+
+GER_greater_german_reich = {
+	color = rgb { 54 54 54 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CHI_warlord_PRC = {
+	color = rgb { 245 12 55 }
+	color_ui = rgb { 178 34 60 }
+}
+
+CHI_power_struggle_defeated = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
+
+
+
+
+#==================================
+#Cosmetic tags of Paint It
+#==================================
+#Ванила
+#==================================
+PI_color_GER = {
+    color = HSV { 0.1 0.15 0.4 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ENG = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_SOV = {
+    color = rgb { 125 13 24 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_SWE = {
+    color = rgb { 36 132 247 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_FRA = {
+    color = rgb { 57 113 228 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_LUX = {
+    color = rgb { 65 175 179 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_BEL = {
+    color = rgb { 193 171 8 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_HOL = {
+    color = rgb { 203 138 74 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_CZE = {
+    color = rgb { 54 167 156 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_POL = {
+    color = rgb { 197 92 106 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_AUS = {
+    color = rgb { 194 198 215 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_LIT = {
+    color = rgb { 219 219 219 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_EST = {
+    color = rgb { 50 135 175 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_LAT = {
+    color = rgb { 75 77 186 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_SPR = {
+    color = rgb { 242 205 94 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ITA = {
+    color = rgb { 67 127 63 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ROM = {
+    color = rgb { 215 196 72 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_YUG = {
+    color = rgb { 72 73 126 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_SWI = {
+    color = rgb { 224 5 5 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_TUR = {
+    color = rgb { 171 190 152 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_GRE = {
+    color = rgb { 93 181 227 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ALB = {
+    color = rgb { 149 45 102 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_NOR = {
+    color = rgb { 111 71 71 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_DEN = {
+    color = rgb { 153 116 93 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_BUL = {
+    color = rgb { 51 155 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_POR = {
+    color = rgb { 39 116 70 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_FIN = {
+    color = rgb { 205 212 228 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_IRE = {
+    color = rgb { 80 159 90 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_HUN = {
+    color = rgb { 249 126 98 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_AFG = {
+    color = rgb { 64 160 167 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ARG = {
+    color = rgb { 145 157 236 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_AST = {
+    color = rgb { 57 143 97 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_BHU = {
+    color = rgb { 172 122 88 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_BOL = {
+    color = rgb { 255 180 136 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_BRA = {
+    color = rgb { 76 145 63 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_CAN = {
+    color = rgb { 119 48 39 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_CHI = {
+    color = rgb { 255 244 190 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_CHL = {
+    color = rgb { 155 101 107 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_COL = {
+    color = rgb { 222 187 91 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_COS = {
+    color = rgb { 152 128 43 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ECU = {
+    color = rgb { 249 146 98 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ETH = {
+    color = rgb { 152 130 191 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_GUA = {
+    color = rgb { 72 49 112 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_HON = {
+    color = rgb { 128 145 65 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_IRQ = {
+    color = rgb { 178 114 99 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_JAP = {
+    color = rgb { 255 191 191 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_MEX = {
+    color = rgb { 104 152 83 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_NIC = {
+    color = rgb { 146 179 191 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_PER = {
+    color = rgb { 71 113 97 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_PRU = {
+    color = rgb { 192 189 204 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_SIK = {
+    color = rgb { 71 190 152 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_TIB = {
+    color = rgb { 80 115 45 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_YUN = {
+    color = rgb { 114 148 80 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_USA = {
+    color = rgb { 20 133 237 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_MON = {
+    color = rgb { 108 140 42 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_MEN = {
+    color = rgb { 185 255 152 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_CUB = {
+    color = rgb { 140 65 166 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_HAI = {
+    color = rgb { 174 113 113 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_SLO = {
+    color = rgb { 158 161 188 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_RAJ = {
+    color = rgb { 170 10 10 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_CRO = {
+    color = rgb { 230 70 180 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_PRC = {
+    color = rgb { 245 12 55 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_SHX = {
+    color = rgb { 82 2 15 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_XSM = {
+    color = rgb { 105 90 113 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_LBA = {
+    color = rgb { 200 180 90 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_EGY = {
+    color = rgb { 230 230 70 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_PAL = {
+    color = rgb { 170 125 80 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_LEB = {
+    color = rgb { 130 150 60 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_JOR = {
+    color = rgb { 111 55 78 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_SYR = {
+    color = rgb { 100 100 150 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_SER = {
+    color = rgb { 160 110 110 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ICE = {
+    color = rgb { 100 125 175 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_UKR = {
+    color = rgb { 0 80 230 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_AZR = {
+    color = rgb { 69 151 49 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_GEO = {
+    color = rgb { 255 150 150 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_LAO = {
+    color = rgb { 176 102 180 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_INS = {
+    color = rgb { 128 158 118 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_VIN = {
+    color = rgb { 230 223 50 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_CAM = {
+    color = rgb { 100 71 150 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_MAL = {
+    color = rgb { 213 169 121 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_MNT = {
+    color = rgb { 77 90 105 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_BLR = {
+    color = rgb { 180 220 190 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_MAN = {
+    color = rgb { 255 120 71 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ANG = {
+    color = rgb { 37 140 61 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_COG = {
+    color = rgb { 152 159 209 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_MZB = {
+    color = rgb { 112 62 90 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_KEN = {
+    color = rgb { 145 103 14 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ZIM = {
+    color = rgb { 7 7 239 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_BOT = {
+    color = rgb { 11 132 112 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_PAK = {
+    color = rgb { 21 38 66 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_WGR = {
+    color = rgb { 195 236 230 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_DDR = {
+    color = rgb { 120 150 80 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_KOR = {
+    color = rgb { 255 240 195 }
+    color_ui = rgb { 213 000 93 }
+}
+
+
+
+
+
+#vanila cosmetic tags in PI
+
+PI_color_SCA_UNIFIED = {
+    color = rgb { 0 102 204 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_NDC_UNIFIED = {
+    color = rgb { 0 76 153 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_GCO_UNIFIED = {
+    color = rgb { 255 255 51 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_PLC_UNIFIED = {
+    color = rgb { 255 125 160 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_UNL_UNIFIED = {
+    color = rgb { 255 128 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_USC_UNIFIED = {
+    color = rgb { 0 102 204 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_BAL_UNIFIED = {
+    color = rgb { 0 102 102 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_OTT_UNIFIED = {
+    color = rgb { 178 255 102 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_EUR_UNIFIED = {
+    color = rgb { 0 51 153 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_MUT_UNIFIED = {
+    color = rgb { 153 153 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_SPQR_UNIFIED = {
+    color = rgb { 153 0 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_PER_UNIFIED = {
+    color = rgb { 255 215 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_BYZ_UNIFIED = {
+    color = rgb { 143 12 125 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_ARA_UNIFIED = {
+    color = rgb { 85 102 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_MAJ_UNIFIED = {
+    color = rgb { 255 51 51 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_RAT_UNIFIED = {
+    color = rgb { 255 255 51 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_HRE_UNIFIED = {
+    color = rgb { 128 128 128 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_MAN_restored = {
+    color = rgb { 237 152 18 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_JAP_showa_restoration = {
+    color = rgb { 230 230 230 }
+    color_ui = rgb { 213 000 93 }
+}
+
+
+
+
+#custom colors
+
+PI_color_darkred = {
+    color = rgb { 139 000 000 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_red = {
+    color = rgb { 255 000 000 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_tomato = {
+    color = rgb { 255 99 71 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_orangered = {
+    color = rgb { 255 69 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_chocolate = {
+    color = rgb { 210 105 30 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darkorange = {
+    color = rgb { 255 140 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_orange = {
+    color = rgb { 255 165 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darkgoldenrod = {
+    color = rgb { 184 134 11 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_goldenrod = {
+    color = rgb { 218 165 32 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_gold = {
+    color = rgb { 255 215 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_olive = {
+    color = rgb { 128 128 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_yellow = {
+    color = rgb { 255 255 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_yellowgreen = {
+    color = rgb { 154 205 50 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_greenyellow = {
+    color = rgb { 173 255 47 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_green = {
+    color = rgb { 0 128 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_lime = {
+    color = rgb { 000 255 000 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_limegreen = {
+    color = rgb { 50 205 50 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_springgreen = {
+    color = rgb { 0 255 127 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_turquoise = {
+    color = rgb { 64 224 208 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_lightseagreen = {
+    color = rgb { 32 178 170 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darkcyan = {
+    color = rgb { 0 139 139 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_aqua = {
+    color = rgb { 0 255 255 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_deepskyblue = {
+    color = rgb { 0 191 255 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_dodgerblue = {
+    color = rgb { 30 144 255 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_royalblue = {
+    color = rgb { 65 105 225 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_navy = {
+    color = rgb { 0 0 128 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_blue = {
+    color = rgb { 000 000 255 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_blueviolet = {
+    color = rgb { 138 43 226 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darkviolet = {
+    color = rgb { 148 0 211 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_purple = {
+    color = rgb { 128 0 128 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_magenta = {
+    color = rgb { 255 0 255 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_deeppink = {
+    color = rgb { 255 20 147 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_hotpink = {
+    color = rgb { 255 105 180 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_crimson = {
+    color = rgb { 220 20 60 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_brown = {
+    color = rgb { 165 42 42 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_indianred = {
+    color = rgb { 205 92 92 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_rosybrown = {
+    color = rgb { 188 143 143 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_lightcoral = {
+    color = rgb { 240 128 128 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_mistyrose = {
+    color = rgb { 255 228 225 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darksalmon = {
+    color = rgb { 233 150 122 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_lightsalmon = {
+    color = rgb { 255 160 122 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_sienna = {
+    color = rgb { 160 82 45 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_peachpuff = {
+    color = rgb { 255 218 185 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_peru = {
+    color = rgb { 205 133 63 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_burlywood = {
+    color = rgb { 222 184 135 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_tan = {
+    color = rgb { 210 180 140 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_wheat = {
+    color = rgb { 245 222 179 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_khaki = {
+    color = rgb { 240 230 140 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_palegoldenrod = {
+    color = rgb { 238 232 170 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darkkhaki = {
+    color = rgb { 189 183 107 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_olivedrab = {
+    color = rgb { 107 142 35 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darkolivegreen = {
+    color = rgb { 85 107 47 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darkseagreen = {
+    color = rgb { 143 188 143 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darkgreen = {
+    color = rgb { 0 100 0 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_forestgreen = {
+    color = rgb { 34 139 34 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_lightgreen = {
+    color = rgb { 144 238 144 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_seagreen = {
+    color = rgb { 46 139 87 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_mediumseagreen = {
+    color = rgb { 60 179 113 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_mediumaquamarine = {
+    color = rgb { 102 205 107 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_aquamarine = {
+    color = rgb { 127 255 212 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darkslategray = {
+    color = rgb { 47 79 79 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_paleturquoise = {
+    color = rgb { 179 238 238 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_lightcyan = {
+    color = rgb { 224 255 255 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_cadetblue = {
+    color = rgb { 95 158 160 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_skyblue = {
+    color = rgb { 135 206 235 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_steelblue = {
+    color = rgb { 70 130 180 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_slategray = {
+    color = rgb { 112 128 144 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_lightslategray = {
+    color = rgb { 119 136 153 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_lightsteelblue = {
+    color = rgb { 176 196 222 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_cornflowerblue = {
+    color = rgb { 100 149 237 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_slateblue = {
+    color = rgb { 106 90 205 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_darkslateblue = {
+    color = rgb { 72 61 139 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_mediumslateblue = {
+    color = rgb { 123 104 238 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_mediumpurple = {
+    color = rgb { 147 112 219 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_indigo = {
+    color = rgb { 75 0 130 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_mediumorchid = {
+    color = rgb { 186 85 211 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_plum = {
+    color = rgb { 211 160 221 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_violet = {
+    color = rgb { 238 130 238 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_thistle = {
+    color = rgb { 216 191 216 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_orchid = {
+    color = rgb { 218 112 214 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_palevioletred = {
+    color = rgb { 219 112 147 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_pink = {
+    color = rgb { 255 192 203 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_lightpink = {
+    color = rgb { 255 182 193 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_black = {
+    color = rgb { 000 000 000 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_dimgray = {
+    color = rgb { 105 105 105 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_gray = {
+    color = rgb { 128 128 128 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_garkgray = {
+    color = rgb { 169 169 169 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_silver = {
+    color = rgb { 192 192 192 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_lightgrey = {
+    color = rgb { 211 211 211 }
+    color_ui = rgb { 213 000 93 }
+}
+PI_color_white = {
+    color = rgb { 255 255 255 }
+    color_ui = rgb { 213 000 93 }
+}
+
+
+# color base and names --> https://www.imgonline.com.ua/eng/color-palette.php
+
+
+#duplicate:
+# ETH+ / DOM / ELS / ISR / LIB / NEP / NZL / PAN / PHI / SAF / TAN
+# TUR+ / SAU / SIA / URG / VEN
+# FRA+ / PAR
+# CHL+ / YEM / OMA
+# PER+ / GXC
+# LAO+ / ARM
