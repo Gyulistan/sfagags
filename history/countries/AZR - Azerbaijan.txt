@@ -1,0 +1,109 @@
+﻿capital = 231
+
+oob = "AZR_1926"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+1926.6.1 = {
+
+set_politics = {
+
+	parties = {
+		radical_bolshevism = { 
+			popularity = 11
+		}
+
+		orthodox_socialism = {
+			popularity = 11
+		}
+		
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
+		}
+	}
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+	}
+}
+
+create_country_leader = {
+	name = "Grigory Ordzhonikidze"
+	desc = "POLITICS_GRIGORY_ORDZHONIKIDZE_DESC"
+	picture = "Portrait_Transcaucasian_Grigory_Ordzhonikidze.dds"
+	expire = "1953.3.1"
+	ideology = radical_bolshevism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Irakli Tsereteli"
+	desc = "POLITICS_IRAKLI_TSERETELI_DESC"
+	picture = "Portrait_Transcaucasian_Irakli_Tsereteli.dds"
+	expire = "1953.3.1"
+	ideology = accelerationism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ruhulla Akhundov"
+	desc = "POLITICS_RUHULLA_AKHUNDOV_DESC"
+	picture = "Portrait_Transcaucasian_Ruhulla_Akhundov.dds"
+	expire = "1953.3.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Ivan Bagramyan"
+		picture = "Portrait_Transcaucasian_Ivan_Bagramyan.dds"
+	traits = { trait_cautious harsh_leader }
+	skill = 3
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}

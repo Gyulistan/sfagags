@@ -1,0 +1,198 @@
+ideas = {
+
+	head_of_government = {
+
+		eng_stanley_baldwin = {
+		
+			picture = GFX_idea_eng_stanley_baldwin
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				flamboyant_tough_guy
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = ENG
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	deputy_of_hog = {
+
+		eng_george_cave = {
+		
+			picture = GFX_idea_eng_george_cave
+			
+			available = {
+					OR = {
+						has_government = autoritarism
+						
+					}
+				}
+			
+			traits = {
+				autoritarist
+				backroom_assistant
+				deputy_of_hog
+			}
+			
+			allowed = {
+				original_tag = ENG
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	foreign_minister = {
+
+		eng_austen_chamberlain = {
+		
+			picture = GFX_idea_eng_austen_chamberlain
+			
+			available = {
+					OR = {
+						has_government = autoritarism
+						
+					}
+				}
+			
+			traits = {
+				autoritarist
+				ideological_crusader
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = ENG
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+
+	defence_minister = {
+
+		eng_laming_worthington = {
+		
+			picture = GFX_idea_eng_laming_worthington
+			
+			available = {
+					OR = {
+						has_government = autoritarism
+						
+					}
+				}
+			
+			traits = {
+				autoritarist
+				former_military_commissar
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = ENG
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		eng_winston_churchill = {
+		
+			picture = GFX_idea_eng_winston_churchill
+			
+			available = {
+					OR = {
+						has_government = autoritarism
+					}
+				}
+			
+			traits = {
+				autoritarist
+				military_entrepreneur
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = ENG
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	security_minister = {
+
+		eng_william_joynson = {
+		
+			picture = GFX_idea_eng_william_joynson
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				silent_lawyer
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = ENG
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}		
+}

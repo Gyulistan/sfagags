@@ -1,0 +1,33 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_eng_stanley_baldwin"
+		texturefile = "gfx/interface/Ideas/ENG/eng_stanley_baldwin.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_eng_george_cave"
+		texturefile = "gfx/interface/Ideas/ENG/eng_george_cave.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_eng_austen_chamberlain"
+		texturefile = "gfx/interface/Ideas/ENG/eng_austen_chamberlain.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_eng_laming_worthington"
+		texturefile = "gfx/interface/Ideas/ENG/eng_laming_worthington.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_eng_winston_churchill"
+		texturefile = "gfx/interface/Ideas/ENG/eng_winston_churchill.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_eng_william_joynson"
+		texturefile = "gfx/interface/Ideas/ENG/eng_william_joynson.tga"
+	}
+

@@ -1,0 +1,357 @@
+﻿
+
+AZR_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AZR_GAR_01 }
+
+	fallback_name = "%dya Transcaucasian Strelkovaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Transcaucasian Strelkovaya Div." }
+		2 = { "%dya Transcaucasian Strelkovaya Div." }
+		3 = { "%dya Transcaucasian Strelkovaya Div." }
+		4 = { "%dya Transcaucasian Strelkovaya Div." }
+		5 = { "%dya Transcaucasian Strelkovaya Div." }
+		6 = { "%dya Transcaucasian Strelkovaya Div." }
+		7 = { "%dya Transcaucasian Strelkovaya Div." }
+		8 = { "%dya Transcaucasian Strelkovaya Div." }
+		9 = { "%dya Transcaucasian Strelkovaya Div." }
+		10 = { "%dya Transcaucasian Strelkovaya Div." }
+		11 = { "%dya Transcaucasian Strelkovaya Div." }
+		12 = { "%dya Transcaucasian Strelkovaya Div." }
+		13 = { "%dya Transcaucasian Strelkovaya Div." }
+		14 = { "%dya Transcaucasian Strelkovaya Div." }
+		15 = { "%dya Transcaucasian Strelkovaya Div." }
+		16 = { "%dya Transcaucasian Strelkovaya Div." }
+		17 = { "%dya Transcaucasian Strelkovaya Div." }
+		18 = { "%dya Transcaucasian Strelkovaya Div." }
+		19 = { "%dya Transcaucasian Strelkovaya Div." }
+		20 = { "%dya Transcaucasian Strelkovaya Div." }
+		21 = { "%dya Transcaucasian Strelkovaya Div." }
+		22 = { "%dya Transcaucasian Strelkovaya Div." }
+		23 = { "%dya Transcaucasian Strelkovaya Div." }
+		24 = { "%dya Transcaucasian Strelkovaya Div." }
+		25 = { "%dya Transcaucasian Strelkovaya Div." }
+	}
+}
+
+AZR_CAV_01 = 
+{
+	name = "Cavalry Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Transcaucasian Kavaleriyskaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Transcaucasian Kavaleriyskaya Div." }
+		2 = { "%dya Transcaucasian Kavaleriyskaya Div." }
+		3 = { "%dya Transcaucasian Kavaleriyskaya Div." }
+		4 = { "%dya Transcaucasian Kavaleriyskaya Div." }
+		5 = { "%dya Transcaucasian Kavaleriyskaya Div." }
+		6 = { "%dya Transcaucasian Kavaleriyskaya Div." }
+		7 = { "%dya Transcaucasian Kavaleriyskaya Div." }
+		8 = { "%dya Transcaucasian Kavaleriyskaya Div." }
+		9 = { "%dya Transcaucasian Kavaleriyskaya Div." }
+		10 = { "%dya Transcaucasian Kavaleriyskaya Div." }
+
+	}
+}
+
+AZR_MOT_01 = 
+{
+	name = "Motorised Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Transcaucasian Motorizovannaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Transcaucasian Motorizovannaya Div." }
+		2 = { "%dya Transcaucasian Motorizovannaya Div." }
+		3 = { "%dya Transcaucasian Motorizovannaya Div." }
+		4 = { "%dya Transcaucasian Motorizovannaya Div." }
+		5 = { "%dya Transcaucasian Motorizovannaya Div." }
+		6 = { "%dya Transcaucasian Motorizovannaya Div." }
+		7 = { "%dya Transcaucasian Motorizovannaya Div." }
+		8 = { "%dya Transcaucasian Motorizovannaya Div." }
+		9 = { "%dya Transcaucasian Motorizovannaya Div." }
+		10 = { "%dya Transcaucasian Motorizovannaya Div." }
+		11 = { "%dya Transcaucasian Motorizovannaya Div." }
+		12 = { "%dya Transcaucasian Motorizovannaya Div." }
+		13 = { "%dya Transcaucasian Motorizovannaya Div." }
+		14 = { "%dya Transcaucasian Motorizovannaya Div." }
+		15 = { "%dya Transcaucasian Motorizovannaya Div." }
+		16 = { "%dya Transcaucasian Motorizovannaya Div." }
+		17 = { "%dya Transcaucasian Motorizovannaya Div." }
+		18 = { "%dya Transcaucasian Motorizovannaya Div." }
+		19 = { "%dya Transcaucasian Motorizovannaya Div." }
+		20 = { "%dya Transcaucasian Motorizovannaya Div." }
+		21 = { "%dya Transcaucasian Motorizovannaya Div." }
+		22 = { "%dya Transcaucasian Motorizovannaya Div." }
+		23 = { "%dya Transcaucasian Motorizovannaya Div." }
+		24 = { "%dya Transcaucasian Motorizovannaya Div." }
+		25 = { "%dya Transcaucasian Motorizovannaya Div." }
+
+	}
+}
+
+AZR_AZR_01 = 
+{
+	name = "Armored Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Transcaucasian Tankovaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Transcaucasian Tankovaya Div." }
+		2 = { "%dya Transcaucasian Tankovaya Div." }
+		3 = { "%dya Transcaucasian Tankovaya Div." }
+		4 = { "%dya Transcaucasian Tankovaya Div." }
+		5 = { "%dya Transcaucasian Tankovaya Div." }
+		6 = { "%dya Transcaucasian Tankovaya Div." }
+		7 = { "%dya Transcaucasian Tankovaya Div." }
+		8 = { "%dya Transcaucasian Tankovaya Div." }
+		9 = { "%dya Transcaucasian Tankovaya Div." }
+		10 = { "%dya Transcaucasian Tankovaya Div." }
+
+	}
+}
+
+AZR_MEC_01 = 
+{
+	name = "Mechanized Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Transcaucasian Motostrelkovaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		2 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		3 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		4 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		5 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		6 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		7 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		8 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		9 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		10 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		11 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		12 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		13 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		14 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		15 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		16 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		17 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		18 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		19 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		20 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		21 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		22 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		23 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		24 = { "%dya Transcaucasian Motostrelkovaya Div." }
+		25 = { "%dya Transcaucasian Motostrelkovaya Div." }
+
+	}
+}
+
+AZR_GAR_01 = 
+{
+	name = "Garrison Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Transcaucasian Strelkovaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Transcaucasian Strelkovaya Div." }
+		2 = { "%dya Transcaucasian Strelkovaya Div." }
+		3 = { "%dya Transcaucasian Strelkovaya Div." }
+		4 = { "%dya Transcaucasian Strelkovaya Div." }
+		5 = { "%dya Transcaucasian Strelkovaya Div." }
+		6 = { "%dya Transcaucasian Strelkovaya Div." }
+		7 = { "%dya Transcaucasian Strelkovaya Div." }
+		8 = { "%dya Transcaucasian Strelkovaya Div." }
+		9 = { "%dya Transcaucasian Strelkovaya Div." }
+		10 = { "%dya Transcaucasian Strelkovaya Div." }
+		11 = { "%dya Transcaucasian Strelkovaya Div." }
+		12 = { "%dya Transcaucasian Strelkovaya Div." }
+		13 = { "%dya Transcaucasian Strelkovaya Div." }
+		14 = { "%dya Transcaucasian Strelkovaya Div." }
+		15 = { "%dya Transcaucasian Strelkovaya Div." }
+		16 = { "%dya Transcaucasian Strelkovaya Div." }
+		17 = { "%dya Transcaucasian Strelkovaya Div." }
+		18 = { "%dya Transcaucasian Strelkovaya Div." }
+		19 = { "%dya Transcaucasian Strelkovaya Div." }
+		20 = { "%dya Transcaucasian Strelkovaya Div." }
+		21 = { "%dya Transcaucasian Strelkovaya Div." }
+		22 = { "%dya Transcaucasian Strelkovaya Div." }
+		23 = { "%dya Transcaucasian Strelkovaya Div." }
+		24 = { "%dya Transcaucasian Strelkovaya Div." }
+		25 = { "%dya Transcaucasian Strelkovaya Div." }
+
+	}
+}
+
+AZR_MAR_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Transcaucasian Div. Morskoi Pekhoty"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Transcaucasian Div. Morskoi Pekhoty" }
+		2 = { "%dya Transcaucasian Div. Morskoi Pekhoty" }
+		3 = { "%dya Transcaucasian Div. Morskoi Pekhoty" }
+		4 = { "%dya Transcaucasian Div. Morskoi Pekhoty" }
+		5 = { "%dya Transcaucasian Div. Morskoi Pekhoty" }
+		6 = { "%dya Transcaucasian Div. Morskoi Pekhoty" }
+		7 = { "%dya Transcaucasian Div. Morskoi Pekhoty" }
+		8 = { "%dya Transcaucasian Div. Morskoi Pekhoty" }
+		9 = { "%dya Transcaucasian Div. Morskoi Pekhoty" }
+		10 = { "%dya Transcaucasian Div. Morskoi Pekhoty" }
+
+	}
+}
+
+AZR_MTN_01 = 
+{
+	name = "Mountain Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Transcaucasian Gornostrelkovaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Transcaucasian Gornostrelkovaya Div." }
+		2 = { "%dya Transcaucasian Gornostrelkovaya Div." }
+		3 = { "%dya Transcaucasian Gornostrelkovaya Div." }
+		4 = { "%dya Transcaucasian Gornostrelkovaya Div." }
+		5 = { "%dya Transcaucasian Gornostrelkovaya Div." }
+		6 = { "%dya Transcaucasian Gornostrelkovaya Div." }
+		7 = { "%dya Transcaucasian Gornostrelkovaya Div." }
+		8 = { "%dya Transcaucasian Gornostrelkovaya Div." }
+		9 = { "%dya Transcaucasian Gornostrelkovaya Div." }
+		10 = { "%dya Transcaucasian Gornostrelkovaya Div." }
+
+	}
+}
+
+AZR_PAR_01 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { AZR }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { AZR_INF_01 }
+
+	fallback_name = "%dya Transcaucasian Vozdushno-Desantnaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya Transcaucasian Vozdushno-Desantnaya Div." }
+		2 = { "%dya Transcaucasian Vozdushno-Desantnaya Div." }
+		3 = { "%dya Transcaucasian Vozdushno-Desantnaya Div." }
+		4 = { "%dya Transcaucasian Vozdushno-Desantnaya Div." }
+		5 = { "%dya Transcaucasian Vozdushno-Desantnaya Div." }
+		6 = { "%dya Transcaucasian Vozdushno-Desantnaya Div." }
+		7 = { "%dya Transcaucasian Vozdushno-Desantnaya Div." }
+		8 = { "%dya Transcaucasian Vozdushno-Desantnaya Div." }
+		9 = { "%dya Transcaucasian Vozdushno-Desantnaya Div." }
+		10 = { "%dya Transcaucasian Vozdushno-Desantnaya Div." }
+
+	}
+}

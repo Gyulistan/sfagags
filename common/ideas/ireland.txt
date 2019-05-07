@@ -1,0 +1,194 @@
+ideas = {
+
+	head_of_government = {
+
+		ire_peadar_o_donnel = {
+		
+			picture = GFX_idea_ire_peadar_o_donnel
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				silent_workhorse
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = IRE
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	deputy_of_hog = {
+
+		ire_liam_o_flaherty = {
+		
+			picture = GFX_idea_ire_liam_o_flaherty
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				eminence_grise
+				deputy_of_hog
+			}
+			
+			allowed = {
+				original_tag = IRE
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	foreign_minister = {
+
+		ire_frank_ryan = {
+		
+			picture = GFX_idea_ire_frank_ryan
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				great_compromiser
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = IRE
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}	
+
+	defence_minister = {
+
+		ire_kit_pool = {
+		
+			picture = GFX_idea_ire_kit_pool
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				quartermaster_general
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = IRE
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		ire_roddy_connoly = {
+		
+			picture = GFX_idea_ire_roddy_connoly
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				administrative_genius
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = IRE
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}	
+
+	security_minister = {
+
+		ire_william_o_brien = {
+		
+			picture = GFX_idea_ire_william_o_brien
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				man_of_the_people
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = IRE
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}		
+}

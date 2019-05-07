@@ -1,0 +1,63 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_sergey_kirov"
+		texturefile = "gfx/interface/Ideas/SOV/sov_sergey_kirov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_alexey_rykov"
+		texturefile = "gfx/interface/Ideas/SOV/sov_alexey_rykov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_leon_trotsky"
+		texturefile = "gfx/interface/Ideas/SOV/sov_leon_trotsky.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_mikhail_tukhachevsky"
+		texturefile = "gfx/interface/Ideas/SOV/sov_mikhail_tukhachevsky.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_valerian_kuybyshev"
+		texturefile = "gfx/interface/Ideas/SOV/sov_valerian_kuybyshev.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_nikolay_semashko"
+		texturefile = "gfx/interface/Ideas/SOV/sov_nikolay_semashko.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_boris_kamkov"
+		texturefile = "gfx/interface/Ideas/SOV/sov_boris_kamkov.tga"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_vladimir_karelin"
+		texturefile = "gfx/interface/Ideas/SOV/sov_vladimir_karelin.tga"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_jakov_minsker"
+		texturefile = "gfx/interface/Ideas/SOV/sov_jakov_minsker.tga"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_yuri_sablin"
+		texturefile = "gfx/interface/Ideas/SOV/sov_yuri_sablin.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_andrew_kolegayev"
+		texturefile = "gfx/interface/Ideas/SOV/sov_andrew_kolegayev.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GFX_idea_sov_isaak_shteynberg"
+		texturefile = "gfx/interface/Ideas/SOV/sov_isaak_shteynberg.tga"
+	}
+

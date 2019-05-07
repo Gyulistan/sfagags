@@ -1,0 +1,33 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_pol_stanislaw_bobinski"
+		texturefile = "gfx/interface/Ideas/POL/pol_stanislaw_bobinski.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pol_edward_prochniak"
+		texturefile = "gfx/interface/Ideas/POL/pol_edward_prochniak.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pol_felix_kon"
+		texturefile = "gfx/interface/Ideas/POL/pol_felix_kon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pol_franciszek_jozwiak"
+		texturefile = "gfx/interface/Ideas/POL/pol_franciszek_jozwiak.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pol_bernard_zaks"
+		texturefile = "gfx/interface/Ideas/POL/pol_bernard_zaks.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pol_tadeusz_radwanski"
+		texturefile = "gfx/interface/Ideas/POL/pol_tadeusz_radwanski.tga"
+	}
+

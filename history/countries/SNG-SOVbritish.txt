@@ -1,0 +1,247 @@
+﻿capital = 219
+
+oob = "SNG_1926"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.8
+# Starting tech
+set_technology = {
+	infantry_weapons = 1infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1 
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	marines = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	early_fighter = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	basic_carrier = 1
+	transport = 1
+	trench_warfare = 1
+	base_strike = 1
+	synth_oil_experiments = 1
+}
+set_convoys = 140
+
+1926.7.1 = {
+
+set_politics = {
+
+	parties = {
+		radical_bolshevism = { 
+			popularity = 11
+		}
+
+		orthodox_socialism = {
+			popularity = 11
+		}
+		
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
+		}
+	}
+	
+	ruling_party = radical_bolshevism
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	sng_robert_page_arnot
+	sng_thomas_bell
+	sng_rajani_palme_dutt
+	sng_thomas_witringham
+	sng_clemens_palme_dutt
+	sng_arthur_horner
+}
+
+	declare_war_on = {
+		target = SCO
+		type = annex_everything
+	}
+}
+
+# DIPLOMACY / WAR 26
+	declare_war_on = {
+		target = ENG
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = SCO
+		type = annex_everything
+	}
+create_country_leader = {
+	name = "Willie Gallacher"
+	desc = "POLITICS_WILLIE_GALLACHER_DESC"
+	picture = "Portrait_SovBritain_Willie_Gallacher.dds"
+	expire = "1953.3.1"
+	ideology = radical_bolshevism_subtype
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Sam Wild"
+		picture = "Portrait_SovBritain_Sam_Wild.dds"
+	traits = { trait_reckless }
+	skill = 2
+
+
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Thomas Wintringham"
+		picture = "Portrait_SovBritain_Thom_Witringham.dds"
+	traits = { career_officer }
+	skill = 3
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Samuel Montague Nathan"
+		picture = "Portrait_SovBritain_Montague_Nathan.dds"
+	traits = { organizer }
+	skill = 2
+
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ralph Bates"
+		picture = "Portrait_SovBritain_Ralph_Bates.dds"
+	traits = { career_officer infantry_officer }
+	skill = 2
+
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "William Mayne Thompson"
+		picture = "Portrait_SovBritain_William_Thompson.dds"
+	traits = {  }
+	skill = 1
+
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Clement Henry Beckett"
+		picture = "Portrait_SovBritain_Clement_Beckett.dds"
+	traits = {  }
+	skill = 1
+
+
+	
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Percy Ludwick"
+		picture = "Portrait_SovBritain_Percy_Ludwick.dds"
+	traits = {  }
+	skill = 1
+
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Len Crome"
+		picture = "Portrait_SovBritain_Len_Crome.dds"
+	traits = {  }
+	skill = 1
+
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+1926.7.1 = {
+	declare_war_on = {
+		target = SCO
+		type = annex_everything
+	}
+}

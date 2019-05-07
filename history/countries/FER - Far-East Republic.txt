@@ -1,0 +1,94 @@
+﻿capital = 563
+
+oob = "FER_1926"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+		radical_bolshevism = { 
+			popularity = 11
+		}
+
+		orthodox_socialism = {
+			popularity = 11
+		}
+		
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
+		}
+	}
+	
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	fer_alexander_krasnoshchyokov
+	fer_nikolay_matveyev 
+	fer_boris_shumyatsky
+	fer_ieronim_uborevich
+	fer_pavel_clarck
+	fer_vyacheslav_mantorov
+}
+
+create_country_leader = {
+	name = "Sergey Lazo"
+	desc = "POLITICS_SERGEY_LAZO_DESC"
+	picture = "Portrait_Far_East_Sergey_Lazo.dds"
+	expire = "1965.1.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Ieronim Uborevich"
+		picture = "Portrait_Far_East_Ieronim_Uborevich.dds"
+	traits = { fast_planner winter_expert skilled_staffer }
+	skill = 3
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}

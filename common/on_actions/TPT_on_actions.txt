@@ -1,0 +1,17 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			random_country = {
+				save_global_event_target_as = tpt_autotarget
+				set_variable = {
+					var = global.tpt_op_value
+					value = 10
+				}
+				set_variable = {
+					var = global.tpt_trade_value
+					value = 10
+				}
+			}
+		}
+	}
+}

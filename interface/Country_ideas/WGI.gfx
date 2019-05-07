@@ -1,0 +1,33 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_wgi_grigory_semenov"
+		texturefile = "gfx/interface/Ideas/WGI/wgi_grigory_semenov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wgi_victor_pepelyaev"
+		texturefile = "gfx/interface/Ideas/WGI/wgi_victor_pepelyaev.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wgi_sergey_tretyakov"
+		texturefile = "gfx/interface/Ideas/WGI/wgi_sergey_tretyakov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wgi_mikhail_diterikhs"
+		texturefile = "gfx/interface/Ideas/WGI/wgi_mikhail_diterikhs.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wgi_ivan_mikhaylov"
+		texturefile = "gfx/interface/Ideas/WGI/wgi_ivan_mikhaylov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wgi_alexandr_gattenberger"
+		texturefile = "gfx/interface/Ideas/WGI/wgi_alexandr_gattenberger.tga"
+	}
+

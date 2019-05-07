@@ -1,0 +1,7 @@
+﻿units = {
+	navy = {
+		name = "TP Indian Ocean Submarine Flotilla"
+		location = 13019
+		ship = { name = "HMS TP" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ROOT creator = ROOT } } }
+	}
+}

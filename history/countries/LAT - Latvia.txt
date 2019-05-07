@@ -1,0 +1,77 @@
+﻿capital = 12
+
+oob = "LAT_1926"
+
+add_ideas = {
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+	early_submarine = 1
+}
+
+set_research_slots = 3
+
+set_convoys = 10
+
+1926.6.1 = {
+
+set_politics = {
+
+	parties = {
+		radical_bolshevism = { 
+			popularity = 11
+		}
+
+		orthodox_socialism = {
+			popularity = 11
+		}
+		
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
+		}
+	}
+	
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+
+create_country_leader = {
+	name = "Pēteris Stučka"
+	desc = "POLITICS_PETERIS_STUCKA_DESC"
+	picture = "Portrait_Latvia_Peteris_Stucka.dds"
+	expire = "1965.1.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
+		#
+	}
+}

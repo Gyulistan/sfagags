@@ -1,0 +1,359 @@
+focus_tree = {
+	id = LIB
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LIB
+		}
+	}
+	default = no
+	focus = {
+		id = LIB1
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10,00
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = LIB25
+		icon = GFX_Dirizhizm
+		cost = 10,00
+		mutually_exclusive = {
+			focus = LIB28
+		}
+		x = 19
+		y = 1
+
+	}
+	focus = {
+		id = LIB28
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		mutually_exclusive = {
+			focus = LIB25
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = LIB2
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10,00
+		prerequisite = {
+			focus = LIB1
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = LIB3
+		icon = GFX_focus_generic_treaty
+		cost = 10,00
+		prerequisite = {
+			focus = LIB2
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = LIB4
+		icon = GFX_goal_support_communism
+		cost = 10,00
+		prerequisite = {
+			focus = LIB3
+		}
+		mutually_exclusive = {
+			focus = LIB5
+			focus = LIB18
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = LIB6
+		icon = GFX_focus_generic_military_academy
+		cost = 10,00
+		prerequisite = {
+			focus = LIB4
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = LIB8
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 10,00
+		prerequisite = {
+			focus = LIB4
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = LIB5
+		icon = GFX_focus_generic_military_mission
+		cost = 10,00
+		prerequisite = {
+			focus = LIB3
+		}
+		mutually_exclusive = {
+			focus = LIB4
+			focus = LIB18
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = LIB12
+		icon = GFX_focus_generic_little_entente
+		cost = 10,00
+		prerequisite = {
+			focus = LIB5
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = LIB13
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10,00
+		prerequisite = {
+			focus = LIB5
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = LIB14
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10,00
+		prerequisite = {
+			focus = LIB5
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = LIB15
+		icon = GFX_goal_support_fascism
+		cost = 10,00
+		prerequisite = {
+			focus = LIB12
+		}
+		prerequisite = {
+			focus = LIB13
+		}
+		prerequisite = {
+			focus = LIB14
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = LIB16
+		icon = GFX_imperskie_ombitie
+		cost = 10,00
+		prerequisite = {
+			focus = LIB15
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = LIB18
+		icon = GFX_goal_support_democracy
+		cost = 10,00
+		prerequisite = {
+			focus = LIB3
+		}
+		mutually_exclusive = {
+			focus = LIB5
+			focus = LIB4
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = LIB19
+		icon = GFX_focus_generic_concessions
+		cost = 10,00
+		prerequisite = {
+			focus = LIB18
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = LIB22
+		icon = GFX_focus_cze_german_puppet
+		cost = 10,00
+		prerequisite = {
+			focus = LIB19
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = LIB20
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10,00
+		prerequisite = {
+			focus = LIB18
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = LIB23
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10,00
+		prerequisite = {
+			focus = LIB20
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = LIB21
+		icon = GFX_goal_continuous_suppression
+		cost = 10,00
+		prerequisite = {
+			focus = LIB18
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = LIB24
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		prerequisite = {
+			focus = LIB21
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = LIB26
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10,00
+		prerequisite = {
+			focus = LIB25
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = LIB27
+		icon = GFX_focus_chi_mission_to_the_us
+		cost = 10,00
+		prerequisite = {
+			focus = LIB26
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = LIB7
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		prerequisite = {
+			focus = LIB4
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = LIB9
+		icon = GFX_goal_generic_major_alliance
+		cost = 10,00
+		prerequisite = {
+			focus = LIB6
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = LIB10
+		icon = GFX_focus_rom_handle_king
+		cost = 10,00
+		prerequisite = {
+			focus = LIB7
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = LIB11
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10,00
+		prerequisite = {
+			focus = LIB8
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = LIB17
+		icon = GFX_goal_generic_political_pressure
+		cost = 10,00
+		prerequisite = {
+			focus = LIB11
+			focus = LIB22
+			focus = LIB23
+			focus = LIB24
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = LIB29
+		icon = GFX_focus_chi_reach_out_to_france
+		cost = 10,00
+		prerequisite = {
+			focus = LIB28
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = LIB30
+		icon = GFX_Svobodny_rynok
+		cost = 10,00
+		prerequisite = {
+			focus = LIB29
+		}
+		x = 22
+		y = 3
+
+	}
+}

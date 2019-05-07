@@ -1,0 +1,198 @@
+ideas = {
+
+	head_of_government = {
+
+		hun_sandor_garbai = {
+		
+			picture = GFX_idea_hun_sandor_garbai
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				silent_workhorse
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = HUN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	deputy_of_hog = {
+
+		hun_peidl_gyula = {
+		
+			picture = GFX_idea_hun_peidl_gyula
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				energetic_deputy
+				deputy_of_hog
+			}
+			
+			allowed = {
+				original_tag = HUN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	foreign_minister = {
+
+		hun_peter_agoston = {
+		
+			picture = GFX_idea_hun_peter_agoston
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				ideological_crusader
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = HUN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+
+	defence_minister = {
+
+		hun_matyas_rakosi = {
+		
+			picture = GFX_idea_hun_matyas_rakosi
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				experienced_organizer
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = HUN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		hun_dezso_bokanyi = {
+		
+			picture = GFX_idea_hun_dezso_bokanyi
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				bank_president
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = HUN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	security_minister = {
+
+		hun_jeno_landler  = {
+		
+			picture = GFX_idea_hun_jeno_landler
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				prince_of_terror
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = HUN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}		
+}

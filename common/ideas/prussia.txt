@@ -1,0 +1,373 @@
+ideas = {
+
+	head_of_government = {
+
+		prs_rosa_luxemburg = {
+		
+			picture = GFX_idea_prs_rosa_luxemburg
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				silent_workhorse
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+				
+		prs_eduard_david = {
+		
+			picture = GFX_idea_prs_eduard_david
+			
+			available = {
+					OR = {
+						has_government = accelerationism
+					}
+				}
+			
+			traits = {
+				accelerationist
+				flamboyant_tough_guy
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}
+				
+		prs_erwin_rommel = {
+		
+			picture = GFX_idea_prs_erwin_rommel
+			
+			available = {
+					OR = {
+						has_government = national_militarism
+					}
+				}
+			
+			traits = {
+				nationalist
+				respected_war_hero
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}
+				
+		prs_ernst_thalmann = {
+		
+			picture = GFX_idea_prs_ernst_thalmann
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				red_chairman
+				head_of_government
+				
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}
+		
+		prs_willi_budich = {
+		
+			picture = GFX_idea_prs_willi_budich
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				pragmatic_statesman
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}
+				
+		prs_otto_strasser = {
+		
+			picture = GFX_idea_prs_otto_strasser
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				backroom_backstabber
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}
+				
+		prs_max_hoelz = {
+		
+			picture = GFX_idea_prs_max_hoelz
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				local_tyrant
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}
+		}
+		
+	deputy_of_hog = {
+
+		prs_karl_liebknecht = {
+		
+			picture = GFX_idea_prs_karl_liebknecht
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				eminence_grise
+				deputy_of_hog
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	foreign_minister = {
+
+		prs_heinrich_brandler = {
+		
+			picture = GFX_idea_prs_heinrich_brandler
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				great_compromiser
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+
+	defence_minister = {
+
+		prs_willy_leow = {
+		
+			picture = GFX_idea_prs_willy_leow
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				former_military_commissar
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		prs_clara_zetkin = {
+		
+			picture = GFX_idea_prs_clara_zetkin
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				balanced_budget_economy
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	security_minister = {
+
+		prs_ruth_fischer = {
+		
+			picture = GFX_idea_prs_ruth_fischer
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				health_and_safety
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+}

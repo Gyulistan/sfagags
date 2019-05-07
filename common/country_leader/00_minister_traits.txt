@@ -1,0 +1,553 @@
+leader_traits = {
+
+	undistinguished_suit = {
+		random = yes
+	}
+
+	# HEAD of GOVERNMENT
+
+	red_chairman = {
+		industrial_capacity_factory = 0.08
+		political_power_gain = 0.05
+
+		random = no
+	}
+
+	backroom_backstabber = {
+		stability_factor = -0.07
+		political_power_gain = 0.11
+
+		random = no
+	}
+
+	corporate_suit = {
+		trade_opinion_factor = 0.05
+		political_power_gain = -0.12
+		production_speed_industrial_complex_factor = 0.08
+		production_speed_arms_factory_factor = 0.04
+
+		random = no
+	}
+
+	flamboyant_tough_guy = {
+		war_support_factor = 0.06
+		stability_factor = 0.06
+		political_power_gain = -0.08
+
+		random = no
+	}
+
+	happy_amateur = {
+		production_speed_buildings_factor = -0.04
+		political_power_gain = 0.07
+
+		random = no
+	}
+
+	local_tyrant = {
+		political_power_gain = -0.09
+		local_resources_factor = 0.13
+
+		random = no
+	}
+
+	naive_optimist = {
+		political_power_gain = -0.05
+		production_speed_industrial_complex_factor = 0.11
+		production_speed_arms_factory_factor = -0.09
+
+		random = no
+	}
+
+	old_admiral = {
+		production_speed_naval_base_factor = 0.09
+		production_speed_dockyard_factor = 0.06
+		experience_gain_navy = 0.12
+
+		random = no
+	}
+
+	old_air_marshal = {
+		production_speed_air_base_factor = 0.13
+
+		equipment_bonus = {
+			fighter_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			heavy_fighter_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			CAS_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			tac_bomber_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			strat_bomber_equipment = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+		}
+		experience_gain_air = 0.05
+
+		random = no
+	}
+
+	old_general = {
+		production_speed_bunker_factor = 0.09
+		max_planning = 0.1
+		experience_gain_army = 0.07
+
+		random = no
+	}
+
+	political_protege = {
+		political_power_gain = 0.11
+
+		random = no
+	}
+
+	pragmatic_statesman = {
+		political_power_gain = 0.14
+
+		random = no
+	}
+
+	reformist_soldier = {
+		experience_gain_army_factor = 0.08
+		army_morale = 0.1
+
+		random = no
+	}
+
+	respected_war_hero = {
+		political_power_gain = 0.06
+		army_morale = 0.1
+		training_time_factor = -0.12
+
+		random = no
+	}
+
+	silent_workhorse = {
+		political_power_gain = 0.07
+		local_resources_factor = 0.14
+
+		random = no
+	}
+
+	smiling_oilman = {
+		production_factory_max_efficiency_factor = 0.05
+		production_speed_synthetic_refinery_factor = 0.12
+
+		random = no
+	}
+	
+	# original
+	
+	# DEPUTY OF HOG
+	
+	eminence_grise = {
+		political_power_gain = -0.05
+		stability_factor = 0.04
+
+		random = no
+	}
+	
+	backroom_assistant = {
+		political_power_gain = 0.05
+
+		random = no
+	}
+	
+	energetic_deputy = {
+		political_power_gain = 0.07
+		consumer_goods_factor = -0.05
+		stability_factor = 0.05
+
+		random = no
+	}
+	
+	powerful_tycoon = {
+		consumer_goods_factor = -0.05
+		production_speed_buildings_factor = 0.05
+
+		random = no
+	}
+	
+	experienced_financier = {
+		consumer_goods_factor = -0.07
+		political_power_gain = 0.04
+
+		random = no
+	}
+	
+	partokrat = {
+		stability_factor = 0.05
+		drift_defence_factor = -0.1
+
+		random = no
+	}
+	
+	# ECONOMY MINISTERS
+
+	administrative_genius = {
+		production_speed_buildings_factor = 0.02
+		research_time_factor = -0.02
+		industrial_capacity_factory = 0.02
+
+		random = no
+	}
+
+	balanced_budget_economy = {
+		political_power_gain = 0.03
+		production_speed_buildings_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+
+		random = no
+	}
+
+	bank_president = {
+		production_speed_buildings_factor = 0.04
+		political_power_gain = 0.02
+
+		random = no
+	}
+
+	construction_magnate = {
+		production_speed_infrastructure_factor = 0.02
+		production_speed_air_base_factor = 0.04
+		production_speed_naval_base_factor = 0.04
+		production_speed_radar_station_factor = 0.04
+		production_speed_rocket_site_factor = 0.04
+		production_speed_nuclear_reactor_factor = 0.04
+
+		random = no
+	}
+
+	corrupt_kleptocrat = {
+		local_resources_factor = -0.03
+		production_factory_max_efficiency_factor = -0.05
+		production_speed_buildings_factor = -0.02
+		political_power_gain = 0.15
+
+		random = no
+	}
+
+	industrial_chemist = {
+		local_resources_factor = 0.05
+		production_speed_industrial_complex_factor = 0.02
+		production_speed_infrastructure_factor = 0.03
+		production_speed_synthetic_refinery_factor = 0.03
+
+		random = no
+	}
+
+	industrialiser = {
+		industrial_capacity_factory = 0.02
+		production_speed_buildings_factor = 0.03
+		local_resources_factor = 0.02
+		conscription_factor = -0.02
+		political_power_gain = -0.04
+
+		random = no
+	}
+
+	keynesian_economy = {
+		production_factory_max_efficiency_factor = -0.03
+		local_resources_factor = -0.02
+		consumer_goods_factor = -0.03
+		political_power_gain = 0.04
+
+		random = no
+	}
+
+	laissez_faire_capitalist = {
+		production_speed_arms_factory_factor = -0.02
+		production_speed_buildings_factor = 0.04
+		local_resources_factor = 0.02
+		political_power_gain = -0.03
+
+		random = no
+	}
+
+	military_entrepreneur = {
+		production_speed_arms_factory_factor = 0.04
+		production_factory_max_efficiency_factor = 0.03
+		war_support_factor = 0.02
+
+		random = no
+	}
+
+	mixed_economy = {
+		production_factory_max_efficiency_factor = 0.02
+		local_resources_factor = 0.03
+		production_speed_buildings_factor = 0.03
+
+		random = no
+	}
+
+	oil_baron = {
+		local_resources_factor = 0.04
+		production_factory_max_efficiency_factor = 0.02
+		production_speed_synthetic_refinery_factor = 0.04
+
+		random = no
+	}
+
+	planned_economy_proponent = {
+		local_resources_factor = -0.03
+		production_factory_max_efficiency_factor = -0.02
+		industrial_capacity_factory = -0.03
+		production_speed_buildings_factor = 0.05
+
+		random = no
+	}
+
+	reformer = {
+		production_speed_infrastructure_factor = 0.05
+		production_speed_industrial_complex_factor = 0.02
+
+		random = no
+	}
+
+	resource_industrialist = {
+		local_resources_factor = 0.06
+
+		random = no
+	}
+
+	steel_magnate = {
+		local_resources_factor = 0.04
+		production_factory_max_efficiency_factor = 0.02
+
+		random = no
+	}
+
+	railway_magnate = {
+		production_speed_infrastructure_factor = 0.10
+
+		random = no
+	}
+
+	theoretical_scientist = {
+		production_speed_rocket_site_factor = 0.05
+		production_speed_nuclear_reactor_factor = 0.05
+		research_time_factor = -0.02
+
+		random = no
+	}
+	
+	# FOREIGN MINISTERS
+
+	biased_intellectual = {
+		opinion_gain_monthly_same_ideology_factor = 0.15
+		opinion_gain_monthly = -0.15
+
+		random = no
+	}
+
+	ideological_crusader = {
+		opinion_gain_monthly_same_ideology_factor = 0.25
+
+		random = no
+	}
+
+	apologetic_clerk = {
+		political_power_gain = 0.04
+
+		random = no
+	}
+
+	iron_fisted_brute = {
+		trade_opinion_factor = -0.03
+		justify_war_goal_time = -0.05
+
+		random = no
+	}
+
+	great_compromiser = {
+		trade_opinion_factor = 0.1
+		political_power_gain = 0.03
+
+		random = no
+	}
+
+	general_staffer = {
+		justify_war_goal_time = -0.05
+		production_speed_bunker_factor = 0.03
+
+		random = no
+	}
+
+	the_cloak_n_dagger_schemer = {
+		political_power_gain = -0.04
+		decryption = 1
+
+		random = no
+	}
+	
+	# DEFENCE MINISTERS
+
+	army_bureaucrat = {
+		consumer_goods_factor = -0.05
+		production_speed_buildings_factor = 0.05
+		production_speed_arms_factory_factor = 0.05
+
+		random = no
+	}
+	
+	procurement_chief = {
+		supply_consumption_factor = -0.10
+		out_of_supply_factor = -0.05
+		attrition = -0.05
+
+		random = no
+	}
+	
+	quartermaster_general = {
+		production_speed_air_base_factor = 0.1
+		production_speed_naval_base_factor = 0.1
+		production_speed_rocket_site_factor = 0.1
+		production_speed_radar_station_factor = 0.1
+		production_speed_nuclear_reactor_factor = 0.1
+
+		random = no
+	}
+	
+	experienced_organizer = {
+		planning_speed = 0.10
+		army_org_Factor = 0.05
+		army_morale_factor = 0.1
+
+		random = no
+	}
+	
+	former_military_commissar = {
+		conscription_factor = 0.01
+		training_time_army_factor = -0.15
+		defence = 0.1
+
+		random = no
+	}
+	
+	failed_marshal = {
+		army_defence_factor = -0.05
+		army_attack_factor = -0.05
+		political_power_gain = 0.05
+
+		random = no
+	}
+	
+	military_tycoon = {
+		production_speed_arms_factory_factor = 0.07
+		consumer_goods_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		line_change_production_efficiency_factor = 0.05
+
+		random = no
+	}
+	
+	military_genius = {
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		army_org_Factor = 0.05
+		experience_gain_army = 0.05
+
+		random = no
+	}
+	
+	war_hero = {
+		army_core_defence_factor = 0.1
+		war_support_factor = 0.07
+
+
+		random = no
+	}
+	
+	# SECURITY MINISTERS
+
+	back_stabber = {
+		army_org_Factor = -0.04
+		political_power_gain = 0.05
+
+		random = no
+	}
+
+	compassionate_gentleman = {
+		stability_factor = 0.02
+		political_power_gain = 0.04
+
+		random = no
+	}
+
+	crime_fighter = {
+		political_power_gain = 0.05
+		conscription_factor = -0.02
+
+		random = no
+	}
+
+	crooked_kleptocrat = {
+		political_power_gain = -0.04
+		production_speed_buildings_factor = -0.02
+
+		random = no
+	}
+
+	efficient_sociopath = {
+		local_resources_factor = 0.05
+		conscription_factor = -0.02
+
+		random = no
+	}
+
+	health_and_safety = {
+		political_power_gain = 0.05
+		conscription_factor = 0.03
+		local_resources_factor = -0.04
+		production_speed_buildings_factor = -0.04
+		industrial_capacity_factory = -0.04
+
+		random = no
+	}
+
+	man_of_the_people = {
+		stability_factor = 0.05
+		resistance_tick = -0.1
+
+		random = no
+	}
+
+	media_magnate = {
+		consumer_goods_factor = -0.02
+		political_power_gain = 0.04
+
+		random = no
+	}
+
+	prince_of_terror = {
+		political_power_gain = 0.05
+		local_resources = 0.05
+		local_manpower =  0.05
+		local_factories = 0.05
+
+		random = no
+	}
+
+	secret_police_chief = {
+		political_power_gain = -0.04
+		encryption = 1
+
+		random = no
+	}
+
+	silent_lawyer = {
+		political_power_gain = 0.04
+		production_speed_buildings_factor = 0.02
+
+		random = no
+	}

@@ -1,0 +1,33 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_fer_alexander_krasnoshchyokov"
+		texturefile = "gfx/interface/Ideas/FER/fer_alexander_krasnoshchyokov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fer_nikolay_matveyev"
+		texturefile = "gfx/interface/Ideas/FER/fer_nikolay_matveyev.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fer_boris_shumyatsky"
+		texturefile = "gfx/interface/Ideas/FER/fer_boris_shumyatsky.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fer_ieronim_uborevich"
+		texturefile = "gfx/interface/Ideas/FER/fer_ieronim_uborevich.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fer_pavel_clarck"
+		texturefile = "gfx/interface/Ideas/FER/fer_pavel_clarck.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fer_vyacheslav_mantorov"
+		texturefile = "gfx/interface/Ideas/FER/fer_vyacheslav_mantorov.tga"
+	}
+

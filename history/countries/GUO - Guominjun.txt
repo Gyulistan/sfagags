@@ -1,0 +1,67 @@
+capital = 622
+
+oob = "GUO_1926"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+set_stability = 0.6
+set_war_support = 0.7
+
+
+set_politics = {
+
+	parties = {
+		marxism_leninism = { 
+			popularity = 0
+		}
+
+		radical_socialism = {
+			popularity = 12
+		}
+		
+		social_democratic = {
+			popularity = 0
+		}
+		
+		liberalism = {
+			popularity = 0
+		}
+		
+		conservatism = {
+			popularity = 0
+		}
+		
+		authoritarism = {
+			popularity = 78
+		}
+		
+		paternal_capitalism = {
+			popularity = 0
+		}
+		
+		paternal_nationalism = {
+			popularity = 8
+		}
+	}
+	
+	ruling_party = authoritarism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "?"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "GFX_portrait_prc_mao_zedong"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		cornered_fox
+	}
+}
+

@@ -1,0 +1,198 @@
+ideas = {
+
+	head_of_government = {
+
+		lbr_vincas_mickevicius = {
+		
+			picture = GFX_idea_lbr_vincas_mickevicius
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				naive_optimist
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = LBR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	deputy_of_hog = {
+
+		lbr_semyon_dimanstein = {
+		
+			picture = GFX_idea_lbr_semyon_dimanstein
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				powerful_tycoon
+				deputy_of_hog
+			}
+			
+			allowed = {
+				original_tag = LBR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	foreign_minister = {
+
+		lbr_vincas_mickevicius_for  = {
+		
+			picture = GFX_idea_lbr_vincas_mickevicius_for
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				iron_fisted_brute
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = LBR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+
+	defence_minister = {
+
+		lbr_jozef_unszlicht = {
+		
+			picture = GFX_idea_lbr_jozef_unszlicht
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				quartermaster_general
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = LBR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		lbr_moisei_kalmanowich = {
+		
+			picture = GFX_idea_lbr_moisei_kalmanowich
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				bank_president
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = LBR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	security_minister = {
+
+		lbr_zigmas_angarietis  = {
+		
+			picture = GFX_idea_lbr_zigmas_angarietis
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				secret_police_chief
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = LBR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}		
+}

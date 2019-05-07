@@ -1,0 +1,281 @@
+ideas = {
+
+	head_of_government = {
+
+		usa_charles_dawes = {
+		
+			picture = GFX_idea_usa_charles_dawes
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				silent_workhorse
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	deputy_of_hog = {
+
+		usa_john_sargent = {
+		
+			picture = GFX_idea_usa_john_sargent
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				energetic_deputy
+				deputy_of_hog
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	foreign_minister = {
+
+		usa_frank_kellogg = {
+		
+			picture = GFX_idea_usa_frank_kellogg
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				biased_intellectual
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}	
+
+	defence_minister = {
+
+		usa_dwight_davis = {
+		
+			picture = GFX_idea_usa_dwight_davis
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				military_tycoon
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		usa_andrew_mellon = {
+		
+			picture = GFX_idea_usa_andrew_mellon
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				construction_magnate
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}	
+
+	security_minister = {
+
+		usa_hubert_work = {
+		
+			picture = GFX_idea_usa_hubert_work
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				silent_lawyer
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+country = {
+
+	home_of_the_free = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+			rule = {
+				can_join_opposite_factions = no
+				can_create_factions = yes
+			}
+			modifier = {
+				drift_defence_factor = 0.2
+				ai_badass_factor = 0.03 # cares for 3% of normal threat
+			}
+		}
+
+		no_alcohol_law = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_no_alcohol_law
+
+			modifier = {
+				political_power_gain = -0.1
+				stability_weekly = -0.0001
+				war_support_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+		
+		organized_crime = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_organized_crime
+
+			modifier = {
+				stability_factor = -0.05 
+				consumer_goods_factor = 0.04 
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		twenties_roaring = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				production_speed_buildings_factor = 0.2 
+			}
+		}
+	}
+}

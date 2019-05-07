@@ -1,0 +1,37 @@
+spriteTypes = {
+	
+	
+	spriteType = {
+		name = "GFX_news_event_004"
+		texturefile = "gfx/event_pictures/news_event_004.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_tukhachevsky"
+		texturefile = "gfx/event_pictures/event_tukhachevsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_politbureau"
+		texturefile = "gfx/event_pictures/event_politbureau.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_rally"
+		texturefile = "gfx/event_pictures/event_rally.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_cheka"
+		texturefile = "gfx/event_pictures/event_cheka.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_chekists"
+		texturefile = "gfx/event_pictures/event_chekists.dds"
+	}
+	
+}
+	
+	
+	

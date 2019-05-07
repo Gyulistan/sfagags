@@ -1,0 +1,666 @@
+﻿capital = 219
+
+oob = "RSR_1926"
+
+set_research_slots = 3
+set_stability = 1
+set_war_support = 0.8
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}    
+
+	set_autonomy = {
+		target = EST
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+	set_autonomy = {
+		target = LAT
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+	set_autonomy = {
+		target = AZR
+		autonomous_state = autonomy_integrated_puppet
+	}
+
+	
+	set_autonomy = {
+		target = POL
+		autonomous_state = autonomy_sov_autonom_resp
+	}
+	
+	set_autonomy = {
+		target = UKR
+		autonomous_state = autonomy_sov_union_resp
+	}
+	
+	set_autonomy = {
+		target = LBR
+		autonomous_state = autonomy_sov_union_resp
+	}
+	
+	set_autonomy = {
+		target = MOL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+	set_autonomy = {
+		target = NCR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+	set_autonomy = {
+		target = FIN
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+	set_autonomy = {
+		target = KAZ
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+	set_autonomy = {
+		target = TOR
+		autonomous_state = autonomy_sov_autonom_resp
+	}
+	
+	set_autonomy = {
+		target = FIR
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = KIR
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = KRL
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = KFR
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = GIL
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = GAL
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = TNC
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = YAK
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = KRI
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = TAN
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = MON
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = USB
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = TAD
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = TYR
+		autonomous_state = autonomy_sov_union_resp
+	}
+	set_autonomy = {
+		target = BYR
+		autonomous_state = autonomy_sov_union_resp
+	}
+	else	= {
+	puppet = EST
+	puppet = LAT
+	puppet = AZR
+	puppet = POL
+	puppet = UKR
+	puppet = MON
+	puppet = TAN
+	puppet = KRI
+	puppet = YAK
+	puppet = TNC
+	puppet = GAL
+	puppet = GIL
+	puppet = KFR
+	puppet = KRL
+	puppet = LBR
+	puppet = MOL
+	puppet = NCR
+	puppet = FIN
+	puppet = KAZ
+	puppet = TOR
+	puppet = FIR
+	puppet = KIR
+	puppet = USB
+	puppet = TAD
+	puppet = TYR
+	puppet = BYR
+	}
+}
+	
+set_convoys = 50
+
+set_politics = {
+
+	parties = {
+		radical_bolshevism = { 
+			popularity = 11
+		}
+
+		orthodox_socialism = {
+			popularity = 11
+		}
+		
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
+		}
+	}
+	
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_faction = Comintern
+add_to_faction = SOV
+add_to_faction = MON
+add_to_faction = TAN
+add_to_faction = LAT
+add_to_faction = EST
+add_to_faction = UKR
+add_to_faction = POL
+add_to_faction = AZR
+add_to_faction = KRI
+add_to_faction = YAK
+add_to_faction = TNC
+add_to_faction = GAL
+add_to_faction = GIL
+add_to_faction = KFR
+add_to_faction = KRL
+add_to_faction = LBR
+add_to_faction = MOL
+add_to_faction = NCR
+add_to_faction = FIN
+add_to_faction = KAZ
+add_to_faction = TOR
+add_to_faction = FIR
+add_to_faction = KIR
+add_to_faction = USB
+add_to_faction = TAD
+add_to_faction = TYR
+add_to_faction = BYK
+
+add_ideas = {
+	rsr_boris_kamkov
+	rsr_vladimir_karelin
+	rsr_jakov_minsker
+	rsr_andrew_kolegayev
+	rsr_yuri_sablin
+	rsr_dmitry_popov
+	homeland_revolution
+	economic_disaster
+	clique_military
+	rivalry_cheka_and_military
+	unfinished_campaign_of_the_proletariat
+	power_struggle 
+}
+
+create_country_leader = {
+	name = "Vladimir Bonch-Bruyevich"
+	desc = "POLITICS_BONCH_BRUEVICH_DESC"
+	picture = "Portrait_Russian_Vladimir_Bonch_Bruyevich.dds"
+	expire = "1953.3.1"
+	ideology = paternalism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Council of People's Commissars"
+	desc = "POLITICS_SNK_DESC"
+	picture = "Portrait_Russian_SNK.dds"
+	expire = "1953.3.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
+		
+	}
+}
+
+add_namespace = {
+	name = "unit_leader_sov"
+	type = unit_leader
+}
+
+create_corps_commander = {
+	name = "Kliment Voroshilov"
+	id = 405
+		picture = "Portrait_Russian_Kliment_Voroshilov.dds"
+	traits = { inflexible_strategist trait_cautious cavalry_officer}
+	skill = 2
+
+
+	
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Pavel Dybenko"
+		picture = "Portrait_Russian_Pavel_Dybenko.dds"
+	traits = { trickster infantry_officer guerilla_fighter }
+	skill = 2
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Vasily Blyukher"
+		picture = "Portrait_Russian_Vasily_Blyukher.dds"
+	traits = { thorough_planner infantry_officer }
+	skill = 3
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Alexandr Yegorov"
+		picture = "Portrait_Russian_Alexandr_Yegorov.dds"
+	traits = { trait_cautious career_officer }
+	skill = 3
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Vladimir Antonov-Ovseyenko"
+		picture = "Portrait_Russian_Vladimir_Antonov_Ovseyenko.dds"
+	traits = { thorough_planner career_officer }
+	skill = 3
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nikolai Podvoisky"
+		picture = "Portrait_Russian_Nikolai_Podvoisky.dds"
+	traits = { inflexible_strategist skilled_staffer }
+	skill = 3
+
+
+	
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Gaya Gai"
+		picture = "Portrait_Russian_Gaya_Gai.dds"
+	traits = { cavalry_officer war_hero trait_reckless }
+	skill = 2
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vitaly Primakov"
+		picture = "Portrait_Russian_Vitaly_Primakov.dds"
+	traits = { cavalry_officer harsh_leader }
+	skill = 2
+
+
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Iona Yakir"
+		picture = "Portrait_Russian_Iona_Yakir.dds"
+	traits = { infantry_officer trait_cautious }
+	skill = 3
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ivan Fedko"
+		picture = "Portrait_Russian_Ivan_Fedko.dds"
+	traits = { commando inflexible_strategist }
+	skill = 2
+
+
+	
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Yuri Sablin"
+		picture = "Portrait_Russian_Yuri_Sablin.dds"
+	traits = { infantry_officer urban_assault_specialist}
+	skill = 2
+
+
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ivan Belov"
+		picture = "Portrait_Russian_Ivan_Belov.dds"
+	traits = { infantry_officer guerilla_fighter career_officer}
+	skill = 3
+
+
+	
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Maxim Mager"
+		picture = "Portrait_Russian_Maxim_Mager.dds"
+	traits = { cavalry_officer harsh_leader }
+	skill = 2
+
+
+	
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ioakim Vatsetis"
+		picture = "Portrait_Russian_Ioakim_Vatsetis.dds"
+	traits = { organizer skilled_staffer career_officer }
+	skill = 4
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Sergey Kamenev"
+		picture = "Portrait_Russian_Sergey_Kamenev.dds"
+	traits = { trait_reckless career_officer }
+	skill = 3
+
+
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Mikhail Tukhachevsky"
+	id = 401
+		picture = "Portrait_Russian_Mikhail_Tukhachevsky.dds"
+	traits = { offensive_doctrine brilliant_strategist career_officer infantry_officer trait_reckless }
+	skill = 3
+
+	
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Mikhail Frunze"
+		picture = "Portrait_Russian_Mikhail_Frunze.dds"
+	traits = { brilliant_strategist war_hero harsh_leader organizer }
+	skill = 4
+
+	
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Alexey Brusilov"
+		picture = "Portrait_Russian_Alexey_Brusilov.dds"
+	traits = { brilliant_strategist career_officer }
+	skill = 2
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Semyon Budyonny"
+		picture = "Portrait_Russian_Semyon_Budyonny.dds"
+	traits = { cavalry_officer war_hero aggressive_assaulter}
+	skill = 3
+
+	
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Sergey Gorshkov"
+	id = 411
+		picture = "Portrait_Soviet_Sergey_Gorshkov.dds"
+	traits = {  }
+	skill = 3
+}
+
+# Arrested in '41
+create_navy_leader = {
+	name = "Gordey Levchenko"
+	id = 406
+		picture = "Portrait_Soviet_Gordey_Levchenko.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Arseniy Golovko"
+	id = 409
+		picture = "Portrait_Soviet_Arseniy_Golovko.dds"
+	traits = { spotter }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Vladimir Kasatonov"
+	id = 403
+		picture = "Portrait_Soviet_Vladimir_Kasatonov.dds"
+	traits = { seawolf }
+	skill = 2
+}
+
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Series I Debakrist"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Series IX Srednyaya"
+	type = submarine_2
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+}
+
+create_equipment_variant = {
+	name = "Leningrad & Minsk Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 3
+		destroyer_engine_upgrade = 3
+		ship_ASW_upgrade = 3
+		ship_anti_air_upgrade = 3
+	}
+}
+
+1939.1.1 = {
+
+	create_equipment_variant = {
+		name = "Series X Shchuka"
+		type = submarine_2
+		upgrades = {
+			ship_reliability_upgrade = 3
+			sub_engine_upgrade = 3
+			sub_stealth_upgrade = 3
+			sub_torpedo_upgrade = 3
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Maxim Gorky Class"
+		type = heavy_cruiser_2
+		upgrades = {
+			ship_reliability_upgrade = 2
+			ship_engine_upgrade = 2
+			ship_armor_upgrade = 2
+			ship_gun_upgrade = 2
+		}
+	}
+}

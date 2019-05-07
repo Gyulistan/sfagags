@@ -1,0 +1,33 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_lbr_vincas_mickevicius"
+		texturefile = "gfx/interface/Ideas/LBR/lbr_vincas_mickevicius.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lbr_semyon_dimanstein"
+		texturefile = "gfx/interface/Ideas/LBR/lbr_semyon_dimanstein.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lbr_vincas_mickevicius_for"
+		texturefile = "gfx/interface/Ideas/LBR/lbr_vincas_mickevicius_for.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lbr_jozef_unszlicht"
+		texturefile = "gfx/interface/Ideas/LBR/lbr_jozef_unszlicht.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lbr_moisei_kalmanowich"
+		texturefile = "gfx/interface/Ideas/LBR/lbr_moisei_kalmanowich.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lbr_zigmas_angarietis"
+		texturefile = "gfx/interface/Ideas/LBR/lbr_zigmas_angarietis.tga"
+	}
+

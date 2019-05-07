@@ -1,0 +1,48 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_usa_charles_dawes"
+		texturefile = "gfx/interface/Ideas/USA/usa_charles_dawes.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_john_sargent"
+		texturefile = "gfx/interface/Ideas/USA/usa_john_sargent.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_frank_kellogg"
+		texturefile = "gfx/interface/Ideas/USA/usa_frank_kellogg.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_dwight_davis"
+		texturefile = "gfx/interface/Ideas/USA/usa_dwight_davis.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_andrew_mellon"
+		texturefile = "gfx/interface/Ideas/USA/usa_andrew_mellon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_hubert_work"
+		texturefile = "gfx/interface/Ideas/USA/usa_hubert_work.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_no_alcohol_law"
+		texturefile = "gfx/interface/Ideas/USA/no_alcohol_law.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_organized_crime"
+		texturefile = "gfx/interface/Ideas/USA/organized_crime.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_twenties_roaring"
+		texturefile = "gfx/interface/Ideas/USA/twenties_roaring.tga"
+	}
+}

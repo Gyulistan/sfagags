@@ -1,0 +1,27 @@
+defined_text = { # global
+	name = PI_enemy_button_tt
+
+	text = {
+		trigger = {
+			check_variable = { PI_enemy_switch < 1.000 }
+		}
+		localization_key = PI_enemy_off
+	}
+	text = {
+		localization_key = PI_enemy_on
+	}
+}
+
+defined_text = {
+	name = PI_ACTIVITY
+
+	text = {
+		trigger = {
+			check_variable = { PIopen < 1.000 }
+		}
+		localization_key = PI_ACTIVITY_ON
+	}
+	text = {
+		localization_key = PI_ACTIVITY_OFF
+	}
+}

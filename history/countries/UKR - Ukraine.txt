@@ -1,0 +1,152 @@
+﻿capital = 202 #Kiev
+
+oob = "UKR_1926"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+1926.6.1 = {
+
+set_politics = {
+
+	parties = {
+		radical_bolshevism = { 
+			popularity = 10
+		}
+
+		orthodox_socialism = {
+			popularity = 10
+		}
+		
+		accelerationism = {
+			popularity = 10
+		}
+		
+		social_democracy = {
+			popularity = 10
+		}
+		
+		liberal_conservatism = {
+			popularity = 10
+		}
+		
+		christian_democracy = {
+			popularity = 10
+		}
+		
+		authoritarian_republicanism = {
+			popularity = 10
+		}
+		
+		national_authoritarianism = {
+			popularity = 10
+		}
+		
+		paternalism = {
+			popularity = 10
+		}
+		
+		paternalism = {
+			popularity = 10
+		}
+	}
+	
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Vasyl Ellan-Blakytny"
+	desc = "POLITICS_VASYL_ELLAN_BLAKYTNY_DESC"
+	picture = "gfx/leaders/UKR/Portrait_Ukraine_Vasyl_Ellan_Blakytny.dds"
+	expire = "1953.3.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nikita Sergeyevich Khrushchev"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Stepan Bandera"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Efim Shchadenko"
+		picture = "Portrait_Ukraine_Efim_Shchadenko.dds"
+	traits = { cavalry_officer }
+	skill = 3
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Nikolay Shchors"
+		picture = "Portrait_Ukraine_Nikolay_Shchors.dds"
+	traits = { trait_reckless guerilla_fighter infantry_officer }
+	skill = 2
+
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+
+

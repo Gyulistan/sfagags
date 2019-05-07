@@ -1,0 +1,197 @@
+ideas = {
+
+	head_of_government = {
+
+		sco_john_mccormick = {
+		
+			picture = GFX_idea_sco_john_mccormick
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				backroom_backstabber
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = SCO
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	deputy_of_hog = {
+
+		sco_thomas_morison = {
+		
+			picture = GFX_idea_sco_thomas_morison
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+						
+					}
+				}
+			
+			traits = {
+				autoritarist
+				backroom_assistant
+				deputy_of_hog
+			}
+			
+			allowed = {
+				original_tag = SCO
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	foreign_minister = {
+
+		sco_robert_munro = {
+		
+			picture = GFX_idea_sco_robert_munro
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+						
+					}
+				}
+			
+			traits = {
+				autoritarist
+				apologetic_clerk
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = SCO
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}	
+
+	defence_minister = {
+
+		sco_alan_cunningham = {
+		
+			picture = GFX_idea_sco_alan_cunningham
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+						
+					}
+				}
+			
+			traits = {
+				autoritarist
+				experienced_organizer
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = SCO
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		sco_roland_muirheid = {
+		
+			picture = GFX_idea_sco_robert_muirheid
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				balanced_budget_economy
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = SCO
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}	
+
+	security_minister = {
+
+		sco_hugh_dowding = {
+		
+			picture = GFX_idea_sco_hugh_dowding
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				compassionate_gentleman
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = SCO
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}		
+}

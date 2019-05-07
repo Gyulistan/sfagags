@@ -1,0 +1,198 @@
+ideas = {
+
+	head_of_government = {
+
+		pol_stanislaw_bobinski = {
+		
+			picture = GFX_idea_pol_stanislaw_bobinski
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				silent_workhorse
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = POL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	deputy_of_hog = {
+
+		pol_edward_prochniak = {
+		
+			picture = GFX_idea_pol_edward_prochniak
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				partokrat
+				deputy_of_hog
+			}
+			
+			allowed = {
+				original_tag = POL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	foreign_minister = {
+
+		pol_felix_kon = {
+		
+			picture = GFX_idea_pol_felix_kon
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				biased_intellectual
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = POL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+
+	defence_minister = {
+
+		pol_franciszek_jozwiak = {
+		
+			picture = GFX_idea_pol_franciszek_jozwiak
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				war_hero
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = POL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		pol_bernard_zaks = {
+		
+			picture = GFX_idea_pol_bernard_zaks
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				resource_industrialist
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = POL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	security_minister = {
+
+		pol_tadeusz_radwanski  = {
+		
+			picture = GFX_idea_pol_tadeusz_radwanski
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				media_magnate
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = POL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}		
+}

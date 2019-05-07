@@ -1,0 +1,308 @@
+ideologies = {
+
+	radical_bolshevism = {
+	
+		types = {
+				radical_bolshevism_subtype = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_RADICAL_BOLSHEVISM_1"
+			"FACTION_NAME_RADICAL_BOLSHEVISM_2"
+			"FACTION_NAME_RADICAL_BOLSHEVISM_3"
+			"FACTION_NAME_RADICAL_BOLSHEVISM_4"
+			"FACTION_NAME_RADICAL_BOLSHEVISM_5"
+			"FACTION_NAME_RADICAL_BOLSHEVISM_6"
+		}
+		
+		color = { 135 0 0 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_communist = yes
+	}
+	
+	orthodox_socialism = {
+	
+		types = {
+			orthodox_socialism_subtype = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ORTHODOX_SOCIALISM_1"
+			"FACTION_NAME_ORTHODOX_SOCIALISM_2"
+			"FACTION_NAME_ORTHODOX_SOCIALISM_3"
+			"FACTION_NAME_ORTHODOX_SOCIALISM_4"
+			"FACTION_NAME_ORTHODOX_SOCIALISM_5"
+			"FACTION_NAME_ORTHODOX_SOCIALISM_6"
+		}
+		
+		color = { 255 0 0 } 
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_communist = yes
+	}
+	
+	accelerationism = {
+	
+		types = {
+			accelerationism_subtype = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ACCELERATIONISM_1"
+			"FACTION_NAME_ACCELERATIONISM_2"
+			"FACTION_NAME_ACCELERATIONISM_3"
+			"FACTION_NAME_ACCELERATIONISM_4"
+			"FACTION_NAME_ACCELERATIONISM_5"
+			"FACTION_NAME_ACCELERATIONISM_6"
+		}
+		
+		color = { 252 158 104 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_communist = yes
+	}
+	
+	
+	social_democracy = {
+	
+		types = {
+				social_democracy_subtype = {}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_DEMOCRACY_1"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_2"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_3"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_4"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_5"
+			"FACTION_NAME_SOCIAL_DEMOCRACY_6"
+		}
+		
+		color = { 255 100 100 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_democratic = yes
+	}
+	
+	liberalism = {
+	
+		types = {
+				liberalism_subtype = {}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_CONSERVATISM_1"
+			"FACTION_NAME_LIBERAL_CONSERVATISM_2"
+			"FACTION_NAME_LIBERAL_CONSERVATISM_3"
+			"FACTION_NAME_LIBERAL_CONSERVATISM_4"
+			"FACTION_NAME_LIBERAL_CONSERVATISM_5"
+			"FACTION_NAME_LIBERAL_CONSERVATISM_6"
+		}
+		
+		color = { 255 119 17 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_democratic = yes
+	}
+	
+	conservatism = {
+	
+		types = {	
+				conservatism_subtype = {} 
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CHRISTIAN_DEMOCRACY_1"
+			"FACTION_NAME_CHRISTIAN_DEMOCRACY_2"
+			"FACTION_NAME_CHRISTIAN_DEMOCRACY_3"
+			"FACTION_NAME_CHRISTIAN_DEMOCRACY_4"
+			"FACTION_NAME_CHRISTIAN_DEMOCRACY_5"
+			"FACTION_NAME_CHRISTIAN_DEMOCRACY_6"
+		}
+		
+		color = { 0 61 109 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_democratic = yes
+	}
+	
+	autoritarian_democracy = {
+	
+		types = {
+				autoritarian_democracy_subtype = {} 
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTORITARIAN_DEMOCRACY_1"
+			"FACTION_NAME_AUTORITARIAN_DEMOCRACY_2"
+			"FACTION_NAME_AUTORITARIAN_DEMOCRACY_3"
+			"FACTION_NAME_AUTORITARIAN_DEMOCRACY_4"
+			"FACTION_NAME_AUTORITARIAN_DEMOCRACY_5"
+			"FACTION_NAME_AUTORITARIAN_DEMOCRACY_6"
+		}
+		
+		color = { 52 57 61 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_neutral = yes
+	}
+	
+	paternalism = {
+	
+		types = {
+				paternalism_subtype = {} 
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_PATERNALISM_1"
+			"FACTION_NAME_PATERNALISM_2"
+			"FACTION_NAME_PATERNALISM_3"
+			"FACTION_NAME_PATERNALISM_4"
+			"FACTION_NAME_PATERNALISM_5"
+			"FACTION_NAME_PATERNALISM_6"
+		}
+		
+		color = { 20 20 20 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_neutral = yes
+	}
+
+	
+	national_militarism = {
+	
+		types = {
+				national_militarism_subtype = {}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONAL_MILITARISM_1"
+			"FACTION_NAME_NATIONAL_MILITARISM_2"
+			"FACTION_NAME_NATIONAL_MILITARISM_3"
+			"FACTION_NAME_NATIONAL_MILITARISM_4"
+			"FACTION_NAME_NATIONAL_MILITARISM_5"
+			"FACTION_NAME_NATIONAL_MILITARISM_6"
+		}
+		
+		color = { 72 54 42 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_fascist = yes
+	}
+	
+}

@@ -1,0 +1,38 @@
+#####################
+# Position traits
+######################
+# These have no effect and are just for events and to clarify ideology belongings
+#####################
+
+leader_traits = {
+
+#####################
+# Minister
+#####################
+
+	decision = {}
+
+#####################
+# Ideology
+#####################
+
+	radical_bolshevik = {}
+	orthodox_socialist = {}
+	accelerationist = {}
+	social_democrat = {}
+	liberal = {}
+	conservatist = {}
+	autoritarist = {}
+	paternalist = {}
+	nationalist = {}
+	
+#####################
+# Military Staff
+#####################
+
+#####################
+# Political ideologies
+#####################
+
+
+}

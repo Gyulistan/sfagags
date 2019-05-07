@@ -1,0 +1,197 @@
+ideas = {
+
+	head_of_government = {
+
+		fer_alexander_krasnoshchyokov = {
+		
+			picture = GFX_idea_fer_alexander_krasnoshchyokov
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+		
+			traits = {
+				orthodox_socialist
+				flamboyant_tough_guy
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = FER
+			}
+				
+			ai_will_do = {
+				factor = 1
+				
+			cost = 150
+			removal_cost = -1	
+			
+					}
+			}	
+	}
+	
+	deputy_of_hog = {
+
+		fer_nikolay_matveyev = {
+		
+			picture = GFX_idea_fer_nikolay_matveyev
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				backroom_assistant
+				deputy_of_hog
+			}
+			
+			allowed = {
+				original_tag = FER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	foreign_minister = {
+
+		fer_boris_shumyatsky = {
+		
+			picture = GFX_idea_fer_boris_shumyatsky
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				biased_intellectual
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = FER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}		
+		}
+		
+	defence_minister = {
+
+		fer_ieronim_uborevich = {
+		
+			picture = GFX_idea_fer_ieronim_uborevich
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				experienced_organizer
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = FER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	economy_minister = {
+		
+		fer_pavel_clarck = {
+		
+			picture = GFX_idea_fer_pavel_clarck
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				railway_magnate
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = FER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	security_minister = {
+
+		fer_vyacheslav_mantorov = {
+		
+			picture = GFX_idea_fer_vyacheslav_mantorov
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				man_of_the_people
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = FER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+				}
+			}	
+		}	
+	}

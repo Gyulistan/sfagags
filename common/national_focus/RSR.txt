@@ -1,0 +1,186 @@
+focus_tree = {
+	id = RSR
+	country = {
+		factor = 1
+	}
+	default = no
+	focus = {
+		id = rsr_power_crisis
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = rsr_negotiation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = rsr_power_crisis
+		}
+		mutually_exclusive = {
+			focus = rsr_crush
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = rsr_crush
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = rsr_power_crisis
+		}
+		mutually_exclusive = {
+			focus = rsr_negotiation
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = rsr_order_soldiers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = rsr_negotiation
+			focus = rsr_crush
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = rsr_martial_law
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = rsr_order_soldiers
+		}
+		x = 5
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sovnarkom_stand
+		icon = GFX_goal_support_communism
+		cost = 10
+		x = 13
+		y = 0
+		
+	}
+	
+	focus = {
+		id = rsr_worker_avangard
+		icon = GFX_goal_support_communism
+		cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus rsr_sovnarkom"
+			add_stability = 0.05
+		}
+		prerequisite = {
+			focus = rsr_sovnarkom_stand
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = rsr_hunt_witches
+		icon = GFX_goal_support_communism
+		cost = 10
+		prerequisite = {
+			focus = rsr_worker_avangard
+		}
+		completion_reward = {
+				hidden_effect = { country_event = sovietunion.6 } 
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = rsr_elections_chairman
+		icon = GFX_goal_support_communism
+		cost = 10
+		prerequisite = {
+			focus = rsr_sovnarkom_stand
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = rsr_rykovs_democracy
+		icon = GFX_goal_support_communism
+		cost = 10
+		prerequisite = {
+			focus = rsr_elections_chairman
+		}
+		mutually_exclusive = {
+			focus = rsr_socialism_bukharin
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = rsr_socialism_bukharin
+		icon = GFX_goal_support_communism
+		cost = 10
+		prerequisite = {
+			focus = rsr_elections_chairman
+		}
+		mutually_exclusive = {
+			focus = rsr_rykovs_democracy
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = rsr_political_talk
+		icon = GFX_goal_support_communism
+		cost = 10
+		prerequisite = {
+			focus = rsr_sovnarkom_stand
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = rsr_cadet_fate
+		icon = GFX_goal_support_communism
+		cost = 10
+		prerequisite = {
+			focus = rsr_political_talk
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = rsr_economical_decision
+		icon = GFX_goal_support_communism
+		cost = 10
+		prerequisite = {
+			focus = rsr_hunt_witches
+		}
+		prerequisite = {
+			focus = rsr_cadet_fate
+		}
+		prerequisite = {
+			focus = rsr_rykovs_democracy
+		}
+		prerequisite = {
+			focus = rsr_socialism_bukharin
+		}
+		x = 13
+		y = 3
+
+	}
+}

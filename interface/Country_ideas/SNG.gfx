@@ -1,0 +1,33 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_sng_robert_page_arnot"
+		texturefile = "gfx/interface/Ideas/SNG/sng_robert_page_arnot.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_thomas_bell"
+		texturefile = "gfx/interface/Ideas/SNG/sng_thomas_bell.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_rajani_palme_dutt"
+		texturefile = "gfx/interface/Ideas/SNG/sng_rajani_palme_dutt.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_thomas_witringham"
+		texturefile = "gfx/interface/Ideas/SNG/sng_thomas_witringham.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_clemens_palme_dutt"
+		texturefile = "gfx/interface/Ideas/SNG/sng_clemens_palme_dutt.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_arthur_horner"
+		texturefile = "gfx/interface/Ideas/SNG/sng_arthur_horner.tga"
+	}
+

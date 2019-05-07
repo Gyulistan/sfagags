@@ -1,0 +1,33 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_ire_peadar_o_donnel"
+		texturefile = "gfx/interface/Ideas/IRE/ire_peadar_o_donnel.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ire_liam_o_flaherty"
+		texturefile = "gfx/interface/Ideas/IRE/ire_liam_o_flaherty.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ire_frank_ryan"
+		texturefile = "gfx/interface/Ideas/IRE/ire_frank_ryan.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ire_kit_pool"
+		texturefile = "gfx/interface/Ideas/IRE/ire_kit_pool.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ire_roddy_connoly"
+		texturefile = "gfx/interface/Ideas/IRE/ire_roddy_connoly.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ire_william_o_brien"
+		texturefile = "gfx/interface/Ideas/IRE/ire_william_o_brien.tga"
+	}
+

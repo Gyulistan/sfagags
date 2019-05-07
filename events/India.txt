@@ -1,0 +1,72 @@
+add_namespace = india
+
+country_event = {
+	id = india.1
+	title = india.1.t
+	desc = india.1.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = IND
+		date > 1926.07.01
+		}
+		mean_time_to_happen = {
+			days = 1
+			}
+			
+			option = {
+			name = india.1.a
+			ai_chance = {
+			factor = 100
+			}
+			}
+		}
+country_event = {
+	id = india.2
+	title = india.2.t
+	desc = india.2.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = IND
+		date > 1926.07.03
+		}
+		mean_time_to_happen = {
+			days = 1
+			}
+			
+			option = {
+			name = india.2.a
+			ai_chance = {
+			factor = 100
+			}
+			}
+		}
+
+country_event = {
+	id = ind.3
+	title = ind.3.t
+	desc = ind.3.d
+	picture = 
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = IND
+		date > 1926.07.06
+		}
+		mean_time_to_happen = {
+			days = 1
+			}
+			
+			option = {
+			name = india.3.a
+			ai_chance = {
+			factor = 100
+			}
+			}
+		}

@@ -1,0 +1,97 @@
+focus_tree = {
+	id = IND
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IND
+		}
+	}
+	default = no
+	focus = {
+		id = IND1
+		icon = GFX_chaos_unites
+		cost = 5
+		x = 7
+		y = 0
+		
+	}
+	focus = {
+		id = IND2
+		icon = GFX_market_agony
+		cost = 5
+		prerequisite = {
+			focus = IND1
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = IND4
+		icon = GFX_goal_demand_sudetenland
+		cost = 5
+		prerequisite = {
+			focus = IND1
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = IND5
+		icon = GFX_patriotic_speeches
+		cost = 5
+		prerequisite = {
+			focus = IND2
+		}
+		prerequisite = {
+			focus = IND4
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = IND3
+		icon = GFX_armia_pariotov2
+		cost = 5
+		prerequisite = {
+			focus = IND1
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = IND6
+		icon = GFX_centralization_of_government
+		cost = 5
+		prerequisite = {
+			focus = IND2
+		}
+		prerequisite = {
+			focus = IND4
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = IND7
+		icon = GFX_focus_IND_two_nation_theory
+		cost = 5
+		prerequisite = {
+			focus = IND3
+		}
+		prerequisite = {
+			focus = IND5
+		}
+		prerequisite = {
+			focus = IND6
+		}
+		x = 7
+		y = 3
+
+	}
+}

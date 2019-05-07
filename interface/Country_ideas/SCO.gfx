@@ -1,0 +1,33 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_sco_john_mccormick"
+		texturefile = "gfx/interface/Ideas/SCO/sco_john_mccormick.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sco_thomas_morison"
+		texturefile = "gfx/interface/Ideas/SCO/sco_thomas_morison.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sco_robert_munro"
+		texturefile = "gfx/interface/Ideas/SCO/sco_robert_munro.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sco_alan_cunningham"
+		texturefile = "gfx/interface/Ideas/SCO/sco_alan_cunningham.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sco_roland_muirheid"
+		texturefile = "gfx/interface/Ideas/SCO/sco_robert_muirheid.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sco_hugh_dowding"
+		texturefile = "gfx/interface/Ideas/SCO/sco_hugh_dowding.tga"
+	}
+

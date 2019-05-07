@@ -1,0 +1,252 @@
+ideas = {
+
+	head_of_government = {
+
+		ind_vallabhbhai_patel = {
+		
+			picture = GFX_idea_ind_vallabhbhai_patel
+			
+			available = {
+					OR = {
+						has_government = conservatism
+						has_government = liberalism
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				conservatist
+				backroom_backstabber
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = IND
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	deputy_of_hog = {
+
+		ind_jawaharlal_nehru = {
+		
+			picture = GFX_idea_ind_jawaharlal_nehru
+			
+			available = {
+					OR = {
+						has_government = conservatism
+						has_government = liberalism
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				social_democrat
+				energetic_deputy
+				deputy_of_hog
+			}
+			
+			allowed = {
+				original_tag = IND
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+		
+	foreign_minister = {
+
+		ind_jivatram_kripalani = {
+		
+			picture = GFX_idea_ind_jivatram_kripalani
+			
+			available = {
+					OR = {
+						has_government = conservatism
+						has_government = liberalism
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				social_democrat
+				biased_intellectual
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = IND
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}	
+
+	defence_minister = {
+
+		ind_abdul_khan = {
+		
+			picture = GFX_idea_ind_abdul_khan
+			
+			available = {
+					OR = {
+						has_government = conservatism
+						has_government = liberalism
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				conservatist
+				former_military_commissar
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = IND
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		ind_mohammad_abbas_khan = {
+		
+			picture = GFX_idea_ind_mohammad_abbas_khan
+			
+			available = {
+					OR = {
+						has_government = conservatism
+						has_government = liberalism
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				liberal
+				keynesian_economy
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = IND
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}	
+
+	security_minister = {
+
+		ind_INDendra_prasad_min = {
+		
+			picture = GFX_idea_ind_INDendra_prasad_min
+			
+			available = {
+					OR = {
+						has_government = conservatism
+						has_government = liberalism
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				conservatist
+				silent_lawyer
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = IND
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}	
+		}
+
+	country = {
+		Chaos_in_the_country = {
+			
+			picture = GFX_idea_Chaos_in_the_country
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.4
+				political_power_gain = -0.3
+			}
+		}
+		
+		Social_economic = {
+			
+			picture = GFX_idea_Social_economic
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				conservatism_drift = 0.03
+			}
+		}
+		
+		Loyalist = {
+			
+			picture = GFX_idea_Loyalist 
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = -0.2
+				MONTHLY_POPULATION = 0.05  
+			}
+		}
+		}
+}
+
+		

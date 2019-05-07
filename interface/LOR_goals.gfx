@@ -1,0 +1,83 @@
+spriteTypes = {	
+
+	SpriteType = { 
+		name = "GFX_armia_pariotov2"
+		texturefile = "gfx/interface/goals/armia_pariotov2.dds"
+	}
+	SpriteType = { 
+		name = "GFX_armiya_patriotov1"
+		texturefile = "gfx/interface/goals/armiya_patriotov1.dds"
+	}
+	SpriteType = { 
+		name = "GFX_borba_s_revolutionnoi_hydroi"
+		texturefile = "gfx/interface/goals/borba_s_revolutionnoi_hydroi.dds"
+	}
+	SpriteType = { 
+		name = "GFX_dobrovolti_avstralia"
+		texturefile = "gfx/interface/goals/dobrovolti_avstralia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_dobrovolti_kanada"
+		texturefile = "gfx/interface/goals/dobrovolti_kanada.dds"
+	}
+	SpriteType = { 
+		name = "GFX_z_goal_royal_army"
+		texturefile = "gfx/interface/goals/z_goal_royal_army.dds"
+	}
+	SpriteType = { 
+		name = "GFX_vozrohdenie_velitia"
+		texturefile = "gfx/interface/goals/vozrohdenie_velitia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_oficerskoe_gosudarstvo"
+		texturefile = "gfx/interface/goals/oficerskoe_gosudarstvo.dds"
+	}
+	SpriteType = { 
+		name = "GFX_oficerskie_cennosti"
+		texturefile = "gfx/interface/goals/oficerskie_cennosti.dds"
+	}
+	SpriteType = { 
+		name = "GFX_lavri_pobedi"
+		texturefile = "gfx/interface/goals/lavri_pobedi.dds"
+	}
+	SpriteType = { 
+		name = "GFX_imperskie_ombitie"
+		texturefile = "gfx/interface/goals/imperskie_ombitie.dds"
+	}
+	SpriteType = { 
+		name = "GFX_sdelka_s_diavolom"
+		texturefile = "gfx/interface/goals/sdelka_s_diavolom.dds"
+	}
+	SpriteType = { 
+		name = "GFX_Dirizhizm"
+		texturefile = "gfx/interface/goals/Dirizhizm.dds"
+	}
+	SpriteType = { 
+		name = "GFX_Svobodny_rynok"
+		texturefile = "gfx/interface/goals/Svobodny_rynok.dds"
+	}
+	SpriteType = { 
+		name = "GFX_Vybory"
+		texturefile = "gfx/interface/goals/Vybory.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_chaos_unites"
+		texturefile = "gfx/interface/goals/chaos_unites.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_market_agony"
+		texturefile = "gfx/interface/goals/market_agony.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_patriotic_speeches"
+		texturefile = "gfx/interface/goals/patriotic_speeches.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_centralization_of_government"
+		texturefile = "gfx/interface/goals/centralization_of_government.dds"
+	}
+}

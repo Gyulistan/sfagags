@@ -1,0 +1,294 @@
+focus_tree = {
+	id = SNG
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SNG
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+	
+	default = no
+	focus = {
+		id = sng_war_of_liberation
+		text = sng_war_of_liberation
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 5,00
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+			has_war = yes
+		}
+		bypass = {
+			has_war = no
+		}
+		
+		completion_reward = {
+			add_ideas = SNG_war_of_liberation
+			add_political_power = -100
+		}
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = sng_triumph_of_the_revolution
+		text = sng_triumph_of_the_revolution
+		icon = GFX_focus_generic_soviet_politics
+		cost = 3,00
+		prerequisite = {
+			focus = sng_war_of_liberation
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = sng_people's_power
+		text = sng_people's_power
+		icon = GFX_focus_generic_join_comintern
+		cost = 10,00
+		prerequisite = {
+			focus = sng_triumph_of_the_revolution
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = sng_dismantling_the_crown
+		text = sng_dismantling_the_crown
+		icon = GFX_focus_hun_elect_a_king
+		cost = 10,00
+		prerequisite = {
+			focus = sng_people's_power
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = sng_trial_of_the_reactionaries
+		text = sng_trial_of_the_reactionaries
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		prerequisite = {
+			focus = sng_dismantling_the_crown
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = sng_army_cleansing
+		text = sng_army_cleansing
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 10,00
+		prerequisite = {
+			focus = sng_trial_of_the_reactionaries
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = sng_cleaning_in_the_fleet
+		text = sng_cleaning_in_the_fleet
+		icon = GFX_focus_generic_cruiser2
+		cost = 10,00
+		prerequisite = {
+			focus = sng_army_cleansing
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = sng_secret_police
+		text = sng_secret_police
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		cost = 10,00
+		prerequisite = {
+			focus = sng_army_cleansing
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = sng_counterrevolution
+		text = sng_counterrevolution
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_secret_police
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = sng_ministry_of_truth
+		text = sng_ministry_of_truth
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_secret_police
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = sng_demonization_of_the_crown
+		text = sng_demonization_of_the_crown
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_ministry_of_truth
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = sng_prison_reorganization
+		text = sng_prison_reorganization
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_ministry_of_truth
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = sng_amnesty
+		text = sng_amnesty
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_prison_reorganization
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = sng_police_reorganization
+		text = sng_police_reorganization
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_prison_reorganization
+		}
+		x = 3
+		y = 9
+
+	}
+	focus = {
+		id = sng_restore_homeland
+		text = sng_restore_homeland
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_people's_power
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = sng_request_help
+		text = sng_request_help
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_restore_homeland
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = sng_free_education
+		text = sng_free_education
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_request_help
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = sng_land_the_peasants
+		text = sng_land_the_peasants
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_free_education
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = sng_factories_workers
+		text = sng_factories_workers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_land_the_peasants
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = sng_political_rights
+		text = sng_political_rights
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_factories_workers
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = sng_work_tips
+		text = sng_work_tips
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_political_rights
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = sng_republic_of_workers
+		text = sng_republic_of_workers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = sng_police_reorganization
+		}
+		prerequisite = {
+			focus = sng_work_tips
+		}
+		x = 7
+		y = 10
+
+	}
+}

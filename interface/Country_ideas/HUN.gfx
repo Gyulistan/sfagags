@@ -1,0 +1,33 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_hun_sandor_garbai"
+		texturefile = "gfx/interface/Ideas/HUN/hun_sandor_garbai.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hun_peidl_gyula"
+		texturefile = "gfx/interface/Ideas/HUN/hun_peidl_gyula.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hun_peter_agoston"
+		texturefile = "gfx/interface/Ideas/HUN/hun_peter_agoston.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hun_matyas_rakosi"
+		texturefile = "gfx/interface/Ideas/HUN/hun_matyas_rakosi.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hun_dezso_bokanyi"
+		texturefile = "gfx/interface/Ideas/HUN/hun_dezso_bokanyi.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hun_jeno_landler"
+		texturefile = "gfx/interface/Ideas/HUN/hun_jeno_landler.tga"
+	}
+

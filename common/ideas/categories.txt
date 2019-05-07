@@ -1,0 +1,230 @@
+ideas = {
+
+	head_of_government = {
+	
+		generic_head_of_government_socialist = {
+			
+			allowed = {
+				NOT = {
+					OR = { 
+						original_tag = SOV
+						original_tag = USA
+						original_tag = GER
+						original_tag = ENG
+						original_tag = RSR
+					}
+				}
+				NOT = {
+					has_available_idea_with_traits = { idea = head_of_government limit = 1 }
+				}
+
+			}
+			
+			available = {
+				OR = {
+						has_government = communism
+				}
+			}
+
+			traits = { head_of_government }
+	
+			cost = 150
+			removal_cost = 10
+			
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	deputy_of_hog = {
+	
+		generic_deputy_of_hog_socialist = {
+			
+			allowed = {
+				NOT = {
+					OR = { 
+						original_tag = SOV
+						original_tag = USA
+						original_tag = GER
+						original_tag = ENG
+						original_tag = RSR
+					}
+				}
+				NOT = {
+					has_available_idea_with_traits = { idea = deputy_of_hog limit = 1 }
+				}
+
+			}
+			
+			available = {
+				OR = {
+						has_government = communism
+				}
+			}
+
+			traits = { deputy_of_hog }
+	
+			cost = 150
+			removal_cost = 10
+			
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	defence_minister = {
+	
+		generic_defence_minister_socialist = {
+			
+			allowed = {
+				NOT = {
+					OR = { 
+						original_tag = SOV
+						original_tag = USA
+						original_tag = GER
+						original_tag = ENG
+						original_tag = RSR
+					}
+				}
+				NOT = {
+					has_available_idea_with_traits = { idea = defence_minister limit = 1 }
+				}
+
+			}
+			
+			available = {
+				OR = {
+						has_government = communism
+				}
+			}
+
+			traits = { defence_minister }
+	
+			cost = 150
+			removal_cost = 10
+			
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	foreign_minister = {
+	
+		generic_foreign_minister_socialist = {
+			
+			allowed = {
+				NOT = {
+					OR = { 
+						original_tag = SOV
+						original_tag = USA
+						original_tag = GER
+						original_tag = ENG
+						original_tag = RSR
+					}
+				}
+				NOT = {
+					has_available_idea_with_traits = { idea = foreign_minister limit = 1 }
+				}
+
+			}
+			
+			available = {
+				OR = {
+						has_government = communism
+				}
+			}
+
+			traits = { foreign_minister }
+	
+			cost = 150
+			removal_cost = 10
+			
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	economy_minister = {
+	
+		generic_economy_minister_socialist = {
+			
+			allowed = {
+				NOT = {
+					OR = { 
+						original_tag = SOV
+						original_tag = USA
+						original_tag = GER
+						original_tag = ENG
+						original_tag = RSR
+					}
+				}
+				NOT = {
+					has_available_idea_with_traits = { idea = economy_minister limit = 1 }
+				}
+
+			}
+			
+			available = {
+				OR = {
+						has_government = communism
+				}
+			}
+
+			traits = { economy_minister }
+	
+			cost = 150
+			removal_cost = 10
+			
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	security_minister = {
+	
+		generic_security_minister_socialist = {
+			
+			allowed = {
+				NOT = {
+					OR = { 
+						original_tag = SOV
+						original_tag = USA
+						original_tag = GER
+						original_tag = ENG
+						original_tag = RSR
+					}
+				}
+				NOT = {
+					has_available_idea_with_traits = { idea = security_minister limit = 1 }
+				}
+
+			}
+			
+			available = {
+				OR = {
+						has_government = communism
+				}
+			}
+
+			traits = { security_minister }
+	
+			cost = 150
+			removal_cost = 10
+			
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

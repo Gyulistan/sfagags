@@ -1,0 +1,9 @@
+﻿# strength = 10 : 25%, 40 = 100%
+# experience = 100 : 100%, 90 = highest lvl, no additional xp
+units = {
+	navy = {
+		name = "TP Atlantic Light Cruiser Flotilla"
+		location = 1751
+		ship = { name = "HMS TP" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ROOT creator = ROOT } } }
+	}
+}
