@@ -1,25 +1,26 @@
+
 state={
-	id=742
-	name="STATE_742"
+	id=788
+	name="STATE_788"
 
 	history={
-		add_core_of = TAJ
-		owner = RSR
+		owner = YAK
 		victory_points = {
-			1384 1
+
 		}
 		buildings = {
-			infrastructure = 1
 
 		}
 		add_core_of = RSR
+		add_core_of = YAK
 
 	}
 
 	provinces={
-		1216 1384 1919 4542 7224 8027 10187 10417 12218 12250 12430 12805 
+		1722 1745 2877 3184 4006 6211 12549 12634 13061 
 	}
-	manpower=230000
+	manpower=107866
 	buildings_max_level_factor=1.000
 	state_category=wasteland              impassable = yes
+	impassable = yes
 }

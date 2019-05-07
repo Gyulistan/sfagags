@@ -3,14 +3,15 @@ state={
 	id=562
 	name="STATE_562" # Okhotsk
 	manpower = 126961
-	state_category = wasteland
+	state_category = rural
 
 	history={
-		owner = RSR
+		owner = FER
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = RSR
+		add_core_of = FER
 	}
 
 	provinces={

@@ -11,12 +11,13 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = RSR
+		owner = FER
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 		}
 		add_core_of = RSR
+		add_core_of = FER
 	}
 
 	provinces={
