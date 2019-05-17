@@ -65,7 +65,6 @@ set_politics = {
 
 add_ideas = {
 prs_rosa_luxemburg
-prs_karl_liebknecht
 prs_heinrich_brandler
 prs_willy_leow
 prs_clara_zetkin

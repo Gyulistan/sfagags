@@ -30,10 +30,7 @@ ideas = {
 			
 						}
 				}	
-		}
-		
-	deputy_of_hog = {
-
+				
 		sco_thomas_morison = {
 		
 			picture = GFX_idea_sco_thomas_morison
@@ -47,8 +44,8 @@ ideas = {
 			
 			traits = {
 				autoritarist
-				backroom_assistant
-				deputy_of_hog
+				flamboyant_tough_guy
+				head_of_government
 			}
 			
 			allowed = {
@@ -62,8 +59,9 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
+				}		
 		}
+		
 		
 	foreign_minister = {
 

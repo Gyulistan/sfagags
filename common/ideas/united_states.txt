@@ -29,11 +29,7 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
-		}
-		
-	deputy_of_hog = {
-
+				}
 		usa_john_sargent = {
 		
 			picture = GFX_idea_usa_john_sargent
@@ -46,8 +42,8 @@ ideas = {
 			
 			traits = {
 				conservatist
-				energetic_deputy
-				deputy_of_hog
+				corporate_suit
+				head_of_government
 			}
 			
 			allowed = {
@@ -61,8 +57,9 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
+				}		
 		}
+		
 		
 	foreign_minister = {
 
@@ -271,7 +268,7 @@ country = {
 
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = GFX_idea_twenties_roaring
 
 			modifier = {
 				production_speed_buildings_factor = 0.2 

@@ -58,10 +58,7 @@ ideas = {
 			removal_cost = -1	
 			
 					}
-			}		
-	}
-	
-	deputy_of_hog = {
+			}
 
 		rsr_alexey_rykov = {
 		
@@ -76,8 +73,8 @@ ideas = {
 			
 			traits = {
 				radical_bolshevik
-				energetic_deputy
-				deputy_of_hog
+				silent_workhorse
+				head_of_government
 			}
 			
 			allowed = {
@@ -106,8 +103,8 @@ ideas = {
 			
 			traits = {
 				orthodox_socialist
-				experienced_financier
-				deputy_of_hog
+				flamboyant_tough_guy
+				head_of_government
 			}
 			
 			allowed = {
@@ -121,8 +118,10 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
-		}
+				}		
+			
+	}
+	
 		
 	foreign_minister = {
 

@@ -179,7 +179,6 @@ set_politics = {
 
 add_ideas = {
 	pol_stanislaw_bobinski
-	pol_edward_prochniak
 	pol_felix_kon
 	pol_franciszek_jozwiak
 	pol_bernard_zaks

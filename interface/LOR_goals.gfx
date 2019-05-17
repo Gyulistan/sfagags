@@ -80,4 +80,9 @@ spriteTypes = {
 		name = "GFX_centralization_of_government"
 		texturefile = "gfx/interface/goals/centralization_of_government.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_sovnarkom_stand"
+		texturefile = "gfx/interface/goals/focus_sovnarkom_stand.dds"
+	}
 }

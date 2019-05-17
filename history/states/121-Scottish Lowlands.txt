@@ -7,8 +7,7 @@ state={
 	state_category = city
 
 	history={
-		add_core_of = SCO
-		owner = ENG
+		owner = SCO
 		victory_points = { 9392 10 }
 		victory_points = { 6300 1 }
 		buildings = {
@@ -21,6 +20,7 @@ state={
 			}
 		}
 		add_core_of = ENG
+		add_core_of = SCO
 	}
 
 	provinces={

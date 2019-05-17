@@ -49,7 +49,6 @@ set_convoys = 800
 
 add_ideas = {
 eng_stanley_baldwin
-eng_george_cave
 eng_austen_chamberlain
 eng_laming_worthington
 eng_winston_churchill

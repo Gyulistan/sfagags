@@ -94,7 +94,6 @@ set_politics = {
 
 add_ideas = {
 	sng_robert_page_arnot
-	sng_thomas_bell
 	sng_rajani_palme_dutt
 	sng_thomas_witringham
 	sng_clemens_palme_dutt

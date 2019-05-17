@@ -17,33 +17,33 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_IND_vallabhbhai_patel"
-		texturefile = "gfx/interface/Ideas/IND/IND_vallabhbhai_patel.tga"
+		name = "GFX_idea_ind_vallabhbhai_patel"
+		texturefile = "gfx/interface/Ideas/IND/ind_vallabhbhai_patel.tga"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_IND_jawaharlal_nehru"
-		texturefile = "gfx/interface/Ideas/IND/IND_jawaharlal_nehru.tga"
+		name = "GFX_idea_ind_jawaharlal_nehru"
+		texturefile = "gfx/interface/Ideas/IND/ind_jawaharlal_nehru.tga"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_IND_jivatram_kripalani"
-		texturefile = "gfx/interface/Ideas/IND/IND_jivatram_kripalani.tga"
+		name = "GFX_idea_ind_jivatram_kripalani"
+		texturefile = "gfx/interface/Ideas/IND/ind_jivatram_kripalani.tga"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_IND_abdul_khan"
-		texturefile = "gfx/interface/Ideas/IND/IND_abdul_khan.tga"
+		name = "GFX_idea_ind_abdul_khan"
+		texturefile = "gfx/interface/Ideas/IND/ind_abdul_khan.tga"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_IND_mohammad_abbas_khan"
-		texturefile = "gfx/interface/Ideas/IND/IND_mohammad_abbas_khan.tga"
+		name = "GFX_idea_ind_mohammad_abbas_khan"
+		texturefile = "gfx/interface/Ideas/IND/ind_mohammad_abbas_khan.tga"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_IND_INDendra_prasad_min"
-		texturefile = "gfx/interface/Ideas/IND/IND_INDendra_prasad.tga"
+		name = "GFX_idea_ind_rajendra_prasad_min"
+		texturefile = "gfx/interface/Ideas/IND/ind_rajendra_prasad.tga"
 	}
 	
 }

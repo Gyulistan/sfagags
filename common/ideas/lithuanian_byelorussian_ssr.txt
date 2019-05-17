@@ -30,10 +30,6 @@ ideas = {
 			
 						}
 				}	
-		}
-		
-	deputy_of_hog = {
-
 		lbr_semyon_dimanstein = {
 		
 			picture = GFX_idea_lbr_semyon_dimanstein
@@ -47,8 +43,8 @@ ideas = {
 			
 			traits = {
 				orthodox_socialist
-				powerful_tycoon
-				deputy_of_hog
+				local_tyrant
+				head_of_government
 			}
 			
 			allowed = {
@@ -64,6 +60,7 @@ ideas = {
 						}
 				}	
 		}
+		
 		
 	foreign_minister = {
 

@@ -30,10 +30,7 @@ ideas = {
 			
 						}
 				}	
-		}
-		
-	deputy_of_hog = {
-
+				
 		ire_liam_o_flaherty = {
 		
 			picture = GFX_idea_ire_liam_o_flaherty
@@ -46,8 +43,8 @@ ideas = {
 			
 			traits = {
 				orthodox_socialist
-				eminence_grise
-				deputy_of_hog
+				backroom_backstabber
+				head_of_government
 			}
 			
 			allowed = {
@@ -61,8 +58,9 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
+				}		
 		}
+		
 		
 	foreign_minister = {
 

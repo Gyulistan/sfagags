@@ -29,10 +29,7 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
-		}
-		
-	deputy_of_hog = {
+				}
 
 		pol_edward_prochniak = {
 		
@@ -47,8 +44,8 @@ ideas = {
 			
 			traits = {
 				radical_bolshevik
-				partokrat
-				deputy_of_hog
+				red_chairman
+				head_of_government
 			}
 			
 			allowed = {
@@ -62,8 +59,9 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
+				}
 		}
+		
 		
 	foreign_minister = {
 

@@ -12,8 +12,7 @@ state= {
 	}
 
 	history= {
-		add_core_of = SCO
-		owner = ENG
+		owner = SCO
 		victory_points = { 11064 1 }
 		buildings = {
 			infrastructure = 4
@@ -28,6 +27,7 @@ state= {
 			}
 		}
 		add_core_of = ENG
+		add_core_of = SCO
 	}
 
 	provinces=

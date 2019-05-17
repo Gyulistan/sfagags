@@ -61,7 +61,6 @@ set_politics = {
 
 add_ideas = {
 	fer_alexander_krasnoshchyokov
-	fer_nikolay_matveyev 
 	fer_boris_shumyatsky
 	fer_ieronim_uborevich
 	fer_pavel_clarck

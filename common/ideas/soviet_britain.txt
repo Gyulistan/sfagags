@@ -29,10 +29,7 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
-		}
-		
-	deputy_of_hog = {
+				}
 
 		sng_thomas_bell = {
 		
@@ -47,8 +44,8 @@ ideas = {
 			
 			traits = {
 				radical_bolshevik
-				eminence_grise
-				deputy_of_hog
+				red_chairman
+				head_of_government
 			}
 			
 			allowed = {
@@ -62,8 +59,9 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
+				}			
 		}
+		
 		
 	foreign_minister = {
 
@@ -200,7 +198,7 @@ country = {
 
 	SNG_war_of_liberation = {
 
-			picture = GFX_idea_homeland_revolution
+			picture = GFX_idea_SNG_war_of_liberation
 
 		equipment_bonus = {
 				infantry_equipment = {

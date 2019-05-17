@@ -266,7 +266,6 @@ add_to_faction = BYK
 
 add_ideas = {
 	rsr_boris_kamkov
-	rsr_vladimir_karelin
 	rsr_jakov_minsker
 	rsr_andrew_kolegayev
 	rsr_yuri_sablin

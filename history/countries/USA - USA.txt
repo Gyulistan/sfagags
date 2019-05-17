@@ -111,14 +111,13 @@ set_politics = {
 add_ideas = {
 	home_of_the_free
 	usa_charles_dawes
-	usa_john_sargent
 	usa_frank_kellogg
 	usa_dwight_davis
 	usa_andrew_mellon
 	usa_hubert_work
+	twenties_roaring
 	no_alcohol_law
 	organized_crime
-	twenties_roaring
 }
 
 

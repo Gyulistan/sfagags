@@ -29,7 +29,37 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
+				}
+
+		prs_karl_liebknecht = {
+		
+			picture = GFX_idea_prs_karl_liebknecht
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				backroom_backstabber
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = PRS
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+			cost = 150
+			removal_cost = -1	
+			
+						}
+				}			
 				
 		prs_eduard_david = {
 		
@@ -207,38 +237,6 @@ ideas = {
 				}
 		}
 		
-	deputy_of_hog = {
-
-		prs_karl_liebknecht = {
-		
-			picture = GFX_idea_prs_karl_liebknecht
-			
-			available = {
-					OR = {
-						has_government = orthodox_socialism
-						
-					}
-				}
-			
-			traits = {
-				orthodox_socialist
-				eminence_grise
-				deputy_of_hog
-			}
-			
-			allowed = {
-				original_tag = PRS
-				}
-				
-			ai_will_do = {
-				factor = 0
-				
-			cost = 150
-			removal_cost = -1	
-			
-						}
-				}	
-		}
 		
 	foreign_minister = {
 

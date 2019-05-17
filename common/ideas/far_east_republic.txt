@@ -30,10 +30,7 @@ ideas = {
 			
 					}
 			}	
-	}
-	
-	deputy_of_hog = {
-
+			
 		fer_nikolay_matveyev = {
 		
 			picture = GFX_idea_fer_nikolay_matveyev
@@ -47,8 +44,8 @@ ideas = {
 			
 			traits = {
 				orthodox_socialist
-				backroom_assistant
-				deputy_of_hog
+				backroom_backstabber
+				head_of_government
 			}
 			
 			allowed = {
@@ -63,7 +60,8 @@ ideas = {
 			
 						}
 				}	
-		}
+	}
+	
 		
 	foreign_minister = {
 

@@ -146,51 +146,6 @@ leader_traits = {
 		random = no
 	}
 	
-	# original
-	
-	# DEPUTY OF HOG
-	
-	eminence_grise = {
-		political_power_gain = -0.05
-		stability_factor = 0.04
-
-		random = no
-	}
-	
-	backroom_assistant = {
-		political_power_gain = 0.05
-
-		random = no
-	}
-	
-	energetic_deputy = {
-		political_power_gain = 0.07
-		consumer_goods_factor = -0.05
-		stability_factor = 0.05
-
-		random = no
-	}
-	
-	powerful_tycoon = {
-		consumer_goods_factor = -0.05
-		production_speed_buildings_factor = 0.05
-
-		random = no
-	}
-	
-	experienced_financier = {
-		consumer_goods_factor = -0.07
-		political_power_gain = 0.04
-
-		random = no
-	}
-	
-	partokrat = {
-		stability_factor = 0.05
-		drift_defence_factor = -0.1
-
-		random = no
-	}
 	
 	# ECONOMY MINISTERS
 

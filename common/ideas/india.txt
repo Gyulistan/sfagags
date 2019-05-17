@@ -32,10 +32,7 @@ ideas = {
 			
 						}
 				}	
-		}
-		
-	deputy_of_hog = {
-
+				
 		ind_jawaharlal_nehru = {
 		
 			picture = GFX_idea_ind_jawaharlal_nehru
@@ -50,8 +47,8 @@ ideas = {
 			
 			traits = {
 				social_democrat
-				energetic_deputy
-				deputy_of_hog
+				happy_amateur
+				head_of_government
 			}
 			
 			allowed = {
@@ -65,8 +62,9 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
+				}
 		}
+		
 		
 	foreign_minister = {
 
@@ -172,9 +170,9 @@ ideas = {
 
 	security_minister = {
 
-		ind_INDendra_prasad_min = {
+		ind_rajendra_prasad_min = {
 		
-			picture = GFX_idea_ind_INDendra_prasad_min
+			picture = GFX_idea_ind_rajendra_prasad_min
 			
 			available = {
 					OR = {

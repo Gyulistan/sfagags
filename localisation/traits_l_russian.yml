@@ -10,7 +10,6 @@
  nationalist:0 "Националист"
  
  head_of_government:0 "Глава правительства"
- deputy_of_hog:0 "Замглавы правительства"
  foreign_minister:0 "Министр иностранных дел"
  defence_minister:0 "Министр обороны"
  economy_minister:0 "Министр экономики"
@@ -32,14 +31,6 @@
  respected_war_hero:0 "Уважаемый герой войны"
  silent_workhorse:0 "Рабочая лошадка"
  smiling_oilman:0 "Весёлый нефтяник"
- 
- 
- eminence_grise:0 "Серый кардинал"
- backroom_assistant:0 "Закулисный помощник"
- energetic_deputy:0 "Энергичный заместитель"
- powerful_tycoon:0 "Властный промышленник"
- experienced_financier:0 "Опытный финансист"
- partokrat:0 "Партократ"
  
  administrative_genius:0 "Административный гений"
  balanced_budget_economy:0 "Сбалансированная экономика"

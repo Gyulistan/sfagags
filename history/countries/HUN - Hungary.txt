@@ -173,7 +173,6 @@ set_politics = {
 
 add_ideas = {
 	hun_sandor_garbai
-	hun_peidl_gyula
 	hun_peter_agoston
 	hun_matyas_rakosi
 	hun_dezso_bokanyi

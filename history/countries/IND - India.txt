@@ -27,11 +27,10 @@ if = {
 		Social_economic
 		Loyalist
 		ind_vallabhbhai_patel
-		ind_jawaharlal_nehru
 		ind_jivatram_kripalani
 		ind_abdul_khan
 		ind_mohammad_abbas_khan
-		ind_INDendra_prasad_min
+		ind_rajendra_prasad_min
 	}
 
 	add_to_tech_sharing_group = commonwealth_research

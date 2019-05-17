@@ -87,7 +87,6 @@ set_politics = {
 
 add_ideas = {
 	lbr_vincas_mickevicius
-	lbr_semyon_dimanstein
 	lbr_vincas_mickevicius_for
 	lbr_jozef_unszlicht
 	lbr_moisei_kalmanowich

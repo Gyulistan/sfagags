@@ -46,7 +46,6 @@ set_convoys = 140
 
 add_ideas = {
 	sco_john_mccormick
-	sco_thomas_morison
 	sco_robert_munro
 	sco_alan_cunningham
 	sco_roland_muirheid

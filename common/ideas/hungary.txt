@@ -29,10 +29,7 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
-		}
-		
-	deputy_of_hog = {
+				}
 
 		hun_peidl_gyula = {
 		
@@ -47,8 +44,8 @@ ideas = {
 			
 			traits = {
 				radical_bolshevik
-				energetic_deputy
-				deputy_of_hog
+				naive_optimist
+				head_of_government
 			}
 			
 			allowed = {
@@ -62,8 +59,9 @@ ideas = {
 			removal_cost = -1	
 			
 						}
-				}	
+				}			
 		}
+		
 		
 	foreign_minister = {
 

@@ -46,7 +46,6 @@ set_convoys = 140
 
 add_ideas = {
 	ire_peadar_o_donnel
-	ire_liam_o_flaherty
 	ire_frank_ryan
 	ire_kit_pool
 	ire_roddy_connoly

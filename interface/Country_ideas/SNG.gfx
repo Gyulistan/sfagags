@@ -30,4 +30,9 @@ spriteTypes = {
 		name = "GFX_idea_sng_arthur_horner"
 		texturefile = "gfx/interface/Ideas/SNG/sng_arthur_horner.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_SNG_war_of_liberation"
+		texturefile = "gfx/interface/Ideas/SNG/war_of_liberation.tga"
+	}
 

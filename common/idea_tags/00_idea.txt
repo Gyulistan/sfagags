@@ -25,7 +25,6 @@ idea_categories = {
 	
 	minister = {
 		slot = head_of_government
-		slot = deputy_of_hog
 		slot = foreign_minister
 		slot = defence_minister
 		slot = economy_minister
