@@ -6,12 +6,12 @@ state={
 	}
 
 	history={
-		owner = RSR
+		owner = NCR
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = RSR
+		add_core_of = NCR
 		victory_points = {
 			9628 3
 		}

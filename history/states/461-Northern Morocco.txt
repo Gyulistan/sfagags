@@ -7,8 +7,9 @@ state={
 	state_category = rural
 	
 	history={
-		owner = FRA
+		owner = FNA
 		add_core_of = MOR
+		add_core_of = FNA
 		victory_points = {
 			7069 10 
 		}

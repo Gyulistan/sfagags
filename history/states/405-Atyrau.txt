@@ -3,8 +3,8 @@ state={
 	name="STATE_405"
 
 	history={
-		owner = RSR
-		add_core_of = UZB
+		owner = USB
+		add_core_of = USB
 		victory_points = {
 			1459 3 
 		}
@@ -14,7 +14,6 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = RSR
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
