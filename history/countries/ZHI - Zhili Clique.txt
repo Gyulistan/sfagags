@@ -1,4 +1,4 @@
-capital = 622
+﻿capital = 622
 
 oob = "ZHI_1926"
 
@@ -14,54 +14,58 @@ set_war_support = 0.7
 set_politics = {
 
 	parties = {
-		marxism_leninism = { 
-			popularity = 12
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		radical_socialism = {
-			popularity = 3
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		social_democratic = {
-			popularity = 0
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
 		}
 		
 		liberalism = {
-			popularity = 0
+			popularity = 11
 		}
 		
 		conservatism = {
-			popularity = 12
+			popularity = 11
 		}
 		
-		authoritarism = {
-			popularity = 73
+		autoritarian_democracy = {
+			popularity = 11
 		}
 		
-		paternal_capitalism = {
-			popularity = 0
+		national_militarism = {
+			popularity = 11
 		}
 		
-		paternal_nationalism = {
-			popularity = 0
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = authoritarism
-	last_election = "1936.1.1"
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+}
 
 create_country_leader = {
-	name = "?"
-	desc = "POLITICS_MAO_ZEDONG_DESC"
-	picture = "GFX_portrait_prc_mao_zedong"
-	expire = "1965.1.1"
-	ideology = marxism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		cornered_fox
+		
 	}
 }
 

@@ -61,69 +61,58 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 100
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = fascism
-	last_election = "1934.5.16"
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+
+
 create_country_leader = {
-	name = "Rafael Trujillo"
-	desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
-	picture = "GFX_portrait_dominca_rafael_trujillo"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
 		
-		ruling_party = fascism
-		last_election = "1934.5.16"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Jacinto Peynado"
-		desc = "POLITICS_JACINTO_PEYNADO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
 	}
 }

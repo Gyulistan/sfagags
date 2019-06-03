@@ -49,73 +49,46 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 0
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 100
-			#banned = no #default is no
+		accelerationism = {
+			popularity = 11
 		}
 		
-		neutrality = { 
-			popularity = 0
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = communism
-	last_election = "1936.1.1"
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
 	election_frequency = 48
-	elections_allowed = yes
-}
-
-create_country_leader = {
-	
-	name = " Marcus James Hugins"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = { 
-		prince_of_terror
-		
-			}
-}
-
-
-}
-
-
-#Now a colony of Italy  However, if independent it would have
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 100
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 0
-		}
-	}
-		
-		ruling_party = communism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
+	elections_allowed = no
 }
 

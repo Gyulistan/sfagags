@@ -8,15 +8,6 @@ set_technology = {
 	
 }
 
-if = {
-	limit = { has_dlc = "Waking the Tiger" }
-	set_country_flag = MAN_northern_bandits
-	set_country_flag = MAN_eastern_bandits
-	set_country_flag = MAN_western_bandits
-	add_ideas = MAN_banditry
-	add_ideas = MAN_kwantung_veto
-	add_ideas = MAN_low_legitimacy_5
-}
 
 set_convoys = 5
 
@@ -24,103 +15,57 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		marxism_leninism = { 
-			popularity = 6
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		radical_socialism = {
-			popularity = 3
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		social_democratic = {
-			popularity = 0
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
 		}
 		
 		liberalism = {
-			popularity = 0
+			popularity = 11
 		}
 		
 		conservatism = {
-			popularity = 0
+			popularity = 11
 		}
 		
-		authoritarism = {
-			popularity = 64
+		autoritarian_democracy = {
+			popularity = 11
 		}
 		
-		paternal_capitalism = {
-			popularity = 0
+		national_militarism = {
+			popularity = 11
 		}
 		
-		paternal_nationalism = {
-			popularity = 40
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = authoritarism
-	last_election = "1936.1.1"
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+}
 
 create_country_leader = {
-	name = "?"
-	
-	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
-	expire = "1960.1.1"
-	ideology = rexism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		warrior_code
+		
 	}
-}
-
-
-create_corps_commander = {
-	name = "Zhang Haipeng"
-	GFX = "GFX_portrait_man_zhang_haipeng"
-	traits = {  }
-	skill = 2
-	
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Zhang Jinghui"
-	GFX = "GFX_portrait_man_zhang_jinghui"
-	traits = { infantry_officer }
-	skill = 2
-	
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Aisin Gioro Xiqia"
-	GFX = "GFX_portrait_man_aisin_gioro_xiqia"
-	traits = { career_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Yoshiko Kawashima"
-	gfx = "GFX_portrait_man_yoshiko_kawashima"
-	traits = { cavalry_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-	female = yes
-}
-
-1939.1.1 = {
 }

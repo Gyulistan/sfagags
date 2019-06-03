@@ -68,56 +68,58 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 15
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 75
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 10
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = fascism
-	last_election = "1935.6.9"
-	election_frequency = 12
-	elections_allowed = no # none after offset 1
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 15
-			}
-
-			fascism = {
-				popularity = 75
-			}
-			
-			communism = {
-				popularity = 10
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1935.6.9"
-		election_frequency = 12
-		elections_allowed = no # none after offset 1
-	}
-}
 
 create_country_leader = {
-	name = "Ante Pavelic"
-	desc = "ANTE_PAVELIC_DESC"
-	picture = "Portrait_Croatia_Ante_Pavelic.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		#
+		
 	}
 }

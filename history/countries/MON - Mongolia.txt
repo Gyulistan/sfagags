@@ -61,44 +61,40 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		radical_bolshevist = { 
-			popularity = 10
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
 		orthodox_socialism = {
-			popularity = 10
+			popularity = 11
 		}
 		
-		accelerationist = {
-			popularity = 10
+		accelerationism = {
+			popularity = 11
 		}
 		
-		social_democrat = {
-			popularity = 10
+		social_democracy = {
+			popularity = 11
 		}
 		
-		liberal_conservatist = {
-			popularity = 10
+		liberalism = {
+			popularity = 11
 		}
 		
-		christian_democrat = {
-			popularity = 10
+		conservatism = {
+			popularity = 11
 		}
 		
-		autocratist = {
-			popularity = 10
+		autoritarian_democracy = {
+			popularity = 11
 		}
 		
-		gratist = {
-			popularity = 10
-		}
-		
-		paternalist = {
-			popularity = 10
+		national_militarism = {
+			popularity = 11
 		}
 		
 		paternalism = {
-			popularity = 10
+			popularity = 11
 		}
 	}
 	
@@ -113,51 +109,8 @@ create_country_leader = {
 	desc = "POLITICS_ANANDYN_AMAR_DESC"
 	picture = GFX_portrait_mon_anandyn_amar
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = orthodox_socialism_subtype
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-
-	add_ideas = {
-	limited_conscription
-	}	
-
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-				banned = yes
-			}
-
-			fascism = {
-				popularity = 0
-				banned = yes
-			}
-			
-			communism = {
-				popularity = 100
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = communism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Khorloogiin Choibalsan"
-		desc = "POLITICS_KHORLOOGIIN_CHOIBALSAN_DESC"
-		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-		expire = "1965.1.1"
-		ideology = stalinism
-		traits = {
-			#
-		}
 	}
 }

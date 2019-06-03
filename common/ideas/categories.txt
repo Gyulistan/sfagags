@@ -38,43 +38,6 @@ ideas = {
 		}
 	}
 	
-	deputy_of_hog = {
-	
-		generic_deputy_of_hog_socialist = {
-			
-			allowed = {
-				NOT = {
-					OR = { 
-						original_tag = SOV
-						original_tag = USA
-						original_tag = GER
-						original_tag = ENG
-						original_tag = RSR
-					}
-				}
-				NOT = {
-					has_available_idea_with_traits = { idea = deputy_of_hog limit = 1 }
-				}
-
-			}
-			
-			available = {
-				OR = {
-						has_government = communism
-				}
-			}
-
-			traits = { deputy_of_hog }
-	
-			cost = 150
-			removal_cost = 10
-			
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
 	
 	defence_minister = {
 	

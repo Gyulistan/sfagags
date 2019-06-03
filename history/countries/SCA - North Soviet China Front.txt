@@ -1,4 +1,4 @@
-capital = 622
+﻿capital = 622
 
 oob = "SCA_1926"
 
@@ -14,65 +14,57 @@ set_war_support = 0.7
 set_politics = {
 
 	parties = {
-		marxism_leninism = { 
-			popularity = 100
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		radical_socialism = {
-			popularity = 0
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		social_democratic = {
-			popularity = 0
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
 		}
 		
 		liberalism = {
-			popularity = 0
+			popularity = 11
 		}
 		
 		conservatism = {
-			popularity = 0
+			popularity = 11
 		}
 		
-		authoritarism = {
-			popularity = 0
+		autoritarian_democracy = {
+			popularity = 11
 		}
 		
-		paternal_capitalism = {
-			popularity = 0
+		national_militarism = {
+			popularity = 11
 		}
 		
-		paternal_nationalism = {
-			popularity = 0
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = marxism_leninism
-	last_election = "1936.1.1"
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
-
-create_country_leader = {
-	name = "?"
-	desc = "POLITICS_MAO_ZEDONG_DESC"
-	picture = "GFX_portrait_prc_mao_zedong"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		cornered_fox
-	}
 }
 
-
-create_corps_commander = {
-	name = "Peng Dehuai"
-	gfx = "GFX_portrait_prc_peng_dehuai"
-	traits = { infantry_officer trait_mountaineer }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 2
+create_country_leader = {
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
+		
+	}
 }

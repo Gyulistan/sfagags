@@ -43,69 +43,56 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 35
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 15
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 15
+		accelerationism = {
+			popularity = 11
 		}
-		neutrality = {
-			popularity = 35
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
-
-	ruling_party = democratic
-	last_election = "1933.2.16"
-	election_frequency = 36
-	elections_allowed = yes
+	
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
 }
-
-#NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
-
-create_country_leader = {
-	name = "Phan Bôi Châu" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Ho Chí Minh" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Ngô Đình Diêm"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
 }
 
 create_country_leader = {
-	name = "Nguyen Tuong Tam"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
 		
 	}

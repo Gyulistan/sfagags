@@ -80,163 +80,58 @@ set_politics = {
 
 	parties = {
 		radical_bolshevism = { 
-			popularity = 10
+			popularity = 11
 		}
 
 		orthodox_socialism = {
-			popularity = 10
+			popularity = 11
 		}
 		
 		accelerationism = {
-			popularity = 10
+			popularity = 11
 		}
 		
 		social_democracy = {
-			popularity = 10
+			popularity = 11
 		}
 		
-		liberal_conservatism = {
-			popularity = 10
+		liberalism = {
+			popularity = 11
 		}
 		
-		christian_democracy = {
-			popularity = 10
+		conservatism = {
+			popularity = 11
 		}
 		
-		authoritarian_republicanism = {
-			popularity = 10
+		autoritarian_democracy = {
+			popularity = 11
 		}
 		
-		national_authoritarianism = {
-			popularity = 10
-		}
-		
-		paternalism = {
-			popularity = 10
+		national_militarism = {
+			popularity = 11
 		}
 		
 		paternalism = {
-			popularity = 10
+			popularity = 11
 		}
 	}
 	
-	ruling_party = authoritarian_republicanism
+	ruling_party = autoritarian_democracy
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+
 create_country_leader = {
-	name = "Agustín Pedro Justo"
-	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
-	picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = autoritarian_democracy_subtype
 	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 5
-		}
-
-		fascism = {
-			popularity = 5
-		}
 		
-		communism = {
-			popularity = 12
-		}
-		
-		neutrality = { 
-			popularity = 78
-		}
 	}
-	
-	ruling_party = neutrality
-		last_election = "1937.9.5"
-		election_frequency = 108
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Roberto María Ortiz"
-		desc = "POLITICS_ROBERTO_MARIA_ORTIZ_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-}
-
-
-create_country_leader = {
-	name = "Nimo de Anquín"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Marcelo T. de Alvear"
-	desc = "POLITICS_MARCELO_ALVEAR_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Fanny Jabcovsky"
-	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
-	picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Arturo Rawson"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 1
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Juan Pistarini"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-	traits = { urban_assault_specialist fortress_buster }
-	skill = 3
-    attack_skill = 1
-    defense_skill = 2
-    planning_skill = 4
-    logistics_skill = 3
-}
-
-create_navy_leader = {
-	name = "Alberto Teisaire"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-	traits = { blockade_runner }
-	skill = 3
 }
 
 ### Ship Variants ###

@@ -15,7 +15,7 @@ focus_tree = {
 		id = sng_war_of_liberation
 		text = sng_war_of_liberation
 		icon = GFX_focus_generic_strike_at_democracy2
-		cost = 5,00
+		cost = 5
 		
 		ai_will_do = {
 			factor = 10
@@ -40,7 +40,7 @@ focus_tree = {
 		id = sng_triumph_of_the_revolution
 		text = sng_triumph_of_the_revolution
 		icon = GFX_focus_generic_soviet_politics
-		cost = 3,00
+		cost = 3
 		prerequisite = {
 			focus = sng_war_of_liberation
 		}
@@ -52,7 +52,7 @@ focus_tree = {
 		id = sng_people's_power
 		text = sng_people's_power
 		icon = GFX_focus_generic_join_comintern
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_triumph_of_the_revolution
 		}
@@ -64,7 +64,7 @@ focus_tree = {
 		id = sng_dismantling_the_crown
 		text = sng_dismantling_the_crown
 		icon = GFX_focus_hun_elect_a_king
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_people's_power
 		}
@@ -76,7 +76,7 @@ focus_tree = {
 		id = sng_trial_of_the_reactionaries
 		text = sng_trial_of_the_reactionaries
 		icon = GFX_goal_generic_demand_territory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_dismantling_the_crown
 		}
@@ -88,7 +88,7 @@ focus_tree = {
 		id = sng_army_cleansing
 		text = sng_army_cleansing
 		icon = GFX_focus_generic_commonwealth_build_infantry
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_trial_of_the_reactionaries
 		}
@@ -100,7 +100,7 @@ focus_tree = {
 		id = sng_cleaning_in_the_fleet
 		text = sng_cleaning_in_the_fleet
 		icon = GFX_focus_generic_cruiser2
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_army_cleansing
 		}
@@ -112,7 +112,7 @@ focus_tree = {
 		id = sng_secret_police
 		text = sng_secret_police
 		icon = GFX_focus_generic_anti_fascist_diplomacy
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_army_cleansing
 		}
@@ -124,7 +124,7 @@ focus_tree = {
 		id = sng_counterrevolution
 		text = sng_counterrevolution
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_secret_police
 		}
@@ -136,7 +136,7 @@ focus_tree = {
 		id = sng_ministry_of_truth
 		text = sng_ministry_of_truth
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_secret_police
 		}
@@ -148,7 +148,7 @@ focus_tree = {
 		id = sng_demonization_of_the_crown
 		text = sng_demonization_of_the_crown
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_ministry_of_truth
 		}
@@ -160,7 +160,7 @@ focus_tree = {
 		id = sng_prison_reorganization
 		text = sng_prison_reorganization
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_ministry_of_truth
 		}
@@ -172,7 +172,7 @@ focus_tree = {
 		id = sng_amnesty
 		text = sng_amnesty
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_prison_reorganization
 		}
@@ -184,7 +184,7 @@ focus_tree = {
 		id = sng_police_reorganization
 		text = sng_police_reorganization
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_prison_reorganization
 		}
@@ -196,7 +196,7 @@ focus_tree = {
 		id = sng_restore_homeland
 		text = sng_restore_homeland
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_people's_power
 		}
@@ -208,7 +208,7 @@ focus_tree = {
 		id = sng_request_help
 		text = sng_request_help
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_restore_homeland
 		}
@@ -220,7 +220,7 @@ focus_tree = {
 		id = sng_free_education
 		text = sng_free_education
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_request_help
 		}
@@ -232,7 +232,7 @@ focus_tree = {
 		id = sng_land_the_peasants
 		text = sng_land_the_peasants
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_free_education
 		}
@@ -244,7 +244,7 @@ focus_tree = {
 		id = sng_factories_workers
 		text = sng_factories_workers
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_land_the_peasants
 		}
@@ -256,7 +256,7 @@ focus_tree = {
 		id = sng_political_rights
 		text = sng_political_rights
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_factories_workers
 		}
@@ -268,7 +268,7 @@ focus_tree = {
 		id = sng_work_tips
 		text = sng_work_tips
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_political_rights
 		}
@@ -280,7 +280,7 @@ focus_tree = {
 		id = sng_republic_of_workers
 		text = sng_republic_of_workers
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = sng_police_reorganization
 		}

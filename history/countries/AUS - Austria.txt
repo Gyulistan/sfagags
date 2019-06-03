@@ -18,105 +18,57 @@ set_politics = {
 
 	parties = {
 		radical_bolshevism = { 
-			popularity = 10
+			popularity = 11
 		}
 
 		orthodox_socialism = {
-			popularity = 10
+			popularity = 11
 		}
 		
 		accelerationism = {
-			popularity = 10
+			popularity = 11
 		}
 		
 		social_democracy = {
-			popularity = 10
+			popularity = 11
 		}
 		
-		liberal_conservatism = {
-			popularity = 10
+		liberalism = {
+			popularity = 11
 		}
 		
-		christian_democracy = {
-			popularity = 10
+		conservatism = {
+			popularity = 11
 		}
 		
-		authoritarian_republicanism = {
-			popularity = 10
+		autoritarian_democracy = {
+			popularity = 11
 		}
 		
-		national_authoritarianism = {
-			popularity = 10
-		}
-		
-		paternalism = {
-			popularity = 10
+		national_militarism = {
+			popularity = 11
 		}
 		
 		paternalism = {
-			popularity = 10
+			popularity = 11
 		}
 	}
 	
-	ruling_party = authoritarian_republicanism
+	ruling_party = orthodox_socialism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_stability = 0.50
+
 
 create_country_leader = {
-	name = "Kurt Schuschnigg"
-	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
-	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
-	expire = "1965.1.1"
-	ideology = centrism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		#
+		
 	}
-}
-
-create_country_leader = {
-	name = "Karl Renner"
-	desc = "POLITICS_KARL_RENNER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Arthur Seyss-Inquart"
-	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Alfred Klahr"
-	desc = "POLITICS_ALFRED_KLAHR_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Karl Eglseer"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { trait_mountaineer trickster }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
 }

@@ -79,66 +79,45 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 0
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 100
-			#banned = no #default is no
+		accelerationism = {
+			popularity = 11
 		}
 		
-		neutrality = { 
-			popularity = 00
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = communism
-	last_election = "1932.5.21"
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 20
-			}
-
-			fascism = {
-				popularity = 15
-			}
-			
-			communism = {
-				popularity = 5
-				#banned = no #default is no
-			}
-			
-			neutrality = { 
-				popularity = 60
-			}
-		}
-		
-		ruling_party = neutrality
-		last_election = "1938.2.25"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
-
-create_country_leader = {
-	name = "Konstantin Päts"
-	desc = "POLITICS_KONSTANTIN_PATS_DESC"
-	picture = "GFX_Portrait_estonia_konstantin_pats"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
 }

@@ -25,8 +25,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 				
-			cost = 150
-			removal_cost = -1	
+				
 			
 						}
 				}	
@@ -55,8 +54,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 				
-			cost = 150
-			removal_cost = -1	
+				
 			
 						}
 				}		
@@ -89,8 +87,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 				
-			cost = 150
-			removal_cost = -1	
+				
 			
 						}
 				}	
@@ -122,8 +119,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 				
-			cost = 150
-			removal_cost = -1	
+				
 			
 						}
 				}	
@@ -154,8 +150,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 				
-			cost = 150
-			removal_cost = -1	
+				
 			
 						}
 				}	
@@ -186,8 +181,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 				
-			cost = 150
-			removal_cost = -1	
+				
 			
 						}
 				}	

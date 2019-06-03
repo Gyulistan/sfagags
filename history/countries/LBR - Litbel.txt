@@ -103,39 +103,3 @@ create_country_leader = {
         #
     }
 }
-
-create_country_leader = {
-    name = "Radasłaŭ Astroŭski"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-    expire = "1965.1.1"
-    ideology = paternal_capitalism_subtype #fascism_ideology
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Panteleimon Ponomarenko"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-    expire = "1965.1.1"
-    ideology = marxism_leninism_subtype #stalinism
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Adam Stankievič"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-    expire = "1965.1.1"
-    ideology = social_democratic_subtype #socialism
-    traits = {
-        #
-    }
-}
-
-
-

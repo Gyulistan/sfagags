@@ -111,29 +111,3 @@ create_country_leader = {
 		
 	}
 }
-
-
-
-
-create_country_leader = {
-	name = "?"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "?"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		
-	}
-}
-

@@ -43,43 +43,39 @@ set_politics = {
 
 	parties = {
 		radical_bolshevism = { 
-			popularity = 10
+			popularity = 11
 		}
 
 		orthodox_socialism = {
-			popularity = 10
+			popularity = 11
 		}
 		
 		accelerationism = {
-			popularity = 10
+			popularity = 11
 		}
 		
 		social_democracy = {
-			popularity = 10
+			popularity = 11
 		}
 		
-		liberal_conservatism = {
-			popularity = 10
+		liberalism = {
+			popularity = 11
 		}
 		
-		christian_democracy = {
-			popularity = 10
+		conservatism = {
+			popularity = 11
 		}
 		
-		authoritarian_republicanism = {
-			popularity = 10
+		autoritarian_democracy = {
+			popularity = 11
 		}
 		
-		national_authoritarianism = {
-			popularity = 10
-		}
-		
-		paternalism = {
-			popularity = 10
+		national_militarism = {
+			popularity = 11
 		}
 		
 		paternalism = {
-			popularity = 10
+			popularity = 11
 		}
 	}
 	
@@ -88,39 +84,18 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-}
+
+
 
 create_country_leader = {
-	name = "Drastamat Kanayan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Hovhannes Kajaznuni"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
 }
-
-create_country_leader = {
-	name = "Grigor Harutyunyan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
 

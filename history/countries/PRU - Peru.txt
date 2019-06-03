@@ -70,69 +70,57 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 49
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 51
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = fascism
-	last_election = "1931.10.11"
-	election_frequency = 96
-	elections_allowed = yes
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 }
 
 create_country_leader = {
-	name = "Óscar Benavides"
-	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "GFX_Portrait_peru_oscar_benavides"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 49
-			}
-
-			fascism = {
-				popularity = 51
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
 		
-		ruling_party = fascism
-		last_election = "1931.10.11"
-		election_frequency = 96
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Manuel Prado Ugarteche"
-		desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
 	}
 }

@@ -65,77 +65,57 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 15
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 5
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 10
-			#banned = no #default is no
+		accelerationism = {
+			popularity = 11
 		}
-
-		neutrality = {
-			popularity = 70
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1934.11.8"
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+}
 
 create_country_leader = {
-	name = "Juan Bautista Sacasa"
-	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 15
-			}
-
-			fascism = {
-				popularity = 5
-			}
-			
-			communism = {
-				popularity = 10
-				#banned = no #default is no
-			}
-
-			neutrality = {
-				popularity = 70
-			}
-		}
 		
-		ruling_party = neutrality
-		last_election = "1936.12.8"
-		election_frequency = 48
-		elections_allowed = no
 	}
-
 }
-	create_country_leader = {
-		name = "Anastasio Somoza García"
-		desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
-		picture = "GFX_portrait_nicaragua_portrait_anastasio_somoza_garcia"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}

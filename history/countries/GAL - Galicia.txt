@@ -12,51 +12,46 @@ set_technology = {
 }
 
 set_convoys = 10
-set_politics = {
 
 1926.6.1 = {
 
 	set_politics = {
 
 	parties = {
-		radical_bolshevist = { 
-			popularity = 10
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
 		orthodox_socialism = {
-			popularity = 10
+			popularity = 11
 		}
 		
-		accelerationist = {
-			popularity = 10
+		accelerationism = {
+			popularity = 11
 		}
 		
-		social_democrat = {
-			popularity = 10
+		social_democracy = {
+			popularity = 11
 		}
 		
-		liberal_conservatist = {
-			popularity = 10
+		liberalism = {
+			popularity = 11
 		}
 		
-		christian_democrat = {
-			popularity = 10
+		conservatism = {
+			popularity = 11
 		}
 		
-		autocratist = {
-			popularity = 10
+		autoritarian_democracy = {
+			popularity = 11
 		}
 		
-		gratist = {
-			popularity = 10
-		}
-		
-		paternalist = {
-			popularity = 10
+		national_militarism = {
+			popularity = 11
 		}
 		
 		paternalism = {
-			popularity = 10
+			popularity = 11
 		}
 	}
 	

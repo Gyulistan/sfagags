@@ -50,94 +50,58 @@ set_politics = {
 
 	parties = {
 		radical_bolshevism = { 
-			popularity = 10
+			popularity = 11
 		}
 
 		orthodox_socialism = {
-			popularity = 10
+			popularity = 11
 		}
 		
 		accelerationism = {
-			popularity = 10
+			popularity = 11
 		}
 		
 		social_democracy = {
-			popularity = 10
+			popularity = 11
 		}
 		
-		liberal_conservatism = {
-			popularity = 10
+		liberalism = {
+			popularity = 11
 		}
 		
-		christian_democracy = {
-			popularity = 10
+		conservatism = {
+			popularity = 11
 		}
 		
-		authoritarian_republicanism = {
-			popularity = 10
+		autoritarian_democracy = {
+			popularity = 11
 		}
 		
-		national_authoritarianism = {
-			popularity = 10
-		}
-		
-		paternalism = {
-			popularity = 10
+		national_militarism = {
+			popularity = 11
 		}
 		
 		paternalism = {
-			popularity = 10
+			popularity = 11
 		}
 	}
 	
-	ruling_party = authoritarian_republicanism
+	ruling_party = autoritarian_democracy
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+
 create_country_leader = {
-	
-	name = "Jonas Lote"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = centrism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = autoritarian_democracy_subtype
 	traits = {
-		#
+		
 	}
 }
 
-
-}
-
-
-#Now a colony of Italy  However, if independent it would have
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
-		
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
 

@@ -70,139 +70,57 @@ set_convoys = 45
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 5
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 0
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 1
+		accelerationism = {
+			popularity = 11
 		}
 		
-		neutrality = { 
-			popularity = 94
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1934.7.1"
-	election_frequency = 72
-	elections_allowed = yes
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
 }
-
-set_stability = 0.75
-
-create_country_leader = {
-	name = "Lázaro Cárdenas"
-	desc = "POLITICS_LAZARO_CARDENAS_DESC"
-	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
-	name = "Salvador Abascal"
-	desc = "POLITICS_SALVADOR_ABASCAL_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = falangism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Manuel Gómez Morín"
-	desc = "POLITICS_MANUEL_GOMEZ_MORIN_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dionisio Encina"
-	desc = "POLITICS_DIONISIO_ENCINA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 1
-		}
-
-		fascism = {
-			popularity = 0
-		}
 		
-		communism = {
-			popularity = 1
-		}
-		
-		neutrality = { 
-			popularity = 98
-		}
 	}
-	
-	ruling_party = neutrality
-		last_election = "1934.7.1"
-		election_frequency = 72
-		elections_allowed = yes
-	}
-
-	create_country_leader = { #from 1940, but he's prettier so he gets to win early
-		name = "Manuel Avila Camacho"
-		desc = "POLITICS_LAZARO_CARDENAS_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-}
-
-create_corps_commander = {
-	name = "Luis Farell"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	traits = { }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 1
-    planning_skill = 2
-    logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Gildardo Magaña"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	traits = { desert_fox }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 3
-}
-
-create_navy_leader = {
-	name = "Paul Suarez"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
-	traits = { superior_tactician }
-	skill = 3
 }

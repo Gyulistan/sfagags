@@ -82,58 +82,58 @@ set_convoys = 0
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 20
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 30
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 20
-			#banned = no #default is no
+		accelerationism = {
+			popularity = 11
 		}
 		
-		neutrality = { 
-			popularity = 30
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 20
-			}
 
-			fascism = {
-				popularity = 30
-			}
-			
-			communism = {
-				popularity = 20
-				#banned = no #default is no
-			}
-			
-			neutrality = { 
-				popularity = 30
-			}
-		}
+create_country_leader = {
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
 		
-		ruling_party = neutrality
-		last_election = "1938.1.1"
-		election_frequency = 36
-		elections_allowed = yes
 	}
-}
-set_stability = 0.6
-
 }

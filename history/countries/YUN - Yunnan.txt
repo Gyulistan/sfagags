@@ -5,15 +5,6 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
-}
 
 1939.1.1 = {
 
@@ -86,77 +77,58 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 20
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
+		accelerationism = {
+			popularity = 11
 		}
 		
-		neutrality = {
-			popularity = 80
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+}
 
 create_country_leader = {
-	name = "Long Yun"
-	desc = "POLITICS_LONG_YUN_DESC"
-	picture = "GFX_portrait_yun_long_yun"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		#
+		
 	}
 }
-
-create_corps_commander = {
-	name = "Lu Han"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
-	traits = { }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = {
-			popularity = 80
-		}
-	}
-	
-	ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
 }

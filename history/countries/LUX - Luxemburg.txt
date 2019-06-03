@@ -65,67 +65,57 @@ set_stability = 0.8
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 92
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 3
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 5
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1934.6.3"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 92
-			}
-
-			fascism = {
-				popularity = 3
-			}
-			
-			communism = {
-				popularity = 5
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1937.6.6"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Pierre Dupong"
-		desc = "POLITICS_PIERRE_DUPONG_DESC"
-		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-		expire = "1965.1.1"
-		ideology = conservatism
-		traits = {
-			#
-		}
-	}
-}
-#Pierre Dupong from 37
 create_country_leader = {
-	name = "Joseph Bech"
-	desc = "POLITICS_JOSEPH_BECH_DESC"
-	picture = "GFX_portrait_luxembourg_joseph_bech"
-	expire = "1965.1.1"
-	ideology = conservatism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		#
+		
 	}
 }

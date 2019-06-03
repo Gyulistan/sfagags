@@ -23,124 +23,59 @@ set_research_slots = 3
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 65
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		neutrality = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 5
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 10
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1935.5.19"
-	election_frequency = 60
-	elections_allowed = yes
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
 }
+
+
 
 create_country_leader = {
-	name = "Edvard Beneš"
-	desc = "POLITICS_EDVARD_BENES_DESC"
-	picture = "Portrait_Czech_Edvard_Benes.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jaroslav Krejčí"
-	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
-	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Klement Gottwald"
-	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
-	picture = "Portrait_Czech_Klement_Gottwald.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Vojtěch Luža"
-	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
-	traits = { fast_planner offensive_doctrine }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 1
-}
-
-create_field_marshal = {
-	name = "Josef Šnejdárek"
-	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
-	traits = { thorough_planner defensive_doctrine }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 4
-    planning_skill = 2
-    logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Richard Tesařík"
-	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
-	traits = { armor_officer }
-	skill = 2
-    attack_skill = 4
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Sergej Vojcechovský"
-	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
-	traits = { winter_specialist }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 1
-}
-
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-}
-	give_guarantee = YUG
-	give_guarantee = ROM
-}
-
-if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
+		
 	}
 }
 

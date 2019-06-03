@@ -40,76 +40,58 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		radical_bolshevist = { 
-			popularity = 10
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
 		orthodox_socialism = {
-			popularity = 10
+			popularity = 11
 		}
 		
-		accelerationist = {
-			popularity = 10
+		accelerationism = {
+			popularity = 11
 		}
 		
-		social_democrat = {
-			popularity = 10
+		social_democracy = {
+			popularity = 11
 		}
 		
-		liberal_conservatist = {
-			popularity = 10
+		liberalism = {
+			popularity = 11
 		}
 		
-		christian_democrat = {
-			popularity = 10
+		conservatism = {
+			popularity = 11
 		}
 		
-		autocratist = {
-			popularity = 10
+		autoritarian_democracy = {
+			popularity = 11
 		}
 		
-		gratist = {
-			popularity = 10
-		}
-		
-		paternalist = {
-			popularity = 10
+		national_militarism = {
+			popularity = 11
 		}
 		
 		paternalism = {
-			popularity = 10
+			popularity = 11
 		}
 	}
 	
-	ruling_party = orthodox_socialism
+	ruling_party = autoritarian_democracy
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+}
 
 create_country_leader = {
-	name = "Noe Zhordania"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = liberalism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Kandid Charkviani"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-#couldnt find anything else, the commies simply forced everyone else into exile
-
-
 

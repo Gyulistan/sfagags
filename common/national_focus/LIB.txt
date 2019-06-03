@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = LIB1
 		icon = GFX_focus_generic_the_giant_wakes
-		cost = 10,00
+		cost = 10
 		x = 9
 		y = 1
 
@@ -19,7 +19,7 @@ focus_tree = {
 	focus = {
 		id = LIB25
 		icon = GFX_Dirizhizm
-		cost = 10,00
+		cost = 10
 		mutually_exclusive = {
 			focus = LIB28
 		}
@@ -30,7 +30,7 @@ focus_tree = {
 	focus = {
 		id = LIB28
 		icon = GFX_goal_generic_demand_territory
-		cost = 10,00
+		cost = 10
 		mutually_exclusive = {
 			focus = LIB25
 		}
@@ -41,7 +41,7 @@ focus_tree = {
 	focus = {
 		id = LIB2
 		icon = GFX_focus_generic_support_the_left_right
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB1
 		}
@@ -52,7 +52,7 @@ focus_tree = {
 	focus = {
 		id = LIB3
 		icon = GFX_focus_generic_treaty
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB2
 		}
@@ -63,7 +63,7 @@ focus_tree = {
 	focus = {
 		id = LIB4
 		icon = GFX_goal_support_communism
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB3
 		}
@@ -78,7 +78,7 @@ focus_tree = {
 	focus = {
 		id = LIB6
 		icon = GFX_focus_generic_military_academy
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB4
 		}
@@ -89,7 +89,7 @@ focus_tree = {
 	focus = {
 		id = LIB8
 		icon = GFX_focus_prc_agrarian_socialism
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB4
 		}
@@ -100,7 +100,7 @@ focus_tree = {
 	focus = {
 		id = LIB5
 		icon = GFX_focus_generic_military_mission
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB3
 		}
@@ -115,7 +115,7 @@ focus_tree = {
 	focus = {
 		id = LIB12
 		icon = GFX_focus_generic_little_entente
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB5
 		}
@@ -126,7 +126,7 @@ focus_tree = {
 	focus = {
 		id = LIB13
 		icon = GFX_goal_molotov_ribbentrop_pact
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB5
 		}
@@ -137,7 +137,7 @@ focus_tree = {
 	focus = {
 		id = LIB14
 		icon = GFX_focus_generic_support_the_left_right
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB5
 		}
@@ -148,7 +148,7 @@ focus_tree = {
 	focus = {
 		id = LIB15
 		icon = GFX_goal_support_fascism
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB12
 		}
@@ -165,7 +165,7 @@ focus_tree = {
 	focus = {
 		id = LIB16
 		icon = GFX_imperskie_ombitie
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB15
 		}
@@ -176,7 +176,7 @@ focus_tree = {
 	focus = {
 		id = LIB18
 		icon = GFX_goal_support_democracy
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB3
 		}
@@ -191,7 +191,7 @@ focus_tree = {
 	focus = {
 		id = LIB19
 		icon = GFX_focus_generic_concessions
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB18
 		}
@@ -202,7 +202,7 @@ focus_tree = {
 	focus = {
 		id = LIB22
 		icon = GFX_focus_cze_german_puppet
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB19
 		}
@@ -213,7 +213,7 @@ focus_tree = {
 	focus = {
 		id = LIB20
 		icon = GFX_goal_generic_intelligence_exchange
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB18
 		}
@@ -224,7 +224,7 @@ focus_tree = {
 	focus = {
 		id = LIB23
 		icon = GFX_goal_generic_territory_or_war
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB20
 		}
@@ -235,7 +235,7 @@ focus_tree = {
 	focus = {
 		id = LIB21
 		icon = GFX_goal_continuous_suppression
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB18
 		}
@@ -246,7 +246,7 @@ focus_tree = {
 	focus = {
 		id = LIB24
 		icon = GFX_goal_generic_demand_territory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB21
 		}
@@ -257,7 +257,7 @@ focus_tree = {
 	focus = {
 		id = LIB26
 		icon = GFX_goal_generic_intelligence_exchange
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB25
 		}
@@ -268,7 +268,7 @@ focus_tree = {
 	focus = {
 		id = LIB27
 		icon = GFX_focus_chi_mission_to_the_us
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB26
 		}
@@ -279,7 +279,7 @@ focus_tree = {
 	focus = {
 		id = LIB7
 		icon = GFX_goal_generic_demand_territory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB4
 		}
@@ -290,7 +290,7 @@ focus_tree = {
 	focus = {
 		id = LIB9
 		icon = GFX_goal_generic_major_alliance
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB6
 		}
@@ -301,7 +301,7 @@ focus_tree = {
 	focus = {
 		id = LIB10
 		icon = GFX_focus_rom_handle_king
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB7
 		}
@@ -312,7 +312,7 @@ focus_tree = {
 	focus = {
 		id = LIB11
 		icon = GFX_focus_generic_the_giant_wakes
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB8
 		}
@@ -323,7 +323,7 @@ focus_tree = {
 	focus = {
 		id = LIB17
 		icon = GFX_goal_generic_political_pressure
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB11
 			focus = LIB22
@@ -337,7 +337,7 @@ focus_tree = {
 	focus = {
 		id = LIB29
 		icon = GFX_focus_chi_reach_out_to_france
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB28
 		}
@@ -348,7 +348,7 @@ focus_tree = {
 	focus = {
 		id = LIB30
 		icon = GFX_Svobodny_rynok
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = LIB29
 		}

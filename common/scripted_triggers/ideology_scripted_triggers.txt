@@ -1,0 +1,112 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			has_government = radical_bolshevism
+			ROOT = {
+				OR = {
+					has_government = liberalism
+					has_government = conservatism
+					has_government = autoritarian_democracy
+					has_government = paternalism
+					has_government = national_militarism
+				}
+			}
+		}
+		AND = {
+			has_government = orthodox_socialism
+			ROOT = {
+				OR = {
+					has_government = liberalism
+					has_government = conservatism
+					has_government = autoritarian_democracy
+					has_government = paternalism
+					has_government = national_militarism
+				}
+			}
+		}
+		AND = {
+			has_government = accelerationism
+			ROOT = {
+				OR = {
+					has_government = autoritarian_democracy
+					has_government = paternalism
+					has_government = national_militarism
+				}
+			}
+		}
+		AND = {
+			has_government = social_democracy
+			ROOT = {
+				OR = {
+					has_government = autoritarian_democracy
+					has_government = paternalism
+					has_government = national_militarism
+				}
+			}
+		}
+		AND = {
+			has_government = liberalism
+			ROOT = {
+				OR = {
+					has_government = autoritarian_democracy
+					has_government = paternalism
+					has_government = national_militarism
+					has_government = orthodox_socialism
+					has_government = radical_bolshevism
+				}
+			}
+		}
+		AND = {
+			has_government = conservatism
+			ROOT = {
+				OR = {
+					has_government = autoritarian_democracy
+					has_government = paternalism
+					has_government = national_militarism
+					has_government = orthodox_socialism
+					has_government = radical_bolshevism
+				}
+			}
+		}
+		AND = {
+			has_government = autoritarian_democracy
+			ROOT = {
+				OR = {
+					has_government = liberalism
+					has_government = conservatism
+					has_government = accelerationism
+					has_government = orthodox_socialism
+					has_government = radical_bolshevism
+					has_government = social_democracy
+				}
+			}
+		}
+		AND = {
+			has_government = paternalism
+			ROOT = {
+				OR = {
+					has_government = liberalism
+					has_government = conservatism
+					has_government = accelerationism
+					has_government = orthodox_socialism
+					has_government = radical_bolshevism
+					has_government = social_democracy
+				}
+			}
+		}
+		AND = {
+			has_government = national_militarism
+			ROOT = {
+				OR = {
+					has_government = liberalism
+					has_government = conservatism
+					has_government = accelerationism
+					has_government = orthodox_socialism
+					has_government = radical_bolshevism
+					has_government = social_democracy
+				}
+			}
+		}
+	}
+}

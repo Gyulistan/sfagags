@@ -23,46 +23,56 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		fascism = { 
-			popularity = 33
+		radical_bolshevism = { 
+			popularity = 11
 		}
-		neutrality = { 
-			popularity = 33
-		}		
-		communism = {
-			popularity = 34
+
+		orthodox_socialism = {
+			popularity = 11
+		}
+		
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
+	
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 }
 
 create_country_leader = {
-	name = "Sekula Drljević"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Novica Radović"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = oligarchism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Blažo Jovanović"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = leninism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
 		
 	}

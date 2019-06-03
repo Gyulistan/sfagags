@@ -122,68 +122,15 @@ set_politics = {
 	elections_allowed = no
 }
 
+
+
 create_country_leader = {
-	name = "Aleksandar Stamboliyski"
-	desc = "POLITICS_ALEXANDAR_STAMBOLIYSKI_DESC"
-	picture = "Portrait_Bulgaria_Aleksandar_Stamboliyski.dds"
-	expire = "1965.1.1"
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
 	ideology = orthodox_socialism_subtype
 	traits = {
-		#
+		
 	}
-}
-
-create_country_leader = {
-	name = "Georgi Dimitrov"
-	desc = "POLITICS_GEORGI_DIMITROV_DESC"
-	picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zivko Topalovic"
-	desc = "POLITICS_ZIVCO_TOPALOVIC_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hristo Lukov"
-	desc = "POLITICS_HRISTO_LUKOV_DESC"
-	picture = "GFX_Portrait_bulgaria_hristo_lukov"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Vasil Tenev Boydev"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { armor_officer }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Georgi Nikolov Popov"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 4
 }

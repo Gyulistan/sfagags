@@ -72,78 +72,57 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 20
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
+		accelerationism = {
+			popularity = 11
 		}
 		
-		neutrality = { 
-			popularity = 80
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_country_leader = {
-	name = "Rashid Ali al-Gaylani"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
 }
 
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 30
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-
-			neutrality = { 
-				popularity = 70
-			}
-		}
-	
-	ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Faisal II"
-		desc = "POLITICS_FAISAL_II_DESC"
-		picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
+create_country_leader = {
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
+		
 	}
 }

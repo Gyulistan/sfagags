@@ -79,93 +79,57 @@ set_stability = 0.75
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 96
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 2
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 2
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1933.10.16"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 84
-			}
-
-			fascism = {
-				popularity = 2
-			}
-			
-			communism = {
-				popularity = 2
-			}
-
-			neutrality = {
-				popularity = 12
-			}
-		}
+create_country_leader = {
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
 		
-		ruling_party = democratic
-		last_election = "1936.10.19"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
-
-create_country_leader = {
-	name = "Sveinn Björnsson"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Johannes Valurson"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Haraldur Gudmunsson"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Einar Olgeirsson"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
 	}
 }

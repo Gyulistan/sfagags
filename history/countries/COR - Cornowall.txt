@@ -1,4 +1,4 @@
-﻿capital = 126
+﻿capital = 123
 
 oob = "COR_1936"
 
@@ -43,9 +43,9 @@ set_technology = {
 	electronic_mechanical_engineering = 1
 	radio = 1
 	radio_detection = 1
-
-set_convoys = 800
 }
+set_convoys = 800
+
 
 set_politics = {
 
@@ -105,14 +105,4 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "?"
-	desc = "C"
-	picture = ""
-	expire = "1999.1.1"
-	ideology = leninism
-	traits = {
-		
-	}
-}
 

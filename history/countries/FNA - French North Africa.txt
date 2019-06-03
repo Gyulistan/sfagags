@@ -1,4 +1,4 @@
-capital = 513
+﻿capital = 513
 
 oob = "FNA_1926"
 

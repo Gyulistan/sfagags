@@ -46,93 +46,61 @@ set_convoys = 5
 		dispersed_industry2 = 1
 	}
 }
-set_politics = {
+	set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		radical_bolshevism = { 
+			popularity = 11
 		}
 
-		fascism = {
-			popularity = 0
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
+		accelerationism = {
+			popularity = 11
 		}
 		
-		neutrality = { 
-			popularity = 100
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Haile Selassie"
-	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
+
 
 create_country_leader = {
-	name = "Fitawrari Yeebio Woldai"
-	desc = "POLITICS_YEEBIO_WOLDAI_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
-		#
-	}
-}
-
-
-#Now a colony of Italy  However, if independent it would have
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
 		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
 	}
-		
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
-
-create_corps_commander = {
-	name = "Seyoum Mengesha"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
-	traits = {  desert_fox }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
 }

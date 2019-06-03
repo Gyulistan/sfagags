@@ -1,4 +1,4 @@
-﻿capital = 836
+﻿capital = 229
 
 oob = "BYK_1936"
 
@@ -40,65 +40,58 @@ set_technology = {
 set_politics = {
 
 	parties = {
+		radical_bolshevism = { 
+			popularity = 11
+		}
 
-		fascism = {
-			popularity = 30
+		orthodox_socialism = {
+			popularity = 11
 		}
 		
-		communism = {
-			popularity = 70
+		accelerationism = {
+			popularity = 11
+		}
+		
+		social_democracy = {
+			popularity = 11
+		}
+		
+		liberalism = {
+			popularity = 11
+		}
+		
+		conservatism = {
+			popularity = 11
+		}
+		
+		autoritarian_democracy = {
+			popularity = 11
+		}
+		
+		national_militarism = {
+			popularity = 11
+		}
+		
+		paternalism = {
+			popularity = 11
 		}
 	}
 	
-	ruling_party = communism
-	last_election = "1933.7.1"
+	ruling_party = orthodox_socialism
+	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+
+
 create_country_leader = {
-	name = "Kost Levytsky"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
 	traits = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchev"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Stepan Bandera"
-	desc = ""
-	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = oligarchism
-#	traits = {
-#		
-#	}
-#}
-
-
-
