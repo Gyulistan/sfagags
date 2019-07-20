@@ -1,0 +1,160 @@
+ideas = {
+
+	head_of_government = {
+
+		per_mohammad_ali_foroughi = {
+		
+			picture = GFX_idea_per_mohammad_ali_foroughi
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				flamboyant_tough_guy
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = PER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}		
+		}
+		
+		
+	foreign_minister = {
+
+		per_nosrat_ed_dowleh = {
+		
+			picture = GFX_idea_per_nosrat_ed_dowleh
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+						
+					}
+				}
+			
+			traits = {
+				autoritarist
+				biased_intellectual
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = PER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+
+	defence_minister = {
+
+		per_amir_ahmad_ahmadi = {
+		
+			picture = GFX_idea_per_amir_ahmad_ahmadi
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+						
+					}
+				}
+			
+			traits = {
+				autoritarist
+				failed_marshal
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = PER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		per_abdolhossein_hazhir = {
+		
+			picture = GFX_idea_per_abdolhossein_hazhir
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				reformer
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = PER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+		
+	security_minister = {
+
+		per_amirtemour_halali = {
+		
+			picture = GFX_idea_per_amirtemour_halali
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				efficient_sociopath
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = PER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}

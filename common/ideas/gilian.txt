@@ -1,0 +1,202 @@
+ideas = {
+
+	head_of_government = {
+
+		gil_jafar_pishevari = {
+		
+			picture = GFX_idea_gil_jafar_pishevari
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				backroom_backstabber
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = GIL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}		
+		}
+		
+		
+	foreign_minister = {
+
+		gil_haydar_khan_tariverdiev  = {
+		
+			picture = GFX_idea_gil_haydar_khan_tariverdiev 
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				general_staffer
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = GIL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+
+	defence_minister = {
+
+		gil_ehsanollah_khan_dustdar = {
+		
+			picture = GFX_idea_gil_ehsanollah_khan_dustdar
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				former_military_commissar
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = GIL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		gil_avetis_sultan_zade = {
+		
+			picture = GFX_idea_gil_avetis_sultan_zade
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				bank_president
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = GIL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+		
+	security_minister = {
+
+		gil_ali_habibi  = {
+		
+			picture = GFX_idea_gil_ali_habibi
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				secret_police_chief
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = GIL
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+	country = {
+
+		gil_total_mobilization = {
+
+			picture = mex_revolutionary_army
+			
+			modifier = {
+				conscription = 0.015
+				consumer_goods_factor = -0.1
+				industrial_capacity_factory = 0.2
+				production_factory_max_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+				political_power_gain = -0.15
+				stability_factor = -0.30
+				
+			}
+		}
+
+		
+		gil_political_split = {
+
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				political_power_gain = -0.15
+				stability_factor = -0.1
+				
+			}
+		}
+		
+		gil_small_hunger = {
+
+			picture = eng_for_the_good_of_the_revolution
+			
+			modifier = {
+				stability_factor = -0.05
+				
+			}
+		}
+	}
+}

@@ -502,10 +502,9 @@ GER_MOT_01 =
 
 	can_use = {
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
+			is_neutral_country = yes
+			is_democratic_country = yes
 		}
-		has_completed_focus = GER_oppose_hitler
 	}
 
 	division_types = { "motorized"  }
@@ -546,7 +545,7 @@ GER_MOT_02 =
 
 	for_countries = { GER }
 
-	can_use = { has_government = fascism }
+	can_use = { is_fascist_country = yes }
 
 	division_types = { "motorized"  }
 
@@ -949,7 +948,7 @@ GER_SS_01 =
 	for_countries = { GER }
 
 	can_use = { 
-		has_government = fascism
+		is_fascist_country = yes
 	}
 
 	division_types = { "infantry" "motorized" "medium_armor" "mechanized" }
@@ -1006,10 +1005,9 @@ GER_MONINF_01 =
 
 	can_use = { 
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
+			is_neutral_country = yes
+			is_democratic_country = yes
 		}
-		has_completed_focus = GER_oppose_hitler
 	}
 
 	division_types = { "infantry" "mechanized" "mountaineers" "paratrooper" "marine" }
@@ -1243,10 +1241,9 @@ GER_MONMOB_01 =
 
 	can_use = { 
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
+			is_neutral_country = yes
+			is_democratic_country = yes
 		}
-		has_completed_focus = GER_oppose_hitler
 	}
 
 	division_types = {  "cavalry" "light_armor" "medium_armor" "heavy_armor" "modern_armor"  }

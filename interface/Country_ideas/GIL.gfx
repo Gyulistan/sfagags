@@ -1,0 +1,39 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_gil_jafar_pishevari"
+		texturefile = "gfx/interface/Ideas/GIL/gil_jafar_pishevari.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gil_haydar_khan_tariverdiev"
+		texturefile = "gfx/interface/Ideas/GIL/gil_haydar_khan_tariverdiev.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gil_ehsanollah_khan_dustdar"
+		texturefile = "gfx/interface/Ideas/GIL/gil_ehsanollah_khan_dustdar.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gil_avetis_sultan_zade"
+		texturefile = "gfx/interface/Ideas/GIL/gil_avetis_sultan_zade.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gil_ali_habibi"
+		texturefile = "gfx/interface/Ideas/GIL/gil_ali_habibi.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_eng_for_the_good_of_the_revolution"
+		texturefile = "gfx/interface/Ideas/GIL/for_the_good_of_the_revolution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_mex_revolutionary_army"
+		texturefile = "gfx/interface/Ideas/GIL/mex_revolutionary_army.dds"
+	}
+	
+

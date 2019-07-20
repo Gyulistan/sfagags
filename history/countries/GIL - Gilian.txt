@@ -1,6 +1,6 @@
 ﻿capital = 420
 
-oob = "GIL_1936"
+oob = "GIL_1926"
 
 set_research_slots = 3
 
@@ -37,63 +37,48 @@ set_technology = {
 	fleet_in_being = 1
 }
 
+1926.6.1 = {
+
+add_ideas = {
+	gil_jafar_pishevari
+	gil_haydar_khan_tariverdiev
+	gil_ehsanollah_khan_dustdar
+	gil_avetis_sultan_zade
+	gil_ali_habibi
+	gil_total_mobilization
+	gil_political_split
+	gil_small_hunger
+}
+
 set_politics = {
-
-parties = {
-		radical_bolshevism = { 
-			popularity = 11
-		}
-
-		orthodox_socialism = {
-			popularity = 11
-		}
-		
-		accelerationism = {
-			popularity = 11
-		}
-		
-		social_democracy = {
-			popularity = 11
-		}
-		
-		liberalism = {
-			popularity = 11
-		}
-		
-		conservatism = {
-			popularity = 11
-		}
-		
-		autoritarian_democracy = {
-			popularity = 11
-		}
-		
-		national_militarism = {
-			popularity = 11
-		}
-		
-		paternalism = {
-			popularity = 11
-		}
-	}
-	
-	ruling_party = autoritarian_democracy
+	ruling_party = orthodox_socialism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+set_popularities = {
+	radical_bolshevism = 11
+	orthodox_socialism = 11
+	accelerationism = 11
+	social_democracy = 11
+	liberalism = 11
+	conservatism = 11
+	autoritarian_democracy = 12
+	national_militarism = 11
+	paternalism = 11
+	}
 
 create_country_leader = {
-	name = "No Name"
-	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	name = "Mirza Kuchik Khan"
+	desc = "POLITICS_MIRZA_KUCHIK_KHAN_DESC"
+	picture = "Portrait_Gilian_Mirza_Kuchik_Khan.dds"
 	expire = "1956.1.1"
 	ideology = orthodox_socialism_subtype
 	traits = {
 		
 	}
 }
-
+}
 
 
 

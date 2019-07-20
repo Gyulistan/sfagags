@@ -9,50 +9,22 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		radical_bolshevism = { 
-			popularity = 11
-		}
-
-		orthodox_socialism = {
-			popularity = 11
-		}
-		
-		accelerationism = {
-			popularity = 11
-		}
-		
-		social_democracy = {
-			popularity = 11
-		}
-		
-		liberalism = {
-			popularity = 11
-		}
-		
-		conservatism = {
-			popularity = 11
-		}
-		
-		autoritarian_democracy = {
-			popularity = 11
-		}
-		
-		national_militarism = {
-			popularity = 11
-		}
-		
-		paternalism = {
-			popularity = 11
-		}
-	}
-	
 	ruling_party = autoritarian_democracy
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+set_popularities = {
+	radical_bolshevism = 11
+	orthodox_socialism = 11
+	accelerationism = 11
+	social_democracy = 11
+	liberalism = 11
+	conservatism = 11
+	autoritarian_democracy = 12
+	national_militarism = 11
+	paternalism = 11
+	}
 
 
 create_country_leader = {

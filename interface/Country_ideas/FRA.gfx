@@ -1,0 +1,36 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_fra_gaston_doumergue"
+		texturefile = "gfx/interface/Ideas/FRA/fra_gaston_doumergue.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fra_aristide_briand"
+		texturefile = "gfx/interface/Ideas/FRA/fra_aristide_briand.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fra_andre_maginot"
+		texturefile = "gfx/interface/Ideas/FRA/fra_andre_maginot.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fra_henry_cheron"
+		texturefile = "gfx/interface/Ideas/FRA/fra_henry_cheron.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fra_albert_sarraut"
+		texturefile = "gfx/interface/Ideas/FRA/fra_albert_sarraut.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_propaganda_ministry"
+		texturefile = "gfx/interface/Ideas/FRA/FRA_propaganda_ministry.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_anticommunism"
+		texturefile = "gfx/interface/Ideas/FRA/FRA_anticommunism.tga"
+	}

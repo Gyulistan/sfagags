@@ -39,64 +39,51 @@ set_technology = {
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
-	}    
-
+	}   
 	set_autonomy = {
 		target = EST
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_sov_union_resp
 	}
-	
 	set_autonomy = {
 		target = LAT
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_sov_union_resp
 	}
-	
 	set_autonomy = {
 		target = AZR
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_sov_union_resp
 	}
-
-	
 	set_autonomy = {
 		target = POL
-		autonomous_state = autonomy_sov_autonom_resp
+		autonomous_state = autonomy_sov_union_resp
 	}
-	
 	set_autonomy = {
 		target = UKR
 		autonomous_state = autonomy_sov_union_resp
 	}
-	
 	set_autonomy = {
 		target = LBR
 		autonomous_state = autonomy_sov_union_resp
-	}
-	
+	}	
 	set_autonomy = {
 		target = MOL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	
+		autonomous_state = autonomy_sov_union_resp
+	}	
 	set_autonomy = {
 		target = NCR
-		autonomous_state = autonomy_integrated_puppet
-	}
-	
+		autonomous_state = autonomy_sov_autonom_resp
+	}	
 	set_autonomy = {
 		target = FIN
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_sov_union_resp
 	}
-	
 	set_autonomy = {
 		target = KAZ
-		autonomous_state = autonomy_integrated_puppet
-	}
-	
+		autonomous_state = autonomy_sov_union_resp
+	}	
 	set_autonomy = {
 		target = TOR
-		autonomous_state = autonomy_sov_autonom_resp
-	}
-	
+		autonomous_state = autonomy_sov_union_resp
+	}	
 	set_autonomy = {
 		target = FIR
 		autonomous_state = autonomy_sov_union_resp
@@ -107,7 +94,7 @@ if = {
 	}
 	set_autonomy = {
 		target = KRL
-		autonomous_state = autonomy_sov_union_resp
+		autonomous_state = autonomy_sov_autonom_resp
 	}
 	set_autonomy = {
 		target = KFR
@@ -157,6 +144,10 @@ if = {
 		target = BYR
 		autonomous_state = autonomy_sov_union_resp
 	}
+	set_autonomy = {
+		target = ARM
+		autonomous_state = autonomy_sov_union_resp
+	}
 	else	= {
 	puppet = EST
 	puppet = LAT
@@ -184,56 +175,29 @@ if = {
 	puppet = TAD
 	puppet = TYR
 	puppet = BYR
+	puppet = ARM
 	}
 }
 	
 set_convoys = 50
 
 set_politics = {
-
-	parties = {
-		radical_bolshevism = { 
-			popularity = 11
-		}
-
-		orthodox_socialism = {
-			popularity = 11
-		}
-		
-		accelerationism = {
-			popularity = 11
-		}
-		
-		social_democracy = {
-			popularity = 11
-		}
-		
-		liberalism = {
-			popularity = 11
-		}
-		
-		conservatism = {
-			popularity = 11
-		}
-		
-		autoritarian_democracy = {
-			popularity = 11
-		}
-		
-		national_militarism = {
-			popularity = 11
-		}
-		
-		paternalism = {
-			popularity = 11
-		}
-	}
-	
 	ruling_party = orthodox_socialism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+set_popularities = {
+	radical_bolshevism = 11
+	orthodox_socialism = 11
+	accelerationism = 11
+	social_democracy = 11
+	liberalism = 11
+	conservatism = 11
+	autoritarian_democracy = 12
+	national_militarism = 11
+	paternalism = 11
+	}
 
 create_faction = Comintern
 add_to_faction = SOV

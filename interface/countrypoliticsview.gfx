@@ -3,6 +3,11 @@ spriteTypes = {
 	#Government in Exile
 
 	spriteType = {
+		name = "GFX_government_button"
+		texturefile = "gfx/interface/government_button.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_countryview_government_in_exile_bg"
 		texturefile = "gfx/interface/government_in_exile/countryview_government_in_exile_bg.dds"
 	}
@@ -64,7 +69,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/autonomy/subject_progress_bar_long.dds"
 		textureFile2 = "gfx/interface/autonomy/subject_progress_bar_long_bg.dds"
-		size = { x = 143 y = 16 }
+		size = { x = 181 y = 16 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
 	
@@ -286,36 +291,6 @@ spriteTypes = {
 		name = "GFX_followup_goal_bg"
 		textureFile = "gfx/interface/followup_goal_bg.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_idea_slot_head_of_government"
-		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_slot_deputy_of_hog"
-		textureFile = "gfx/interface/idea_slot_minister.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_slot_foreign_minister"
-		textureFile = "gfx/interface/idea_slot_minister.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_slot_economy_minister"
-		textureFile = "gfx/interface/idea_slot_minister.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_slot_security_minister"
-		textureFile = "gfx/interface/idea_slot_minister.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_slot_defence_minister"
-		textureFile = "gfx/interface/idea_slot_minister.dds"
-	}
 
 #	spriteType = {
 #		name = "GFX_add_national_goal_button"
@@ -445,29 +420,15 @@ spriteTypes = {
 		name = "GFX_icon_occupied_territories"
 		texturefile = "gfx/interface/icon_occupied_territories.dds"
 	}
-	spriteType = {
-		name = "GFX_ideology_radical_bolshevism_group"
-		texturefile = "gfx/interface/ideologies/radical_bolshevism_group.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_ideology_orthodox_socialism_group"
-		texturefile = "gfx/interface/ideologies/orthodox_socialism_group.dds"
-	}
-	
+
 	spriteType = {
 		name = "GFX_ideology_accelerationism_group"
 		texturefile = "gfx/interface/ideologies/accelerationism_group.dds"
-	}
+	}	
 	
 	spriteType = {
-		name = "GFX_ideology_social_democracy_group"
-		texturefile = "gfx/interface/ideologies/social_democracy_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_liberalism_group"
-		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+		name = "GFX_ideology_autoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/autoritarian_democracy_group.dds"
 	}
 	
 	spriteType = {
@@ -476,8 +437,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_autoritarian_democracy_group"
-		texturefile = "gfx/interface/ideologies/autoritarian_democracy_group.dds"
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
 	}
 	
 	spriteType = {
@@ -486,8 +447,23 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_orthodox_socialism_group"
+		texturefile = "gfx/interface/ideologies/orthodox_socialism_group.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_paternalism_group"
 		texturefile = "gfx/interface/ideologies/paternalism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_radical_bolshevism_group"
+		texturefile = "gfx/interface/ideologies/radical_bolshevism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democracy_group"
+		texturefile = "gfx/interface/ideologies/social_democracy_group.dds"
 	}
 	
 	spriteType = {

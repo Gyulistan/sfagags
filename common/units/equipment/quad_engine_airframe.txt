@@ -30,7 +30,7 @@ equipments = {
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 1.5
 		naval_strike_targetting = 0.6
-		
+
 		#Space taken in convoy
 		lend_lease_cost = 12
 		
@@ -204,7 +204,7 @@ equipments = {
 
 
 	transport_plane_equipment_1 = {
-		year = 1933
+		year = 1924
 
 		archetype = transport_plane_equipment
 		active = yes

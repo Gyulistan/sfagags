@@ -33,9 +33,9 @@ sub_units = {
 		weight = 0.1
 		supply_consumption = 0.02
 		
-		entrenchment  = 5
+		entrenchment  = 3
 
-				
+		
 		defense = 0.1
 		breakthrough = 0.5
 
@@ -71,18 +71,8 @@ sub_units = {
 			movement = 0.2
 		}
 
-		fort = {
-			attack = 0.1
-			defence = 0.25
-		}
-
-		river = {
-			defence = 0.25
-			movement = 0.25
-		}
-
 		amphibious = {
-			attack = 0.25
+			attack = 0.1
 		}
 	}
 }

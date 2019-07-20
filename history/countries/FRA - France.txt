@@ -1,10 +1,10 @@
 ﻿capital = 16
 
-oob = "FRA_1936"
+oob = "FRA_1926"
 
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.15
+set_stability = 0.45
+set_war_support = 0.65
 
 # Starting tech
 set_technology = {
@@ -59,70 +59,58 @@ if = {
 	}
 	
 	set_autonomy = {
+		target = FEA
+		autonomous_state = autonomy_colony
+	}
+	
+	set_autonomy = {
  		target = RHI
 		autonomous_state = autonomy_integrated_puppet
-		}
+	}
 		
 	else	= {
 	puppet = FNA
 	puppet = FWA
 	puppet = RHI
+	puppet = FEA
 	}
+
+add_ideas = {
+	fra_gaston_doumergue
+	fra_aristide_briand
+	fra_andre_maginot
+	fra_henry_cheron
+	fra_albert_sarraut
+	FRA_anticommunism
+	FRA_propaganda_ministry
+}
 
 
 set_politics = {
-
-	parties = {
-		radical_bolshevism = { 
-			popularity = 11
-		}
-
-		orthodox_socialism = {
-			popularity = 11
-		}
-		
-		accelerationism = {
-			popularity = 11
-		}
-		
-		social_democracy = {
-			popularity = 11
-		}
-		
-		liberalism = {
-			popularity = 11
-		}
-		
-		conservatism = {
-			popularity = 11
-		}
-		
-		autoritarian_democracy = {
-			popularity = 11
-		}
-		
-		national_militarism = {
-			popularity = 11
-		}
-		
-		paternalism = {
-			popularity = 11
-		}
-	}
-	
-	ruling_party = autoritarian_democracy
+	ruling_party = conservatism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+set_popularities = {
+	radical_bolshevism = 11
+	orthodox_socialism = 11
+	accelerationism = 11
+	social_democracy = 11
+	liberalism = 11
+	conservatism = 11
+	autoritarian_democracy = 12
+	national_militarism = 11
+	paternalism = 11
+	}
 }
 
 create_country_leader = {
-	name = "No Name"
-	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	name = "Raymond Nicolas Poincaré"
+	desc = "POLITICS_RAIMOND_POINCARE_DESC"
+	picture = "Portrait_France_Raymond_Nicolas_Poincare.dds"
 	expire = "1956.1.1"
-	ideology = orthodox_socialism_subtype
+	ideology = conservatism_subtype
 	traits = {
 		
 	}

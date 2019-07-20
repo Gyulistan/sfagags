@@ -1,0 +1,53 @@
+﻿capital = 773
+
+oob = "FEA_1926"
+
+set_research_slots = 3
+
+add_ideas = {
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1			
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	early_submarine = 1
+	early_heavy_cruiser = 1
+}
+
+set_convoys = 5
+
+
+1926.6.1 = {
+
+set_politics = {
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	radical_bolshevism = 11
+	orthodox_socialism = 11
+	accelerationism = 11
+	social_democracy = 11
+	liberalism = 11
+	conservatism = 11
+	autoritarian_democracy = 12
+	national_militarism = 11
+	paternalism = 11
+	}
+}
+
+create_country_leader = {
+	name = "Jean Marchessou"
+	desc = "POLITICS_JEAN_MARCHESSOU_DESC"
+	picture = "Portrait_French_EA_Jean_Marchessou.dds"
+	expire = "1965.1.1"
+	ideology = autoritarian_democracy_subtype
+	traits = {
+	}
+}

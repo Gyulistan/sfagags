@@ -1,0 +1,30 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_per_mohammad_ali_foroughi"
+		texturefile = "gfx/interface/Ideas/PER/per_mohammad_ali_foroughi.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_per_nosrat_ed_dowleh"
+		texturefile = "gfx/interface/Ideas/PER/per_nosrat_ed_dowleh.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_per_amir_ahmad_ahmadi"
+		texturefile = "gfx/interface/Ideas/PER/per_amir_ahmad_ahmadi.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_per_abdolhossein_hazhir"
+		texturefile = "gfx/interface/Ideas/PER/per_abdolhossein_hazhir.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_per_amirtemour_halali"
+		texturefile = "gfx/interface/Ideas/PER/per_amirtemour_halali.tga"
+	}
+	
+	
+

@@ -1,0 +1,185 @@
+ideas = {
+
+	head_of_government = {
+
+		fra_gaston_doumergue = {
+		
+			picture = GFX_idea_fra_gaston_doumergu
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				corporate_suit
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = FRA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+			}			
+		
+	foreign_minister = {
+
+		fra_aristide_briand = {
+		
+			picture = GFX_idea_fra_aristide_briand
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				apologetic_clerk
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = FRA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}	
+
+	defence_minister = {
+
+		fra_andre_maginot = {
+		
+			picture = GFX_idea_fra_andre_maginot
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				quartermaster_general
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = FRA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		fra_henry_cheron = {
+		
+			picture = GFX_idea_fra_henry_cheron
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				keynesian_economy
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = FRA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}	
+
+	security_minister = {
+
+		fra_albert_sarraut = {
+		
+			picture = GFX_idea_fra_albert_sarraut
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				prince_of_terror
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = FRA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+		
+	country = {
+
+		FRA_anticommunism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea FRA_anticommunism"}
+
+			modifier = {
+				war_support_factor = 0.15
+				radical_bolshevism_drift = -0.1
+				orthodox_socialism_drift = -0.1
+				accelerationism_drift = -0.1
+			}
+
+			picture = FRA_anticommunism
+		}
+
+		FRA_propaganda_ministry = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea FRA_propaganda_ministry"}
+
+			modifier = {
+				conservatism_drift = 0.1
+				stability_factor = 0.1
+				political_power_cost = 0.05
+				consumer_goods_factor = 0.07
+			}
+
+			picture = FRA_propaganda_ministry
+		}
+	
