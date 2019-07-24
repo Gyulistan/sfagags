@@ -188,15 +188,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	radical_bolshevism = 11
-	orthodox_socialism = 11
-	accelerationism = 11
-	social_democracy = 11
-	liberalism = 11
-	conservatism = 11
-	autoritarian_democracy = 12
-	national_militarism = 11
-	paternalism = 11
+	radical_bolshevism = 8
+	orthodox_socialism = 48
+	accelerationism = 42
+	social_democracy = 1
+	liberalism = 0
+	conservatism = 0
+	autoritarian_democracy = 1
+	national_militarism = 0
+	paternalism = 0
 	}
 
 create_faction = Comintern
@@ -237,7 +237,6 @@ add_ideas = {
 	homeland_revolution
 	economic_disaster
 	clique_military
-	rivalry_cheka_and_military
 	unfinished_campaign_of_the_proletariat
 	power_struggle 
 }
@@ -543,11 +542,14 @@ create_navy_leader = {
 
 # Arrested in '41
 create_navy_leader = {
-	name = "Gordey Levchenko"
-	id = 406
-		picture = "Portrait_Soviet_Gordey_Levchenko.dds"
-	traits = {  }
-	skill = 2
+	name = "Eduard Pantserzhanskiy"
+		picture = "Portrait_Russian_Eduard_Pantserzhanskiy.dds"
+	traits = { spotter navy_career_officer }
+	skill = 3
+		attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
 }
 
 create_navy_leader = {

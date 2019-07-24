@@ -25,6 +25,7 @@
  liberalism_desc:0 "Либеральный режим"
  conservatism_desc:0 "Консервативный режим"
  autoritarian_democracy_desc:0 "Авторитарный режим"
+ paternalism:0 "Тоталитарный режим"
  national_militarism_desc:0 "Тоталитарный режим"
  
  RSR_radical_bolshevism_party:0 "РКП(б)"
@@ -41,8 +42,10 @@
  RSR_conservatism_party_long:0 "Союз 17 октября"
  RSR_autoritarian_democracy_party:0 "ССРН"
  RSR_autoritarian_democracy_party_long:0 "Союз спасения русского народа"
- RSR_national_militarism_party:0 "Клика Тухачевского"
- RSR_national_militarism_party_long:0 "Клика Тухачевского"
+ RSR_paternalism_party:0 "Общевоинский союз"
+ RSR_paternalism_party_long:0 "Русский общевоинский союз"
+ RSR_national_militarism_party:0 "РНСМА"
+ RSR_national_militarism_party_long:0 "Русский народный союз имени Михаила Архангела"
  
  SNG_radical_bolshevism_party:0 "Большевики-ленинисты"
  SNG_radical_bolshevism_party_long:0 "Ленинистская британская партия большевиков"

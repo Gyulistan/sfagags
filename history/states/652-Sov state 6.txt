@@ -9,9 +9,11 @@ state={
 		owner = RSR
 		buildings = {
 			infrastructure = 4
-
 		}
 		add_core_of = RSR
+		victory_points = {
+			4324 1
+		}
 
 	}
 

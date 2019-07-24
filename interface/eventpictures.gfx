@@ -31,6 +31,21 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_chekists.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_event_soviet_berlin"
+		texturefile = "gfx/event_pictures/event_soviet_berlin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_party"
+		texturefile = "gfx/event_pictures/event_party.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_combat"
+		texturefile = "gfx/event_pictures/event_combat.dds"
+	}
+	
 }
 	
 	

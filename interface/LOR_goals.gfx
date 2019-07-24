@@ -82,7 +82,27 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
-		name = "GFX_focus_sovnarkom_stand"
-		texturefile = "gfx/interface/goals/focus_sovnarkom_stand.dds"
+		name = "GFX_focus_fourth_congress"
+		texturefile = "gfx/interface/goals/focus_fourth_congress.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_influence_komsomol"
+		texturefile = "gfx/interface/goals/focus_influence_komsomol.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_new_socialists"
+		texturefile = "gfx/interface/goals/focus_new_socialists.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_influence_republic"
+		texturefile = "gfx/interface/goals/focus_influence_republic.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_smooth_centralization"
+		texturefile = "gfx/interface/goals/focus_smooth_centralization.dds"
 	}
 }

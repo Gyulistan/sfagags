@@ -34,3 +34,14 @@ set_popularities = {
 	national_militarism = 11
 	paternalism = 11
 	}
+	
+create_country_leader = {
+	name = "Mirza Davud Huseynov"
+	desc = "POLITICS_MIRZA_DAVUD_HUSEINOV_DESC"
+	picture = "Portrait_Tajikistan_Mirza_Davud_Huseynov.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
+		
+	}
+}

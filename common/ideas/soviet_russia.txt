@@ -401,7 +401,7 @@ ideas = {
 			
 
 			
-			traits = {  army_chief_defensive_2 }
+			traits = {  cos_school_of_defence }
 			
 			ai_will_do = {
 				factor = 1
@@ -420,7 +420,7 @@ ideas = {
 			
 
 			
-			traits = { army_chief_drill_1 }
+			traits = { cos_school_of_fire_support }
 			
 			ai_will_do = {
 				factor = 1
@@ -437,7 +437,7 @@ ideas = {
 			{
 			}
 			
-			traits = { army_chief_organizational_2 }
+			traits = { cos_school_of_manoeuvre }
 			
 			ai_will_do = {
 				factor = 1
@@ -455,7 +455,7 @@ ideas = {
 			{
 			}
 			
-			traits = { army_chief_morale_1 }
+			traits = { cos_school_of_mass_combat }
 			
 			ai_will_do = {
 				factor = 1
@@ -473,7 +473,7 @@ ideas = {
 			{
 			}
 			
-			traits = { army_chief_offensive_2 }
+			traits = { cos_school_of_manoeuvre }
 			
 			ai_will_do = {
 				factor = 1
@@ -491,7 +491,7 @@ ideas = {
 			{
 			}
 			
-			traits = { army_chief_reform_1 }
+			traits = { cos_school_of_psychology }
 			
 			ai_will_do = {
 				factor = 1
@@ -506,6 +506,9 @@ country = {
 			picture = GFX_idea_homeland_revolution
 			
 			modifier = {
+				mobilization_speed = 0.1
+				political_power_factor = 0.25
+				conscription_factor = 0.05
 			}
 		}
 		
@@ -514,6 +517,9 @@ country = {
 			picture = GFX_idea_power_struggle
 			
 			modifier = {
+				political_power_gain = -0.15
+				stability_factor = -0.10
+				stability_weekly = -0.05
 			}
 		}
 		
@@ -522,6 +528,14 @@ country = {
 			picture = GFX_idea_economic_disaster
 			
 			modifier = {
+				political_power_gain = -0.10
+				stability_factor = -0.20
+				production_factory_max_efficiency_factor = -0.25
+				line_change_production_efficiency_factor = -0.25
+				production_speed_buildings_factor = -0.20
+				industrial_capacity_factory = -0.25
+				consumer_goods_factor = 0.15
+				production_factory_start_efficiency_factor = -0.15
 			}
 		}
 		
@@ -530,22 +544,23 @@ country = {
 			picture = GFX_idea_clique_military
 			
 			modifier = {
+				stability_factor = -0.15
+				army_infantry_attack_factor = -0.20
+				army_infantry_defence_factor = -0.20
+				training_time_factor = 0.15
+				army_org_factor = -0.25
 			}
 		}
 	
-	rivalry_cheka_and_military = {
-
-			picture = GFX_idea_rivalry_cheka_and_military
-			
-			modifier = {
-			}
-		}
 	
 	unfinished_campaign_of_the_proletariat = {
 
 			picture = GFX_idea_unfinished_campaign_of_the_proletariat
 			
 			modifier = {
+				conscription = 0.01
+				war_support_factor = 0.15
+				justify_war_goal_time = -0.25
 			}
 		}
 }

@@ -65,7 +65,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_fourth_congress
-		icon = GFX_focus_eng_crush_the_dream
+		icon = GFX_focus_fourth_congress
 		cost = 10,00
 		prerequisite = {
 			focus = rsr_remove_tukhachevsky
@@ -79,7 +79,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_new_socialists
-		icon = GFX_focus_eng_crush_the_dream
+		icon = GFX_focus_new_socialists
 		cost = 10,00
 		prerequisite = {
 			focus = rsr_fourth_congress
@@ -90,7 +90,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_influence_republic
-		icon = GFX_focus_eng_crush_the_dream
+		icon = GFX_focus_influence_republic
 		cost = 10,00
 		prerequisite = {
 			focus = rsr_new_socialists
@@ -112,7 +112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_influence_komsomol
-		icon = GFX_focus_eng_crush_the_dream
+		icon = GFX_focus_influence_komsomol
 		cost = 10,00
 		prerequisite = {
 			focus = rsr_anti_esser_rhetoric
@@ -330,7 +330,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_smooth_centralization
-		icon = GFX_focus_eng_crush_the_dream
+		icon = GFX_focus_smooth_centralization
 		cost = 10,00
 		prerequisite = {
 			focus = rsr_influence_republic
