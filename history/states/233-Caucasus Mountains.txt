@@ -1,8 +1,9 @@
+
 state={
 	id=233
 	name="STATE_233"
 	resources={
-		chromium=35 # was: 46.000
+		chromium=35.000
 	}
 
 	history={
@@ -13,11 +14,12 @@ state={
 		}
 		add_core_of = NCR
 		victory_points = {
-			9628 3
+			9628 3 
 		}
 		victory_points = {
-			9663 1
+			9663 1 
 		}
+
 	}
 
 	provinces={

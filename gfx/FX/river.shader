@@ -246,9 +246,8 @@ PixelShader =
 			float vIsSnow = GetSnow( vMudSnowColor );
 
 			float vOpacity = cam_distance( SNOW_CAM_MIN, SNOW_CAM_MAX );
-			vOpacity = SNOW_OPACITY_MIN + vOpacity * ( SNOW_OPACITY_MAX - SNOW_OPACITY_MIN );
-
-			float vSnowAlpha = smoothstep( 0.0f, 1.0f, saturate( vIsSnow * vOpacity * 1.7 ) );
+			vOpacity = 0.0f;
+            float vSnowAlpha = smoothstep( 0.0f, 1.0f, saturate( vIsSnow * vOpacity * 1.7 ) );
 			vColor = lerp( vColor, 
 			               lerp( saturate(SNOW_WATER_COLOR * vReflectColor), SNOW_COLOR, smoothstep(0.4, 0.75, saturate(vNoiseColor + waterSideAlpha))), 
 			               vSnowAlpha );
