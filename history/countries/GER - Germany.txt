@@ -60,7 +60,7 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = orthodox_socialism
+	ruling_party = autoritarian_democracy
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
