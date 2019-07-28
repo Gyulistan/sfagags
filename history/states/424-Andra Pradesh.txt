@@ -7,7 +7,9 @@ state={
 	
 
 	history={
-		owner = IND
+		owner = RAN
+                add_core_of = IND
+                add_core_of = RAN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

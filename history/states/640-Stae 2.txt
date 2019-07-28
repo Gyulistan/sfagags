@@ -7,8 +7,8 @@ state={
 	state_category = town
 
 	history={
-		add_core_of = BRM
-		owner = IND
+		add_core_of = BIR
+		owner = BIR
 		buildings = {
 			infrastructure = 3
 			air_base = 1

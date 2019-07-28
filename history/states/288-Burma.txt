@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		add_core_of = BRM
-		owner = IND
+		add_core_of = BIR
+		owner = BIR
 		victory_points = {
 			1330 5 
 		}

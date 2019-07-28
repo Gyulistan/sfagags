@@ -15,6 +15,31 @@ GAE = {
 	color_ui = rgb { 139 20 20 }
 }
 
+SIC = {
+	color = rgb { 108 146 175 }
+	color_ui = rgb { 139 20 20 }
+}
+
+BHA = {
+	color = rgb { 146 43 62 }
+	color_ui = rgb { 139 20 20 }
+}
+
+RAN = {
+	color = rgb { 158 50 50 }
+	color_ui = rgb { 139 20 20 }
+}
+
+BIR = {
+	color = rgb { 76 153 0 }
+	color_ui = rgb { 139 20 20 }
+}
+
+ZHI = {
+	color = rgb { 158 151 100 }
+	color_ui = rgb { 139 20 20 }
+}
+
 BAV = {
 	color = rgb { 177 23 23 }
 	color_ui = rgb { 45 44 41 }
@@ -350,7 +375,7 @@ GXC = {
 }
 
 SHX = {
-	color = rgb { 82  2  15 }
+	color = rgb { 123 160 91 }
 	color_ui = rgb { 101  30  41 }
 }
 
@@ -459,7 +484,7 @@ BLR = {
 	color_ui = rgb { 163 17 31 }
 }
 MAN = {
-	color = rgb { 255 120 71 }
+	color = rgb { 184 115 51 }
 	color_ui = rgb { 255 120 71 }
 }
 ANG = {
@@ -560,7 +585,7 @@ RSR = {
 	color_ui = rgb { 145 0 0 }
 }
 FER = {
-	color = rgb { 79 130 62 }
+	color = rgb { 130 40 40 }
 	color_ui = rgb { 54 77 47 }
 }
 YAK = {

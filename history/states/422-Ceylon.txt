@@ -12,7 +12,9 @@ state=
 
 	history={
 		add_core_of = SRL
-		owner = ENG
+		owner = RAN
+                add_core_of = IND
+                add_core_of = RAN
 		victory_points = {
 			10201 3 
 		}
