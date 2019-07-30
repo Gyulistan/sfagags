@@ -66,40 +66,6 @@ ideologies = {
 		ai_communist = yes
 	}
 	
-	accelerationism = {
-	
-		types = {
-			accelerationism_subtype = {}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_ACCELERATIONISM_1"
-			"FACTION_NAME_ACCELERATIONISM_2"
-			"FACTION_NAME_ACCELERATIONISM_3"
-			"FACTION_NAME_ACCELERATIONISM_4"
-			"FACTION_NAME_ACCELERATIONISM_5"
-			"FACTION_NAME_ACCELERATIONISM_6"
-		}
-		
-		color = { 252 158 104 }
-		
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-		
-		modifiers = {
-			
-		}
-		
-		faction_modifiers = {
-			
-		}
-		ai_communist = yes
-	}
-	
-	
 	social_democracy = {
 	
 		types = {
@@ -132,6 +98,40 @@ ideologies = {
 			
 		}
 		ai_democratic = yes
+	}
+	
+	
+	accelerationism = {
+	
+		types = {
+			accelerationism_subtype = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ACCELERATIONISM_1"
+			"FACTION_NAME_ACCELERATIONISM_2"
+			"FACTION_NAME_ACCELERATIONISM_3"
+			"FACTION_NAME_ACCELERATIONISM_4"
+			"FACTION_NAME_ACCELERATIONISM_5"
+			"FACTION_NAME_ACCELERATIONISM_6"
+		}
+		
+		color = { 252 158 104 }
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_communist = yes
 	}
 	
 	liberalism = {

@@ -157,3 +157,4 @@ SIC = "countries/Sicuan.txt"
 BIR = "countries/Birma.txt"
 RAN = "countries/Radj.txt"
 BHA = "countries/Bhariat.txt"
+MOR = "countries/Moravia.txt'
