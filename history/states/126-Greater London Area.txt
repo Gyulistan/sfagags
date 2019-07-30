@@ -6,7 +6,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = SNG
+		owner = BWF
 		victory_points = {
 			6103 50 
 		}
@@ -23,13 +23,7 @@ state={
 			}
 		}
 		add_core_of = ENG
-		add_core_of = SNG
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 4
-				industrial_complex = 4
-			}
-		}
+		add_core_of = BWF
 	}
 
 	provinces={

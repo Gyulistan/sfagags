@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SNG
+		owner = BWF
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
@@ -16,7 +16,7 @@ state={
 
 		}
 		add_core_of = ENG
-		add_core_of = SNG
+		add_core_of = BWF
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3

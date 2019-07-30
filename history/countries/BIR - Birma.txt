@@ -1,4 +1,4 @@
-capital = 288
+﻿capital = 288
 
 oob = "BIR_1926"
 

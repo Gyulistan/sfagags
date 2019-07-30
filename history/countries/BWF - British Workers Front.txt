@@ -1,6 +1,6 @@
-﻿capital = 219
+﻿capital = 125
 
-oob = "SNG_1926"
+oob = "BWF_1926"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -44,14 +44,13 @@ set_technology = {
 }
 set_convoys = 140
 
-1926.7.1 = {
-
 set_politics = {
 	ruling_party = radical_bolshevism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	radical_bolshevism = 11
 	orthodox_socialism = 11
@@ -71,22 +70,7 @@ add_ideas = {
 	sng_clemens_palme_dutt
 	sng_arthur_horner
 }
-
-	declare_war_on = {
-		target = SCO
-		type = annex_everything
-	}
-}
-
-# DIPLOMACY / WAR 26
-	declare_war_on = {
-		target = ENG
-		type = annex_everything
-	}
-	declare_war_on = {
-		target = SCO
-		type = annex_everything
-	}
+	
 create_country_leader = {
 	name = "Willie Gallacher"
 	desc = "POLITICS_WILLIE_GALLACHER_DESC"
@@ -208,11 +192,4 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
-}
-
-1926.7.1 = {
-	declare_war_on = {
-		target = SCO
-		type = annex_everything
-	}
 }

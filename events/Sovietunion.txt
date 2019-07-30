@@ -106,118 +106,22 @@ country_event = {
 
 	option = {
 		name = sovietunion.5.a
-	hidden_effect = {
 		country_event = {
 			id = sovietunion.6
-			days = 10
+			days = 1
 		}
-	}
-		add_popularity = {
-			ideology = orthodox_socialism
-			popularity = 0.01
-		}
-		add_popularity = {
-			ideology = autoritarian_democracy
-			popularity = -0.01
-		}
+		set_popularities = {
+			radical_bolshevism = 8
+			orthodox_socialism = 49
+			accelerationism = 42
+			social_democracy = 1
+			liberalism = 0
+			conservatism = 0
+			autoritarian_democracy = 0
+			national_militarism = 0
+			paternalism = 0
+		}	
 		add_stability = 0.05
 		add_political_power = 25
 	}
-}
-
-country_event = { 
-	id = sovietunion.6
-	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.6"}
-	title = sovietunion.6.t
-	desc = sovietunion.6.d
-	picture = GFX_event_chekists
-
-	is_triggered_only = yes
-
-	option = {
-		name = sovietunion.6.a
-		add_political_power = -100
-		remove_ideas = economic_disaster
-		add_ideas = economic_disaster1	
-		hidden_effect = {
-			country_event = {
-				id = sovietunion.7
-				days = 7
-			}
-		}
-	}
-	
-	option = {
-		name = sovietunion.6.b
-		add_political_power = 25
-		hidden_effect = {
-			country_event = {
-				id = sovietunion.70
-				days = 10
-			}
-		}
-	}
-}
-
-country_event = { 
-	id = sovietunion.7
-	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.7"}
-	title = sovietunion.7.t
-	desc = sovietunion.7.d
-	picture = GFX_event_chekists
-
-	is_triggered_only = yes
-
-	option = {
-		name = sovietunion.7.a
-		add_political_power = -50
-		hidden_effect = {
-			country_event = {
-				id = sovietunion.8
-				days = 7
-			}
-		}
-	}
-	
-	option = {
-		name = sovietunion.7.b
-		hidden_effect = {
-			country_event = {
-				id = sovietunion.80
-				days = 7
-			}
-		}
-	}
-}
-
-country_event = { 
-	id = sovietunion.70
-	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.70"}
-	title = sovietunion.70.t
-	desc = sovietunion.70.d
-	picture = GFX_event_chekists
-
-	is_triggered_only = yes
-
-	option = {
-		name = sovietunion.70.a
-		add_political_power = -50
-		remove_ideas_with_trait = security_minister
-		hidden_effect = {
-			country_event = {
-				id = sovietunion.9
-				days = 7
-			}
-		}
-	}
-	
-	option = {
-		name = sovietunion.70.b
-		hidden_effect = {
-			country_event = {
-				id = sovietunion.9a
-				days = 7
-			}
-		}
-	}
-}		
+}	
