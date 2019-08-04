@@ -1,0 +1,23 @@
+
+state={
+	id=800
+	name="STATE_800"
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		2057 4974 10815 10901 
+	}
+	manpower=1440000
+	buildings_max_level_factor=1.000
+	state_category=rural
+        impassable = yes
+}

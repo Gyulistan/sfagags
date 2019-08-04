@@ -70,6 +70,17 @@ add_ideas = {
 	sng_clemens_palme_dutt
 	sng_arthur_horner
 }
+
+if = {
+	declare_war_on = {
+		target = SCO
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = ENG
+		type = annex_everything
+	}
+}
 	
 create_country_leader = {
 	name = "Willie Gallacher"

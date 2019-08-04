@@ -36,6 +36,17 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
+if = {
+	declare_war_on = {
+		target = RAN
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = IND
+		type = annex_everything
+	}
+}
+
 set_convoys = 20
 
 set_politics = {

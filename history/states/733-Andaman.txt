@@ -5,7 +5,7 @@ state={
 	state_category = small_island
 	
 	history={
-		owner = RAN
+		owner = DRA
 		buildings = {
 			infrastructure = 3
 			12251 = {
