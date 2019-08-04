@@ -106,20 +106,21 @@ country_event = {
 
 	option = {
 		name = sovietunion.5.a
-	hidden_effect = {
 		country_event = {
 			id = sovietunion.6
-			days = 10
+			days = 1
 		}
-	}
-		add_popularity = {
-			ideology = orthodox_socialism
-			popularity = 0.01
-		}
-		add_popularity = {
-			ideology = autoritarian_democracy
-			popularity = -0.01
-		}
+		set_popularities = {
+			radical_bolshevism = 8
+			orthodox_socialism = 49
+			accelerationism = 42
+			social_democracy = 1
+			liberalism = 0
+			conservatism = 0
+			autoritarian_democracy = 0
+			national_militarism = 0
+			paternalism = 0
+		}	
 		add_stability = 0.05
 		add_political_power = 25
 	}
