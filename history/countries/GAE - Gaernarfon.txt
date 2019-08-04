@@ -67,11 +67,11 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Lewis Joseph Valentine"
-	desc = "POLITICS_LEWIS_VALENTINE_DESC"
-	picture = "Portrait_Wales_Lewis_Valentine.dds"
+	name = "Thomas Edward Lawrence"
+	desc = "POLITICS_THOMAS_LAWRENCE_DESC"
+	picture = "Portrait_Gaernarvon_Thomas_Edward_Lawrence.dds"
 	expire = "1965.1.1"
-	ideology =  autoritarian_democracy_subtype
+	ideology = national_militarism_subtype
 	traits = {
 	
 	}

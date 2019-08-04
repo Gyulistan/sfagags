@@ -72,11 +72,11 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "John MacCormick"
-	desc = "POLITICS_JOHN_MACCORMICK_DESC"
-	picture = "Portrait_Scotland_John_MacCormick.dds"
+	name = "Albert Inkpin"
+	desc = "POLITICS_ALBERT_INKPIN_DESC"
+	picture = "Portrait_York_Albert_Inkpin.dds"
 	expire = "1965.1.1"
-	ideology = autoritarian_democracy_subtype
+	ideology = radical_bolshevism_subtype
 	traits = {
 		
 	}

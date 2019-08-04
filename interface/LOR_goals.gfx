@@ -105,4 +105,29 @@ spriteTypes = {
 		name = "GFX_focus_smooth_centralization"
 		texturefile = "gfx/interface/goals/focus_smooth_centralization.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_eliminate_chk"
+		texturefile = "gfx/interface/goals/focus_rsr_eliminate_chk.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_lift_emergency"
+		texturefile = "gfx/interface/goals/focus_rsr_lift_emergency.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_approve_unity"
+		texturefile = "gfx/interface/goals/focus_rsr_approve_unity.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_remove_tukhachevsky"
+		texturefile = "gfx/interface/goals/focus_rsr_remove_tukhachevsky.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_remove_popov"
+		texturefile = "gfx/interface/goals/focus_rsr_remove_popov.dds"
+	}
 }

@@ -130,7 +130,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.6"}
 	title = sovietunion.6.t
 	desc = sovietunion.6.d
-	picture = GFX_event_chekists
+	picture = GFX_event_vchk
 
 	is_triggered_only = yes
 
@@ -164,7 +164,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.7"}
 	title = sovietunion.7.t
 	desc = sovietunion.7.d
-	picture = GFX_event_chekists
+	picture = GFX_event_rkka_officers
 
 	is_triggered_only = yes
 
@@ -195,7 +195,7 @@ country_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.70"}
 	title = sovietunion.70.t
 	desc = sovietunion.70.d
-	picture = GFX_event_chekists
+	picture = GFX_event_chekists2
 
 	is_triggered_only = yes
 

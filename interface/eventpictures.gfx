@@ -46,6 +46,21 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_combat.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_event_vchk"
+		texturefile = "gfx/event_pictures/event_vchk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_vchk"
+		texturefile = "gfx/event_pictures/event_rkka_officers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_vchk"
+		texturefile = "gfx/event_pictures/event_chekists2.dds"
+	}
+	
 }
 	
 	

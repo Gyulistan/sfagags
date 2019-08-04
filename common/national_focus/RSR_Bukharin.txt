@@ -13,7 +13,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = rsr_eliminate_chk
-		icon = GFX_focus_eng_crush_the_dream
+		icon = GFX_focus_rsr_eliminate_chk
 		cost = 10,00
 		x = 14
 		y = 0
@@ -21,7 +21,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_lift_emergency
-		icon = GFX_focus_eng_crush_the_dream
+		icon = GFX_focus_rsr_lift_emergency
 		cost = 10,00
 		x = 16
 		y = 0
@@ -29,7 +29,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_approve_unity
-		icon = GFX_focus_eng_crush_the_dream
+		icon = GFX_focus_rsr_approve_unity
 		cost = 10,00
 		x = 18
 		y = 0
@@ -37,7 +37,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_remove_tukhachevsky
-		icon = GFX_focus_eng_crush_the_dream
+		icon = GFX_focus_rsr_remove_tukhachevsky
 		cost = 10,00
 		prerequisite = {
 			focus = rsr_eliminate_chk
@@ -51,7 +51,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_remove_popov
-		icon = GFX_focus_eng_crush_the_dream
+		icon = GFX_focus_rsr_remove_popov
 		cost = 10,00
 		prerequisite = {
 			focus = rsr_lift_emergency
