@@ -1,4 +1,4 @@
-﻿capital = 291
+﻿capital = 352
 
 oob = "KUR_1936"
 

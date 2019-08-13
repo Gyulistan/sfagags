@@ -11,9 +11,9 @@ state={
 	}
 
 	history={
-		owner = RAN
+		owner = DRA
                 add_core_of = IND
-                add_core_of = RAN
+                add_core_of = DRA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

@@ -1,4 +1,4 @@
-capital = 424
+capital = 439
 
 oob = "RAN_1926"
 
@@ -34,6 +34,17 @@ if = {
 	}
 
 	add_to_tech_sharing_group = commonwealth_research
+}
+
+if = {
+	declare_war_on = {
+		target = IND
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = BHA
+		type = annex_everything
+	}
 }
 
 set_convoys = 20

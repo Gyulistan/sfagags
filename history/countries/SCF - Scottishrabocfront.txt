@@ -45,14 +45,31 @@ set_technology = {
 set_convoys = 140
 
 add_ideas = {
+	sco_john_mccormick
+	sco_robert_munro
+	sco_alan_cunningham
+	sco_roland_muirheid
+	sco_hugh_dowding
 }
 
 set_politics = {
-	ruling_party = orthodox_socialism
+	ruling_party = radical_bolshevism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+if = {
+	declare_war_on = {
+		target = SCO
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = ENG
+		type = annex_everything
+	}
+}
+
 set_popularities = {
 	radical_bolshevism = 11
 	orthodox_socialism = 11
@@ -67,11 +84,11 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "David Kirkwood"
-	desc = "POLITICS_DAVID_KIRKWOOD_DESC"
-	picture = "Portrait_Scottishfront_David_Kirkwood.dds"
+	name = "John MacCormick"
+	desc = "POLITICS_JOHN_MACCORMICK_DESC"
+	picture = "Portrait_Scotland_John_MacCormick.dds"
 	expire = "1965.1.1"
-	ideology = orthodox_socialism_subtype
+	ideology = autoritarian_democracy_subtype
 	traits = {
 		
 	}
