@@ -1,0 +1,41 @@
+capital = 544
+
+oob = "APO_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	transport = 1
+}
+
+set_convoys = 50
+set_politics = {
+	ruling_party = autoritarian_democracy
+	last_election = "1918.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	radical_bolshevism = 11
+	orthodox_socialism = 11
+	accelerationism = 11
+	social_democracy = 11
+	liberalism = 11
+	conservatism = 11
+	autoritarian_democracy = 12
+	national_militarism = 11
+	paternalism = 11
+	}
+
+create_country_leader = {
+	name = "No Name"
+	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
+	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
+		
+	}
+}

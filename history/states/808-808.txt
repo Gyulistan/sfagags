@@ -1,0 +1,22 @@
+
+state={
+	id=808
+	name="STATE_808"
+
+	history={
+		owner = SWI
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SWI
+
+	}
+
+	provinces={
+		658 3641 3660 3662 6678 9600 
+	}
+	manpower=1854711
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

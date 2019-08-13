@@ -1,6 +1,6 @@
 ﻿capital = 122
 
-oob = "WAL_1936"
+oob = "WAL_1926"
 
 set_research_slots = 4
 
@@ -65,6 +65,12 @@ set_popularities = {
 	paternalism = 11
 	}
 
+if = {
+	declare_war_on = {
+		target = GAE
+		type = annex_everything
+	}
+}
 
 create_country_leader = {
 	name = "Lewis Joseph Valentine"

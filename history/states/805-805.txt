@@ -1,0 +1,24 @@
+
+state={
+	id=805
+	name="STATE_805"
+	manpower = 1003000
+	
+	state_category = town
+	
+	history={
+		owner = ALB
+		victory_points = {
+			9914 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ALB
+
+	}
+
+	provinces={
+		6900 3448 914
+	}
+}

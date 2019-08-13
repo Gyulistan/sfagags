@@ -1,0 +1,30 @@
+state={
+	id=803
+	name="STATE_803"
+	
+	state_category = enclave
+	resources={
+		rubber=2 # was: 2
+	}
+	history={
+		owner = HOL
+		victory_points = {
+			2196 1
+		}
+		buildings = {
+			infrastructure = 3
+			2196 = {
+				naval_base = 2
+
+			}
+
+		}
+			add_core_of = TZN
+	}
+
+	provinces={
+		2196
+	}
+	manpower=5299000
+	buildings_max_level_factor=1.000
+}

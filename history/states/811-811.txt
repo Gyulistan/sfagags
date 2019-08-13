@@ -1,0 +1,22 @@
+
+state={
+	id=811
+	name="STATE_811"
+	manpower = 33
+	
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = FNA
+		add_core_of = ALG
+		add_core_of = FNA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		8061
+	}
+}

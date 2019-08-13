@@ -1,20 +1,22 @@
 
 state={
 	id=790
-	name="STATE_790" #Kenya
-	manpower = 1100000
-	
-	state_category = rural
+	name="STATE_790"
 
 	history={
 		owner = ITA
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = KEN
+
 	}
 
 	provinces={
-		2066 8133 10761 10976 12927 
+		2066 8133 10761 10976 11014 12927 12941 
 	}
+	manpower=1100000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

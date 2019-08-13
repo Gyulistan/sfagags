@@ -25,6 +25,11 @@ SBS = {
 	color_ui = rgb { 139 20 20 }
 }
 
+ADM = {
+	color = rgb { 108 70 117 }
+	color_ui = rgb { 139 20 20 }
+}
+
 UPR = {
 	color = rgb { 155 55 15 }
 	color_ui = rgb { 139 20 20 }
@@ -93,7 +98,7 @@ SCO = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 5 55 165 }
+	color = rgb { 50 60 154 }
 	color_ui = rgb { 138 197 255 }
 }
 LUX = {
@@ -175,6 +180,10 @@ BUL = {
 }
 POR = {
 	color = rgb { 39 116 70 }
+	color_ui = rgb { 51 151 91 }
+}
+APO = {
+	color = rgb { 69 116 70 }
 	color_ui = rgb { 51 151 91 }
 }
 FIN = {
@@ -306,7 +315,7 @@ SAF = {
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
-	color = rgb { 171 190 152 }
+	color = rgb { 90 67 53 }
 	color_ui = rgb { 222 247 198 }
 }
 SIA = {
@@ -338,8 +347,7 @@ USA = {
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
-	#color = HSV { 0.1 0.15 0.4 }
-	color = rgb { 108 140 42 }
+	color = rgb { 162 95 42 }
 	color_ui = rgb { 209 247 133 }
 }
 MEN = {
@@ -347,7 +355,7 @@ MEN = {
 	color_ui = rgb { 165  230  132 }
 }
 TAN = {
-	color = rgb { 152 130 191 }
+	color = rgb { 142 85 46 }
 	color_ui = rgb { 198 169 248 }
 }
 PAR = {
@@ -662,6 +670,11 @@ BYK = {
 }
 
 FNA = {
+	color = rgb { 54 65 199 }
+	color_ui = rgb { 48 57 175 }	
+}
+
+FSP = {
 	color = rgb { 54 65 199 }
 	color_ui = rgb { 48 57 175 }	
 }

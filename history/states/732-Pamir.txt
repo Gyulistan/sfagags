@@ -1,3 +1,4 @@
+
 state={
 	id=732
 	name="STATE_732"
@@ -6,7 +7,7 @@ state={
 		add_core_of = KIR
 		owner = KIR
 		victory_points = {
-			12583 1
+			12583 1 
 		}
 		buildings = {
 			infrastructure = 1
@@ -20,5 +21,5 @@ state={
 	}
 	manpower=230000
 	buildings_max_level_factor=1.000
-	state_category=wasteland              
+	state_category=wasteland
 }

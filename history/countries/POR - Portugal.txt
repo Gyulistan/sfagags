@@ -20,6 +20,17 @@ set_technology = {
 }
 
 set_convoys = 50
+if = {
+	
+	set_autonomy = {
+		target = APO
+		autonomous_state = autonomy_colony
+	}
+		
+	else	= {
+	puppet = APO
+	}
+}
 set_politics = {
 	ruling_party = autoritarian_democracy
 	last_election = "1918.7.1"

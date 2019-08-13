@@ -1,0 +1,4 @@
+
+graphical_culture = wertern_european_gfx
+graphical_culture_2d = western_european_sd
+color = { 173 1 83 }
