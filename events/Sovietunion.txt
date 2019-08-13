@@ -1,7 +1,7 @@
 ﻿add_namespace = sovietunion
 
 country_event = {
-	id = sovietunion.1 
+	id = sovietunion.1 # Young Soviet State
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.1"}
 	title = sovietunion.1.t
 	desc = sovietunion.1.d
@@ -29,7 +29,7 @@ country_event = {
 		}
 	}
 	
-country_event = { 
+country_event = {  # liberation trip
 	id = sovietunion.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2"}
 	title = sovietunion.2.t
@@ -49,7 +49,7 @@ country_event = {
 	}
 }
 
-country_event = { 
+country_event = { # battle of elba
 	id = sovietunion.3
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.3"}
 	title = sovietunion.3.t
@@ -69,7 +69,7 @@ country_event = {
 	}
 }
 
-country_event = { 
+country_event = { # internal problems
 	id = sovietunion.4
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.4"}
 	title = sovietunion.4.t
@@ -89,7 +89,7 @@ country_event = {
 	}
 }
 
-country_event = { 
+country_event = { # successful raid on the enemies of the revolution
 	id = sovietunion.5
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.5"}
 	title = sovietunion.5.t
@@ -101,32 +101,31 @@ country_event = {
 	trigger = {
 		tag = RSR
 		is_puppet = no
-		date > 1926.08.01
+		date > 1926.07.20
 	}
 
 	option = {
 		name = sovietunion.5.a
+			hidden_effect = {
 		country_event = {
 			id = sovietunion.6
-			days = 1
+			days = 10
+		}	
+	}
+		add_popularity = {
+			ideology = orthodox_socialism
+			popularity = 0.01
 		}
-		set_popularities = {
-			radical_bolshevism = 8
-			orthodox_socialism = 49
-			accelerationism = 42
-			social_democracy = 1
-			liberalism = 0
-			conservatism = 0
-			autoritarian_democracy = 0
-			national_militarism = 0
-			paternalism = 0
+		add_popularity = {
+			ideology = autoritarian_democracy
+			popularity = -0.01
 		}	
 		add_stability = 0.05
 		add_political_power = 25
 	}
 }
 
-country_event = { 
+country_event = { # Popov's report
 	id = sovietunion.6
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.6"}
 	title = sovietunion.6.t
@@ -160,7 +159,7 @@ country_event = {
 	}
 }
 
-country_event = { 
+country_event = { # Popov reports on funds
 	id = sovietunion.7
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.7"}
 	title = sovietunion.7.t
@@ -175,7 +174,7 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = sovietunion.8
-				days = 7
+				days = 12
 			}
 		}
 	}
@@ -191,7 +190,7 @@ country_event = {
 	}
 }
 
-country_event = { 
+country_event = { # Popov took over chk
 	id = sovietunion.70
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.70"}
 	title = sovietunion.70.t
@@ -216,8 +215,83 @@ country_event = {
 		name = sovietunion.70.b
 		hidden_effect = {
 			country_event = {
-				id = sovietunion.9a
+				id = sovietunion.90
 				days = 7
+			}
+		}
+	}
+}
+
+country_event = { # Brusilov's death
+	id = sovietunion.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.8"}
+	title = sovietunion.8.t
+	desc = sovietunion.8.d
+	picture = GFX_event_brusilov
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietunion.8.a
+		add_political_power = -100
+		remove_unit_leader = 190 
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.10
+				days = 7
+			}
+		}
+	}
+	
+	option = {
+		name = sovietunion.8.b
+		add_political_power = 50
+		remove_unit_leader = 190
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.11
+				days = 7
+			}
+		}
+	}
+}
+
+country_event = { # Popov's decline
+	id = sovietunion.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.10"}
+	title = sovietunion.10.t
+	desc = sovietunion.10.d
+	picture = GFX_event_rkka
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietunion.10.a
+		add_political_power = -100
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.12
+				days = 2
+			}
+		}
+	}
+	
+	option = {
+		name = sovietunion.10.b
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.11
+				days = 2
+			}
+		}
+	}
+	
+	option = {
+		name = sovietunion.10.c
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.111
+				days = 2
 			}
 		}
 	}

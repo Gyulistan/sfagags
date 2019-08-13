@@ -539,6 +539,22 @@ country = {
 			}
 		}
 		
+	economic_disaster1 = {
+
+			picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				political_power_gain = -0.20
+				stability_factor = -0.25
+				production_factory_max_efficiency_factor = -0.25
+				line_change_production_efficiency_factor = -0.25
+				production_speed_buildings_factor = -0.20
+				industrial_capacity_factory = -0.25
+				consumer_goods_factor = 0.25
+				production_factory_start_efficiency_factor = -0.15
+			}
+		}
+		
 	clique_military = {
 
 			picture = GFX_idea_clique_military

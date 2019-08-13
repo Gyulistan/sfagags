@@ -55,7 +55,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = orthodox_socialism
+	ruling_party = social_democracy
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -77,7 +77,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_WHITE_DESC"
 	picture = "Portrait_Ireland_John_White.dds"
 	expire = "1965.1.1"
-	ideology = orthodox_socialism_subtype
+	ideology = social_democracy_subtype
 	traits = {
 		#
 	}

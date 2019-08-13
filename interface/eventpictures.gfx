@@ -52,13 +52,23 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_event_vchk"
+		name = "GFX_event_rkka_officers"
 		texturefile = "gfx/event_pictures/event_rkka_officers.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_event_vchk"
+		name = "GFX_event_chekists2"
 		texturefile = "gfx/event_pictures/event_chekists2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_brusilov"
+		texturefile = "gfx/event_pictures/event_brusilov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_rkka"
+		texturefile = "gfx/event_pictures/event_rkka.dds"
 	}
 	
 }

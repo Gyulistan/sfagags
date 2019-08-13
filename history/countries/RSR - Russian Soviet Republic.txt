@@ -508,6 +508,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Alexey Brusilov"
+	id = 190
 		picture = "Portrait_Russian_Alexey_Brusilov.dds"
 	traits = { brilliant_strategist career_officer }
 	skill = 2
@@ -530,6 +531,19 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Georgy Zhukov"
+		picture = "Portrait_Russian_Georgy_Zhukov.dds"
+	traits = { winter_specialist }
+	skill = 2
+
+	
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
 }
 
 create_navy_leader = {

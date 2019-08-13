@@ -112,6 +112,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_economic_disaster1"
+		texturefile = "gfx/interface/Ideas/RSR/economic_disaster.tga"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_clique_military"
 		texturefile = "gfx/interface/Ideas/RSR/clique_military.tga"
 	}
