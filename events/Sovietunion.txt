@@ -295,4 +295,25 @@ country_event = { # Popov's decline
 			}
 		}
 	}
-}		
+}
+
+country_event = { # Battle on the streets of Moscow
+	id = sovietunion.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.12"}
+	title = sovietunion.12.t
+	desc = sovietunion.12.d
+	picture = GFX_event_moscow_batlle
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietunion.12.a
+		add_political_power = 50
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.13
+				days = 2
+			}
+		}
+	}
+		

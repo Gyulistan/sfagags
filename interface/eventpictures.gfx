@@ -71,6 +71,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_rkka.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_event_moscow_batlle"
+		texturefile = "gfx/event_pictures/event_moscow_batlle.dds"
+	}
+	
 }
 	
 	
