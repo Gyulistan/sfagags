@@ -1,0 +1,161 @@
+ideas = {
+
+	head_of_government = {
+
+		ger_erich_ludendorff = {
+		
+			picture = GFX_idea_ger_erich_ludendorff
+			
+			available = {
+					OR = {
+						has_government = paternalism
+					}
+				}
+			
+			traits = {
+				paternalist
+				old_general
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}				
+		}
+		
+		
+	foreign_minister = {
+
+		ger_hermann_ehrhardt = {
+		
+			picture = GFX_idea_ger_hermann_ehrhardt
+			
+			available = {
+					OR = {
+						has_government = paternalism
+						
+					}
+				}
+			
+			traits = {
+				paternalist
+				general_staffer
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+
+	defence_minister = {
+
+		ger_hans_von_seeckt = {
+		
+			picture = GFX_idea_ger_hans_von_seeckt
+			
+			available = {
+					OR = {
+						has_government = paternalism
+						
+					}
+				}
+			
+			traits = {
+				paternalist
+				war_hero
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		ger_waldemar_pabst = {
+		
+			picture = GFX_idea_ger_waldemar_pabst
+			
+			available = {
+					OR = {
+						has_government = paternalism
+					}
+				}
+			
+			traits = {
+				paternalist
+				military_entrepreneur
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+		
+	security_minister = {
+
+		ger_traugott_von_jagow = {
+		
+			picture = GFX_idea_ger_traugott_von_jagow
+			
+			available = {
+					OR = {
+						has_government = paternalism
+					}
+				}
+			
+			traits = {
+				paternalist
+				secret_police_chief
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}		
+}

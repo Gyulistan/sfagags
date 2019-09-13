@@ -67,6 +67,31 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_rsr_iona_yakir"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_iona_yakir.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rsr_vitovt_putna"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_vitovt_putna.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rsr_avgust_kork"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_avgust_kork.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rsr_robert_eydeman"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_robert_eydeman.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rsr_yan_gamarnik"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_yan_gamarnik.tga"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_rsr_pavel_lebedev_cos"
 		texturefile = "gfx/interface/Ideas/RSR/rsr_pavel_lebedev_cos.tga"
 	}

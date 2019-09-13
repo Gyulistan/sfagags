@@ -57,15 +57,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	radical_bolshevism = 11
-	orthodox_socialism = 11
-	accelerationism = 11
-	social_democracy = 11
-	liberalism = 11
-	conservatism = 11
+	radical_bolshevism = 22
+	orthodox_socialism = 48
+	accelerationism = 6
+	social_democracy = 4
+	liberalism = 0
+	conservatism = 2
 	autoritarian_democracy = 12
-	national_militarism = 11
-	paternalism = 11
+	national_militarism = 3
+	paternalism = 3
 	}
 
 create_country_leader = {

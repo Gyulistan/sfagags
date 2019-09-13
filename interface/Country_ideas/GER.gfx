@@ -1,0 +1,29 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_ger_erich_ludendorff"
+		texturefile = "gfx/interface/Ideas/GER/ger_erich_ludendorff.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ger_hermann_ehrhardt"
+		texturefile = "gfx/interface/Ideas/GER/ger_hermann_ehrhardt.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ger_hans_von_seeckt"
+		texturefile = "gfx/interface/Ideas/GER/ger_hans_von_seeckt.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ger_waldemar_pabst"
+		texturefile = "gfx/interface/Ideas/GER/ger_waldemar_pabst.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ger_traugott_von_jagow"
+		texturefile = "gfx/interface/Ideas/GER/ger_traugott_von_jagow.tga"
+	}
+	
+

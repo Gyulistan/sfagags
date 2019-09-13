@@ -83,3 +83,74 @@ create_country_leader = {
 		
 	}
 }
+
+create_field_marshal = {# 
+	name = "Edmund Ironside"
+	picture = "Portrait_Britain_Edmund_Ironside.dds"
+	traits = {
+		logistics_wizard
+		war_hero
+		career_officer
+		logistics_wizard
+		thorough_planner
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Harold Alexander" 
+	id = 995
+	picture = "Portrait_Britain_Harold_Alexander.dds"
+	traits = { politically_connected }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Alan Brooke"
+	picture = "Portrait_Britain_Alan_Brooke.dds"
+	traits = {
+		organizer
+		trait_cautious
+		career_officer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Frederick Poole"
+	picture = "Portrait_Britain_Frederick_Poole.dds"
+	traits = {
+		old_guard
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = " Edmund Allenby"
+	picture = "Portrait_Britain_Edmund_Allenby.dds"
+	traits = {
+		old_guard
+		cavalry_officer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}

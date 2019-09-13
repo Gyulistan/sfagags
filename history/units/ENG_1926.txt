@@ -58,16 +58,16 @@ division_template = {
 
 
 units = {
-	division= {	# "1st Infantry Division"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 6103
-		division_template = "Infantry Division"
-		start_experience_factor = 0.6
-		start_equipment_factor = 0.0
-	}
+	#division= {	# "1st Infantry Division"
+	#	division_name = {
+	#		is_name_ordered = yes
+	#		name_order = 1
+	#	}
+	#	location = 6103
+	#	division_template = "Infantry Division"
+	#	start_experience_factor = 0.6
+	#	start_equipment_factor = 0.0
+	#}
 	division= {	# "2nd Infantry Division"
 		division_name = {
 			is_name_ordered = yes
@@ -131,13 +131,13 @@ units = {
 
 	}
 	#Southern Command
-	division= {	
-		name = "Royal Tank Regiment"
-		location = 6103
-		division_template = "Tank Brigade"
-		start_experience_factor = 0.6
-		start_equipment_factor = 0.1
-	}
+	#division= {	
+	#	name = "Royal Tank Regiment"
+	#	location = 6103
+	#	division_template = "Tank Brigade"
+	#	start_experience_factor = 0.6
+	#	start_equipment_factor = 0.1
+	#}
 	division= {	# "3rd Infantry Division"
 		division_name = {
 			is_name_ordered = yes

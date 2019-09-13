@@ -42,48 +42,42 @@ set_technology = {
 	transport = 1
 }
 
-
-
-
-set_variable = { var = wehrmacht_anger value = 0 }
-set_variable = { var = ss_anger value = 0 }
-set_research_slots = 4
+set_research_slots = 3
 set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
 
-#Trade
-create_import = {
-		resource = tungsten
-		factories = 1
-		exporter = SWE
+add_ideas = {
+	ger_erich_ludendorff 
+	ger_hermann_ehrhardt
+	ger_hans_von_seeckt
+	ger_waldemar_pabst
+	ger_traugott_von_jagow
 }
-
 set_politics = {
-	ruling_party = autoritarian_democracy
+	ruling_party = paternalism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	radical_bolshevism = 11
-	orthodox_socialism = 11
-	accelerationism = 11
-	social_democracy = 11
-	liberalism = 11
-	conservatism = 11
-	autoritarian_democracy = 12
-	national_militarism = 11
-	paternalism = 11
+	radical_bolshevism = 0
+	orthodox_socialism = 0
+	accelerationism = 0
+	social_democracy = 5
+	liberalism = 5
+	conservatism = 4
+	autoritarian_democracy = 3
+	national_militarism = 16
+	paternalism = 67
 	}
-}
 
 create_country_leader = {
-	name = "No Name"
-	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	name = "Walther von Lüttwitz"
+	desc = "POLITICS_WALTHER_VON_LUTTWITZ_DESC"
+	picture = "Portrait_Germany_Walther_von_Luttwitz.dds"
 	expire = "1956.1.1"
-	ideology = orthodox_socialism_subtype
+	ideology = paternalism_subtype
 	traits = {
 		
 	}

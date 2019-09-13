@@ -26,5 +26,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/Ideas/PER/per_amirtemour_halali.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_per_red_guard"
+		texturefile = "gfx/interface/Ideas/PER/per_red_guard.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_per_north_in_fire"
+		texturefile = "gfx/interface/Ideas/PER/per_north_in_fire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_per_aftermath_of_revolution"
+		texturefile = "gfx/interface/Ideas/PER/per_aftermath_of_revolution.dds"
+	}
 

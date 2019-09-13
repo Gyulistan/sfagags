@@ -1,6 +1,6 @@
 ﻿capital = 133
 
-oob = "SCO_1936"
+oob = "SCO_1926"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -80,6 +80,17 @@ create_country_leader = {
 	traits = {
 		
 	}
+}
+
+create_corps_commander = {
+	name = "Alan Cunningham"
+	picture = "Portrait_Scotland_Alan_Cunningham.dds"
+	traits = {}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 

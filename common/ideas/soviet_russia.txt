@@ -29,6 +29,34 @@ ideas = {
 			
 					}
 			}
+			
+		rsr_iona_yakir = {
+		
+			picture = GFX_idea_rsr_iona_yakir
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+		
+			traits = {
+				radical_bolshevik
+				reformist_soldier
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = RSR
+			}
+				
+			ai_will_do = {
+				factor = 1
+				
+				
+			
+					}
+			}
 
 		rsr_boris_kamkov = {
 		
@@ -57,6 +85,35 @@ ideas = {
 			
 					}
 			}
+			
+		rsr_vladimir_karelin = {
+		
+			picture = GFX_idea_rsr_vladimir_karelin
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				flamboyant_tough_guy
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
 
 		rsr_alexey_rykov = {
 		
@@ -85,38 +142,8 @@ ideas = {
 				
 			
 						}
-				}	
-		
-		rsr_vladimir_karelin = {
-		
-			picture = GFX_idea_rsr_vladimir_karelin
-			
-			available = {
-					OR = {
-						has_government = orthodox_socialism
-						
-					}
-				}
-			
-			traits = {
-				orthodox_socialist
-				flamboyant_tough_guy
-				head_of_government
-			}
-			
-			allowed = {
-				original_tag = RSR
-				}
-				
-			ai_will_do = {
-				factor = 0
-				
-				
-			
-						}
-				}		
-			
-	}
+				}				
+		}
 	
 		
 	foreign_minister = {
@@ -149,6 +176,35 @@ ideas = {
 			
 						}
 				}	
+				
+		rsr_vitovt_putna = {
+		
+			picture = GFX_idea_rsr_vitovt_putna
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				general_staffer
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
 		
 		rsr_jakov_minsker = {
 		
@@ -211,6 +267,35 @@ ideas = {
 						}
 				}	
 		
+		rsr_avgust_kork = {
+		
+			picture = GFX_idea_rsr_avgust_kork
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				experienced_organizer
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+		
 		rsr_yuri_sablin = {
 		
 			picture = GFX_idea_rsr_yuri_sablin
@@ -270,6 +355,34 @@ ideas = {
 			
 						}
 				}	
+				
+		rsr_robert_eydeman = {
+		
+			picture = GFX_idea_rsr_robert_eydeman
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				military_entrepreneur
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
 		
 		rsr_andrew_kolegayev = {
 		
@@ -301,7 +414,7 @@ ideas = {
 		}
 
 	security_minister = {
-
+	
 		rsr_nikolay_semashko = {
 		
 			picture = GFX_idea_rsr_nikolay_semashko
@@ -328,8 +441,36 @@ ideas = {
 				
 			
 						}
-				}	
+				}
+
+		rsr_yan_gamarnik = {
 		
+			picture = GFX_idea_rsr_yan_gamarnik
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				secret_police_chief
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+	
 		rsr_isaak_shteynberg = {
 		
 			picture = GFX_idea_rsr_isaak_shteynberg
@@ -384,7 +525,7 @@ ideas = {
 				
 			
 						}
-				}	
+				}			
 		}
 		
 	army_chief = {

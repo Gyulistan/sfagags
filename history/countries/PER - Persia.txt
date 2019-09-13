@@ -1,4 +1,4 @@
-﻿capital = 411
+﻿capital = 793
 
 oob = "PER_1936"
 
@@ -19,6 +19,9 @@ add_ideas = {
 	per_amir_ahmad_ahmadi
 	per_abdolhossein_hazhir
 	per_amirtemour_halali
+	per_north_in_fire
+	per_aftermath_of_revolution
+	per_red_guard
 }
 
 set_politics = {
@@ -28,15 +31,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	radical_bolshevism = 11
-	orthodox_socialism = 11
-	accelerationism = 11
-	social_democracy = 11
-	liberalism = 11
-	conservatism = 11
-	autoritarian_democracy = 12
-	national_militarism = 11
-	paternalism = 11
+	radical_bolshevism = 3
+	orthodox_socialism = 23
+	accelerationism = 1
+	social_democracy = 2
+	liberalism = 0
+	conservatism = 6
+	autoritarian_democracy = 57
+	national_militarism = 2
+	paternalism = 6
 	}
 
 create_country_leader = {

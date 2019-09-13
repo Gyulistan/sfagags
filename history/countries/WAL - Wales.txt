@@ -65,8 +65,7 @@ set_popularities = {
 	paternalism = 11
 	}
 
-if = {
-	declare_war_on = {
+if = {	declare_war_on = {
 		target = GAE
 		type = annex_everything
 	}

@@ -263,6 +263,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Mikhail Tukhachevsky"
+	desc = "POLITICS_MIKHAIL_TUKHACHEVSKY_DESC"
+	picture = "Portrait_Russian_Mikhail_Tukhachevsky.dds"
+	expire = "1953.3.1"
+	ideology = radical_bolshevism_subtype
+	traits = {
+		
+	}
+}
+
 add_namespace = {
 	name = "unit_leader_sov"
 	type = unit_leader

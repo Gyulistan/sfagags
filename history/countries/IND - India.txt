@@ -36,7 +36,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-# DIPLOMACY / WAR 36
+ DIPLOMACY / WAR 36
 if = {
 	declare_war_on = {
 		target = RAN
