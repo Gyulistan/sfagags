@@ -130,4 +130,129 @@ spriteTypes = {
 		name = "GFX_focus_rsr_remove_popov"
 		texturefile = "gfx/interface/goals/focus_rsr_remove_popov.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_chekists_at_helm"
+		texturefile = "gfx/interface/goals/focus_rsr_chekists_at_helm.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_end_the_srs"
+		texturefile = "gfx/interface/goals/focus_rsr_end_the_srs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_strike_at_the_bolsheviks"
+		texturefile = "gfx/interface/goals/focus_rsr_strike_at_the_bolsheviks.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_eliminate_tukhachevsky_supporters"
+		texturefile = "gfx/interface/goals/focus_rsr_eliminate_tukhachevsky_supporters.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_together_we_are_strong"
+		texturefile = "gfx/interface/goals/focus_rsr_together_we_are_strong.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_natural_religion"
+		texturefile = "gfx/interface/goals/focus_rsr_natural_religion.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_militant_atheism"
+		texturefile = "gfx/interface/goals/focus_rsr_militant_atheism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_shock_communist_economy"
+		texturefile = "gfx/interface/goals/focus_rsr_shock_communist_economy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_communism_does_not_stop"
+		texturefile = "gfx/interface/goals/focus_rsr_communism_does_not_stop.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_red_napoleon"
+		texturefile = "gfx/interface/goals/focus_rsr_red_napoleon.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_disloyal_generals"
+		texturefile = "gfx/interface/goals/focus_rsr_disloyal_generals.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_soviet_kalendar"
+		texturefile = "gfx/interface/goals/focus_rsr_soviet_kalendar.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_soldiers_soviets"
+		texturefile = "gfx/interface/goals/focus_rsr_soldiers_soviets.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_restructurization_chk"
+		texturefile = "gfx/interface/goals/focus_rsr_restructurization_chk.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_clean_narkomats"
+		texturefile = "gfx/interface/goals/focus_rsr_clean_narkomats.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_soviet_control"
+		texturefile = "gfx/interface/goals/focus_rsr_soviet_control.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_again_in_helm"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_again_in_helm.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_bolsh_soviets"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_bolsh_soviets.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_total_expro"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_total_expro.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_monolithic_party"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_monolithic_party.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_good_name_lenin"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_good_name_lenin.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_blakening_srs"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_blakening_srs.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_bolshevik_constitution"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_bolshevik_constitution.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_wise_party_bolsheviks"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_wise_party_bolsheviks.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_split"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_split.dds"
+	}
 }

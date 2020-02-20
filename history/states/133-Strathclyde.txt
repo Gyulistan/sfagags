@@ -25,7 +25,7 @@ state={
 		}
 		add_core_of = ENG
 		add_core_of = SCO
-add_core_of = SCF
+		add_core_of = SCF
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

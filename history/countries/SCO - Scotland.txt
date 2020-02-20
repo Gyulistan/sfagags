@@ -68,7 +68,30 @@ set_popularities = {
 	autoritarian_democracy = 12
 	national_militarism = 11
 	paternalism = 11
+}
+
+if = {
+	declare_war_on = {
+		target = BWF
+		type = annex_everything
 	}
+	declare_war_on = {
+		target = ENG
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = SRY
+		type = annex_everything
+	}	
+	declare_war_on = {
+		target = SCF
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = GAE
+		type = annex_everything
+	}
+}
 
 
 create_country_leader = {

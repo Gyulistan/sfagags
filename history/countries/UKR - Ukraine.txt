@@ -58,6 +58,14 @@ set_popularities = {
 	}
 }
 
+add_ideas = {
+	ukr_panas_lyubchenko
+	ukr_lev_kovalyov	
+	ukr_yefim_schshadenko
+	ukr_grigory_grinko
+	ukr_alexandr_shumsky
+}
+
 create_country_leader = {
 	name = "Vasyl Ellan-Blakytny"
 	desc = "POLITICS_VASYL_ELLAN_BLAKYTNY_DESC"

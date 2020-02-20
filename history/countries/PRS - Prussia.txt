@@ -55,6 +55,20 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Willy Leow"
+		picture = "Portrait_Prussian_Willy_Leow.dds"
+	traits = { media_personality trait_reckless politically_connected }
+	skill = 2
+
+
+	
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
 create_corps_commander = {
 	name = "Otto Strasser"
 		picture = "Portrait_Prussian_Otto_Strasser.dds"

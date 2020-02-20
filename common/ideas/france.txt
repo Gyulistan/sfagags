@@ -162,9 +162,9 @@ ideas = {
 
 			modifier = {
 				war_support_factor = 0.15
-				radical_bolshevism_drift = -0.1
-				orthodox_socialism_drift = -0.1
-				accelerationism_drift = -0.1
+				radical_bolshevism_drift = -0.02
+				orthodox_socialism_drift = -0.02
+				accelerationism_drift = -0.02
 			}
 
 			picture = FRA_anticommunism
@@ -174,7 +174,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea FRA_propaganda_ministry"}
 
 			modifier = {
-				conservatism_drift = 0.1
+				conservatism_drift = 0.02
 				stability_factor = 0.1
 				political_power_cost = 0.05
 				consumer_goods_factor = 0.07

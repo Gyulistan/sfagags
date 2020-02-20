@@ -8,12 +8,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = orthodox_socialism
+						has_government = social_democracy
 					}
 				}
 			
 			traits = {
-				orthodox_socialist
+				social_democrat
 				silent_workhorse
 				head_of_government
 			}
@@ -36,12 +36,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = orthodox_socialism
+						has_government = social_democracy
 					}
 				}
 			
 			traits = {
-				orthodox_socialist
+				social_democrat
 				backroom_backstabber
 				head_of_government
 			}
@@ -68,12 +68,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = orthodox_socialism
+						has_government = social_democracy
 					}
 				}
 			
 			traits = {
-				orthodox_socialist
+				social_democrat
 				great_compromiser
 				foreign_minister
 			}
@@ -99,12 +99,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = orthodox_socialism
+						has_government = social_democracy
 					}
 				}
 			
 			traits = {
-				orthodox_socialist
+				social_democrat
 				quartermaster_general
 				defence_minister
 			}
@@ -130,12 +130,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = orthodox_socialism
+						has_government = social_democracy
 					}
 				}
 			
 			traits = {
-				orthodox_socialist
+				social_democrat
 				administrative_genius
 				economy_minister
 			}
@@ -161,12 +161,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = orthodox_socialism
+						has_government = social_democracy
 					}
 				}
 			
 			traits = {
-				orthodox_socialist
+				social_democrat
 				man_of_the_people
 				security_minister
 			}

@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		white_gangsters_of_pepelyaev = {
+	
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea white_gangsters_of_pepelyaev"}
+
+			picture = GFX_idea_white_gangsters_of_pepelyaev
+			
+			modifier = {
+				stability_factor = -0.20
+				political_power_gain = -0.40
+				conscription_factor = -0.25
+			}
+		}
+	}
+}

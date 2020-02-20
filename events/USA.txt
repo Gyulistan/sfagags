@@ -22,3 +22,19 @@ country_event = {
 		name = unitedstates.10.b
 		}
 	}
+	
+country_event = {
+	id = unitedstates.2 # Organized crime
+	immediate = {log = "[GetDateText]: [Root.GetName]: event unitedstates.2"}
+	title = unitedstates.2.t
+	desc = unitedstates.2.d
+	picture = GFX_event_gangsta
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = unitedstates.2.a
+		}
+	}

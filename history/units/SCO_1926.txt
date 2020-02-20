@@ -48,7 +48,7 @@ units = {
 
 	division= {	# "1st Cavalry division"
 		name = "Achiad Eachraidh"
-		location = 9392
+		location = 9383
 		division_template = "Eachraidh"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
@@ -64,7 +64,7 @@ units = {
 	
 	division= {	# "2nd "Highlands" infantry division"
 		name = "Roinn beinne"
-		location = 6300
+		location = 6395
 		division_template = "Roinn saighdearan-coise"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.9
@@ -72,7 +72,7 @@ units = {
 	
 	division= {	# "3rd "Aberdienshire" infantry division"
 		name = "Saighdean Obar Dheathain"
-		location = 9314
+		location = 3273
 		division_template = "Mailisidh Albannach"
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.7
@@ -80,7 +80,7 @@ units = {
 	
 	division= {	# "4th "Galloway" infantry division"
 		name = "Briogàd luchd-dùthcha"
-		location = 11218
+		location = 200
 		division_template = "Mailisidh Albannach"
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.7

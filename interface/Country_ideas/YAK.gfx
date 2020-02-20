@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_white_gangsters_of_pepelyaev"
+		texturefile = "gfx/interface/Ideas/YAK/white_gangsters_of_pepelyaev.dds"
+	}
+}
+	
+

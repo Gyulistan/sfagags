@@ -15,7 +15,7 @@ set_country_flag = monroe_doctrine
 set_convoys = 45
 
 set_politics = {
-	ruling_party = autoritarian_democracy
+	ruling_party = social_democracy
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -31,13 +31,20 @@ set_popularities = {
 	national_militarism = 11
 	paternalism = 11
 	}
+add_ideas = {
+	mex_jasinto_trevino
+	mex_aaron_saenz
+	mex_manuel_trevino
+	mex_miguel_robles
+	mex_rafael_capmany 
+}
 
 create_country_leader = {
-	name = "No Name"
-	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	name = "Álvaro Obregón Salido"
+	desc = "POLITICS_ALVARO_OBREGON_DESC"
+	picture = "Portrait_Mexico_Alvaro_Obregon.dds"
 	expire = "1956.1.1"
-	ideology = orthodox_socialism_subtype
+	ideology = social_democracy_subtype
 	traits = {
 		
 	}

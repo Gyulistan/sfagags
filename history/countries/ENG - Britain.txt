@@ -48,12 +48,42 @@ set_convoys = 800
 
 
 add_ideas = {
-eng_stanley_baldwin
-eng_austen_chamberlain
-eng_laming_worthington
-eng_winston_churchill
-eng_william_joynson
+	eng_stanley_baldwin
+	eng_austen_chamberlain
+	eng_laming_worthington
+	eng_winston_churchill
+	eng_william_joynson
 }
+
+if = {
+	declare_war_on = {
+		target = SCO
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = BWF
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = SCF
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = SRY
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = WAL
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = GAE
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = COR
+		type = annex_everything
+	}
 set_politics = {
 	ruling_party = autoritarian_democracy
 	last_election = "1918.7.1"

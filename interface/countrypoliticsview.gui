@@ -172,7 +172,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = -62 y = -55 }
+				position = { x = -220 y = 190 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 193
@@ -182,7 +182,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "dismantle_faction"
-				position = { x = 137 y = -75 }
+				position = { x = -20 y = 186 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
@@ -193,7 +193,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 6 y = 390 }
+			position = 	{ x = 172 y = 150 }				#{ x = 6 y = 390 }
 			size = { width = 255 height = 60 }
 			clipping = no
 
@@ -513,7 +513,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 50 y = 473 }
+			position = { x = 47 y = 474 }
 			font = "hoi_16mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			alwaystransparent = yes
@@ -529,7 +529,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "show_subjects_button_text"
-			position = { x = -130 y = 473 }
+			position = { x = -145 y = 474 }
 			font = "hoi_16mbs"
 			text = "MANAGE_SUBJECTS"
 			Orientation = "UPPER_RIGHT"
@@ -547,7 +547,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_governments"
-			position = { x = 223 y = 473 }
+			position = { x = 220 y = 474 }
 			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20
@@ -560,19 +560,19 @@ guiTypes = {
 		iconType = {
 			name = "icon_exiled_governments"
 			spriteType = "GFX_icon_exiled_governments"
-			position = { x = 192 y = 466 }
+			position = { x = 192 y = 468 }
 		}
 
 		iconType = {
 			name = "icon_occupied_territories"
 			spriteType = "GFX_icon_occupied_territories"
-			position = { x = 12 y = 466 }
+			position = { x = 12 y = 468 }
 		}
 
 		iconType = {
 			name = "icon_manage_subjects"
 			spriteType = "GFX_icon_manage_subjects"
-			position = { x = 373 y = 466 }
+			position = { x = 372 y = 468 }
 		}
 	}
 	

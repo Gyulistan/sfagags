@@ -1,0 +1,158 @@
+ideas = {
+
+	head_of_government = {
+
+		mex_jasinto_trevino = {
+		
+			picture = GFX_idea_mex_jasinto_trevino
+			
+			available = {
+					OR = {
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				social_democrat
+				respected_war_hero
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = MEX
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}			
+		}
+		
+		
+	foreign_minister = {
+
+		mex_aaron_saenz = {
+		
+			picture = GFX_idea_mex_aaron_saenz
+			
+			available = {
+					OR = {
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				social_democrat
+				biased_intellectual
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = MEX
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}	
+
+	defence_minister = {
+
+		mex_manuel_trevino = {
+		
+			picture = GFX_idea_mex_manuel_trevino
+			
+			available = {
+					OR = {
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				social_democrat
+				procurement_chief
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = MEX
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		mex_miguel_robles = {
+		
+			picture = GFX_idea_mex_miguel_robles
+			
+			available = {
+					OR = {
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				social_democrat
+				construction_magnate
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = MEX
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}	
+
+	security_minister = {
+
+		mex_rafael_capmany = {
+		
+			picture = GFX_idea_mex_rafael_capmany
+			
+			available = {
+					OR = {
+						has_government = social_democracy
+					}
+				}
+			
+			traits = {
+				social_democrat
+				compassionate_gentleman
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = MEX
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}		
+}

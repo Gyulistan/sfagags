@@ -1,6 +1,6 @@
 ﻿capital = 798
 
-oob = "GAE_1936"
+oob = "GAE_1926"
 
 set_research_slots = 4
 
@@ -75,4 +75,40 @@ create_country_leader = {
 	traits = {
 	
 	}
+}
+
+create_corps_commander = {
+	name = "Robert Byron Blakeney"
+		picture = "Portrait_Gaernarvon_Robert_Blakeney.dds"
+	traits = { career_officer infantry_officer }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "John Fuller"
+		picture = "Portrait_Gaernarvon_John_Fuller.dds"
+	traits = { armor_officer }
+	skill = 3
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Rotha Lintorn-Orman"
+		picture = "Portrait_Gaernarvon_Rota_Lintorn_Orman.dds"
+	traits = { trait_reckless }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }

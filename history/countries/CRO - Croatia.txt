@@ -22,7 +22,7 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = autoritarian_democracy
+	ruling_party = national_militarism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -39,14 +39,12 @@ set_popularities = {
 	paternalism = 11
 	}
 
-
-
 create_country_leader = {
-	name = "No Name"
-	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	name = "Andrija Artuković"
+	desc = "POLITICS_ANDRIA_ARTUKOVIC_DESC"
+	picture = "Portrait_Croatia_Andrija_Artukovic.dds"
 	expire = "1956.1.1"
-	ideology = orthodox_socialism_subtype
+	ideology = national_militarism_subtype
 	traits = {
 		
 	}

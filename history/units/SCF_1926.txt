@@ -1,0 +1,95 @@
+﻿division_template = {
+	name = "Infantry Division"			
+	division_names_group = BWF_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+	division_names_group = BWF_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Red Militia"
+	division_names_group = BWF_GAR_01
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+
+units = {
+	division= {	
+		name = "Red Guard"
+		location = 9237
+		division_template = "Red Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division= {	
+		name = "Red Guard"
+		location = 6320
+		division_template = "Red Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	
+	division= {	
+		name = "Red Guard"
+		location = 9392
+		division_template = "Red Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division= {	
+		name = "Red Guard"
+		location = 9392
+		division_template = "Red Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division= {	
+		name = "Red Guard"
+		location = 6350
+		division_template = "Red Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	
+	division= {	
+		name = "Red Guard"
+		location = 11378
+		division_template = "Red Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

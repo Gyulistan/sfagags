@@ -28,8 +28,6 @@ ideas = {
 			
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
-				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
 			}
 
 			ai_will_do = {
@@ -37,7 +35,6 @@ ideas = {
 
    				modifier = {
 					factor = 60 # being disarmed is bad in a wargame yo
-					has_idea = disarmed_nation 
 				}
 			}
 
@@ -59,8 +56,6 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
-				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
 			}
 
 			modifier = {
@@ -89,8 +84,6 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
-					has_government = fascism
-					has_government = communism
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.5
@@ -158,8 +151,6 @@ ideas = {
 				modifier = {
 					#Block has plenty manpower
 					factor = 0
-					NOT = { tag = CHI }
-					NOT = { tag = SOV }
 					manpower_per_military_factory >  3000
 				}
 
@@ -213,12 +204,6 @@ ideas = {
 					manpower_per_military_factory >  1000
 				}
 
-				modifier = { # china relies a lot on throwing bodies at the enemy
-					factor = 3
-
-					tag = CHI
-					has_manpower < 200000
-				}
 				modifier = {
 					factor = 10
 					original_tag = SOV

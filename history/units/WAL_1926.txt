@@ -1,6 +1,6 @@
 ﻿division_template = {
-	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
-	division_names_group = ENG_INF_01
+	name = "Adran y troedfilwyr"			
+	division_names_group = WAL_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -13,77 +13,54 @@
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
-	support = {
-       	engineer = { x = 0 y = 0 }
-       	artillery = { x = 0 y = 1 }
-	}
-}
-division_template = {
-	name = "Cavalry Brigade"
-	division_names_group = ENG_CAV_01
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-        cavalry = { x = 0 y = 3 }
-	}
-	support = {
-        recon = { x = 0 y = 0 }
-	}
-}
-division_template = {
-	name = "Tank Brigade"
-	division_names_group = ENG_ARM_01
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Colonial Garrison"
-	division_names_group = ENG_COL_01
-	
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	priority = 0
 }
 
+
+division_template = {
+	name = "Milisia Cymru"			
+	division_names_group = WAL_GAR_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
 
 units = {
-	division= {	# "1st Infantry Division"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
+	division= {		
+		name = "Adran y troedfilwyr"	
 		location = 3274
-		division_template = "Infantry Division"
+		division_template = "Adran y troedfilwyr"
 		start_experience_factor = 0.6
-		start_equipment_factor = 0.0
+		start_equipment_factor = 0.8
 	}	
-}
-				
-	#########################
-	## STARTING PRODUCTION ##
-	#########################
-instant_effect = {
-	
-
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "ENG"
-		}
-		requested_factories = 3
-		progress = 0.1
-		efficiency = 50
+	division= {		
+		name = "Gard Cymru"	
+		location = 253
+		division_template = "Milisia Cymru"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	division= {		
+		name = "Rhaniad derwyddon"	
+		location = 377
+		division_template = "Milisia Cymru"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division= {		
+		name = "Adran y troedfilwyr"	
+		location = 377
+		division_template = "Milisia Cymru"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
 	}
 }
-	#####################
+				

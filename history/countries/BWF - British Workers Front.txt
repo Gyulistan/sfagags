@@ -52,23 +52,27 @@ set_politics = {
 }
 
 set_popularities = {
-	radical_bolshevism = 11
-	orthodox_socialism = 11
-	accelerationism = 11
-	social_democracy = 11
-	liberalism = 11
-	conservatism = 11
-	autoritarian_democracy = 12
-	national_militarism = 11
-	paternalism = 11
+	radical_bolshevism = 100
+	orthodox_socialism = 0
+	accelerationism = 0
+	social_democracy = 0
+	liberalism = 0
+	conservatism = 0
+	autoritarian_democracy = 0
+	national_militarism = 0
+	paternalism = 0
 	}
+
+create_faction = British_Soviets
+add_to_faction = SRY
+add_to_faction = SCF
 
 add_ideas = {
 	sng_robert_page_arnot
 	sng_rajani_palme_dutt
 	sng_thomas_witringham
 	sng_clemens_palme_dutt
-	sng_arthur_horner
+	sng_joseph_tito
 }
 
 if = {
@@ -78,6 +82,18 @@ if = {
 	}
 	declare_war_on = {
 		target = ENG
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = WAL
+		type = annex_everything
+	}	
+	declare_war_on = {
+		target = GAE
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = COR
 		type = annex_everything
 	}
 }

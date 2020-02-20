@@ -45,4 +45,9 @@ spriteTypes = {
 		name = "GFX_idea_twenties_roaring"
 		texturefile = "gfx/interface/Ideas/USA/twenties_roaring.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_home_of_the_free"
+		texturefile = "gfx/interface/Ideas/USA/home_of_the_free.tga"
+	}
 }

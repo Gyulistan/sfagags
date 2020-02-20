@@ -20,6 +20,7 @@ state= {
 		add_core_of = ENG
 		add_core_of = GAE
 		add_core_of = WAL
+		add_core_of = BWF
 	}
 
 	provinces=

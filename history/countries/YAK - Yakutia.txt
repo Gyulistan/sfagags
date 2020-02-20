@@ -33,6 +33,10 @@ set_popularities = {
 	paternalism = 11
 	}
 }
+
+add_ideas = {
+	white_gangsters_of_pepelyaev
+}
 create_country_leader = {
 	name = "Ivan Strod"
 	desc = "POLITICS_IVAN_STROD_DESC"

@@ -1,5 +1,5 @@
 focus_tree = {
-	id = RSR_Bukharin
+	id = rsr_sovnarkom_tree
 	country = {
 		factor = 0
 		modifier = {
@@ -14,7 +14,7 @@ focus_tree = {
 	focus = {
 		id = rsr_eliminate_chk
 		icon = GFX_focus_rsr_eliminate_chk
-		cost = 10,00
+		cost = 10.00
 		x = 14
 		y = 0
 
@@ -22,7 +22,7 @@ focus_tree = {
 	focus = {
 		id = rsr_lift_emergency
 		icon = GFX_focus_rsr_lift_emergency
-		cost = 10,00
+		cost = 10.00
 		x = 16
 		y = 0
 
@@ -30,7 +30,7 @@ focus_tree = {
 	focus = {
 		id = rsr_approve_unity
 		icon = GFX_focus_rsr_approve_unity
-		cost = 10,00
+		cost = 10.00
 		x = 18
 		y = 0
 
@@ -38,7 +38,7 @@ focus_tree = {
 	focus = {
 		id = rsr_remove_tukhachevsky
 		icon = GFX_focus_rsr_remove_tukhachevsky
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_eliminate_chk
 		}
@@ -52,7 +52,7 @@ focus_tree = {
 	focus = {
 		id = rsr_remove_popov
 		icon = GFX_focus_rsr_remove_popov
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_lift_emergency
 		}
@@ -66,7 +66,7 @@ focus_tree = {
 	focus = {
 		id = rsr_fourth_congress
 		icon = GFX_focus_fourth_congress
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_remove_tukhachevsky
 		}
@@ -80,7 +80,7 @@ focus_tree = {
 	focus = {
 		id = rsr_new_socialists
 		icon = GFX_focus_new_socialists
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_fourth_congress
 		}
@@ -91,7 +91,7 @@ focus_tree = {
 	focus = {
 		id = rsr_influence_republic
 		icon = GFX_focus_influence_republic
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_new_socialists
 		}
@@ -102,7 +102,7 @@ focus_tree = {
 	focus = {
 		id = rsr_anti_esser_rhetoric
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_new_socialists
 		}
@@ -113,7 +113,7 @@ focus_tree = {
 	focus = {
 		id = rsr_influence_komsomol
 		icon = GFX_focus_influence_komsomol
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_anti_esser_rhetoric
 		}
@@ -124,7 +124,7 @@ focus_tree = {
 	focus = {
 		id = rsr_defeat_sign_of_labor
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_influence_komsomol
 		}
@@ -135,7 +135,7 @@ focus_tree = {
 	focus = {
 		id = rsr_rehabilitation_bukh
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_defeat_sign_of_labor
 		}
@@ -149,7 +149,7 @@ focus_tree = {
 	focus = {
 		id = rsr_repressions_bukh
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_defeat_sign_of_labor
 		}
@@ -163,7 +163,7 @@ focus_tree = {
 	focus = {
 		id = rsr_shoot_bolsheviks
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_repressions_bukh
 		}
@@ -174,7 +174,7 @@ focus_tree = {
 	focus = {
 		id = rsr_ban_left_sr
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_shoot_bolsheviks
 		}
@@ -185,7 +185,7 @@ focus_tree = {
 	focus = {
 		id = rsr_deal_spiridonova
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_ban_left_sr
 		}
@@ -196,7 +196,7 @@ focus_tree = {
 	focus = {
 		id = rsr_left_srs
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_fourth_congress
 		}
@@ -207,7 +207,7 @@ focus_tree = {
 	focus = {
 		id = rsr_nep_bukh
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_new_socialists
 		}
@@ -218,7 +218,7 @@ focus_tree = {
 	focus = {
 		id = rsr_monetary_reform
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_nep_bukh
 		}
@@ -229,7 +229,7 @@ focus_tree = {
 	focus = {
 		id = rsr_get_rich
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_nep_bukh
 		}
@@ -240,7 +240,7 @@ focus_tree = {
 	focus = {
 		id = rsr_compulsory_loans
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_monetary_reform
 		}
@@ -251,7 +251,7 @@ focus_tree = {
 	focus = {
 		id = rsr_price_adjustment
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_get_rich
 		}
@@ -262,7 +262,7 @@ focus_tree = {
 	focus = {
 		id = rsr_organization_trusts
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_compulsory_loans
 		}
@@ -273,7 +273,7 @@ focus_tree = {
 	focus = {
 		id = rsr_cost_accounting
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_price_adjustment
 		}
@@ -284,7 +284,7 @@ focus_tree = {
 	focus = {
 		id = rsr_concessions
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_organization_trusts
 		}
@@ -295,7 +295,7 @@ focus_tree = {
 	focus = {
 		id = rsr_family_row
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_cost_accounting
 		}
@@ -306,7 +306,7 @@ focus_tree = {
 	focus = {
 		id = rsr_economic_revival
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_concessions
 		}
@@ -320,7 +320,7 @@ focus_tree = {
 	focus = {
 		id = rsr_socialist_market
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_economic_revival
 		}
@@ -331,7 +331,7 @@ focus_tree = {
 	focus = {
 		id = rsr_smooth_centralization
 		icon = GFX_focus_smooth_centralization
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_influence_republic
 		}
@@ -342,7 +342,7 @@ focus_tree = {
 	focus = {
 		id = rsr_our_cadres
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_smooth_centralization
 		}
@@ -353,7 +353,7 @@ focus_tree = {
 	focus = {
 		id = rsr_our_people
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_smooth_centralization
 		}
@@ -364,7 +364,7 @@ focus_tree = {
 	focus = {
 		id = rsr_joint_trusts
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_our_cadres
 		}
@@ -375,7 +375,7 @@ focus_tree = {
 	focus = {
 		id = rsr_increasing_dependency
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_our_people
 		}
@@ -386,7 +386,7 @@ focus_tree = {
 	focus = {
 		id = rsr_deal_with_frunze
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_joint_trusts
 		}
@@ -397,7 +397,7 @@ focus_tree = {
 	focus = {
 		id = rsr_deal_with_goloshchekin
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_increasing_dependency
 		}
@@ -408,7 +408,7 @@ focus_tree = {
 	focus = {
 		id = rsr_local_conventions
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_deal_with_frunze
 		}
@@ -422,7 +422,7 @@ focus_tree = {
 	focus = {
 		id = rsr_start_merging
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_local_conventions
 		}
@@ -433,7 +433,7 @@ focus_tree = {
 	focus = {
 		id = rsr_free_bolsheviks
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_rehabilitation_bukh
 		}
@@ -444,7 +444,7 @@ focus_tree = {
 	focus = {
 		id = rsr_union_with_rkp
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_free_bolsheviks
 		}
@@ -455,7 +455,7 @@ focus_tree = {
 	focus = {
 		id = rsr_invite_stalin
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_union_with_rkp
 		}
@@ -466,7 +466,7 @@ focus_tree = {
 	focus = {
 		id = rsr_invinsible_party
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = rsr_invite_stalin
 			focus = rsr_deal_spiridonova

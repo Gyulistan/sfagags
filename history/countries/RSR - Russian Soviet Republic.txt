@@ -7,6 +7,7 @@ set_stability = 1
 set_war_support = 0.8
 # Starting tech
 set_technology = {
+	infantry_equipment_1 = 1
 	infantry_weapons = 1
 	tech_recon = 1
 	tech_support = 1		
@@ -241,6 +242,9 @@ add_ideas = {
 	power_struggle 
 }
 
+country_event = { id = sovietunion.1 days = 3 }
+country_event = { id = sovietunion.5 days = 18 }
+
 create_country_leader = {
 	name = "Vladimir Bonch-Bruyevich"
 	desc = "POLITICS_BONCH_BRUEVICH_DESC"
@@ -269,6 +273,17 @@ create_country_leader = {
 	picture = "Portrait_Russian_Mikhail_Tukhachevsky.dds"
 	expire = "1953.3.1"
 	ideology = radical_bolshevism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nikolai Bukharin"
+	desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
+	picture = "Portrait_Russian_Nikolai_Bukharin.dds"
+	expire = "1953.3.1"
+	ideology = accelerationism_subtype
 	traits = {
 		
 	}
@@ -421,11 +436,10 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Yuri Sablin"
-		picture = "Portrait_Russian_Yuri_Sablin.dds"
+	name = "Mikhail Zyuk"
+		picture = "Portrait_Russian_Mikhail_Zyuk.dds"
 	traits = { infantry_officer urban_assault_specialist}
 	skill = 2
-
 
 	
 	attack_skill = 2
@@ -530,6 +544,19 @@ create_field_marshal = {
 	logistics_skill = 2
 }
 
+create_field_marshal = {
+	name = "Yuri Sablin"
+		picture = "Portrait_Russian_Yuri_Sablin.dds"
+	traits = { media_personality trait_reckless politically_connected }
+	skill = 2
+	id = 100
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 create_corps_commander = {
 	name = "Semyon Budyonny"
 		picture = "Portrait_Russian_Semyon_Budyonny.dds"
@@ -543,6 +570,32 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
+create_corps_commander = {
+	name = "Georgy Zhukov"
+		picture = "Portrait_Russian_Georgy_Zhukov.dds"
+	traits = { winter_specialist }
+	skill = 2
+
+	
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Jānis Fabriciuss"
+		picture = "Portrait_Russian_Janis_Fabriciuss.dds"
+	traits = { infantry_officer harsh_leader }
+	skill = 4
+
+	
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
 create_navy_leader = {
 	name = "Sergey Gorshkov"
 	id = 411
@@ -551,7 +604,6 @@ create_navy_leader = {
 	skill = 3
 }
 
-# Arrested in '41
 create_navy_leader = {
 	name = "Eduard Pantserzhanskiy"
 		picture = "Portrait_Russian_Eduard_Pantserzhanskiy.dds"

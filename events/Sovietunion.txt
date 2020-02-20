@@ -1,19 +1,49 @@
 ﻿add_namespace = sovietunion
 
+	
+news_event = {
+	id = sovietunion.1917
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.1917"}
+	title = sovietunion.1917.t
+	desc = sovietunion.1917.d
+	picture = GFX_news_event_red_october
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = RSR
+		date > 1926.11.06
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			news_event = {
+				days = 365
+				id = sovietunion.1918
+			}
+		}
+	}
+
+	option = {
+		name = sovietunion.1917.a 
+		add_political_power = 50
+	}
+}
+
 country_event = {
 	id = sovietunion.1 # Young Soviet State
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.1"}
 	title = sovietunion.1.t
 	desc = sovietunion.1.d
 	picture = GFX_event_kreml
-
-	trigger = {
-		tag = RSR
-		date > 1926.07.01
-	}
+	
+	is_triggered_only = yes
 	
 	fire_only_once = yes
-			
+
 	option = {
 		name = sovietunion.1.a
 	hidden_effect = {
@@ -45,7 +75,7 @@ country_event = {  # liberation trip
 			id = sovietunion.3
 			days = 1
 			}
-		}
+		}																	
 	}
 }
 
@@ -98,11 +128,8 @@ country_event = { # successful raid on the enemies of the revolution
 
 	fire_only_once = yes
 
-	trigger = {
-		tag = RSR
-		is_puppet = no
-		date > 1926.07.20
-	}
+	is_triggered_only = yes
+
 
 	option = {
 		name = sovietunion.5.a
@@ -312,8 +339,804 @@ country_event = { # Battle on the streets of Moscow
 		hidden_effect = {
 			country_event = {
 				id = sovietunion.13
-				days = 2
+				days = 1
 			}
 		}
 	}
-		
+}	
+
+country_event = { # Tukhachevsky's coup
+	id = sovietunion.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.13"}
+	title = sovietunion.13.t
+	desc = sovietunion.13.d
+	picture = GFX_event_tukhachevsky_with_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietunion.13.a
+		add_political_power = -400
+		remove_ideas_with_trait = head_of_government
+		add_ideas = rsr_mikhail_tukhachevsky_hog
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = rsr_vitovt_putna
+		remove_ideas_with_trait = economy_minister
+		add_ideas = rsr_robert_eydeman
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_yan_gamarnik
+		remove_ideas_with_trait = defence_minister
+		add_ideas = rsr_avgust_kork
+		set_politics = {
+			ruling_party = radical_bolshevism
+			elections_allowed = no    }
+		set_popularities = {
+			radical_bolshevism = 50
+			orthodox_socialism = 20
+			accelerationism = 30
+			social_democracy = 0
+			liberalism = 0
+			conservatism = 0
+			autoritarian_democracy = 0
+			national_militarism = 0
+			paternalism = 0
+			}
+	hidden_effect = {
+		country_event = {
+				id = sovietunion.14
+				days = 1
+			}
+		}
+		add_stability = -0.30
+        }
+	}
+
+country_event = { # Fate of power
+	id = sovietunion.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.14"}
+	title = sovietunion.14.t
+	desc = sovietunion.14.d
+	picture = GFX_event_tukhachevsky_speak
+
+	is_triggered_only = yes
+
+	option = {
+	name = sovietunion.14.a
+		remove_ideas_with_trait = head_of_government
+		add_ideas = rsr_lev_kamenev
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = rsr_vaclav_vorovsky
+		remove_ideas_with_trait = economy_minister
+		add_ideas = rsr_nikolay_bruykhanov
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_andrey_vyshinsky
+		remove_ideas_with_trait = defence_minister
+		add_ideas = rsr_mikhail_tukhachevsky
+		kill_country_leader = yes
+	create_country_leader = {
+			name = "Alexei Rykov"
+			desc = "POLITICS_ALEXEI_RYKOV_DESC"
+			picture = "Portrait_Russian_Alexei_Rykov.dds"
+			expire = "1965.1.1"
+			ideology = radical_bolshevism_subtype
+			traits = {}
+		}
+	add_political_power = 50
+	add_stability = 0.05
+	load_focus_tree = rsr_bolshevik_tree
+	}
+	option = {
+	name = sovietunion.14.b
+	set_party_name = {
+		ideology = radical_bolshevism
+		long_name = RSR_radical_bolshevism_army_long
+		name = RSR_radical_bolshevism_army
+	}
+	load_focus_tree = rsr_tukh_tree
+	add_political_power = -100
+		}
+	}	
+	
+country_event = { # Popov criticize us
+	id = sovietunion.80
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.80"}
+	title = sovietunion.80.t
+	desc = sovietunion.80.d
+	picture = GFX_event_party2
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietunion.80.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.81
+				days = 1
+			}
+		}
+	}
+	
+	option = {
+		name = sovietunion.80.b
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.82
+				days = 7
+			}
+		}
+	}
+}
+
+country_event = { # Letter from chekists
+	id = sovietunion.81
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.81"}
+	title = sovietunion.81.t
+	desc = sovietunion.81.d
+	picture = GFX_event_vchk
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietunion.81.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.83
+				days = 1
+			}
+		}
+	}
+	
+	option = {
+		name = sovietunion.81.b
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.82
+				days = 2
+				}
+			}
+		}
+	}
+
+country_event = { # Newspaper criticism
+	id = sovietunion.82
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.82"}
+	title = sovietunion.82.t
+	desc = sovietunion.82.d
+	picture = GFX_event_soviet_newspaper
+
+	is_triggered_only = yes
+
+	
+	option = {
+		name = sovietunion.82.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.87
+				days = 2
+			}
+		}
+		add_political_power = -150
+		add_stability = -0.05	
+		add_popularity = {
+			ideology = orthodox_socialism
+			popularity = -0.03
+		}
+	}
+}
+
+country_event = { # New Chairman CHK
+	id = sovietunion.83
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.83"}
+	title = sovietunion.83.t
+	desc = sovietunion.83.d
+	picture = GFX_event_vchk
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietunion.83.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.84
+				days = 20
+			}
+		set_country_flag = Popov_in_prison	
+		}
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_genrykh_yagoda
+		add_ideas = strike_of_cheka 
+	}
+	
+	option = {
+		name = sovietunion.83.b 
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.85
+				days = 7
+			}
+		set_country_flag = Popov_in_prison
+		}
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_isaak_shteynberg
+		add_ideas = strike_of_cheka 
+	}
+	
+	option = {
+		name = sovietunion.83.c
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.86
+				days = 13
+			}
+		set_country_flag = Popov_in_prison
+		}
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_terenty_deribas
+		add_ideas = strike_of_cheka 
+	}
+}
+
+country_event = { # Chekist's Coup
+	id = sovietunion.84
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.84"}
+	title = sovietunion.84.t
+	desc = sovietunion.84.d
+	picture = GFX_event_shoot
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietunion.84.a
+	hidden_effect = {
+		set_politics = {
+			ruling_party = radical_bolshevism
+			elections_allowed = no    }
+		remove_ideas_with_trait = head_of_government
+		add_ideas = rsr_genrykh_yagoda_hog
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = rsr_stanislav_redens
+		remove_ideas_with_trait = economy_minister
+		add_ideas = rsr_fyodor_eichmans
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_pyotr_maggo
+		remove_ideas_with_trait = defence_minister
+		add_ideas = rsr_nikolay_yezhov
+		kill_country_leader = yes
+	create_country_leader = {
+			name = "Dmitry Popov"
+			desc = "POLITICS_DMITRY_POPOV_DESC"
+			picture = "Portrait_Russian_Dmitry_Popov.dds"
+			expire = "1965.1.1"
+			ideology = radical_bolshevism_subtype
+			traits = {}
+		}
+	set_party_name = {
+		ideology = radical_bolshevism
+		long_name = RSR_radical_bolshevism_cheka_long
+		name = RSR_radical_bolshevism_cheka
+	}
+	load_focus_tree = rsr_chekists_tree
+	add_popularity = {
+			ideology = radical_bolshevism
+			popularity = 0.47
+		}
+	add_political_power = -300
+	add_stability = -0.20
+	}		
+	custom_effect_tooltip = sovietunion.84.a.tt
+		}
+	}		
+}
+
+country_event = { # The strike is over
+	id = sovietunion.86
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.86"}
+	title = sovietunion.86.t
+	desc = sovietunion.86.d
+	picture = GFX_event_chekists2
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.86.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.98
+				days = 7
+			}
+		}
+		add_political_power = 50
+		remove_ideas = strike_of_cheka 
+	}
+}
+
+country_event = { # The strike is over
+	id = sovietunion.86
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.86"}
+	title = sovietunion.86.t
+	desc = sovietunion.86.d
+	picture = GFX_event_chekists2
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.86.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.98
+				days = 7
+			}
+		}
+		add_political_power = 50
+		remove_ideas = strike_of_cheka 
+	}
+}
+
+country_event = { # Security officers requisitioned weapons
+	id = sovietunion.98
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.98"}
+	title = sovietunion.98.t
+	desc = sovietunion.98.d
+	picture = GFX_event_weapons
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.98.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.99
+				days = 4
+			}
+		}
+		RSR = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = -1000
+			}
+		}
+	}
+}
+
+country_event = { # Communication center occupation
+	id = sovietunion.99
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.99"}
+	title = sovietunion.99.t
+	desc = sovietunion.99.d
+	picture = GFX_event_chekists4
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.99.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.100
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { # Bolshevik coup
+	id = sovietunion.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.100"}
+	title = sovietunion.100.t
+	desc = sovietunion.100.d
+	picture = GFX_event_bolsheviks
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.100.a
+		set_politics = {
+			ruling_party = radical_bolshevism
+			elections_allowed = no    }
+		add_popularity = {
+			ideology = radical_bolshevism
+			popularity = 0.25
+		}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = rsr_lev_kamenev
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = rsr_vaclav_vorovsky
+		remove_ideas_with_trait = economy_minister
+		add_ideas = rsr_nikolay_bruykhanov
+		remove_ideas_with_trait = defence_minister
+		add_ideas = rsr_mikhail_tukhachevsky
+		kill_country_leader = yes
+	create_country_leader = {
+			name = "Alexei Rykov"
+			desc = "POLITICS_ALEXEI_RYKOV_DESC"
+			picture = "Portrait_Russian_Alexei_Rykov.dds"
+			expire = "1965.1.1"
+			ideology = radical_bolshevism_subtype
+			traits = {}
+		}
+	add_political_power = 100
+	add_stability = 0.15
+	load_focus_tree = rsr_bolshevik_tree
+	}
+}
+
+country_event = { # Bukharin joins
+	id = sovietunion.87
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.87"}
+	title = sovietunion.87.t
+	desc = sovietunion.87.d
+	picture = GFX_event_bukharin
+
+	is_triggered_only = yes
+
+	
+	option = {
+		name = sovietunion.87.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.88
+				days = 2
+			}
+		}
+		add_political_power = -50
+		add_popularity = {
+			ideology = orthodox_socialism
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = accelerationism
+			popularity = 0.03
+		}
+	}
+}
+
+country_event = { # The Bolsheviks are still in action
+	id = sovietunion.88
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.88"}
+	title = sovietunion.88.t
+	desc = sovietunion.88.d
+	picture = GFX_event_soldiers_read
+
+	is_triggered_only = yes
+
+	
+	option = {
+		name = sovietunion.88.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.89
+				days = 5
+			}
+		}
+		add_political_power = -50
+		add_popularity = {
+			ideology = orthodox_socialism
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = radical_bolshevism
+			popularity = 0.03
+		}
+	}
+}
+
+country_event = { # We are excluded from the soviets!
+	id = sovietunion.89
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.89"}
+	title = sovietunion.89.t
+	desc = sovietunion.89.d
+	picture = GFX_event_party2
+
+	is_triggered_only = yes
+
+	
+	option = {
+		name = sovietunion.89.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.90
+				days = 5
+			}
+		}
+		add_political_power = -100
+		add_popularity = {
+			ideology = orthodox_socialism
+			popularity = -0.10
+		}
+	}
+}
+
+country_event = { # Rally in red square
+	id = sovietunion.90
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.90"}
+	title = sovietunion.90.t
+	desc = sovietunion.90.d
+	picture = GFX_event_rally
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.90.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.91
+			}
+		}
+	}
+	
+	option = {
+		name = sovietunion.90.b
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.92
+			}
+		}
+	}
+	
+	option = {
+		name = sovietunion.90.c
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.93
+			}
+		}
+		add_political_power = -300
+	}
+	
+	option = {
+		name = sovietunion.90.e
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.94
+			}
+		}
+		add_political_power = -300
+	}
+}
+
+country_event = { # People's coup
+	id = sovietunion.91
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.91"}
+	title = sovietunion.91.t
+	desc = sovietunion.91.d
+	picture = GFX_event_kirov
+
+	is_triggered_only = yes
+
+	
+	option = {
+		name = sovietunion.91.a
+		add_popularity = {
+			ideology = orthodox_socialism
+			popularity = 0.25
+		}
+	set_party_name = {
+		ideology = orthodox_socialism
+		long_name = RSR_orthodox_socialism_kirov_party_long
+		name = RSR_orthodox_socialism_kirov_party
+			}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = rsr_martemyan_ryutin
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = rsr_vasily_kayurov
+		remove_ideas_with_trait = economy_minister
+		add_ideas = rsr_pavel_fedorov
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_filipp_medved
+		remove_ideas_with_trait = defence_minister
+		add_ideas = rsr_mikhail_sangursky
+		kill_country_leader = yes
+			create_country_leader = {
+			name = "Sergey Kirov"
+			desc = "POLITICS_SERGEY_KIROV_DESC"
+			picture = "Portrait_Russian_Sergey_Kirov.dds"
+			expire = "1965.1.1"
+			ideology = orthodox_socialism_subtype
+			traits = {}
+		}
+	}
+}
+
+country_event = { # They are storm the gate!
+	id = sovietunion.92
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.92"}
+	title = sovietunion.92.t
+	desc = sovietunion.92.d
+	picture = GFX_event_red_square_battle
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.92.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.95
+			}
+		}
+	}
+	
+	option = {
+		name = sovietunion.92.b
+		random_list = {
+				30 = {
+					country_event = {
+							id = sovietunion.96 
+						}
+					}
+				70 = {
+					country_event = {
+							id = sovietunion.97
+
+						}
+					}
+			}
+		add_political_power = -150
+	}
+}
+
+country_event = { # Tukhachevsky's coup
+	id = sovietunion.94
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.94"}
+	title = sovietunion.94.t
+	desc = sovietunion.94.d
+	picture = GFX_event_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietunion.94.a
+		add_political_power = -400
+		add_stability = -0.20
+		remove_ideas_with_trait = head_of_government
+		add_ideas = rsr_mikhail_tukhachevsky_hog
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = rsr_vitovt_putna
+		remove_ideas_with_trait = economy_minister
+		add_ideas = rsr_robert_eydeman
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_yan_gamarnik
+		remove_ideas_with_trait = defence_minister
+		add_ideas = rsr_avgust_kork
+		set_politics = {
+			ruling_party = radical_bolshevism
+			elections_allowed = no    }
+		set_popularities = {
+			radical_bolshevism = 50
+			orthodox_socialism = 20
+			accelerationism = 30
+			social_democracy = 0
+			liberalism = 0
+			conservatism = 0
+			autoritarian_democracy = 0
+			national_militarism = 0
+			paternalism = 0
+			}
+	hidden_effect = {
+		country_event = {
+				id = sovietunion.14
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { # People's coup2
+	id = sovietunion.95
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.95"}
+	title = sovietunion.95.t
+	desc = sovietunion.95.d
+	picture = GFX_event_kirov
+
+	is_triggered_only = yes
+
+	
+	option = {
+		name = sovietunion.95.a
+		add_popularity = {
+			ideology = orthodox_socialism
+			popularity = 0.25
+		}
+	set_party_name = {
+		ideology = orthodox_socialism
+		long_name = RSR_orthodox_socialism_kirov_party_long
+		name = RSR_orthodox_socialism_kirov_party
+			}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = rsr_martemyan_ryutin
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = rsr_vasily_kayurov
+		remove_ideas_with_trait = economy_minister
+		add_ideas = rsr_pavel_fedorov
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_filipp_medved
+		remove_ideas_with_trait = defence_minister
+		add_ideas = rsr_mikhail_sangursky
+		kill_country_leader = yes
+			create_country_leader = {
+			name = "Sergey Kirov"
+			desc = "POLITICS_SERGEY_KIROV_DESC"
+			picture = "Portrait_Russian_Sergey_Kirov.dds"
+			expire = "1965.1.1"
+			ideology = orthodox_socialism_subtype
+			traits = {}
+		}
+	}
+}
+
+country_event = { # Blood bath
+	id = sovietunion.96
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.96"}
+	title = sovietunion.96.t
+	desc = sovietunion.96.d
+	picture = GFX_event_red_square_massacre
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.96.a
+		add_political_power = 25
+		add_stability = 0.05
+	}
+}
+
+country_event = { # People's coup3
+	id = sovietunion.97
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.97"}
+	title = sovietunion.97.t
+	desc = sovietunion.97.d
+	picture = GFX_event_red_square_battle2
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.97.a
+		set_party_name = {
+		ideology = orthodox_socialism
+		long_name = RSR_orthodox_socialism_kirov_party_long
+		name = RSR_orthodox_socialism_kirov_party
+			}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = rsr_martemyan_ryutin
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = rsr_vasily_kayurov
+		remove_ideas_with_trait = economy_minister
+		add_ideas = rsr_pavel_fedorov
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_filipp_medved
+		remove_ideas_with_trait = defence_minister
+		add_ideas = rsr_mikhail_sangursky
+		kill_country_leader = yes
+			create_country_leader = {
+			name = "Sergey Kirov"
+			desc = "POLITICS_SERGEY_KIROV_DESC"
+			picture = "Portrait_Russian_Sergey_Kirov.dds"
+			expire = "1965.1.1"
+			ideology = orthodox_socialism_subtype
+			traits = {}
+		}
+	add_political_power = 150
+	}
+}
+											#############
+							################CHEKA EVENTS#####################
+											#############
+											
+country_event = { # New Kalendar
+	id = sovietunion.10020
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.10020"}
+	title = sovietunion.10020.t
+	desc = sovietunion.10020.d
+	picture = GFX_event_kalendar
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.10020.a
+		add_political_power = 75
+		add_stability = 0.10
+		add_popularity = {
+			ideology = radical_bolshevism
+			popularity = -0.05
+		}
+	}
+}
+											

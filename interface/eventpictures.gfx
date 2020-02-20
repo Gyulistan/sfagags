@@ -81,6 +81,105 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_teddy1.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_event_tukhachevsky_with_army"
+		texturefile = "gfx/event_pictures/event_tukhachevsky_with_army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_red_october"
+		texturefile = "gfx/event_pictures/news_event_red_october.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_tukhachevsky_speak"
+		texturefile = "gfx/event_pictures/event_tukhachevsky_speak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_party2"
+		texturefile = "gfx/event_pictures/event_party2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_chekists3"
+		texturefile = "gfx/event_pictures/event_chekists3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_soviet_newspaper"
+		texturefile = "gfx/event_pictures/event_soviet_newspaper.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_bukharin"
+		texturefile = "gfx/event_pictures/event_bukharin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_soldiers_read"
+		texturefile = "gfx/event_pictures/event_soldiers_read.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_kirov"
+		texturefile = "gfx/event_pictures/event_kirov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_red_square_battle"
+		texturefile = "gfx/event_pictures/event_red_square_battle.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_event_red_square_battle2"
+		texturefile = "gfx/event_pictures/event_red_square_battle2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_red_square_massacre"
+		texturefile = "gfx/event_pictures/event_red_square_massacre.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_kalendar"
+		texturefile = "gfx/event_pictures/event_kalendar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_army"
+		texturefile = "gfx/event_pictures/event_army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_british_revolution"
+		texturefile = "gfx/event_pictures/event_british_revolution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_weapons"
+		texturefile = "gfx/event_pictures/event_weapons.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_chekists4"
+		texturefile = "gfx/event_pictures/event_chekists4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_bolsheviks"
+		texturefile = "gfx/event_pictures/event_bolsheviks.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_gangsta"
+		texturefile = "gfx/event_pictures/event_gangsta.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_shoot"
+		texturefile = "gfx/event_pictures/event_shoot.dds"
+	}
 }
 	
 	

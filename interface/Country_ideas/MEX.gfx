@@ -1,0 +1,29 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_mex_jasinto_trevino"
+		texturefile = "gfx/interface/Ideas/MEX/mex_jasinto_trevino.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_mex_aaron_saenz"
+		texturefile = "gfx/interface/Ideas/MEX/mex_aaron_saenz.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_mex_manuel_trevino"
+		texturefile = "gfx/interface/Ideas/MEX/mex_manuel_trevino.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_mex_miguel_robles"
+		texturefile = "gfx/interface/Ideas/MEX/mex_miguel_robles.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_mex_rafael_capmany"
+		texturefile = "gfx/interface/Ideas/MEX/mex_rafael_capmany.tga"
+	}
+	
+

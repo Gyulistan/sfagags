@@ -50,6 +50,10 @@
  steel_magnate:0 "Стальной магнат"
  railway_magnate:0 "Железнодорожный магнат"
  theoretical_scientist:0 "Учёный-теоретик"
+ thunderstorm_of_camps:0 "Гроза Лагерей"
+ electric_baron:0 "Электрический барон"
+ sovereign_magus:0 "Верховный волхв"
+ functionary_of_soviets:0 "Функционер Советов"
  
  biased_intellectual:0 "Предвзятый интеллектуал"
  ideological_crusader:0 "Идейный борец"
@@ -68,6 +72,7 @@
  military_tycoon:0 "Военный магнат"
  military_genius:0 "Военный гений"
  war_hero:0 "Герой Войны"
+ dashing_cavalryman:0 "Лихой кавалерист"
  
  back_stabber:0 "Интриган"
  compassionate_gentleman:0 "Благородный джентльмен"
@@ -76,7 +81,7 @@
  efficient_sociopath:0 "Эффективный социопат"
  health_and_safety:0 "Здоровье и безопасность"
  media_magnate:0 "Медиа-магнат"
- prince_of_terror:0 "Кровавый палач"
+ prince_of_terror:0 "Корифей Террора"
  secret_police_chief:0 "Начальник тайной полиции"
  silent_lawyer:0 "Тихий юрист"
  man_of_the_people:0 "Человек из народа"

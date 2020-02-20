@@ -81,3 +81,15 @@ create_country_leader = {
 	
 	}
 }
+
+
+create_corps_commander = {
+	name = "Thomas Edward Lawrence"
+		picture = "Portrait_Wales_Thomas_Edward_Lawrence.dds"
+	traits = { career_officer trickster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}

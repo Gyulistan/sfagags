@@ -1,0 +1,29 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_ukr_panas_lyubchenko"
+		texturefile = "gfx/interface/Ideas/UKR/ukr_panas_lyubchenko.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ukr_lev_kovalyov"
+		texturefile = "gfx/interface/Ideas/UKR/ukr_lev_kovalyov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ukr_yefim_schshadenko"
+		texturefile = "gfx/interface/Ideas/UKR/ukr_yefim_schshadenko.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ukr_grigory_grinko"
+		texturefile = "gfx/interface/Ideas/UKR/ukr_grigory_grinko.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ukr_alexandr_shumsky"
+		texturefile = "gfx/interface/Ideas/UKR/ukr_alexandr_shumsky.tga"
+	}
+	
+}

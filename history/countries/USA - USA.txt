@@ -99,6 +99,8 @@ set_autonomy = {
 	autonomous_state =  autonomy_puppet
 }
 
+country_event = { id = unitedstates.2 days = 3 }
+
 
 create_country_leader = {
 	name = "John Calvin Coolidge"

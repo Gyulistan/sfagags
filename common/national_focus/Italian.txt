@@ -12,7 +12,7 @@ focus_tree = {
 	focus = {
 		id = ITA0
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		x = 16
 		y = 1
 
@@ -20,7 +20,7 @@ focus_tree = {
 	focus = {
 		id = ITA67
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		x = 21
 		y = 16
 
@@ -28,7 +28,7 @@ focus_tree = {
 	focus = {
 		id = ITA101
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		x = 30
 		y = 25
 
@@ -36,7 +36,7 @@ focus_tree = {
 	focus = {
 		id = ITA1
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA0
 		}
@@ -47,7 +47,7 @@ focus_tree = {
 	focus = {
 		id = ITA2
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA1
 		}
@@ -58,7 +58,7 @@ focus_tree = {
 	focus = {
 		id = ITA3
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA2
 		}
@@ -69,7 +69,7 @@ focus_tree = {
 	focus = {
 		id = ITA4
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA3
 		}
@@ -80,7 +80,7 @@ focus_tree = {
 	focus = {
 		id = ITA28
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA4
 		}
@@ -91,7 +91,7 @@ focus_tree = {
 	focus = {
 		id = ITA31
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA28
 		}
@@ -102,7 +102,7 @@ focus_tree = {
 	focus = {
 		id = ITA29
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA28
 		}
@@ -113,7 +113,7 @@ focus_tree = {
 	focus = {
 		id = ITA24
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA4
 		}
@@ -124,7 +124,7 @@ focus_tree = {
 	focus = {
 		id = ITA25
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA24
 		}
@@ -135,7 +135,7 @@ focus_tree = {
 	focus = {
 		id = ITA5
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA4
 		}
@@ -146,7 +146,7 @@ focus_tree = {
 	focus = {
 		id = ITA6
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA5
 			focus = ITA24
@@ -158,7 +158,7 @@ focus_tree = {
 	focus = {
 		id = ITA11
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA6
 		}
@@ -169,7 +169,7 @@ focus_tree = {
 	focus = {
 		id = ITA12
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA11
 		}
@@ -180,7 +180,7 @@ focus_tree = {
 	focus = {
 		id = ITA7
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA5
 		}
@@ -191,7 +191,7 @@ focus_tree = {
 	focus = {
 		id = ITA8
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA7
 		}
@@ -202,7 +202,7 @@ focus_tree = {
 	focus = {
 		id = ITA9
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA8
 		}
@@ -213,7 +213,7 @@ focus_tree = {
 	focus = {
 		id = ITA10
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA12
 		}
@@ -227,7 +227,7 @@ focus_tree = {
 	focus = {
 		id = ITA19
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA10
 		}
@@ -241,7 +241,7 @@ focus_tree = {
 	focus = {
 		id = ITA20
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA19
 		}
@@ -252,7 +252,7 @@ focus_tree = {
 	focus = {
 		id = ITA21
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA20
 		}
@@ -263,7 +263,7 @@ focus_tree = {
 	focus = {
 		id = ITA22
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA19
 		}
@@ -274,7 +274,7 @@ focus_tree = {
 	focus = {
 		id = ITA23
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA22
 		}
@@ -285,7 +285,7 @@ focus_tree = {
 	focus = {
 		id = ITA35
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA4
 		}
@@ -296,7 +296,7 @@ focus_tree = {
 	focus = {
 		id = ITA36
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA35
 		}
@@ -307,7 +307,7 @@ focus_tree = {
 	focus = {
 		id = ITA37
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA35
 		}
@@ -318,7 +318,7 @@ focus_tree = {
 	focus = {
 		id = ITA38
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA36
 		}
@@ -332,7 +332,7 @@ focus_tree = {
 	focus = {
 		id = ITA39
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA38
 		}
@@ -343,7 +343,7 @@ focus_tree = {
 	focus = {
 		id = ITA68
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA67
 		}
@@ -354,7 +354,7 @@ focus_tree = {
 	focus = {
 		id = ITA76
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA68
 		}
@@ -365,7 +365,7 @@ focus_tree = {
 	focus = {
 		id = ITA77
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA76
 		}
@@ -376,7 +376,7 @@ focus_tree = {
 	focus = {
 		id = ITA87
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA77
 		}
@@ -387,7 +387,7 @@ focus_tree = {
 	focus = {
 		id = ITA88
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA77
 		}
@@ -398,7 +398,7 @@ focus_tree = {
 	focus = {
 		id = ITA40
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA39
 		}
@@ -409,7 +409,7 @@ focus_tree = {
 	focus = {
 		id = ITA41
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA40
 		}
@@ -420,7 +420,7 @@ focus_tree = {
 	focus = {
 		id = ITA78
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA76
 		}
@@ -431,7 +431,7 @@ focus_tree = {
 	focus = {
 		id = ITA79
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA78
 		}
@@ -442,7 +442,7 @@ focus_tree = {
 	focus = {
 		id = ITA80
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA79
 		}
@@ -456,7 +456,7 @@ focus_tree = {
 	focus = {
 		id = ITA81
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA80
 		}
@@ -467,7 +467,7 @@ focus_tree = {
 	focus = {
 		id = ITA42
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA35
 		}
@@ -478,7 +478,7 @@ focus_tree = {
 	focus = {
 		id = ITA43
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA42
 		}
@@ -489,7 +489,7 @@ focus_tree = {
 	focus = {
 		id = ITA44
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA43
 		}
@@ -500,7 +500,7 @@ focus_tree = {
 	focus = {
 		id = ITA47
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA41
 			focus = ITA44
@@ -512,7 +512,7 @@ focus_tree = {
 	focus = {
 		id = ITA48
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA47
 		}
@@ -523,7 +523,7 @@ focus_tree = {
 	focus = {
 		id = ITA84
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA79
 		}
@@ -537,7 +537,7 @@ focus_tree = {
 	focus = {
 		id = ITA85
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA84
 		}
@@ -548,7 +548,7 @@ focus_tree = {
 	focus = {
 		id = ITA86
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA85
 		}
@@ -559,7 +559,7 @@ focus_tree = {
 	focus = {
 		id = ITA45
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA44
 		}
@@ -570,7 +570,7 @@ focus_tree = {
 	focus = {
 		id = ITA46
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA45
 		}
@@ -581,7 +581,7 @@ focus_tree = {
 	focus = {
 		id = ITA49
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA4
 		}
@@ -592,7 +592,7 @@ focus_tree = {
 	focus = {
 		id = ITA50
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA49
 		}
@@ -603,7 +603,7 @@ focus_tree = {
 	focus = {
 		id = ITA51
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA50
 		}
@@ -614,7 +614,7 @@ focus_tree = {
 	focus = {
 		id = ITA52
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA49
 		}
@@ -625,7 +625,7 @@ focus_tree = {
 	focus = {
 		id = ITA53
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA52
 		}
@@ -636,7 +636,7 @@ focus_tree = {
 	focus = {
 		id = ITA54
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA53
 		}
@@ -650,7 +650,7 @@ focus_tree = {
 	focus = {
 		id = ITA75
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA68
 		}
@@ -661,7 +661,7 @@ focus_tree = {
 	focus = {
 		id = ITA93
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA75
 		}
@@ -675,7 +675,7 @@ focus_tree = {
 	focus = {
 		id = ITA94
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA93
 		}
@@ -686,7 +686,7 @@ focus_tree = {
 	focus = {
 		id = ITA95
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA94
 		}
@@ -697,7 +697,7 @@ focus_tree = {
 	focus = {
 		id = ITA55
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA54
 		}
@@ -708,7 +708,7 @@ focus_tree = {
 	focus = {
 		id = ITA58
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA55
 		}
@@ -719,7 +719,7 @@ focus_tree = {
 	focus = {
 		id = ITA56
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA55
 		}
@@ -730,7 +730,7 @@ focus_tree = {
 	focus = {
 		id = ITA59
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA58
 		}
@@ -741,7 +741,7 @@ focus_tree = {
 	focus = {
 		id = ITA60
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA59
 		}
@@ -752,7 +752,7 @@ focus_tree = {
 	focus = {
 		id = ITA103
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA95
 		}
@@ -766,7 +766,7 @@ focus_tree = {
 	focus = {
 		id = ITA61
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA54
 		}
@@ -777,7 +777,7 @@ focus_tree = {
 	focus = {
 		id = ITA63
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA61
 		}
@@ -788,7 +788,7 @@ focus_tree = {
 	focus = {
 		id = ITA64
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA63
 		}
@@ -799,7 +799,7 @@ focus_tree = {
 	focus = {
 		id = ITA62
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA61
 		}
@@ -810,7 +810,7 @@ focus_tree = {
 	focus = {
 		id = ITA109
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA75
 		}
@@ -824,7 +824,7 @@ focus_tree = {
 	focus = {
 		id = ITA108
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA109
 		}
@@ -835,7 +835,7 @@ focus_tree = {
 	focus = {
 		id = ITA107
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA108
 		}
@@ -846,7 +846,7 @@ focus_tree = {
 	focus = {
 		id = ITA110
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA108
 		}
@@ -857,7 +857,7 @@ focus_tree = {
 	focus = {
 		id = ITA112
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA108
 		}
@@ -868,7 +868,7 @@ focus_tree = {
 	focus = {
 		id = ITA111
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA110
 		}
@@ -882,7 +882,7 @@ focus_tree = {
 	focus = {
 		id = ITA106
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA107
 		}
@@ -896,7 +896,7 @@ focus_tree = {
 	focus = {
 		id = ITA114
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA106
 		}
@@ -910,7 +910,7 @@ focus_tree = {
 	focus = {
 		id = ITA104
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA103
 			focus = ITA106
@@ -922,7 +922,7 @@ focus_tree = {
 	focus = {
 		id = ITA115
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA114
 		}
@@ -933,7 +933,7 @@ focus_tree = {
 	focus = {
 		id = ITA65
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA61
 		}
@@ -944,7 +944,7 @@ focus_tree = {
 	focus = {
 		id = ITA66
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA65
 		}
@@ -955,7 +955,7 @@ focus_tree = {
 	focus = {
 		id = ITA116
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA111
 		}
@@ -966,7 +966,7 @@ focus_tree = {
 	focus = {
 		id = ITA117
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA116
 		}
@@ -977,7 +977,7 @@ focus_tree = {
 	focus = {
 		id = ITA118
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA115
 		}
@@ -991,7 +991,7 @@ focus_tree = {
 	focus = {
 		id = V119
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA118
 		}
@@ -1005,7 +1005,7 @@ focus_tree = {
 	focus = {
 		id = ITA113
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA112
 		}
@@ -1016,7 +1016,7 @@ focus_tree = {
 	focus = {
 		id = ITA120
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA118
 		}
@@ -1030,7 +1030,7 @@ focus_tree = {
 	focus = {
 		id = ITA122
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA75
 		}
@@ -1041,7 +1041,7 @@ focus_tree = {
 	focus = {
 		id = ITA123
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA122
 		}
@@ -1052,7 +1052,7 @@ focus_tree = {
 	focus = {
 		id = ITA124
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA122
 		}
@@ -1063,7 +1063,7 @@ focus_tree = {
 	focus = {
 		id = ITA125
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA123
 		}
@@ -1077,7 +1077,7 @@ focus_tree = {
 	focus = {
 		id = ITA126
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA124
 		}
@@ -1088,7 +1088,7 @@ focus_tree = {
 	focus = {
 		id = ITA127
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA126
 		}
@@ -1102,7 +1102,7 @@ focus_tree = {
 	focus = {
 		id = ITA128
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA127
 		}
@@ -1113,7 +1113,7 @@ focus_tree = {
 	focus = {
 		id = ITA129
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA128
 		}
@@ -1124,7 +1124,7 @@ focus_tree = {
 	focus = {
 		id = ITA130
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA129
 		}
@@ -1135,7 +1135,7 @@ focus_tree = {
 	focus = {
 		id = ITA131
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA129
 		}
@@ -1146,7 +1146,7 @@ focus_tree = {
 	focus = {
 		id = ITA13
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA10
 		}
@@ -1160,7 +1160,7 @@ focus_tree = {
 	focus = {
 		id = ITA14
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA13
 		}
@@ -1171,7 +1171,7 @@ focus_tree = {
 	focus = {
 		id = ITA15
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA13
 		}
@@ -1182,7 +1182,7 @@ focus_tree = {
 	focus = {
 		id = ITA16
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA14
 		}
@@ -1193,7 +1193,7 @@ focus_tree = {
 	focus = {
 		id = ITA17
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA15
 		}
@@ -1204,7 +1204,7 @@ focus_tree = {
 	focus = {
 		id = ITA18
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA16
 		}
@@ -1218,7 +1218,7 @@ focus_tree = {
 	focus = {
 		id = ITA26
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA25
 		}
@@ -1229,7 +1229,7 @@ focus_tree = {
 	focus = {
 		id = ITA27
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA26
 		}
@@ -1240,7 +1240,7 @@ focus_tree = {
 	focus = {
 		id = ITA30
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA29
 		}
@@ -1251,7 +1251,7 @@ focus_tree = {
 	focus = {
 		id = ITA32
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA31
 		}
@@ -1262,7 +1262,7 @@ focus_tree = {
 	focus = {
 		id = ITA33
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA28
 		}
@@ -1273,7 +1273,7 @@ focus_tree = {
 	focus = {
 		id = ITA34
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA33
 		}
@@ -1284,7 +1284,7 @@ focus_tree = {
 	focus = {
 		id = ITA57
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA56
 		}
@@ -1295,7 +1295,7 @@ focus_tree = {
 	focus = {
 		id = ITA69
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA68
 		}
@@ -1306,7 +1306,7 @@ focus_tree = {
 	focus = {
 		id = ITA70
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA68
 		}
@@ -1317,7 +1317,7 @@ focus_tree = {
 	focus = {
 		id = ITA71
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA70
 			focus = ITA69
@@ -1329,7 +1329,7 @@ focus_tree = {
 	focus = {
 		id = ITA72
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA70
 		}
@@ -1340,7 +1340,7 @@ focus_tree = {
 	focus = {
 		id = ITA73
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA71
 		}
@@ -1351,7 +1351,7 @@ focus_tree = {
 	focus = {
 		id = ITA74
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA71
 		}
@@ -1362,7 +1362,7 @@ focus_tree = {
 	focus = {
 		id = ITA82
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA80
 		}
@@ -1373,7 +1373,7 @@ focus_tree = {
 	focus = {
 		id = ITA83
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA82
 		}
@@ -1387,7 +1387,7 @@ focus_tree = {
 	focus = {
 		id = ITA89
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA88
 			focus = ITA87
@@ -1399,7 +1399,7 @@ focus_tree = {
 	focus = {
 		id = ITA90
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA89
 		}
@@ -1410,7 +1410,7 @@ focus_tree = {
 	focus = {
 		id = ITA91
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA89
 		}
@@ -1421,7 +1421,7 @@ focus_tree = {
 	focus = {
 		id = ITA92
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA91
 		}
@@ -1432,7 +1432,7 @@ focus_tree = {
 	focus = {
 		id = ITA96
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA95
 		}
@@ -1443,7 +1443,7 @@ focus_tree = {
 	focus = {
 		id = ITA97
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA96
 		}
@@ -1454,7 +1454,7 @@ focus_tree = {
 	focus = {
 		id = ITA98
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA97
 		}
@@ -1465,7 +1465,7 @@ focus_tree = {
 	focus = {
 		id = ITA99
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA98
 		}
@@ -1476,7 +1476,7 @@ focus_tree = {
 	focus = {
 		id = ITA100
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA97
 		}
@@ -1487,7 +1487,7 @@ focus_tree = {
 	focus = {
 		id = ITA102
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA99
 		}
@@ -1501,7 +1501,7 @@ focus_tree = {
 	focus = {
 		id = ITA105
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = ITA104
 		}
@@ -1512,7 +1512,7 @@ focus_tree = {
 	focus = {
 		id = ITA121
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 10.00
 		prerequisite = {
 			focus = V119
 			focus = ITA120

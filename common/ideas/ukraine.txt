@@ -1,0 +1,159 @@
+ideas = {
+
+	head_of_government = {
+
+		ukr_panas_lyubchenko = {
+		
+			picture = GFX_idea_ukr_panas_lyubchenko
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				backroom_backstabber
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = UKR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}		
+		}
+		
+		
+	foreign_minister = {
+
+		ukr_lev_kovalyov = {
+		
+			picture = GFX_idea_ukr_lev_kovalyov
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				biased_intellectual
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = UKR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}	
+
+	defence_minister = {
+
+		ukr_yefim_schshadenko = {
+		
+			picture = GFX_idea_ukr_yefim_schshadenko 
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				dashing_cavalryman
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = UKR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		ukr_grigory_grinko = {
+		
+			picture = GFX_idea_ukr_grigory_grinko
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				bank_president
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = UKR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}	
+
+	security_minister = {
+
+		ukr_alexandr_shumsky = {
+		
+			picture = GFX_idea_ukr_alexandr_shumsky
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				compassionate_gentleman
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = UKR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}		
+}

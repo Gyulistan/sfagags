@@ -186,6 +186,34 @@ ideas = {
 			
 						}
 				}	
+
+		sng_joseph_tito = {
+		
+			picture = GFX_idea_sng_joseph_tito
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				functionary_of_soviets
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = SNG
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
 		}
 
 country = {

@@ -1,8 +1,8 @@
 ﻿capital = 123
 
-oob = "COR_1936"
+oob = "COR_1926"
 
-set_research_slots = 4
+set_research_slots = 2
 
 set_stability = 0.6
 set_war_support = 0.1

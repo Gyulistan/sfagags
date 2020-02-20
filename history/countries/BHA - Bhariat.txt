@@ -19,22 +19,9 @@ set_technology = {
 	
 }
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
 
 	add_ideas = {
-		Chaos_in_the_country
-		Social_economic
-		Loyalist
-		ind_vallabhbhai_patel
-		ind_jivatram_kripalani
-		ind_abdul_khan
-		ind_mohammad_abbas_khan
-		ind_rajendra_prasad_min
 	}
-
-	add_to_tech_sharing_group = commonwealth_research
-}
 
 if = {
 	declare_war_on = {
@@ -50,7 +37,7 @@ if = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = orthodox_socialism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -68,11 +55,11 @@ set_popularities = {
 	}
 
 create_country_leader = {
-	name = "Mahatma Gandhi"
-	desc = "POLITICS_MAHATMA_GANDHI_DESC"
-	picture = "gfx/leaders/IND/Portrait_Indian_Mahatma_Gandhi.dds"
+	name = "Muzaffar Ahmed"
+	desc = "POLITICS_MUZAFFAR_AHMED_DESC"
+	picture = "gfx/leaders/BHA/Portrait_Bengali_Muzaffar_Ahmed.dds"
 	expire = "1948.1.1"
-	ideology = conservatism_subtype
+	ideology = orthodox_socialism_subtype
 	traits = {
 		
 	}

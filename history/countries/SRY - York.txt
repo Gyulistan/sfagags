@@ -1,6 +1,6 @@
 capital = 130
 
-oob = "SRY_1936"
+oob = "SRY_1926"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -84,12 +84,24 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "John MacCormick"
-	desc = "POLITICS_JOHN_MACCORMICK_DESC"
-	picture = "Portrait_Scotland_John_MacCormick.dds"
+	name = "Albert Inkpin"
+	desc = "POLITICS_ALBERT_INKPIN_DESC"
+	picture = "Portrait_York_Albert_Inkpin.dds"
 	expire = "1965.1.1"
-	ideology = autoritarian_democracy_subtype
+	ideology = radical_bolshevism_subtype
 	traits = {
-		
+	}
+}
+
+create_corps_commander = {
+	name = "John Grover "
+		picture = "Portrait_York_John_Grover.dds"
+	traits = { career_officer infantry_officer }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 	}
 }

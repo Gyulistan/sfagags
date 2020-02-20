@@ -1,0 +1,30 @@
+add_namespace = sovietbritain
+
+country_event = {
+	id = sovietbritain.1 # English Revolution
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.1"}
+	title = sovietbritain.1.t
+	desc = sovietbritain.1.d
+	picture = GFX_event_british_revolution
+
+	is_triggered_only = no
+	
+	trigger = {
+		tag = BWF
+		is_puppet = no
+		AND = {
+			date > 1926.7.3
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+			
+	option = {
+		name = sovietbritain.1.a
+		add_political_power = 25
+		}	
+	}

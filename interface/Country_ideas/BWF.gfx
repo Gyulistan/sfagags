@@ -1,0 +1,43 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_sng_robert_page_arnot"
+		texturefile = "gfx/interface/Ideas/BWF/sng_robert_page_arnot.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_thomas_bell"
+		texturefile = "gfx/interface/Ideas/BWF/sng_thomas_bell.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_rajani_palme_dutt"
+		texturefile = "gfx/interface/Ideas/BWF/sng_rajani_palme_dutt.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_thomas_witringham"
+		texturefile = "gfx/interface/Ideas/BWF/sng_thomas_witringham.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_clemens_palme_dutt"
+		texturefile = "gfx/interface/Ideas/BWF/sng_clemens_palme_dutt.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_arthur_horner"
+		texturefile = "gfx/interface/Ideas/BWF/sng_arthur_horner.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sng_joseph_tito"
+		texturefile = "gfx/interface/Ideas/BWF/sng_joseph_tito.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SNG_war_of_liberation"
+		texturefile = "gfx/interface/Ideas/BWF/war_of_liberation.tga"
+	}
+
