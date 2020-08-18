@@ -1,0 +1,157 @@
+GET_CLOSEBUTTON_TEXT = {
+	name = GET_CLOSEBUTTON_TEXT
+
+	## West Russia
+	text = {
+		trigger = { tag = KIR }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_KIR
+	}
+
+GET_CURRENT_INTRO_TEXT = {
+	name = GET_CURRENT_INTRO_TEXT
+
+	text = {
+		trigger = { has_country_flag = OPEN_view_country_info }
+		localization_key = COUNTRY_INFO_TEXT
+	}
+
+	text = {
+		trigger = { has_country_flag = OPEN_view_region_info }
+		localization_key = REGIONAL_INFO_TEXT
+	}
+
+	text = {
+		trigger = { has_country_flag = OPEN_view_features_info }
+		localization_key = MOD_FEATURES_TEXT
+	}
+
+	text = {
+		trigger = { has_country_flag = OPEN_view_mod_info }
+		localization_key = MOD_INFO_TEXT
+	}
+
+}
+
+GET_COUNTRY_INFO = {
+	name = GET_COUNTRY_INFO
+
+	## West Russia
+	text = {
+		trigger = { tag = KIR }
+		localization_key = COUNTRY_INFO_VYATKA
+	}
+
+	## Default
+	text = {
+		localization_key = COUNTRY_INFO_NO_CONTENT
+	}
+}
+
+GET_REGIONAL_INFO = {
+	name = GET_REGIONAL_INFO
+
+	## Southern Urals
+	text = {
+		trigger = {
+			OR = {
+				tag = URL
+				tag = ORE
+				tag = BAS
+				tag = ORS
+			}
+		}
+		localization_key = REGIONAL_INFO_URAL
+	}
+	## South Africa
+	text = {
+		trigger = {
+			OR = {
+				tag = MZB
+				tag = ANG
+				tag = COG
+				tag = SAF
+				tag = MAD
+			}
+		}
+		localization_key = REGIONAL_INFO_AFRICA
+	}
+	## North America
+	text = {
+		trigger = {
+			OR = {
+				tag = WIN
+				tag = MEX
+				tag = CAN
+				tag = USA
+			}
+		}
+		localization_key = REGIONAL_INFO_AMERICA
+	}
+	## East Asia
+	text = {
+		trigger = {
+			OR = {
+				tag = JAP
+				tag = CHI
+				tag = INS
+				tag = PHI
+				tag = FRI
+				tag = YUN
+			}
+		}
+		localization_key = REGIONAL_INFO_EAST_ASIA
+	}
+	## Europe
+	text = {
+		trigger = {
+			OR = {
+				tag = IME
+				tag = ILG
+				tag = ITA
+				tag = IBR
+				tag = BRG
+				tag = GER
+				tag = OST
+				tag = NOR
+				tag = CZE
+				tag = TUR
+				tag = FRA
+				tag = BRT
+				tag = UKR
+				tag = EGY
+				tag = SLG
+				tag = SWI
+				tag = DEN
+				tag = FIN
+				tag = SWE
+			}
+		}
+		localization_key = REGIONAL_INFO_EUROPE
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = ENG
+				tag = WAL
+				tag = SCO
+				tag = IRE
+				tag = ULS
+				tag = CRN
+			}
+		}
+		localization_key = REGIONAL_INFO_ENGLAND
+	}
+	## Default
+	text = {
+		localization_key = REGIONAL_INFO_NO_CONTENT
+	}
+}
+
+GET_POSTER = {
+	name = GET_POSTER
+	#Iberia
+	text = {
+		trigger = { tag = IBR }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Iberia"
+	}
+}
