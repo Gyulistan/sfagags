@@ -1,0 +1,64 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_ita_benito_mussolini_gov"
+		texturefile = "gfx/interface/Ideas/ITA/ita_benito_mussolini_gov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_benito_mussolini_for"
+		texturefile = "gfx/interface/Ideas/ITA/ita_benito_mussolini_for.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_italo_balbo"
+		texturefile = "gfx/interface/Ideas/ITA/ita_italo_balbo.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_giuseppe_volpi"
+		texturefile = "gfx/interface/Ideas/ITA/ita_giuseppe_volpi.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_luigi_federzoni"
+		texturefile = "gfx/interface/Ideas/ITA/ita_luigi_federzoni.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_luigi_facta"
+		texturefile = "gfx/interface/Ideas/ITA/ita_luigi_facta.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_vittorio_orlando"
+		texturefile = "gfx/interface/Ideas/ITA/ita_vittorio_orlando.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_cradle_of_fascism"
+		texturefile = "gfx/interface/Ideas/ITA/ita_cradle_of_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_african_resistance"
+		texturefile = "gfx/interface/Ideas/ITA/ita_african_resistance.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_unfinished_revolution"
+		texturefile = "gfx/interface/Ideas/ITA/ita_unfinished_revolution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_remember_1925"
+		texturefile = "gfx/interface/Ideas/ITA/ita_remember_1925.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ita_victor_emmanuel"
+		texturefile = "gfx/interface/Ideas/ITA/ita_victor_emmanuel.dds"
+	}
+	
+

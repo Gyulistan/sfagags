@@ -186,5 +186,41 @@ ideas = {
 			
 						}
 				}	
-		}		
+		}
+		
+	army_chief = {
+		
+		eng_edmund_ironside_cos = {
+			
+			allowed = {
+				original_tag = ENG
+			}
+			available = 
+			{
+			}
+			
+
+			
+			traits = {  cos_school_of_fire_support }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	country = {
+
+		eng_memory_of_the_king = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea eng_memory_of_the_king"}
+
+			modifier = {
+				army_infantry_attack_factor = -0.10
+				army_infantry_defence_factor = -0.10
+				army_morale_factor = -0.30
+			}
+
+			picture = eng_memory_of_the_king
+		}
+	}		
 }

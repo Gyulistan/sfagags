@@ -1,0 +1,968 @@
+focus_tree = {
+	id = rsr_kirov_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = RSR
+		}
+	}
+	continuous_focus_position = { x = 1 y = 1 }
+	
+	focus = {
+		id = rsr_kir_folk_triumph
+		icon = GFX_focus_rsr_kir_folk_triumph
+		cost = 10
+		x = 15
+		y = 0
+
+	}
+	focus = {
+		id = rsr_kir_centralization_issue
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 0
+
+	}
+	focus = {
+		id = rsr_kir_invasion_in_europe
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = rsr_kir_peaceful_coexistence
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = rsr_kir_peaceful_coexistence
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = rsr_kir_invasion_in_europe
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = rsr_kir_further_decentralization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_centralization_issue
+		}
+		mutually_exclusive = {
+			focus = rsr_kir_union
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = rsr_kir_republic_assistance_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_further_decentralization
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = rsr_kir_soviet_confederation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_republic_assistance_project
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = rsr_kir_union
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_centralization_issue
+		}
+		mutually_exclusive = {
+			focus = rsr_kir_further_decentralization
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = rsr_kir_single_state_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_union
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = rsr_kir_autonomy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_single_state_project
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = rsr_kir_federalization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_single_state_project
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = rsr_kir_proclaim_freedom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_folk_triumph
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = rsr_kir_support_soviets
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_proclaim_freedom
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = rsr_kir_separation_of_powers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_proclaim_freedom
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = rsr_kir_support_peasants
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_proclaim_freedom
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = rsr_kir_resignation_rutin
+		icon = GFX_focus_rsr_kir_resignation_rutin
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_support_soviets
+		}
+		prerequisite = {
+			focus = rsr_kir_separation_of_powers
+		}
+		prerequisite = {
+			focus = rsr_kir_support_peasants
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = rsr_kir_first_sov_election
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_resignation_rutin
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = rsr_kir_tomsky_victory
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_first_sov_election
+		}
+		mutually_exclusive = {
+			focus = rsr_kir_martov_victory
+			focus = rsr_kir_kirov_victory
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = rsr_kir_martov_victory
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_first_sov_election
+		}
+		mutually_exclusive = {
+			focus = rsr_kir_tomsky_victory
+			focus = rsr_kir_kirov_victory
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = rsr_kir_new_politic
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_martov_victory
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = rsr_kir_kirov_victory
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_first_sov_election
+		}
+		mutually_exclusive = {
+			focus = rsr_kir_martov_victory
+			focus = rsr_kir_tomsky_victory
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = rsr_kir_bolshevik_support
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_kirov_victory
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = rsr_kir_ko_reforms
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_bolshevik_support
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = rsr_kir_factory_reforms
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_ko_reforms
+		}
+		x = 20
+		y = 8
+
+	}
+	focus = {
+		id = rsr_kir_factory_unions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_factory_reforms
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = rsr_kir_normalized_working_day
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_factory_reforms
+		}
+		x = 21
+		y = 9
+
+	}
+	focus = {
+		id = rsr_kir_soviet_reforms
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_ko_reforms
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = rsr_kir_bump_bureaucracy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_soviet_reforms
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = rsr_kir_censorship_reduction
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_bump_bureaucracy
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = rsr_kir_cinema
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_censorship_reduction
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
+		id = rsr_kir_souyzfilm
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_cinema
+		}
+		x = 23
+		y = 12
+
+	}
+	focus = {
+		id = rsr_kir_soviet_liberalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_souyzfilm
+		}
+		x = 23
+		y = 13
+
+	}
+	focus = {
+		id = rsr_kir_rural_reforms
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_ko_reforms
+		}
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = rsr_kir_syndicalist_proposal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_rural_reforms
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = rsr_kir_rural_communes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_rural_reforms
+		}
+		x = 27
+		y = 9
+
+	}
+	focus = {
+		id = rsr_kir_council_land_will
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_syndicalist_proposal
+		}
+		prerequisite = {
+			focus = rsr_kir_rural_communes
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = rsr_kir_communization_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_council_land_will
+		}
+		x = 26
+		y = 11
+
+	}
+	focus = {
+		id = rsr_kir_machine_stations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_communization_plan
+		}
+		x = 25
+		y = 12
+
+	}
+	focus = {
+		id = rsr_kir_rural_newspapers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_communization_plan
+		}
+		x = 27
+		y = 12
+
+	}
+	focus = {
+		id = rsr_kir_attract_kropotkintsy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_machine_stations
+		}
+		prerequisite = {
+			focus = rsr_kir_rural_newspapers
+		}
+		x = 26
+		y = 13
+
+	}
+	focus = {
+		id = rsr_kir_processing_standards
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_factory_unions
+		}
+		x = 19
+		y = 10
+
+	}
+	focus = {
+		id = rsr_kir_working_faculties
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_normalized_working_day
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = rsr_kir_political_participation_trade_unions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_processing_standards
+		}
+		prerequisite = {
+			focus = rsr_kir_working_faculties
+		}
+		x = 20
+		y = 11
+
+	}
+	focus = {
+		id = rsr_kir_establish_awards
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_political_participation_trade_unions
+		}
+		x = 20
+		y = 12
+
+	}
+	focus = {
+		id = rsr_kir_sti
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_establish_awards
+		}
+		x = 20
+		y = 13
+
+	}
+	focus = {
+		id = rsr_kir_to_sum_up
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_soviet_liberalism
+		}
+		prerequisite = {
+			focus = rsr_kir_sti
+		}
+		prerequisite = {
+			focus = rsr_kir_attract_kropotkintsy
+		}
+		x = 23
+		y = 14
+
+	}
+	focus = {
+		id = rsr_kir_coalition_anarchists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_tomsky_victory
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = rsr_kir_course_on_syndicalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_universal_labor_appeal
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = rsr_kir_union_independence
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_universal_labor_appeal
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = rsr_kir_political_enlightenment
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_course_on_syndicalism
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = rsr_kir_union_democracy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_union_independence
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = rsr_kir_collegiality_of_power
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_union_democracy
+		}
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = rsr_kir_liquidate_narkomats
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_collegiality_of_power
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = rsr_kir_call_of_syndicalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_political_enlightenment
+		}
+		prerequisite = {
+			focus = rsr_kir_job_stimulation
+		}
+		x = 7
+		y = 10
+
+	}
+	focus = {
+		id = rsr_kir_rural_unions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_call_of_syndicalism
+		}
+		x = 7
+		y = 11
+
+	}
+	focus = {
+		id = rsr_kir_confederation_workers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_rural_unions
+		}
+		x = 6
+		y = 12
+
+	}
+	focus = {
+		id = rsr_kir_mutual_help
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_rural_unions
+		}
+		x = 8
+		y = 12
+
+	}
+	focus = {
+		id = rsr_kir_labor_exchange
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_confederation_workers
+		}
+		prerequisite = {
+			focus = rsr_kir_mutual_help
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = rsr_kir_goals_unions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_universal_labor_appeal
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = rsr_kir_universal_labor_appeal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_coalition_anarchists
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = rsr_kir_wide_powers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_liquidate_narkomats
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = rsr_kir_job_stimulation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_goals_unions
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = rsr_kir_labor_council
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_universal_labor_appeal
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = rsr_kir_professional_standards
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_labor_council
+		}
+		x = 3
+		y = 9
+
+	}
+	focus = {
+		id = rsr_kir_cectran_ambitions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_professional_standards
+		}
+		x = 2
+		y = 10
+
+	}
+	focus = {
+		id = rsr_kir_science_union_organization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_professional_standards
+		}
+		x = 4
+		y = 10
+
+	}
+	focus = {
+		id = rsr_kir_medical_requirements
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_science_union_organization
+		}
+		x = 4
+		y = 11
+
+	}
+	focus = {
+		id = rsr_kir_general_vaccination
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_medical_requirements
+		}
+		x = 4
+		y = 12
+
+	}
+	focus = {
+		id = rsr_kir_zemstvo_teacher_program
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_general_vaccination
+		}
+		x = 4
+		y = 13
+
+	}
+	focus = {
+		id = rsr_kir_development_siberia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_cectran_ambitions
+		}
+		x = 2
+		y = 11
+
+	}
+	focus = {
+		id = rsr_kir_mass_housing
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_development_siberia
+		}
+		x = 2
+		y = 12
+
+	}
+	focus = {
+		id = rsr_kir_industrial_center
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_mass_housing
+		}
+		x = 2
+		y = 13
+
+	}
+	focus = {
+		id = rsr_kir_start_destroy_soviets
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_wide_powers
+		}
+		x = 11
+		y = 13
+
+	}
+	focus = {
+		id = rsr_kir_power_unions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_industrial_center
+		}
+		prerequisite = {
+			focus = rsr_kir_zemstvo_teacher_program
+		}
+		x = 3
+		y = 14
+
+	}
+	focus = {
+		id = rsr_kir_delegation_authority
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_labor_exchange
+		}
+		prerequisite = {
+			focus = rsr_kir_start_destroy_soviets
+		}
+		x = 9
+		y = 14
+
+	}
+	focus = {
+		id = rsr_kir_power_vcsps
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_power_unions
+		}
+		prerequisite = {
+			focus = rsr_kir_delegation_authority
+		}
+		x = 6
+		y = 15
+
+	}
+	focus = {
+		id = rsr_kir_new_elections
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_to_sum_up
+		}
+		x = 23
+		y = 15
+
+	}
+	focus = {
+		id = rsr_kir_martov_victory2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_new_elections
+		}
+		mutually_exclusive = {
+			focus = rsr_kir_kirov_victory2
+		}
+		x = 21
+		y = 16
+
+	}
+	focus = {
+		id = rsr_kir_kirov_victory2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_new_elections
+		}
+		mutually_exclusive = {
+			focus = rsr_kir_martov_victory2
+		}
+		x = 25
+		y = 16
+
+	}
+	focus = {
+		id = rsr_kir_soviet_syndicalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_power_vcsps
+		}
+		x = 6
+		y = 16
+
+	}
+	focus = {
+		id = rsr_kir_kirov_helm_again
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_kirov_victory2
+		}
+		x = 24
+		y = 17
+
+	}
+	focus = {
+		id = rsr_kir_kirov_resigns
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_kir_kirov_victory2
+		}
+		x = 26
+		y = 17
+
+	}
+}

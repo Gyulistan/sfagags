@@ -1,0 +1,1289 @@
+focus_tree = {
+	id = ENG
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = yes
+	focus = {
+		id = eng_georg_speech
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 14
+		y = 0
+
+	}
+	focus = {
+		id = eng_new_kingdom_project
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 28
+		y = 0
+
+	}
+	focus = {
+		id = eng_country_reconstruction
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 37
+		y = 0
+
+	}
+	focus = {
+		id = eng_returh_world_stage
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 50
+		y = 0
+
+	}
+	focus = {
+		id = eng_meeting_entente
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_georg_speech
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = eng_paris_agreement
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_meeting_entente
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = eng_war_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_paris_agreement
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = eng_revenge
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_war_plan
+		}
+		mutually_exclusive = {
+			focus = rsr_we_not_them
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = eng_white_terror
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_revenge
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = eng_decree_annihilation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_revenge
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = rsr_we_not_them
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_war_plan
+		}
+		mutually_exclusive = {
+			focus = eng_revenge
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = eng_decree_forgiveness
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_we_not_them
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = eng_clandestine_activities
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_decree_forgiveness
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = eng_amnesty_wounded
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_we_not_them
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = eng_material_incentive
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_amnesty_wounded
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = eng_you_wrong
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_clandestine_activities
+		}
+		prerequisite = {
+			focus = eng_material_incentive
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = eng_amnesty_separatists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_new_kingdom_project
+		}
+		x = 25
+		y = 1
+
+	}
+	focus = {
+		id = eng_code_laws
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_new_kingdom_project
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = eng_new_territorial_division
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_new_kingdom_project
+		}
+		x = 31
+		y = 1
+
+	}
+	focus = {
+		id = eng_king_powers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_amnesty_separatists
+		}
+		prerequisite = {
+			focus = eng_code_laws
+		}
+		prerequisite = {
+			focus = eng_new_territorial_division
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = eng_absolute_power
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_king_powers
+		}
+		mutually_exclusive = {
+			focus = eng_restoration_parliamentarism
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = eng_restoration_parliamentarism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_king_powers
+		}
+		mutually_exclusive = {
+			focus = eng_absolute_power
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = eng_elections
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_restoration_parliamentarism
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = eng_liberals
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_elections
+		}
+		mutually_exclusive = {
+			focus = eng_conservatives
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = eng_conservatives
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_elections
+		}
+		mutually_exclusive = {
+			focus = eng_liberals
+		}
+		x = 32
+		y = 5
+
+	}
+	focus = {
+		id = eng_propaganda_patriotism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_conservatives
+		}
+		x = 32
+		y = 6
+
+	}
+	focus = {
+		id = eng_preparation_for_war
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_propaganda_patriotism
+		}
+		x = 32
+		y = 7
+
+	}
+	focus = {
+		id = eng_land_hope_and_glory
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_preparation_for_war
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = eng_reconstruction_commission
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_country_reconstruction
+		}
+		x = 37
+		y = 1
+
+	}
+	focus = {
+		id = eng_rec_scotland
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_reconstruction_commission
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = eng_rec_wales
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_reconstruction_commission
+		}
+		x = 37
+		y = 2
+
+	}
+	focus = {
+		id = eng_rec_east_england
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_rec_scotland
+		}
+		prerequisite = {
+			focus = eng_rec_wales
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = eng_rec_cornwall
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_reconstruction_commission
+		}
+		x = 39
+		y = 2
+
+	}
+	focus = {
+		id = eng_rec_west_england
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_rec_wales
+		}
+		prerequisite = {
+			focus = eng_rec_cornwall
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = eng_repayment_of_loans
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_rec_east_england
+		}
+		prerequisite = {
+			focus = eng_rec_west_england
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = eng_question_ireland
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_returh_world_stage
+		}
+		x = 49
+		y = 1
+
+	}
+	focus = {
+		id = eng_our_fleet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_returh_world_stage
+		}
+		x = 51
+		y = 1
+
+	}
+	focus = {
+		id = eng_contract_with_french
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_question_ireland
+		}
+		prerequisite = {
+			focus = eng_our_fleet
+		}
+		x = 50
+		y = 2
+
+	}
+	focus = {
+		id = eng_federation_restoration
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_contract_with_french
+		}
+		mutually_exclusive = {
+			focus = eng_united_empire_project
+		}
+		x = 44
+		y = 3
+
+	}
+	focus = {
+		id = eng_contacts_with_colonies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_federation_restoration
+		}
+		x = 44
+		y = 4
+
+	}
+	focus = {
+		id = eng_return_india
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_contacts_with_colonies
+		}
+		x = 52
+		y = 5
+
+	}
+	focus = {
+		id = eng_protectorate_south_africa
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_contacts_with_colonies
+		}
+		x = 40
+		y = 5
+
+	}
+	focus = {
+		id = eng_contract_with_australia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_contacts_with_colonies
+		}
+		x = 42
+		y = 6
+
+	}
+	focus = {
+		id = eng_canada
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_contacts_with_colonies
+		}
+		x = 46
+		y = 6
+
+	}
+	focus = {
+		id = eng_treaty_new_zealand
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_contacts_with_colonies
+		}
+		x = 48
+		y = 5
+
+	}
+	focus = {
+		id = eng_united_empire_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_contract_with_french
+		}
+		mutually_exclusive = {
+			focus = eng_federation_restoration
+		}
+		x = 56
+		y = 3
+
+	}
+	focus = {
+		id = eng_british_empire_manifesto
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_united_empire_project
+		}
+		x = 56
+		y = 4
+
+	}
+	focus = {
+		id = eng_ultimatum_south_africa
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_british_empire_manifesto
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = eng_invasion_australia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_british_empire_manifesto
+		}
+		x = 54
+		y = 5
+
+	}
+	focus = {
+		id = eng_attack_canada
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_british_empire_manifesto
+		}
+		x = 56
+		y = 5
+
+	}
+	focus = {
+		id = eng_us_along_the_way
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_british_empire_manifesto
+		}
+		mutually_exclusive = {
+			focus = eng_we_are_our_own
+		}
+		x = 60
+		y = 5
+
+	}
+	focus = {
+		id = eng_challenge_leadership
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_us_along_the_way
+		}
+		mutually_exclusive = {
+			focus = eng_recognize_primacy_France
+		}
+		x = 58
+		y = 6
+
+	}
+	focus = {
+		id = eng_support_italians
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_challenge_leadership
+		}
+		x = 56
+		y = 7
+
+	}
+	focus = {
+		id = eng_war_games
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_challenge_leadership
+		}
+		x = 58
+		y = 7
+
+	}
+	focus = {
+		id = eng_sabotage_romania
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_war_games
+		}
+		x = 58
+		y = 8
+
+	}
+	focus = {
+		id = eng_recognize_primacy_france
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_us_along_the_way
+		}
+		mutually_exclusive = {
+			focus = eng_challenge_leadership
+		}
+		x = 62
+		y = 6
+
+	}
+	focus = {
+		id = eng_war_preparation_campaign
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_challenge_leadership
+			focus = eng_recognize_primacy_france
+		}
+		x = 60
+		y = 7
+
+	}
+	focus = {
+		id = eng_research_college
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_war_preparation_campaign
+		}
+		x = 60
+		y = 8
+
+	}
+	focus = {
+		id = eng_joint_exercises
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_recognize_primacy_france
+		}
+		x = 62
+		y = 7
+
+	}
+	focus = {
+		id = eng_military_schools
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_joint_exercises
+		}
+		x = 62
+		y = 8
+
+	}
+	focus = {
+		id = eng_joint_development
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_recognize_primacy_france
+		}
+		x = 64
+		y = 7
+
+	}
+	focus = {
+		id = eng_military_financing
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_joint_development
+		}
+		x = 64
+		y = 8
+
+	}
+	focus = {
+		id = eng_together_forever
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_military_schools
+		}
+		prerequisite = {
+			focus = eng_military_financing
+		}
+		x = 63
+		y = 9
+
+	}
+	focus = {
+		id = eng_appeal_senses
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_decree_annihilation
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = eng_acts_terrorism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_white_terror
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = eng_insurrection
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_acts_terrorism
+		}
+		prerequisite = {
+			focus = eng_appeal_senses
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = eng_to_eng
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_insurrection
+		}
+		prerequisite = {
+			focus = eng_you_wrong
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = eng_economic_revival
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_repayment_of_loans
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = eng_entente_investors
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_economic_revival
+		}
+		x = 37
+		y = 6
+
+	}
+	focus = {
+		id = eng_farm_restoration
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_entente_investors
+		}
+		x = 34
+		y = 7
+
+	}
+	focus = {
+		id = eng_limited_intervention
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_entente_investors
+		}
+		x = 36
+		y = 7
+
+	}
+	focus = {
+		id = eng_compulsory_work_fund
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_entente_investors
+		}
+		x = 38
+		y = 7
+
+	}
+	focus = {
+		id = eng_shipyards_south_england
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_entente_investors
+		}
+		x = 40
+		y = 7
+
+	}
+	focus = {
+		id = eng_king_large_construction 
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_farm_restoration
+		}
+		prerequisite = {
+			focus = eng_limited_intervention
+		}
+		prerequisite = {
+			focus = eng_compulsory_work_fund
+		}
+		prerequisite = {
+			focus = eng_shipyards_south_england
+		}
+		x = 37
+		y = 8
+
+	}
+	focus = {
+		id = eng_return_india
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_contacts_with_colonies
+		}
+		x = 44
+		y = 7
+
+	}
+	focus = {
+		id = eng_commonwealth_scientific_council
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_return_india
+		}
+		x = 44
+		y = 8
+
+	}
+	focus = {
+		id = eng_together_again
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_commonwealth_scientific_council
+		}
+		x = 44
+		y = 9
+
+	}
+	focus = {
+		id = eng_we_are_our_own
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_british_empire_manifesto
+		}
+		mutually_exclusive = {
+			focus = eng_us_along_the_way
+		}
+		x = 65
+		y = 5
+
+	}
+	focus = {
+		id = eng_new_members
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_support_italians
+		}
+		x = 56
+		y = 8
+
+	}
+	focus = {
+		id = eng_convene_entente_council
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_new_members
+		}
+		prerequisite = {
+			focus = eng_sabotage_romania
+		}
+		x = 57
+		y = 9
+
+	}
+	focus = {
+		id = eng_preemptive_strike
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_research_college
+			focus = eng_convene_entente_council
+			focus = eng_together_forever
+		}
+		x = 60
+		y = 10
+
+	}
+	focus = {
+		id = eng_cult_personality
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_absolute_power
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = eng_revival_absolutism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_cult_personality
+		}
+		mutually_exclusive = {
+			focus = eng_national_conservatives
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = eng_national_conservatives
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_cult_personality
+		}
+		mutually_exclusive = {
+			focus = eng_revival_absolutism
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = eng_prohibition_political_parties
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_revival_absolutism
+		}
+		prerequisite = {
+			focus = eng_revival_absolutism
+		}
+		x = 20
+		y = 6
+
+	}
+	focus = {
+		id = eng_abolition_of_liberty_charter
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_prohibition_political_parties
+		}
+		x = 20
+		y = 7
+
+	}
+	focus = {
+		id = eng_production_submission
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_abolition_of_liberty_charter
+		}
+		x = 19
+		y = 8
+
+	}
+	focus = {
+		id = eng_corporate_state
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_abolition_of_liberty_charter
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = eng_united_britain
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_production_submission
+		}
+		prerequisite = {
+			focus = eng_corporate_state
+		}
+		x = 20
+		y = 9
+
+	}
+	focus = {
+		id = eng_strengthening_anglican_church
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_revival_absolutism
+			focus = eng_national_conservatives
+		}
+		x = 24
+		y = 6
+
+	}
+	focus = {
+		id = eng_catholic_infringement
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_strengthening_anglican_church
+		}
+		mutually_exclusive = {
+			focus = eng_religious_peace
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = eng_religious_peace
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_strengthening_anglican_church
+		}
+		mutually_exclusive = {
+			focus = eng_catholic_infringement
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = eng_chaplains
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_religious_peace
+			focus = eng_catholic_infringement
+		}
+		x = 24
+		y = 8
+
+	}
+	focus = {
+		id = eng_extended_set
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_national_conservatives
+		}
+		x = 28
+		y = 6
+
+	}
+	focus = {
+		id = eng_scottish_prohibition
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_extended_set
+		}
+		x = 28
+		y = 7
+
+	}
+	focus = {
+		id = eng_union_crowns
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_scottish_prohibition
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = eng_militarization_youth
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_scottish_prohibition
+		}
+		x = 29
+		y = 8
+
+	}
+	focus = {
+		id = eng_empire_revival
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_union_crowns
+		}
+		prerequisite = {
+			focus = eng_militarization_youth
+		}
+		x = 28
+		y = 9
+
+	}
+	focus = {
+		id = eng_british_imperialism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_united_britain
+			focus = eng_empire_revival
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = eng_codification_constitution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_liberals
+		}
+		x = 30
+		y = 6
+
+	}
+	focus = {
+		id = eng_civil_law
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_codification_constitution
+		}
+		x = 30
+		y = 7
+
+	}
+	focus = {
+		id = eng_kingdom_autonomy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_civil_law
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = eng_democratic_values
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_kingdom_autonomy
+			focus = eng_land_hope_and_glory
+		}
+		x = 32
+		y = 9
+
+	}
+	focus = {
+		id = eng_trade_union_concessions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_democratic_values
+		}
+		mutually_exclusive = {
+			focus = eng_concessions_bourgeoisie
+		}
+		x = 31
+		y = 10
+
+	}
+	focus = {
+		id = eng_concessions_bourgeoisie
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_democratic_values
+		}
+		mutually_exclusive = {
+			focus = eng_trade_union_concessions
+		}
+		x = 33
+		y = 10
+
+	}
+	focus = {
+		id = eng_the_question_of_the_monarchy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_trade_union_concessions
+			focus = eng_concessions_bourgeoisie
+		}
+		x = 32
+		y = 11
+
+	}
+	focus = {
+		id = eng_workshop_of_world
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = eng_the_question_of_the_monarchy
+		}
+		x = 32
+		y = 12
+
+	}
+}

@@ -53,6 +53,11 @@ add_ideas = {
 	ger_hans_von_seeckt
 	ger_waldemar_pabst
 	ger_traugott_von_jagow
+	ger_militarism_society
+	ger_detachment_entente
+	ger_working_resistance
+	ger_confrontation_concerns
+	war_economy
 }
 set_politics = {
 	ruling_party = paternalism
@@ -82,3 +87,4 @@ create_country_leader = {
 		
 	}
 }
+

@@ -30,4 +30,14 @@ spriteTypes = {
 		name = "GFX_idea_eng_william_joynson"
 		texturefile = "gfx/interface/Ideas/ENG/eng_william_joynson.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_eng_edmund_ironside_cos"
+		texturefile = "gfx/interface/Ideas/ENG/eng_edmund_ironside.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_eng_memory_of_the_king"
+		texturefile = "gfx/interface/Ideas/ENG/eng_memory_of_the_king.dds"
+	}
 

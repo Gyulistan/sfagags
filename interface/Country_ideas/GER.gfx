@@ -26,4 +26,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/Ideas/GER/ger_traugott_von_jagow.tga"
 	}
 	
-
+	spriteType = {
+		name = "GFX_idea_ger_militarism_society"
+		texturefile = "gfx/interface/Ideas/GER/ger_militarism_society.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ger_detachment_entente"
+		texturefile = "gfx/interface/Ideas/GER/ger_detachment_entente.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ger_working_resistance"
+		texturefile = "gfx/interface/Ideas/GER/ger_working_resistance.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ger_confrontation_concerns"
+		texturefile = "gfx/interface/Ideas/GER/ger_confrontation_concerns.dds"
+	}

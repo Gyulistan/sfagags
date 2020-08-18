@@ -467,6 +467,35 @@ ideas = {
 				
 			
 						}
+				}
+				
+		rsr_sergey_kirov_for = {
+		
+			picture = GFX_idea_rsr_sergey_kirov_for
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+						
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				ideological_crusader
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
 				}			
 		}
 		
@@ -829,6 +858,34 @@ ideas = {
 			traits = {
 				orthodox_socialist
 				resource_industrialist
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+				
+		rsr_mikhail_tomsky_eco = {
+		
+			picture = GFX_idea_rsr_mikhail_tomsky_eco
+			
+			available = {
+					OR = {
+						has_government = orthodox_socialism
+					}
+				}
+			
+			traits = {
+				orthodox_socialist
+				construction_magnate
 				economy_minister
 			}
 			
@@ -1234,7 +1291,6 @@ country = {
 			modifier = {
 				political_power_gain = -0.15
 				stability_factor = -0.10
-				stability_weekly = -0.05
 			}
 		}
 		
@@ -1302,6 +1358,7 @@ country = {
 			modifier = {
 				stability_factor = -0.15
 				political_power_gain = -0.30
+				
 			}
 		}
 }

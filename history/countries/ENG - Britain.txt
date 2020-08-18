@@ -53,6 +53,8 @@ add_ideas = {
 	eng_laming_worthington
 	eng_winston_churchill
 	eng_william_joynson
+	eng_edmund_ironside_cos
+	eng_memory_of_the_king
 }
 
 if = {

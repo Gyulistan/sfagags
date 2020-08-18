@@ -46,16 +46,29 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+add_ideas = {
+	ita_luigi_facta
+	ita_benito_mussolini_for
+	ita_italo_balbo
+	ita_giuseppe_volpi
+	ita_vittorio_orlando
+	ita_cradle_of_fascism
+	ita_african_resistance
+	ita_unfinished_revolution 
+	ita_remember_1925
+	ita_victor_emmanuel
+}
 set_popularities = {
-	radical_bolshevism = 11
-	orthodox_socialism = 11
-	accelerationism = 11
-	social_democracy = 11
-	liberalism = 11
-	conservatism = 11
-	autoritarian_democracy = 12
-	national_militarism = 11
-	paternalism = 11
+	radical_bolshevism = 4
+	orthodox_socialism = 5
+	accelerationism = 0
+	social_democracy = 0
+	liberalism = 1
+	conservatism = 6
+	autoritarian_democracy = 22
+	national_militarism = 58
+	paternalism = 4
 	}
 
 create_country_leader = {

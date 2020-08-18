@@ -157,5 +157,66 @@ ideas = {
 			
 						}
 				}	
-		}		
+		}
+		
+	country = {
+
+		ger_militarism_society = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_militarism_society"}
+
+			modifier = {
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+				conscription = 0.01
+				war_support_factor = 0.15
+			}
+
+			picture = ger_militarism_society
+		}
+
+		ger_detachment_entente = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_detachment_entente"}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = -0.20
+			}
+
+			picture = ger_detachment_entente
+		}	
+		
+		ger_working_resistance = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_working_resistance"}
+
+			modifier = {
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_factory_max_efficiency_factor = -0.25
+				production_factory_efficiency_gain_factor = -0.25
+				production_lack_of_resource_penalty_factor = 0.25
+			}
+
+			picture = ger_working_resistance
+		}
+		
+		ger_confrontation_concerns = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_confrontation_concerns"}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.15 
+				stability_factor = -0.05
+				political_power_cost = -0.15
+				}
+				research_bonus = {
+					artillery = 0.05
+				}
+				research_bonus = {
+					infantry_weapons = 0.05
+				}
+				research_bonus = {
+					armor = 0.05
+				}
+
+			picture = ger_confrontation_concerns
+		}
 }

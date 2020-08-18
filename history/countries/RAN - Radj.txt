@@ -39,6 +39,14 @@ if = {
 	}
 }
 
+add_ideas = {
+	ran_william_birdwood
+	ran_andrew_skeen
+	ran_claude_auchinleck
+	ran_claude_jacob
+	ran_edward_quinan
+}
+
 set_convoys = 20
 
 set_politics = {

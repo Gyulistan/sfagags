@@ -180,6 +180,44 @@ spriteTypes = {
 		name = "GFX_event_shoot"
 		texturefile = "gfx/event_pictures/event_shoot.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_event_cabinet_ussr"
+		texturefile = "gfx/event_pictures/event_cabinet_ussr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_chekists5"
+		texturefile = "gfx/event_pictures/event_chekists5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_machinegun"
+		texturefile = "gfx/event_pictures/event_machinegun.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_army_in_moscow"
+		texturefile = "gfx/event_pictures/event_army_in_moscow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_first_may"
+		texturefile = "gfx/event_pictures/news_event_first_may.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_paris"
+		texturefile = "gfx/event_pictures/news_event_paris.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_strasser"
+		texturefile = "gfx/event_pictures/event_strasser.dds"
+	}
+	
+	
+	
 }
 	
 	

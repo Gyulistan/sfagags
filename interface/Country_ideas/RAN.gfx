@@ -1,0 +1,29 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_ran_william_birdwood"
+		texturefile = "gfx/interface/Ideas/RAN/ran_william_birdwood.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ran_andrew_skeen"
+		texturefile = "gfx/interface/Ideas/RAN/ran_andrew_skeen.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ran_claude_auchinleck"
+		texturefile = "gfx/interface/Ideas/RAN/ran_claude_auchinleck.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ran_claude_jacob"
+		texturefile = "gfx/interface/Ideas/RAN/ran_claude_jacob.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ran_edward_quinan"
+		texturefile = "gfx/interface/Ideas/RAN/ran_edward_quinan.tga"
+	}
+	
+

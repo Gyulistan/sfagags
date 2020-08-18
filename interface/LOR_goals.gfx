@@ -97,6 +97,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
+		name = "GFX_focus_rsr_left_srs"
+		texturefile = "gfx/interface/goals/focus_rsr_left_srs.dds"
+	}
+	
+	SpriteType = { 
 		name = "GFX_focus_influence_republic"
 		texturefile = "gfx/interface/goals/focus_influence_republic.dds"
 	}
@@ -254,5 +259,135 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_rsr_bol_split"
 		texturefile = "gfx/interface/goals/focus_rsr_bol_split.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_kir_folk_triumph"
+		texturefile = "gfx/interface/goals/focus_rsr_kir_folk_triumph.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_kir_resignation_rutin"
+		texturefile = "gfx/interface/goals/focus_rsr_kir_resignation_rutin.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_tukh_yakir"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_tukh_yakir.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_yegorov_voroshilov"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_yegorov_voroshilov.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_bolshevik_army"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_bolshevik_army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_centrobryon"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_centrobryon.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_central_planning_headquarters"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_central_planning_headquarters.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_artillery_department"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_artillery_department.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_supreme_army_soviet"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_supreme_army_soviet.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_grigory_zinoviev"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_grigory_zinoviev.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_alexey_rykov"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_alexey_rykov.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_lev_kamenev"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_lev_kamenev.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_supreme_soviet"
+		texturefile = "gfx/interface/goals/focus_rsr_supreme_soviet.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_military_tribunal"
+		texturefile = "gfx/interface/goals/focus_rsr_military_tribunal.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_great_lider"
+		texturefile = "gfx/interface/goals/focus_rsr_great_lider.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_cultural_transformation"
+		texturefile = "gfx/interface/goals/focus_rsr_cultural_transformation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_recognize_our_history"
+		texturefile = "gfx/interface/goals/focus_rsr_recognize_our_history.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_soldier_country"
+		texturefile = "gfx/interface/goals/focus_rsr_soldier_country.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_church_closure"
+		texturefile = "gfx/interface/goals/focus_rsr_church_closure.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_overwhelm_them_work"
+		texturefile = "gfx/interface/goals/focus_rsr_overwhelm_them_work.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_military_restructuring"
+		texturefile = "gfx/interface/goals/focus_rsr_military_restructuring.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_god_building"
+		texturefile = "gfx/interface/goals/focus_rsr_god_building.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_ITA0"
+		texturefile = "gfx/interface/goals/focus_ITA0.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_ger_time_of_freedom"
+		texturefile = "gfx/interface/goals/focus_ger_time_of_freedom.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_ger_emergency_measures"
+		texturefile = "gfx/interface/goals/focus_ger_emergency_measures.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_ger_goering_variant"
+		texturefile = "gfx/interface/goals/focus_ger_goering_variant.dds"
 	}
 }

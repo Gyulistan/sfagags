@@ -228,6 +228,7 @@ add_to_faction = USB
 add_to_faction = TAD
 add_to_faction = TYR
 add_to_faction = BYK
+add_to_faction = PRS
 
 add_ideas = {
 	rsr_boris_kamkov
@@ -245,16 +246,7 @@ add_ideas = {
 country_event = { id = sovietunion.1 days = 3 }
 country_event = { id = sovietunion.5 days = 18 }
 
-create_country_leader = {
-	name = "Vladimir Bonch-Bruyevich"
-	desc = "POLITICS_BONCH_BRUEVICH_DESC"
-	picture = "Portrait_Russian_Vladimir_Bonch_Bruyevich.dds"
-	expire = "1953.3.1"
-	ideology = paternalism_subtype
-	traits = {
-		
-	}
-}
+
 
 create_country_leader = {
 	name = "Council of People's Commissars"
@@ -506,7 +498,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Mikhail Tukhachevsky"
-	id = 401
+	id = 150
 		picture = "Portrait_Russian_Mikhail_Tukhachevsky.dds"
 	traits = { offensive_doctrine brilliant_strategist career_officer infantry_officer trait_reckless }
 	skill = 3
@@ -584,6 +576,32 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Konstantin Rokossovsky"
+		picture = "Portrait_Russian_Konstantin_Rokossovsky.dds"
+	traits = { trait_cautious }
+	skill = 2
+
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Yakov Fishman"
+		picture = "Portrait_Russian_Yakov_Fishman.dds"
+	traits = { infantry_officer harsh_leader }
+	skill = 2
+
+	
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
 	name = "Jānis Fabriciuss"
 		picture = "Portrait_Russian_Janis_Fabriciuss.dds"
 	traits = { infantry_officer harsh_leader }
@@ -615,21 +633,32 @@ create_navy_leader = {
 	coordination_skill = 2
 }
 
-create_navy_leader = {
-	name = "Arseniy Golovko"
-	id = 409
-		picture = "Portrait_Soviet_Arseniy_Golovko.dds"
-	traits = { spotter }
-	skill = 4
-}
 
-create_navy_leader = {
-	name = "Vladimir Kasatonov"
-	id = 403
-		picture = "Portrait_Soviet_Vladimir_Kasatonov.dds"
-	traits = { seawolf }
-	skill = 2
-}
+create_operative_leader = {
+		name = "Elena Ferrari"
+		picture = "Portrait_Russian_Elena_Ferrari.dds"
+		traits = { operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { RSR ITA }
+	}
+
+	create_operative_leader = {
+		name = "Yakov Blumkin"
+		picture = "Portrait_Russian_Yakov_Blumkin.dds"
+		traits = { operative_infiltrator operative_escape_artist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { RSR }
+	}
+	create_operative_leader = {
+		name = "Ilya Starinov"
+		picture = "Portrait_Russian_Ilya_Starinov.dds"
+		traits = { operative_commando operative_demolition_expert }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { RSR }
+	}
 
 
 ### Ship Variants ###

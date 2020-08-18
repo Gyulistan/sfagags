@@ -1,0 +1,1817 @@
+focus_tree = {
+	id = GER
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = yes
+	focus = {
+		id = ger_new_labor_law
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = ger_help_bourgeoisie
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 13
+		y = 13
+
+	}
+	focus = {
+		id = ger_foreign_policy
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 27
+		y = 0
+
+	}
+	focus = {
+		id = ger_we_see_everything
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_new_labor_law
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = ger_fatherland_proud_you
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_we_see_everything
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = ger_what_they_again_unhappy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_fatherland_proud_you
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = ger_localize_riots
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_what_they_again_unhappy
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = ger_military_council_gathering
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_localize_riots
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = ger_time_of_freedom
+		icon = GFX_focus_ger_time_of_freedom
+		cost = 10
+		prerequisite = {
+			focus = ger_military_council_gathering
+		}
+		mutually_exclusive = {
+			focus = ger_emergency_measures
+			focus = ger_goering_variant
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = ger_emergency_measures
+		icon = GFX_focus_ger_emergency_measures
+		cost = 10
+		prerequisite = {
+			focus = ger_military_council_gathering
+		}
+		mutually_exclusive = {
+			focus = ger_time_of_freedom
+			focus = ger_goering_variant
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = ger_lets_not_rush_things
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_emergency_measures
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = ger_strike_east
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_lets_not_rush_things
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = ger_quarantine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_lets_not_rush_things
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = ger_raise_young_guard
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_strike_east
+		}
+		prerequisite = {
+			focus = ger_quarantine
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = ger_press_the_press
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_lets_not_rush_things
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = ger_block_paths
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_quarantine
+		}
+		prerequisite = {
+			focus = ger_press_the_press
+		}
+		x = 17
+		y = 9
+
+	}
+	focus = {
+		id = ger_offensive
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_block_paths
+		}
+		prerequisite = {
+			focus = ger_raise_young_guard
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = ger_germany_and_entente
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = ger_split_with_entente
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = ger_collaboration_with_benelux
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_germany_and_entente
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = ger_military_specialists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_collaboration_with_benelux
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = ger_unity_corporation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_military_specialists
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = ger_the_communist_not_man
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_offensive
+		}
+		x = 16
+		y = 11
+
+	}
+	focus = {
+		id = ger_rejection_krupp
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_the_communist_not_man
+		}
+		x = 19
+		y = 12
+
+	}
+	focus = {
+		id = ger_resignation_of_pabst
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_the_communist_not_man
+		}
+		x = 13
+		y = 12
+
+	}
+	focus = {
+		id = ger_authority
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_rejection_krupp
+		}
+		x = 17
+		y = 13
+
+	}
+	focus = {
+		id = ger_order
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_rejection_krupp
+		}
+		x = 19
+		y = 13
+
+	}
+	focus = {
+		id = ger_justice
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_rejection_krupp
+		}
+		x = 21
+		y = 13
+
+	}
+	focus = {
+		id = ger_we_have_one_goal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_authority
+		}
+		prerequisite = {
+			focus = ger_order
+		}
+		prerequisite = {
+			focus = ger_justice
+		}
+		x = 19
+		y = 14
+
+	}
+	focus = {
+		id = ger_not_take_prisoners
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_we_have_one_goal
+		}
+		x = 19
+		y = 15
+
+	}
+	focus = {
+		id = ger_concern_munich
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_not_take_prisoners
+		}
+		x = 19
+		y = 17
+
+	}
+	focus = {
+		id = ger_influence_in_scandinavia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_germany_and_entente
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = ger_we_will_protect_you
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_influence_in_scandinavia
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = ger_bases_in_sweden
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_we_will_protect_you
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = ger_attack_first
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_unity_corporation
+		}
+		prerequisite = {
+			focus = ger_bases_in_sweden
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = ger_himmlers_theory
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_we_have_one_goal
+		}
+		x = 21
+		y = 15
+
+	}
+	focus = {
+		id = ger_every_german_duty
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_justice
+		}
+		x = 22
+		y = 14
+
+	}
+	focus = {
+		id = ger_sanitary_cordon
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_germany_and_entente
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = ger_divided_mountain_edge
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_sanitary_cordon
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = ger_switzerland
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_divided_mountain_edge
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = ger_we_are_same_kind
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_sanitary_cordon
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = ger_help_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_we_are_same_kind
+		}
+		prerequisite = {
+			focus = ger_divided_mountain_edge
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = ger_visit_to_athens
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_we_are_same_kind
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = ger_we_have_contributed
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_switzerland
+		}
+		prerequisite = {
+			focus = ger_help_plan
+		}
+		prerequisite = {
+			focus = ger_visit_to_athens
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = ger_goering_variant
+		icon = GFX_focus_ger_goering_variant
+		cost = 10
+		prerequisite = {
+			focus = ger_military_council_gathering
+		}
+		mutually_exclusive = {
+			focus = ger_emergency_measures
+			focus = ger_time_of_freedom
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = ger_little_lie_doesn_hurt
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_goering_variant
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = ger_provocateurs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_little_lie_doesn_hurt
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = ger_illusion_negotiation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_provocateurs
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = ger_temporary_satisfaction
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_illusion_negotiation
+		}
+		x = 25
+		y = 10
+
+	}
+	focus = {
+		id = ger_smash_their_organization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_temporary_satisfaction
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = ger_our_triumph
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_smash_their_organization
+		}
+		x = 25
+		y = 12
+
+	}
+	focus = {
+		id = ger_convocation_military_council
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_our_triumph
+		}
+		x = 25
+		y = 13
+
+	}
+	focus = {
+		id = ger_strasser_victory
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_convocation_military_council
+		}
+		x = 25
+		y = 14
+
+	}
+	focus = {
+		id = ger_nationalization_economy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_strasser_victory
+		}
+		x = 25
+		y = 15
+
+	}
+	focus = {
+		id = ger_power_through_joy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_nationalization_economy
+		}
+		x = 24
+		y = 16
+
+	}
+	focus = {
+		id = ger_german_labor_front
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_nationalization_economy
+		}
+		x = 26
+		y = 16
+
+	}
+	focus = {
+		id = ger_break_shackles_capital
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_german_labor_front
+		}
+		prerequisite = {
+			focus = ger_power_through_joy
+		}
+		x = 25
+		y = 17
+
+	}
+	focus = {
+		id = ger_german_superiority
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_strasser_victory
+		}
+		x = 27
+		y = 15
+
+	}
+	focus = {
+		id = ger_expulsion_jews
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_german_superiority
+		}
+		x = 28
+		y = 16
+
+	}
+	focus = {
+		id = ger_pioneering
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_expulsion_jews
+		}
+		x = 27
+		y = 17
+
+	}
+	focus = {
+		id = ger_split_with_entente
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = ger_germany_and_entente
+		}
+		x = 32
+		y = 1
+
+	}
+	focus = {
+		id = ger_ties_with_italy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_split_with_entente
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = ger_incitement
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_ties_with_italy
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = ger_steel_pact
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_incitement
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = ger_balkan_nationalists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_split_with_entente
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = ger_croatia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_balkan_nationalists
+		}
+		mutually_exclusive = {
+			focus = ger_serbia
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = ger_german_military_mission
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_croatia
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = ger_himmler_victory
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_convocation_military_council
+		}
+		x = 34
+		y = 14
+
+	}
+	focus = {
+		id = ger_himmlerjugent
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_himmler_victory
+		}
+		x = 32
+		y = 15
+
+	}
+	focus = {
+		id = ger_totalitarianism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_himmlerjugent
+		}
+		x = 31
+		y = 16
+
+	}
+	focus = {
+		id = ger_role_the_church
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_totalitarianism
+		}
+		x = 32
+		y = 17
+
+	}
+	focus = {
+		id = ger_serbia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_balkan_nationalists
+		}
+		mutually_exclusive = {
+			focus = ger_croatia
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = ger_joint_invasion
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_serbia
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = ger_nationalization_enterprises
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_himmler_victory
+		}
+		x = 34
+		y = 15
+
+	}
+	focus = {
+		id = ger_production_manager
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_nationalization_enterprises
+		}
+		x = 33
+		y = 16
+
+	}
+	focus = {
+		id = ger_general_labor_service
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_nationalization_enterprises
+		}
+		x = 35
+		y = 16
+
+	}
+	focus = {
+		id = ger_corporate_economy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_production_manager
+		}
+		prerequisite = {
+			focus = ger_general_labor_service
+		}
+		x = 34
+		y = 17
+
+	}
+	focus = {
+		id = ger_secret_meeting
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_split_with_entente
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = ger_czech_ultimatum
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_split_with_entente
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = ger_why_bother
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_czech_ultimatum
+		}
+		mutually_exclusive = {
+			focus = ger_mission_austria
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = ger_oppression_foreigners
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_himmler_victory
+		}
+		x = 36
+		y = 15
+
+	}
+	focus = {
+		id = ger_concentration_camps
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_oppression_foreigners
+		}
+		x = 37
+		y = 16
+
+	}
+	focus = {
+		id = ger_eugenics_university
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_concentration_camps
+		}
+		x = 36
+		y = 17
+
+	}
+	focus = {
+		id = ger_ultranationalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_role_the_church
+		}
+		prerequisite = {
+			focus = ger_corporate_economy
+		}
+		prerequisite = {
+			focus = ger_eugenics_university
+		}
+		x = 34
+		y = 18
+
+	}
+	focus = {
+		id = ger_mission_austria
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_czech_ultimatum
+		}
+		mutually_exclusive = {
+			focus = ger_why_bother
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = ger_austrian_revival_party
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_mission_austria
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = ger_our_propagandists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_mission_austria
+		}
+		x = 39
+		y = 4
+
+	}
+	focus = {
+		id = ger_coup_preparation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_austrian_revival_party
+		}
+		prerequisite = {
+			focus = ger_our_propagandists
+		}
+		x = 38
+		y = 5
+
+	}
+	focus = {
+		id = ger_mission_to_tibet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_czech_ultimatum
+		}
+		x = 42
+		y = 3
+
+	}
+	focus = {
+		id = ger_what_hidden_those_mountains
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_mission_to_tibet
+		}
+		x = 41
+		y = 4
+
+	}
+	focus = {
+		id = ger_military_base_in_lhasa
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_mission_to_tibet
+		}
+		x = 43
+		y = 4
+
+	}
+	focus = {
+		id = ger_representation_in_asia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_what_hidden_those_mountains
+		}
+		prerequisite = {
+			focus = ger_military_base_in_lhasa
+		}
+		x = 42
+		y = 5
+
+	}
+	focus = {
+		id = ger_confrontation_with_france
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_czech_ultimatum
+		}
+		x = 46
+		y = 3
+
+	}
+	focus = {
+		id = ger_west_shaft
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_confrontation_with_france
+		}
+		x = 45
+		y = 4
+
+	}
+	focus = {
+		id = ger_operation_fluss
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_confrontation_with_france
+		}
+		x = 47
+		y = 4
+
+	}
+	focus = {
+		id = ger_march_west
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_west_shaft
+		}
+		prerequisite = {
+			focus = ger_operation_fluss
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = ger_preemptive_strike
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_czech_ultimatum
+		}
+		x = 51
+		y = 3
+
+	}
+	focus = {
+		id = ger_sigfried_line
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_preemptive_strike
+		}
+		mutually_exclusive = {
+			focus = ger_operation_berlin
+		}
+		x = 49
+		y = 4
+
+	}
+	focus = {
+		id = ger_dead_defense
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_sigfried_line
+		}
+		x = 48
+		y = 5
+
+	}
+	focus = {
+		id = ger_artillery_development
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_sigfried_line
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = ger_stand_to_death
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_dead_defense
+		}
+		prerequisite = {
+			focus = ger_artillery_development
+		}
+		x = 49
+		y = 6
+
+	}
+	focus = {
+		id = ger_operation_berlin
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_preemptive_strike
+		}
+		mutually_exclusive = {
+			focus = ger_sigfried_line
+		}
+		x = 53
+		y = 4
+
+	}
+	focus = {
+		id = ger_swift_tactics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_operation_berlin
+		}
+		x = 52
+		y = 5
+
+	}
+	focus = {
+		id = ger_tank_innovations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_operation_berlin
+		}
+		x = 54
+		y = 5
+
+	}
+	focus = {
+		id = ger_they_will_not_senses
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_swift_tactics
+		}
+		prerequisite = {
+			focus = ger_tank_innovations
+		}
+		x = 53
+		y = 6
+
+	}
+	focus = {
+		id = ger_crush_communists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_stand_to_death
+			focus = ger_they_will_not_senses
+		}
+		x = 51
+		y = 7
+
+	}
+	focus = {
+		id = ger_first_gathering_bundestag
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_time_of_freedom
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = ger_question_on_ruhr
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_first_gathering_bundestag
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = ger_question_on_entente
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_first_gathering_bundestag
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = ger_question_of_communists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_first_gathering_bundestag
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = ger_results
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_question_on_ruhr
+		}
+		prerequisite = {
+			focus = ger_question_on_entente
+		}
+		prerequisite = {
+			focus = ger_question_of_communists
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = ger_shademan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_results
+		}
+		mutually_exclusive = {
+			focus = ger_virt
+		}
+		x = 4
+		y = 10
+
+	}
+	focus = {
+		id = ger_virt
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_results
+		}
+		mutually_exclusive = {
+			focus = ger_shademan
+		}
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = ger_allow_unions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_shademan
+		}
+		x = 3
+		y = 11
+
+	}
+	focus = {
+		id = ger_wide_coalition
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_shademan
+		}
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = ger_conversation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_allow_unions
+		}
+		prerequisite = {
+			focus = ger_wide_coalition
+		}
+		x = 4
+		y = 12
+
+	}
+	focus = {
+		id = ger_send_troops
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_virt
+		}
+		x = 9
+		y = 11
+
+	}
+	focus = {
+		id = ger_emergency
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_virt
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = ger_disperse_everyone
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_emergency
+		}
+		prerequisite = {
+			focus = ger_send_troops
+		}
+		x = 10
+		y = 12
+
+	}
+	focus = {
+		id = ger_next_steps
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_conversation
+			focus = ger_disperse_everyone
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = ger_economic_liberalization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_next_steps
+		}
+		x = 4
+		y = 14
+
+	}
+	focus = {
+		id = ger_civil_society
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_next_steps
+		}
+		x = 10
+		y = 14
+
+	}
+	focus = {
+		id = ger_working_class
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_economic_liberalization
+		}
+		x = 2
+		y = 15
+
+	}
+	focus = {
+		id = ger_agrarian_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_working_class
+		}
+		x = 2
+		y = 16
+
+	}
+	focus = {
+		id = ger_cooperation_with_france
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_agrarian_reform
+		}
+		x = 2
+		y = 17
+
+	}
+	focus = {
+		id = ger_small_business
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_economic_liberalization
+		}
+		x = 4
+		y = 15
+
+	}
+	focus = {
+		id = ger_labor_code
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_small_business
+		}
+		x = 4
+		y = 17
+
+	}
+	focus = {
+		id = ger_heavy_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_economic_liberalization
+		}
+		x = 6
+		y = 15
+
+	}
+	focus = {
+		id = ger_krupp_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_heavy_industry
+		}
+		x = 6
+		y = 16
+
+	}
+	focus = {
+		id = ger_benelux_investment
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_krupp_plan
+		}
+		x = 6
+		y = 17
+
+	}
+	focus = {
+		id = ger_working_schools
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_civil_society
+		}
+		x = 8
+		y = 15
+
+	}
+	focus = {
+		id = ger_benefits
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_working_schools
+		}
+		x = 8
+		y = 16
+
+	}
+	focus = {
+		id = ger_freedom_the_press
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_civil_society
+		}
+		x = 10
+		y = 15
+
+	}
+	focus = {
+		id = ger_university_rhine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_freedom_the_press
+		}
+		x = 10
+		y = 16
+
+	}
+	focus = {
+		id = ger_sunday_schools
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_civil_society
+		}
+		x = 12
+		y = 15
+
+	}
+	focus = {
+		id = ger_military_trusts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_sunday_schools
+		}
+		x = 12
+		y = 16
+
+	}
+	focus = {
+		id = ger_pubst_listings
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_we_have_one_goal
+		}
+		x = 17
+		y = 15
+
+	}
+	focus = {
+		id = ger_great_leader
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_authority
+		}
+		x = 16
+		y = 14
+
+	}
+	focus = {
+		id = ger_work_or_die
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_resignation_of_pabst
+		}
+		x = 11
+		y = 13
+
+	}
+	focus = {
+		id = ger_shotgun_over_the_market
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_resignation_of_pabst
+		}
+		x = 15
+		y = 13
+
+	}
+	focus = {
+		id = ger_military_representatives
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_work_or_die
+		}
+		prerequisite = {
+			focus = ger_help_bourgeoisie
+		}
+		prerequisite = {
+			focus = ger_shotgun_over_the_market
+		}
+		x = 13
+		y = 14
+
+	}
+	focus = {
+		id = ger_monopolization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_military_representatives
+		}
+		x = 15
+		y = 15
+
+	}
+	focus = {
+		id = ger_river_energy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_monopolization
+		}
+		x = 14
+		y = 16
+
+	}
+	focus = {
+		id = ger_military_tycoon
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_monopolization
+		}
+		x = 16
+		y = 16
+
+	}
+	focus = {
+		id = ger_complete_redistribution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_river_energy
+		}
+		prerequisite = {
+			focus = ger_military_tycoon
+		}
+		x = 15
+		y = 17
+
+	}
+	focus = {
+		id = ger_army_grip
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_complete_redistribution
+			focus = ger_concern_munich
+		}
+		x = 17
+		y = 18
+
+	}
+	focus = {
+		id = ger_military_cities
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_army_grip
+		}
+		x = 15
+		y = 19
+
+	}
+	focus = {
+		id = ger_teachings_saxony
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_army_grip
+		}
+		x = 19
+		y = 19
+
+	}
+	focus = {
+		id = ger_military_schools
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_army_grip
+		}
+		x = 17
+		y = 19
+
+	}
+	focus = {
+		id = ger_armed_dangerous
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_military_cities
+		}
+		prerequisite = {
+			focus = ger_military_schools
+		}
+		prerequisite = {
+			focus = ger_teachings_saxony
+		}
+		x = 17
+		y = 20
+
+	}
+	focus = {
+		id = ger_assault_squads
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_strasser_victory
+		}
+		x = 23
+		y = 15
+
+	}
+	focus = {
+		id = ger_militarization_of_population
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_assault_squads
+		}
+		x = 22
+		y = 16
+
+	}
+	focus = {
+		id = ger_subbotniks
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_militarization_of_population
+		}
+		x = 23
+		y = 17
+
+	}
+	focus = {
+		id = ger_national_socialism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ger_pioneering
+		}
+		prerequisite = {
+			focus = ger_break_shackles_capital
+		}
+		prerequisite = {
+			focus = ger_subbotniks
+		}
+		x = 25
+		y = 18
+
+	}
+}

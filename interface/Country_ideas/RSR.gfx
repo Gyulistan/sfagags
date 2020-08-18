@@ -192,6 +192,16 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_rsr_mikhail_tomsky_eco"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_mikhail_tomsky_eco.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rsr_sergey_kirov_for"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_sergey_kirov_for.tga"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_rsr_pavel_lebedev_cos"
 		texturefile = "gfx/interface/Ideas/RSR/rsr_pavel_lebedev_cos.tga"
 	}

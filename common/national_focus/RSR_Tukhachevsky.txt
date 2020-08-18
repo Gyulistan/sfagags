@@ -20,9 +20,9 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_new_red_army
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_bolshevik_army
 		cost = 10
-		x = 20
+		x = 40
 		y = 0
 
 	}
@@ -80,7 +80,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_military_tribunal
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_military_tribunal
 		cost = 10
 		prerequisite = {
 			focus = rsr_soldiers_soviets
@@ -105,7 +105,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_narkomat_propaganda
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_strike_at_democracy2
 		cost = 10
 		prerequisite = {
 			focus = rsr_clean_narkomats
@@ -116,7 +116,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_supreme_soviet
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_supreme_soviet
 		cost = 10
 		prerequisite = {
 			focus = rsr_narkomat_propaganda
@@ -130,7 +130,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_great_lider
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_great_lider
 		cost = 10
 		prerequisite = {
 			focus = rsr_military_tribunal
@@ -144,7 +144,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_immediate_centralization
-		icon = GFX_goal_unknown
+		icon = GFX_centralization_of_government
 		cost = 10
 		prerequisite = {
 			focus = rsr_great_lider
@@ -155,7 +155,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_temperate_path
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_academy
 		cost = 10
 		prerequisite = {
 			focus = rsr_immediate_centralization
@@ -169,7 +169,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_military_parties
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_communism_does_not_stop
 		cost = 10
 		prerequisite = {
 			focus = rsr_temperate_path
@@ -180,7 +180,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_we_will_not_delay
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_approve_unity
 		cost = 10
 		prerequisite = {
 			focus = rsr_immediate_centralization
@@ -194,7 +194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_military_restructuring
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_military_restructuring
 		cost = 10
 		prerequisite = {
 			focus = rsr_great_lider
@@ -205,7 +205,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_general_labor_service
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construction2
 		cost = 10
 		prerequisite = {
 			focus = rsr_military_restructuring
@@ -216,7 +216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_military_leader
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_demand_territory
 		cost = 10
 		prerequisite = {
 			focus = rsr_general_labor_service
@@ -227,7 +227,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_work_agitation
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_radar
 		cost = 10
 		prerequisite = {
 			focus = rsr_military_leader
@@ -238,7 +238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_irregular_working_hours
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_production
 		cost = 10
 		prerequisite = {
 			focus = rsr_general_labor_service
@@ -249,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_state_coercion
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		prerequisite = {
 			focus = rsr_irregular_working_hours
@@ -260,7 +260,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_material_stimulation
-		icon = GFX_goal_unknown
+		icon = goal_generic_consumer_goods
 		cost = 10
 		prerequisite = {
 			focus = rsr_work_agitation
@@ -274,62 +274,62 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_rearmament_plans
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_fortify_city
 		cost = 10
 		prerequisite = {
 			focus = rsr_new_red_army
 		}
-		x = 18
+		x = 38
 		y = 1
 
 	}
 	focus = {
 		id = rsr_recoilless_guns
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_occupy_start_war
 		cost = 10
 		prerequisite = {
 			focus = rsr_rearmament_plans
 		}
-		x = 15
+		x = 35
 		y = 2
 
 	}
 	focus = {
 		id = rsr_office_commissioner_special_works
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_forceful_treaty
 		cost = 10
 		prerequisite = {
 			focus = rsr_recoilless_guns
 		}
-		x = 15
+		x = 35
 		y = 3
 
 	}
 	focus = {
 		id = rsr_kurchevsky_guns
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_artillery
 		cost = 10
 		prerequisite = {
 			focus = rsr_office_commissioner_special_works
 		}
-		x = 13
+		x = 33
 		y = 4
 
 	}
 	focus = {
 		id = rsr_artillery_orders
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_artillery2
 		cost = 10
 		prerequisite = {
 			focus = rsr_office_commissioner_special_works
 		}
-		x = 15
+		x = 35
 		y = 4
 
 	}
 	focus = {
 		id = rsr_wide_military_construction
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10
 		prerequisite = {
 			focus = rsr_material_stimulation
@@ -340,7 +340,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_prisoner_labor
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_attack_allies
 		cost = 10
 		prerequisite = {
 			focus = rsr_wide_military_construction
@@ -351,18 +351,18 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_main_artillery_department
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_build_tank
 		cost = 10
 		prerequisite = {
 			focus = rsr_office_commissioner_special_works
 		}
-		x = 17
+		x = 37
 		y = 4
 
 	}
 	focus = {
 		id = rsr_cultural_transformation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_cultural_transformation
 		cost = 10
 		prerequisite = {
 			focus = rsr_great_lider
@@ -373,51 +373,51 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_recognize_our_history
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_recognize_our_history
 		cost = 10
 		prerequisite = {
 			focus = rsr_cultural_transformation
 		}
-		x = 17
+		x = 16
 		y = 6
 
 	}
 	focus = {
 		id = rsr_prospects_omp
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
 			focus = rsr_rearmament_plans
 		}
-		x = 18
+		x = 38
 		y = 2
 
 	}
 	focus = {
 		id = rsr_department_18
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_military_deal
 		cost = 10
 		prerequisite = {
 			focus = rsr_prospects_omp
 		}
-		x = 18
+		x = 38
 		y = 3
 
 	}
 	focus = {
 		id = rsr_church_closure
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_church_closure
 		cost = 10
 		prerequisite = {
 			focus = rsr_cultural_transformation
 		}
-		x = 19
+		x = 18
 		y = 6
 
 	}
 	focus = {
 		id = rsr_rewrite_history
-		icon = GFX_goal_unknown
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		cost = 10
 		prerequisite = {
 			focus = rsr_church_closure
@@ -425,68 +425,225 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_recognize_our_history
 		}
-		x = 18
+		x = 16
 		y = 7
 
 	}
 	focus = {
 		id = rsr_continuing_education_courses
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_bolsh_soviets
 		cost = 10
 		prerequisite = {
 			focus = rsr_new_red_army
 		}
-		x = 20
+		x = 40
 		y = 1
 
 	}
 	focus = {
 		id = rsr_military_institutes
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 10
 		prerequisite = {
 			focus = rsr_continuing_education_courses
 		}
-		x = 20
+		x = 40
 		y = 2
 
 	}
 	focus = {
 		id = rsr_quick_war_plan
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_license_production
 		cost = 10
 		prerequisite = {
 			focus = rsr_military_institutes
 		}
-		x = 20
+		x = 40
 		y = 3
 
 	}
 	focus = {
 		id = rsr_mechanized_wedge_strike
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_tanks
 		cost = 10
 		prerequisite = {
 			focus = rsr_quick_war_plan
 		}
-		x = 20
+		x = 40
 		y = 4
 
 	}
 	focus = {
 		id = rsr_eternal_war
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_attack_allies
 		cost = 10
 		prerequisite = {
 			focus = rsr_cultural_transformation
 		}
-		x = 21
+		x = 20
 		y = 6
 
 	}
+	
+	focus = {
+		id = rsr_powers_of_lunacharsky
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_cultural_transformation
+		}
+		x = 27
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_cultural_heritage
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_powers_of_lunacharsky
+		}
+		mutually_exclusive = {
+			focus = rsr_church_closure
+		}
+		x = 30
+		y = 7
+
+	}
+	
+	focus = {
+		id = rsr_god_building
+		icon = GFX_focus_rsr_god_building
+		cost = 10
+		prerequisite = {
+			focus = rsr_powers_of_lunacharsky
+		}
+		mutually_exclusive = {
+			focus = rsr_christian_destruction_project
+		}
+		x = 27
+		y = 7
+
+	}
+	
+	focus = {
+		id = rsr_elements_of_christianity
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_god_building
+		}
+		x = 26
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_elements_of_socialism
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_god_building
+		}
+		x = 28
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_syncretism
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_elements_of_christianity
+		}
+		prerequisite = {
+			focus = rsr_elements_of_socialism
+		}
+		x = 27
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_old_intelligentsia
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_powers_of_lunacharsky
+		}
+		x = 32
+		y = 7
+
+	}
+	
+	focus = {
+		id = rsr_beauty_of_war
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_old_intelligentsia
+		}
+		x = 30
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_latinization_project
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_old_intelligentsia
+		}
+		x = 34
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_better_education
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_latinization_project
+		}
+		prerequisite = {
+			focus = rsr_beauty_of_war
+		}
+		x = 32
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_school_bench_soldiers
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_better_education
+		}
+		x = 32
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_spirit_of_the_soviet_warrior
+		icon = GFX_goal_generic_attack_allies
+		cost = 10
+		prerequisite = {
+			focus = rsr_school_bench_soldiers
+		}
+		x = 32
+		y = 10
+
+	}
+	
 	focus = {
 		id = rsr_soldier_country
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_soldier_country
 		cost = 10
 		prerequisite = {
 			focus = rsr_eternal_war
@@ -500,7 +657,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_christian_destruction_project
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_dangerous_deal
 		cost = 10
 		prerequisite = {
 			focus = rsr_rewrite_history
@@ -508,7 +665,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_soldier_country
 		}
-		x = 19
+		x = 18
 		y = 8
 
 	}
@@ -522,13 +679,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = rsr_natural_religion
 		}
-		x = 18
+		x = 17
 		y = 9
 
 	}
 	focus = {
 		id = rsr_science_propaganda
-		icon = GFX_goal_unknown
+		icon = GFX_focus_research
 		cost = 10
 		prerequisite = {
 			focus = rsr_militant_atheism
@@ -591,7 +748,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_new_red_army
 		}
-		x = 22
+		x = 42
 		y = 1
 
 	}
@@ -602,7 +759,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_semi_automatic_weapons
 		}
-		x = 22
+		x = 42
 		y = 2
 
 	}
@@ -613,7 +770,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_development_additional_weapons
 		}
-		x = 22
+		x = 42
 		y = 3
 
 	}
@@ -624,7 +781,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_semi_automatic_weapons
 		}
-		x = 24
+		x = 44
 		y = 2
 
 	}
@@ -635,7 +792,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_techs_are_the_future
 		}
-		x = 24
+		x = 44
 		y = 3
 
 	}
@@ -646,7 +803,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_tank_institute
 		}
-		x = 22
+		x = 42
 		y = 4
 
 	}
@@ -657,7 +814,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_air_fleet
 		}
-		x = 21
+		x = 41
 		y = 5
 
 	}
@@ -668,7 +825,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_air_fleet
 		}
-		x = 23
+		x = 43
 		y = 5
 
 	}
@@ -679,7 +836,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_tank_institute
 		}
-		x = 24
+		x = 44
 		y = 4
 
 	}
@@ -723,7 +880,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_personnel_training
 		}
-		x = 25
+		x = 45
 		y = 5
 
 	}
@@ -734,7 +891,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_mass_release
 		}
-		x = 25
+		x = 45
 		y = 6
 
 	}
@@ -745,7 +902,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_mass_release
 		}
-		x = 23
+		x = 43
 		y = 6
 
 	}
@@ -756,7 +913,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_mass_release
 		}
-		x = 27
+		x = 47
 		y = 6
 
 	}
@@ -773,7 +930,7 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_tsentrobryon
 		}
-		x = 25
+		x = 45
 		y = 7
 
 	}
@@ -1056,7 +1213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_overwhelm_them_work
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_overwhelm_them_work
 		cost = 10
 		prerequisite = {
 			focus = rsr_temperate_path

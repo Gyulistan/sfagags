@@ -24,23 +24,28 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	radical_bolshevism = 11
-	orthodox_socialism = 11
-	accelerationism = 11
-	social_democracy = 11
-	liberalism = 11
-	conservatism = 11
-	autoritarian_democracy = 12
-	national_militarism = 11
-	paternalism = 11
+	radical_bolshevism = 17
+	orthodox_socialism = 43
+	accelerationism = 12
+	social_democracy = 8
+	liberalism = 4
+	conservatism = 6
+	autoritarian_democracy = 0
+	national_militarism = 8
+	paternalism = 2
 	}
 
 add_ideas = {
-prs_rosa_luxemburg
-prs_heinrich_brandler
-prs_willy_leow
-prs_clara_zetkin
-prs_ruth_fischer
+	prs_rosa_luxemburg
+	prs_heinrich_brandler
+	prs_willy_leow
+	prs_clara_zetkin
+	prs_ruth_fischer
+	prs_communist_unity
+	prs_agricultural_problems
+	prs_uncontrolled_cooperatives
+	prs_peoples_militia
+	prs_prussian_heritage
 }
 
 

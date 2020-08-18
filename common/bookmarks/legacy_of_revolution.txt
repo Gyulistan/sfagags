@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "LEGACY_OF_REVOLUTION_DESC"
 		date = 1926.7.1.1
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "RSR"
 		default = yes
 		
 		"FRA"={
@@ -33,10 +33,16 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_LEGACY_OF_REVOLUTION_DESC"
-			ideology = autoritarian_democracy
+			ideology = paternalism
 			ideas = {
+				ger_militarism_society
+				ger_detachment_entente
+				ger_working_resistance
 			}
 			focuses = {
+				ger_time_of_freedom
+				ger_emergency_measures
+				ger_goering_variant
 			}
 		}
 		"ITA"={
@@ -47,7 +53,7 @@ bookmarks = {
 			focuses = {
 			}		
 		}
-		"JAP"={
+		"BWF"={
 			history = "JAP_LEGACY_OF_REVOLUTION_DESC"
 			ideology = autoritarian_democracy
 			ideas = {
@@ -63,6 +69,26 @@ bookmarks = {
 			focuses = {
 
 			}	
+		}
+		
+		"PRS"={
+			history = "SOV_LEGACY_OF_REVOLUTION_DESC"
+			ideology = orthodox_socialism
+			ideas = {
+			}
+			focuses = {
+
+			}	
+		}
+		
+		"MEX"={
+			minor = yes
+			history = "POL_LEGACY_OF_REVOLUTION_DESC"
+			ideology = orthodox_socialism
+			ideas = {
+			}
+			focuses = {
+			}
 		}
 	}
 }

@@ -1,0 +1,284 @@
+ideas = {
+
+	head_of_government = {
+
+		ita_luigi_facta = {
+		
+			picture = GFX_idea_ita_luigi_facta
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				backroom_backstabber
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = ITA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+				
+		ita_benito_mussolini_gov = {
+		
+			picture = GFX_idea_ita_benito_mussolini_gov
+			
+			available = {
+					OR = {
+						has_government = national_militarism
+					}
+				}
+			
+			traits = {
+				nationalist
+				naive_optimist
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = ITA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+		}
+		
+		
+	foreign_minister = {
+
+		ita_benito_mussolini_for = {
+		
+			picture = GFX_idea_ita_benito_mussolini_for
+			
+			available = {
+					OR = {
+						has_government = national_militarism
+						
+					}
+				}
+			
+			traits = {
+				nationalist
+				iron_fisted_brute
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = ITA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+
+	defence_minister = {
+
+		ita_italo_balbo = {
+		
+			picture = GFX_idea_ita_italo_balbo
+			
+			available = {
+					OR = {
+						has_government = national_militarism
+						
+					}
+				}
+			
+			traits = {
+				nationalist
+				army_bureaucrat
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = ITA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		ita_giuseppe_volpi = {
+		
+			picture = GFX_idea_ita_giuseppe_volpi
+			
+			available = {
+					OR = {
+						has_government = national_militarism
+					}
+				}
+			
+			traits = {
+				nationalist
+				construction_magnate
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = ITA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+		
+	security_minister = {
+	
+		ita_vittorio_orlando  = {
+		
+			picture = GFX_idea_ita_vittorio_orlando
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				back_stabber
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = ITA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+
+		ita_luigi_federzoni  = {
+		
+			picture = GFX_idea_ita_luigi_federzoni
+			
+			available = {
+					OR = {
+						has_government = national_militarism
+					}
+				}
+			
+			traits = {
+				nationalist
+				efficient_sociopath
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = ITA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+		
+	country = {
+
+		ita_cradle_of_fascism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ita_cradle_of_fascism"}
+
+			modifier = {
+				national_militarism_drift = 0.02
+				training_time_army = -0.15
+				war_support_factor = 0.20
+			}
+
+			picture = ita_cradle_of_fascism
+		}
+
+		ita_african_resistance = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ita_african_resistance"}
+
+			modifier = {
+				stability_factor = -0.07
+			}
+			relation_modifier = {
+				target = LBA
+				modifier = ITA_african_resistance
+			}
+
+			picture = ita_african_resistance
+		}	
+		
+		ita_unfinished_revolution = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ita_unfinished_revolution"}
+
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.25
+				autoritarian_democracy_drift = 0.05	
+			}
+
+			picture = ita_unfinished_revolution
+		}
+		
+		ita_remember_1925 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ita_remember_1925"}
+
+			modifier = {
+				political_power_gain = -0.15
+				navy_intel_factor = -0.05
+				navy_org = -0.15
+				navy_submarine_attack_factor = -0.15
+				navy_screen_attack_factor = -0.15
+				navy_capital_ship_attack_factor = -0.15
+				experience_gain_navy = -0.15
+			} 
+
+			picture = ita_remember_1925
+		}
+		
+		ita_victor_emmanuel = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ita_victor_emmanuel"}
+
+			modifier = {
+				stability_factor = -0.05
+				autoritarian_democracy_drift = 0.02
+			} 
+
+			picture = ita_victor_emmanuel
+		}
+}

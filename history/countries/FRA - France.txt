@@ -74,6 +74,11 @@ if = {
 	puppet = RHI
 	puppet = FEA
 	}
+	
+create_faction = Entente
+add_to_faction = USA
+add_to_faction = FRA
+add_to_faction = ITA
 
 add_ideas = {
 	fra_gaston_doumergue

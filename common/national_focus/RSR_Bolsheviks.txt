@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	
-	continuous_focus_position = { x = 60 y = 1 }
+	continuous_focus_position = { x = 1 y = 1 }
 	
 	focus = {
 		id = rsr_bol_again_in_helm
@@ -20,7 +20,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_bolshevik_army
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_bolshevik_army
 		cost = 10
 		x = 33
 		y = 0
@@ -139,7 +139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_grigory_zinoviev
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_grigory_zinoviev
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_split
@@ -150,7 +150,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_alexey_rykov
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_alexey_rykov
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_split
@@ -316,7 +316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_tukh_yakir
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_tukh_yakir
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_bolshevik_army
@@ -330,7 +330,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_centrobryon
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_centrobryon
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_tukh_yakir
@@ -427,7 +427,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_central_planning_headquarters
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_central_planning_headquarters
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_tukh_yakir
@@ -524,7 +524,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_yegorov_voroshilov
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_yegorov_voroshilov
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_bolshevik_army
@@ -538,7 +538,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_artillery_department
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_artillery_department
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_yegorov_voroshilov
@@ -635,7 +635,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_supreme_army_soviet
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_supreme_army_soviet
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_yegorov_voroshilov
@@ -1104,7 +1104,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_lev_kamenev
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_lev_kamenev
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_split

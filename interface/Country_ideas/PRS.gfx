@@ -65,4 +65,29 @@ spriteTypes = {
 		name = "GFX_idea_prs_max_hoelz"
 		texturefile = "gfx/interface/Ideas/PRS/prs_max_hoelz.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_prs_communist_unity"
+		texturefile = "gfx/interface/Ideas/PRS/prs_communist_unity.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_prs_agricultural_problems"
+		texturefile = "gfx/interface/Ideas/PRS/prs_agricultural_problems.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_prs_uncontrolled_cooperatives"
+		texturefile = "gfx/interface/Ideas/PRS/prs_uncontrolled_cooperatives.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_prs_peoples_militia"
+		texturefile = "gfx/interface/Ideas/PRS/prs_peoples_militia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_prs_prussian_heritage"
+		texturefile = "gfx/interface/Ideas/PRS/prs_prussian_heritage.dds"
+	}
 

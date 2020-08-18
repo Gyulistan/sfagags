@@ -356,4 +356,67 @@ ideas = {
 						}
 				}	
 		}
+		
+	country = {
+
+		prs_communist_unity = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea prs_communist_unity"}
+
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.07
+				radical_bolshevism_drift = 0.01				
+				orthodox_socialism_drift = 0.01
+				accelerationism_drift = 0.01
+			}
+
+			picture = prs_communist_unity
+		}
+		
+		prs_agricultural_problems = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea prs_agricultural_problems"}
+
+			modifier = {
+				monthly_population = -0.05
+				consumer_goods_factor = 0.05
+			}
+
+			picture = prs_agricultural_problems
+		}
+		
+		prs_uncontrolled_cooperatives = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea prs_uncontrolled_cooperatives"}
+
+			modifier = {
+				stability_factor = 0.10
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = -0.10
+				production_factory_max_efficiency_factor = -0.10
+			}
+
+			picture = prs_uncontrolled_cooperatives
+		}
+		
+		prs_peoples_militia = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea prs_peoples_militia"}
+
+			modifier = {
+				army_infantry_attack_factor = -0.20
+				army_core_defence_factor = 0.10
+				army_org_factor = -0.15
+			}
+
+			picture = prs_peoples_militia
+		}
+		
+		prs_prussian_heritage = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea prs_prussian_heritage"}
+
+			modifier = {
+				stability_factor = 0.05
+			}
+
+			picture = prs_prussian_heritage
+		}
+		
 }

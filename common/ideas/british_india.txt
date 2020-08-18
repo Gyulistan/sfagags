@@ -1,0 +1,161 @@
+ideas = {
+
+	head_of_government = {
+
+		ran_william_birdwood = {
+		
+			picture = GFX_idea_ran_william_birdwood
+			
+			available = {
+					OR = {
+						has_government = paternalism
+					}
+				}
+			
+			traits = {
+				paternalist
+				respected_war_hero
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = RAN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}				
+		}
+		
+		
+	foreign_minister = {
+
+		ran_andrew_skeen = {
+		
+			picture = GFX_idea_ran_andrew_skeen
+			
+			available = {
+					OR = {
+						has_government = paternalism
+						
+					}
+				}
+			
+			traits = {
+				paternalist
+				general_staffer
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = RAN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+
+	defence_minister = {
+
+		ran_claude_auchinleck = {
+		
+			picture = GFX_idea_ran_claude_auchinleck
+			
+			available = {
+					OR = {
+						has_government = paternalism
+						
+					}
+				}
+			
+			traits = {
+				paternalist
+				military_genius
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = RAN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+
+	economy_minister = {
+
+		ran_claude_jacob = {
+		
+			picture = GFX_idea_ran_claude_jacob 
+			
+			available = {
+					OR = {
+						has_government = paternalism
+					}
+				}
+			
+			traits = {
+				paternalist
+				military_entrepreneur
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = RAN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}
+		
+	security_minister = {
+
+		ran_edward_quinan = {
+		
+			picture = GFX_idea_ran_edward_quinan
+			
+			available = {
+					OR = {
+						has_government = paternalism
+					}
+				}
+			
+			traits = {
+				paternalist
+				prince_of_terror
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = RAN
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+		}	
+}
