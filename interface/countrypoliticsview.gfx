@@ -475,6 +475,11 @@ spriteTypes = {
 		name = "GFX_ideology_radical_bolshevism_group"
 		texturefile = "gfx/interface/ideologies/radical_bolshevism_group.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ideology_red_stratocracy"
+		texturefile = "gfx/interface/ideologies/red_stratocracy.dds"
+	}
 
 	spriteType = {
 		name = "GFX_ideology_social_democracy_group"

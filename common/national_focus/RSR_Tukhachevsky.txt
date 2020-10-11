@@ -216,7 +216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_military_leader
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_focus_rsr_military_leader
 		cost = 10
 		prerequisite = {
 			focus = rsr_general_labor_service
@@ -238,7 +238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_irregular_working_hours
-		icon = GFX_goal_generic_production
+		icon = GFX_focus_rsr_irregular_working_hours
 		cost = 10
 		prerequisite = {
 			focus = rsr_general_labor_service
@@ -249,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_state_coercion
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_rsr_state_coercion
 		cost = 10
 		prerequisite = {
 			focus = rsr_irregular_working_hours
@@ -553,7 +553,7 @@ focus_tree = {
 	
 	focus = {
 		id = rsr_syncretism
-		icon = GFX_goal_generic_attack_allies
+		icon = GFX_focus_rsr_syncretism
 		cost = 10
 		prerequisite = {
 			focus = rsr_elements_of_christianity
@@ -580,7 +580,7 @@ focus_tree = {
 	
 	focus = {
 		id = rsr_beauty_of_war
-		icon = GFX_goal_generic_attack_allies
+		icon = GFX_focus_rsr_beauty_of_war
 		cost = 10
 		prerequisite = {
 			focus = rsr_old_intelligentsia
@@ -743,7 +743,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_semi_automatic_weapons
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_semi_automatic_weapons
 		cost = 10
 		prerequisite = {
 			focus = rsr_new_red_army
@@ -936,7 +936,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_forced_confiscation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_forced_confiscation
 		cost = 10
 		prerequisite = {
 			focus = rsr_military_restructuring
@@ -947,7 +947,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_first_steps
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_first_steps
 		cost = 10
 		prerequisite = {
 			focus = rsr_forced_confiscation
@@ -958,7 +958,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_monetary_reform
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_monetary_reform
 		cost = 10
 		prerequisite = {
 			focus = rsr_military_restructuring
@@ -980,7 +980,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_building_codes
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_building_codes
 		cost = 10
 		prerequisite = {
 			focus = rsr_military_construction_commission
@@ -991,7 +991,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_dual_use_products
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_dual_use_products
 		cost = 10
 		prerequisite = {
 			focus = rsr_first_steps
@@ -1224,7 +1224,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_ours_to_the_fore
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_ours_to_the_fore
 		cost = 10
 		prerequisite = {
 			focus = rsr_military_parties
@@ -1238,7 +1238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_coups
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_coups
 		cost = 10
 		prerequisite = {
 			focus = rsr_ours_to_the_fore
@@ -1249,7 +1249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_integration
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_integration
 		cost = 10
 		prerequisite = {
 			focus = rsr_coups

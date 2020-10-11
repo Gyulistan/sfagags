@@ -4,6 +4,7 @@ ideologies = {
 	
 		types = {
 				radical_bolshevism_subtype = {}
+				red_stratocracy = {}
 		}
 		
 		dynamic_faction_names = {

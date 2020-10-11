@@ -372,6 +372,76 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
+		name = "GFX_focus_rsr_monetary_reform"
+		texturefile = "gfx/interface/goals/focus_rsr_monetary_reform.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_beauty_of_war"
+		texturefile = "gfx/interface/goals/focus_rsr_beauty_of_war.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_semi_automatic_weapons"
+		texturefile = "gfx/interface/goals/focus_rsr_semi_automatic_weapons.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_irregular_working_hours"
+		texturefile = "gfx/interface/goals/focus_rsr_irregular_working_hours.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_ours_to_the_fore"
+		texturefile = "gfx/interface/goals/focus_rsr_ours_to_the_fore.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_coups"
+		texturefile = "gfx/interface/goals/focus_rsr_coups.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_integration"
+		texturefile = "gfx/interface/goals/focus_rsr_integration.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_forced_confiscation"
+		texturefile = "gfx/interface/goals/focus_rsr_forced_confiscation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_state_coercion"
+		texturefile = "gfx/interface/goals/focus_rsr_state_coercion.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_dual_use_products"
+		texturefile = "gfx/interface/goals/focus_rsr_dual_use_products.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_syncretism"
+		texturefile = "gfx/interface/goals/focus_rsr_syncretism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_first_steps"
+		texturefile = "gfx/interface/goals/focus_rsr_first_steps.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_building_codes"
+		texturefile = "gfx/interface/goals/focus_rsr_building_codes.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_military_leader"
+		texturefile = "gfx/interface/goals/focus_rsr_military_leader.dds"
+	}
+	
+	SpriteType = { 
 		name = "GFX_focus_ITA0"
 		texturefile = "gfx/interface/goals/focus_ITA0.dds"
 	}
