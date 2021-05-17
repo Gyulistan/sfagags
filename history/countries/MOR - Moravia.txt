@@ -21,7 +21,7 @@ set_technology = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = radical_bolshevism
+	ruling_party = orthodox_socialism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,9 +41,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "No Name"
-	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	name = "Bohumil Jílek"
+	desc = "POLITICS_BOHUMIL_JILEK_DESC"
+	picture = "Portrait_Moravia_Bohumil_Jilek.dds"
 	expire = "1956.1.1"
 	ideology = orthodox_socialism_subtype
 	traits = {

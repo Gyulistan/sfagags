@@ -1,7 +1,0 @@
-﻿units = {
-	navy = {
-		name = "TP Mediterranean Destroyer Flotilla"
-		location = 12003
-		ship = { name = "HMS TP" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ROOT creator = ROOT } } }
-	}
-}

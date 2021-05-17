@@ -703,3 +703,133 @@ TZN = {
 	color = rgb { 137 201 184 }
 	color_ui = rgb { 95 182 157 }	 
 }
+
+NAR = {
+	color = rgb { 111 37 16 }
+	color_ui = rgb { 82 28 12 }	 
+}
+
+NNG = {
+	color = rgb { 19 137 228 }
+	color_ui = rgb { 14 105 175 }	 
+}
+
+WSR = {
+	color = rgb { 164 19 19 }
+	color_ui = rgb { 105 13 13 }	 
+}
+
+EDG = {
+	color = rgb { 152 214 158 }
+	color_ui = rgb { 105 194 114 }	 
+}
+
+SOS = {
+	color = rgb { 0 45 106 }
+	color_ui = rgb { 0 22 51 }	 
+}
+
+ISF = {
+	color = rgb { 190 161 7 }
+	color_ui = rgb { 135 115 6 }	 
+}
+
+APK = {
+	color = rgb { 119 6 8 }
+	color_ui = rgb { 70 10 5 }	 
+}
+
+FWS = {
+	color = rgb { 161 158 148 }
+	color_ui = rgb { 92 90 86 }	 
+}
+
+TZL = {
+	color = rgb { 238 106 0 }
+	color_ui = rgb { 129 59 2 }	 
+}
+
+AKT = {
+	color = rgb { 226 249 32 }
+	color_ui = rgb { 178 196 25 }	 
+}
+
+SPA = {
+	color = rgb { 171 7 40 }
+	color_ui = rgb { 120 5 29 }	 
+}
+
+KKK = {
+	color = rgb { 103 96 60 }
+	color_ui = rgb { 62 58 36 }	 
+}
+
+MAS = {
+	color = rgb { 6 47 131 }
+	color_ui = rgb { 4 22 61 }	 
+}
+
+LFG = {
+	color = rgb { 65 4 72 }
+	color_ui = rgb { 40 3 44 }	 
+}
+
+APC = {
+	color = rgb { 125 247 136 }
+	color_ui = rgb { 96 193 105 }	 
+}
+
+AOP = {
+	color = rgb { 243 247 125 }
+	color_ui = rgb { 189 192 99 }	 
+}
+
+TEX = {
+	color = rgb { 250 219 5 }
+	color_ui = rgb { 165 145 3 }	 
+}
+
+ACF = {
+	color = rgb { 41 41 44 }
+	color_ui = rgb { 22 22 24 }	 
+}
+
+MCA = {
+	color = rgb { 41 119 195 }
+	color_ui = rgb { 31 89 124 }	 
+}
+
+ORA = {
+	color = rgb { 45 156 162 }
+	color_ui = rgb { 32 115 119 }	 
+}
+
+IMK = {
+	color = rgb { 58 124 27 }
+	color_ui = rgb { 47 100 21 }	 
+}
+
+IMU = {
+	color = rgb { 24 99 22 }
+	color_ui = rgb { 19 80 18 }	 
+}
+
+IMT = {
+	color = rgb { 69 165 22 }
+	color_ui = rgb { 50 120 16 }	 
+}
+
+SDA = {
+	color = rgb { 194 66 3 }
+	color_ui = rgb { 136 47 2 }	 
+}
+
+POS = {
+	color = rgb { 197 57 61 }
+	color_ui = rgb { 138 40 43 }	 
+}
+
+OPA = {
+	color = rgb { 139 95 39 }
+	color_ui = rgb { 113 77 32 }	 
+}

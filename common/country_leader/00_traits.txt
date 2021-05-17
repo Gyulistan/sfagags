@@ -1,0 +1,11 @@
+leader_traits = {
+	
+	slacker = {
+		random = no
+		political_power_factor = -0.75
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

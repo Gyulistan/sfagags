@@ -1,0 +1,89 @@
+add_namespace = super
+
+country_event = {		
+	id = super.1
+	title = super.1.t
+	desc = super.1.d
+	picture = GFX_event_soldiers_read
+
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	fire_only_once = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.1.a
+        set_global_flag = eden_gate_unification
+		sound_effect = "superev_eden_gate"
+	}
+}
+
+country_event = {		
+	id = super.2
+	title = super.2.t
+	desc = super.2.d
+	picture = GFX_event_soldiers_read
+
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	fire_only_once = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.2.a
+        set_global_flag = anarcho_syndicalist_unification
+		sound_effect = "superev_anarcho_syndicalist"
+	}
+}
+
+country_event = {		
+	id = super.3
+	title = super.3.t
+	desc = super.3.d
+	picture = GFX_event_soldiers_read
+
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	fire_only_once = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.3.a
+        set_global_flag = mafia_elections
+		sound_effect = "superev_bad_boys"
+	}
+}
+
+country_event = {		
+	id = super.4
+	title = super.4.t
+	desc = super.4.d
+	picture = GFX_event_soldiers_read
+
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	fire_only_once = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.4.a
+        set_global_flag = truman_elections
+		sound_effect = "superev_truman_win"
+	}
+}

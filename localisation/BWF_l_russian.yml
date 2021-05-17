@@ -1,4 +1,20 @@
 ﻿ l_russian:
+ 
+    #FOCUS#
+    #CIVIL WAR#
+bwf_second_offensive:0 "Второе наступление на Бристоль"
+bwf_betrayal_of_oath:0 "Измена присяге"
+bwf_soviet_aid:0 "Помощь от старшего брата"
+bwf_first_cavalry_army:0 "Первая конная"
+bwf_cut_aid:0 "Оборвать поставки"
+bwf_russian:0 "Русский"
+bwf_why_are_we_fighting:0 "За что мы сражаемся"
+bwf_london_fortress:0 "Лондонский укрепрайон"
+bwf_train_of_witringham:0 "Бронепоезд Уитрингема"
+bwf_birmigham_arms:0 "Национализация BSA"
+bwf_english_declaration:0 "Декларация трудящихся Британии"
+
+
   
     #EVENT#
 sovietbritain.1.t:0 "Британская Революция"

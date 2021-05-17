@@ -32,6 +32,33 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_usa_joseph_robinson"
+		texturefile = "gfx/interface/Ideas/USA/usa_joseph_robinson.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_thomas_connely"
+		texturefile = "gfx/interface/Ideas/USA/usa_thomas_connely.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_george_dern"
+		texturefile = "gfx/interface/Ideas/USA/usa_george_dern.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_charles_truaux"
+		texturefile = "gfx/interface/Ideas/USA/usa_charles_truaux.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_alexandr_palmer"
+		texturefile = "gfx/interface/Ideas/USA/usa_alexandr_palmer.tga"
+	}
+	
+	
+	
+	spriteType = {
 		name = "GFX_idea_no_alcohol_law"
 		texturefile = "gfx/interface/Ideas/USA/no_alcohol_law.tga"
 	}

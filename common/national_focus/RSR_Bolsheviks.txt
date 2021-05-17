@@ -751,7 +751,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_pressure_on_peasantry
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_pressure_on_peasantry
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_industrial_base
@@ -940,7 +940,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_party_transformation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_party_transformation
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_successful_execution

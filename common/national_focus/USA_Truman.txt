@@ -1,0 +1,1389 @@
+focus_tree = {
+	id = USA_Truman
+	country = {
+		factor = 0
+		modifier = {
+			add = 15
+			tag = USA
+		}
+	}
+	default = no
+	
+	continuous_focus_position = { x = 1200 y = 1 }
+	
+
+	focus = {
+		id = usa_tru_truman_wins
+		icon = GFX_focus_usa_tru_truman_wins
+		cost = 10
+		x = 7
+		y = 0
+
+	}
+	
+	focus = {
+		id = usa_tru_congress_session
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_truman_wins
+		}
+		x = 7
+		y = 1
+
+	}
+	
+	focus = {
+		id = usa_tru_national_politic
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_congress_session
+		}
+		x = 4
+		y = 2
+
+	}
+	
+	focus = {
+		id = usa_tru_parliament_reverse
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_congress_session
+		}
+		x = 7
+		y = 2
+
+	}
+	
+	focus = {
+		id = usa_tru_down_isolation_politic
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_congress_session
+		}
+		x = 10
+		y = 2
+
+	}
+	
+	focus = {
+		id = usa_tru_american_dream
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_national_politic
+		}
+		x = 5
+		y = 3
+
+	}
+	
+	focus = {
+		id = usa_tru_down_with_communists
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_american_dream
+		}
+		x = 5
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_tru_drow_reform_plan
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_down_isolation_politic
+		}
+		x = 9
+		y = 3
+
+	}
+	
+	focus = {
+		id = usa_tru_arrest_traitors
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_drow_reform_plan
+		}
+		x = 9
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_tru_eagle_wings
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_arrest_traitors
+		}
+		prerequisite = {
+			focus = usa_tru_down_with_communists
+		}
+		x = 7
+		y = 5
+
+	}
+	
+	focus = {
+		id = usa_tru_spy_act
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_eagle_wings
+		}
+		x = 4
+		y = 6
+
+	}
+	
+	focus = {
+		id = usa_tru_international_intelligence
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_spy_act
+		}
+		x = 3
+		y = 7
+
+	}
+	
+	focus = {
+		id = usa_tru_migrant_spy
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_spy_act
+		}
+		x = 5
+		y = 7
+
+	}
+	
+	focus = {
+		id = usa_tru_american_quotes
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_international_intelligence
+		}
+		prerequisite = {
+			focus = usa_tru_migrant_spy
+		}
+		x = 4
+		y = 8
+
+	}
+	
+	focus = {
+		id = usa_tru_act_subversive
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_eagle_wings
+		}
+		x = 10
+		y = 6
+
+	}
+	
+	focus = {
+		id = usa_tru_new_education
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_act_subversive
+		}
+		x = 9
+		y = 7
+
+	}
+	
+	focus = {
+		id = usa_tru_patriot_spirit
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_act_subversive
+		}
+		x = 11
+		y = 7
+
+	}
+	
+	focus = {
+		id = usa_tru_god_help_us
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_new_education
+		}
+		prerequisite = {
+			focus = usa_tru_patriot_spirit
+		}
+		x = 10
+		y = 8
+
+	}
+	
+	focus = {
+		id = usa_tru_national_policy
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		x = 15
+		y = 3
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_variant_democrats
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_national_policy
+		}
+		mutually_exclusive = {
+			focus = usa_tru_my_own_view
+		}
+		x = 12
+		y = 4
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_reform_plan
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_variant_democrats
+		}
+		x = 11
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_afro_control
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_reform_plan
+		}
+		x = 12
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_latinoamericans_society
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_afro_control
+		}
+		x = 13
+		y = 7
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_versus_kkk
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_latinoamericans_society
+		}
+		x = 14
+		y = 8
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_my_own_view
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_national_policy
+		}
+		mutually_exclusive = {
+			focus = usa_tru_variant_democrats
+		}
+		x = 18
+		y = 4
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_our_corruptive_system
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_my_own_view
+		}
+		x = 19
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_old_kkk_friends
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_our_corruptive_system
+		}
+		x = 18
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_white_black_work
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_old_kkk_friends
+		}
+		x = 17
+		y = 7
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_latin_deportation
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_white_black_work
+		}
+		x = 16
+		y = 8
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_rise_of_nation
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_latin_deportation
+			focus = usa_tru_versus_kkk
+		}
+		x = 15
+		y = 9
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_economic_depression
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		x = 25
+		y = 0
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_we_are_dead
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_economic_depression
+		}
+		x = 24
+		y = 1
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_assess_damage
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_economic_depression
+		}
+		x = 26
+		y = 1
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_truman_says_no
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_we_are_dead
+		}
+		prerequisite = {
+			focus = usa_tru_assess_damage
+		}
+		x = 25
+		y = 2
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_stabilizing_finance_system
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_truman_says_no
+		}
+		x = 24
+		y = 3
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_throught_thunderstorm
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_truman_says_no
+		}
+		x = 26
+		y = 3
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_wide_lobbyng
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_throught_thunderstorm
+		}
+		prerequisite = {
+			focus = usa_tru_stabilizing_finance_system
+		}
+		x = 25
+		y = 4
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_facilitate_lobbyng
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_wide_lobbyng
+		}
+		x = 23
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_cut_back_weapon
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_wide_lobbyng
+		}
+		x = 25
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_cut_back_social_welfare
+		icon = GFX_focus_usa_tru_cut_back_social_welfare
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_wide_lobbyng
+		}
+		x = 27
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_support_society_construction
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_facilitate_lobbyng
+		}
+		x = 21
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_proportional_taxes
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_facilitate_lobbyng
+		}
+		x = 23
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_optimization_education
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_cut_back_weapon
+		}
+		x = 25
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_gold_standart
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_cut_back_social_welfare
+		}
+		x = 27
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_cut_benefits
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_cut_back_social_welfare
+		}
+		x = 29
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_meet_with_magnats
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_support_society_construction
+		}
+		x = 21
+		y = 7
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_white_arrow
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_proportional_taxes
+		}
+		x = 23
+		y = 7
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_sell_bancrupt_land
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_gold_standart
+		}
+		x = 27
+		y = 7
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_give_magnats_money
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_cut_benefits
+		}
+		x = 29
+		y = 7
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_anticommunism_institute
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_meet_with_magnats
+		}
+		prerequisite = {
+			focus = usa_tru_white_arrow
+		}
+		x = 22
+		y = 8
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_close_children_house
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_sell_bancrupt_land
+		}
+		prerequisite = {
+			focus = usa_tru_give_magnats_money
+		}
+		x = 28
+		y = 8
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_first_reconstruction
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_optimization_education
+		}
+		x = 25
+		y = 9
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_view_on_world
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		x = 15
+		y = 11
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_truman_doctrine
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_view_on_world
+		}
+		x = 15
+		y = 12
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_i_love_war
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_truman_doctrine
+		}
+		x = 15
+		y = 13
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_african_wars
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_i_love_war
+		}
+		x = 14
+		y = 14
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_latin_murders
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_i_love_war
+		}
+		x = 16
+		y = 14
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_market_of_weapon
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_african_wars
+		}
+		prerequisite = {
+			focus = usa_tru_latin_murders
+		}
+		x = 15
+		y = 15
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_meet_with_samurai
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_view_on_world
+		}
+		x = 10
+		y = 12
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_trade_contract
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_meet_with_samurai
+		}
+		x = 9
+		y = 13
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_sell_ships
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_meet_with_samurai
+		}
+		x = 11
+		y = 13
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_recognize_the_hegemony
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_trade_contract
+		}
+		prerequisite = {
+			focus = usa_tru_sell_ships
+		}
+		x = 10
+		y = 14
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_european_allies
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_view_on_world
+		}
+		x = 20
+		y = 12
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_support_english
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_european_allies
+		}
+		x = 19
+		y = 13
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_trading_with_entente
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_european_allies
+		}
+		x = 21
+		y = 13
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_white_rise
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_support_english
+		}
+		prerequisite = {
+			focus = usa_tru_trading_with_entente
+		}
+		x = 20
+		y = 14
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_remember_of_fallen_hero
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_recognize_the_hegemony
+		}
+		prerequisite = {
+			focus = usa_tru_market_of_weapon
+		}
+		prerequisite = {
+			focus = usa_tru_white_rise
+		}
+		x = 15
+		y = 16
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_manifest_destiny
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_remember_of_fallen_hero
+		}
+		x = 15
+		y = 17
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_main_question
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_manifest_destiny
+		}
+		x = 15
+		y = 18
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_separatists_soviet
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_main_question
+		}
+		x = 12
+		y = 19
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_soviet_criticize
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_main_question
+		}
+		x = 18
+		y = 19
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_mobilize_navy
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_separatists_soviet
+		}
+		x = 13
+		y = 20
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_economic_blocade
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_soviet_criticize
+		}
+		x = 17
+		y = 20
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_destroy_the_titan
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_economic_blocade
+		}
+		prerequisite = {
+			focus = usa_tru_mobilize_navy
+		}
+		x = 15
+		y = 21
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_use_all_opportunity
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		x = 37
+		y = 0
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_experience_great_war
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_use_all_opportunity
+		}
+		x = 36
+		y = 1
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_young_officers
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_use_all_opportunity
+		}
+		x = 38
+		y = 1
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_army_plan
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_experience_great_war
+		}
+		prerequisite = {
+			focus = usa_tru_young_officers
+		}
+		x = 37
+		y = 2
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_continue_summerel
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_army_plan
+		}
+		mutually_exclusive = {
+			focus = usa_tru_revise_military_school
+		}
+		x = 33
+		y = 3
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_wide_general_stuff
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_continue_summerel
+		}
+		x = 32
+		y = 4
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_heavy_armor
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_wide_general_stuff
+		}
+		x = 32
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_support_cavalry
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_heavy_armor
+		}
+		x = 32
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_good_planning
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_continue_summerel
+		}
+		x = 34
+		y = 4
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_carpet_bombing
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_good_planning
+		}
+		x = 34
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_wide_conscription
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_carpet_bombing
+		}
+		x = 34
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_centralized_military
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_support_cavalry
+		}
+		prerequisite = {
+			focus = usa_tru_wide_conscription
+		}
+		x = 33
+		y = 7
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_revise_military_school
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_army_plan
+		}
+		mutually_exclusive = {
+			focus = usa_tru_continue_summerel
+		}
+		x = 39
+		y = 3
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_macarthur_doctrine
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_revise_military_school
+		}
+		x = 37
+		y = 4
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_we_need_big_guns
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_macarthur_doctrine
+		}
+		x = 36
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_mountain_training
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_we_need_big_guns
+		}
+		x = 36
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_denver_artillery_school
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_macarthur_doctrine
+		}
+		x = 38
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_support_from_sky
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_denver_artillery_school
+		}
+		x = 38
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_doctrine_total_support
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_support_from_sky
+		}
+		prerequisite = {
+			focus = usa_tru_mountain_training
+		}
+		x = 37
+		y = 7
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_trust_to_butler
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_revise_military_school
+		}
+		x = 41
+		y = 4
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_war_specialists
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_trust_to_butler
+		}
+		x = 40
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_hard_training
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_war_specialists
+		}
+		x = 40
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_army_and_navy
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_hard_training
+		}
+		x = 40
+		y = 7
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_new_guard
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_trust_to_butler
+		}
+		x = 42
+		y = 5
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_vdv
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_trust_to_butler
+		}
+		x = 42
+		y = 6
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_independence_of_forces
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_trust_to_butler
+		}
+		x = 42
+		y = 7
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_veterans
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_centralized_military
+		}
+		prerequisite = {
+			focus = usa_tru_doctrine_total_support
+		}
+		prerequisite = {
+			focus = usa_tru_army_and_navy
+		}
+		prerequisite = {
+			focus = usa_tru_independence_of_forces		
+		}
+		x = 38
+		y = 8
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_europe_investors
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_veterans
+		}
+		x = 38
+		y = 9
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_proud_us_mercenary
+		icon = GFX_focus_usa_lazy_president
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_europe_investors
+		}
+		x = 38
+		y = 10
+		
+
+	}

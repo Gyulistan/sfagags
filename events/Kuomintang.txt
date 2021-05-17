@@ -1,0 +1,16 @@
+add_namespace = kuo
+
+country_event = { # 
+	id = kuo.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event kuo1"}
+	title = kuo.1.t
+	desc = kuo.1.d
+	picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = kuo.1.a
+		annex = GXC
+        }
+	}

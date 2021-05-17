@@ -45,6 +45,7 @@ scripted_gui = {
 			}
 			
 			TNO_OpeningScreen_Buttons_CountryView_click = {
+				set_variable = { page_num = 1 } 
 				set_country_flag = OPEN_view_country_info
 				
 				clr_country_flag = OPEN_view_region_info
@@ -74,6 +75,22 @@ scripted_gui = {
 				clr_country_flag = OPEN_view_region_info
 				clr_country_flag = OPEN_view_country_info
 				clr_country_flag = OPEN_view_features_info
+			}
+			closing_button_next_page_click = {
+				add_to_variable = { page_num = 1 }
+				clamp_variable = {
+					var = page_num
+					min = 1
+					max = 6
+				}
+			}
+			closing_button_prev_page_click = {
+				add_to_variable = { page_num = -1 }
+				clamp_variable = {
+					var = page_num
+					min = 1
+					max = 6 
+				}
 			}
 		}
 		

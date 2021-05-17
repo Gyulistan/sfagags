@@ -1,7 +1,0 @@
-﻿units = {
-	navy = {
-		name = "TP Black Sea Battleship Flotilla"
-		location = 3686
-		ship = { name = "HMS TP" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ROOT creator = ROOT } } }
-	}
-}

@@ -253,7 +253,6 @@ country_event = { id = sovietunion.1 days = 3 }
 country_event = { id = sovietunion.5 days = 18 }
 
 
-
 create_country_leader = {
 	name = "Council of People's Commissars"
 	desc = "POLITICS_SNK_DESC"
@@ -286,6 +285,8 @@ create_country_leader = {
 		
 	}
 }
+
+
 
 add_namespace = {
 	name = "unit_leader_sov"

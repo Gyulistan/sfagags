@@ -1,7 +1,0 @@
-﻿units = {
-	navy = {
-		name = "TP Baltic Light Cruiser Flotilla"
-		location = 408
-		ship = { name = "HMS TP" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ROOT creator = ROOT } } }
-	}
-}

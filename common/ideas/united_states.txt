@@ -29,19 +29,20 @@ ideas = {
 			
 						}
 				}
-		usa_john_sargent = {
 		
-			picture = GFX_idea_usa_john_sargent
+		usa_joseph_robinson = {
+		
+			picture = GFX_idea_usa_joseph_robinson
 			
 			available = {
 					OR = {
-						has_government = conservatism
+						has_government = liberalism
 					}
 				}
 			
 			traits = {
 				conservatist
-				corporate_suit
+				pragmatic_statesman
 				head_of_government
 			}
 			
@@ -55,7 +56,8 @@ ideas = {
 				
 			
 						}
-				}		
+				}
+				
 		}
 		
 		
@@ -88,6 +90,34 @@ ideas = {
 			
 						}
 				}	
+
+		usa_thomas_connely = {
+		
+			picture = GFX_idea_usa_thomas_connely
+			
+			available = {
+					OR = {
+						has_government = liberalism
+					}
+				}
+			
+			traits = {
+				conservatist
+				iron_fisted_brute
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}		
 		}	
 
 	defence_minister = {
@@ -118,7 +148,35 @@ ideas = {
 				
 			
 						}
-				}	
+				}
+				
+		usa_george_dern = {
+		
+			picture = GFX_idea_usa_george_dern
+			
+			available = {
+					OR = {
+						has_government = liberalism
+					}
+				}
+			
+			traits = {
+				conservatist
+				army_bureaucrat
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}		
 		}
 
 	economy_minister = {
@@ -130,6 +188,34 @@ ideas = {
 			available = {
 					OR = {
 						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				bank_president
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}	
+				
+		usa_charles_truaux = {
+		
+			picture = GFX_idea_usa_charles_truaux 
+			
+			available = {
+					OR = {
+						has_government = liberalism
 					}
 				}
 			
@@ -149,7 +235,7 @@ ideas = {
 				
 			
 						}
-				}	
+				}
 		}	
 
 	security_minister = {
@@ -181,6 +267,34 @@ ideas = {
 			
 						}
 				}	
+				
+		usa_alexandr_palmer = {
+		
+			picture = GFX_idea_usa_alexandr_palmer
+			
+			available = {
+					OR = {
+						has_government = liberalism
+					}
+				}
+			
+			traits = {
+				conservatist
+				prince_of_terror
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
 		}
 		
 country = {

@@ -1,7 +1,0 @@
-﻿units = {
-	navy = {
-		name = "TP Baltic Submarine Flotilla"
-		location = 408
-		ship = { name = "HMS TP" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ROOT creator = ROOT } } }
-	}
-}

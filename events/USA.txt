@@ -36,5 +36,6 @@ country_event = {
 			
 	option = {
 		name = unitedstates.2.a
+		set_country_flag = mafia_influence
 		}
 	}

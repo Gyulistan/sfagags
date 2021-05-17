@@ -1,0 +1,189 @@
+ideas = {
+
+	head_of_government = {
+
+
+		chi_tan_yankai = {
+		
+			picture = GFX_idea_chi_tan_yankai
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+					
+				}
+		
+			traits = {
+				autoritarist
+				political_protege
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = CHI
+			}
+				
+			ai_will_do = {
+				factor = 1
+				
+				
+			
+					}
+			}
+		}
+		
+	foreign_minister = {
+
+		chi_wang_zhenting = {
+		
+			picture = GFX_idea_chi_wang_zhenting 
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+						
+					}
+				}
+			
+			traits = {
+				autoritarist
+				biased_intellectual
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = CHI
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+			}	
+			
+	defence_minister = {
+
+		chi_fang_yuxiang = {
+		
+			picture = GFX_idea_chi_fang_yuxiang
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+						
+					}
+				}
+			
+			traits = {
+				autoritarist
+				former_military_commissar
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = CHI
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+		}
+		
+	economy_minister = {
+
+		chi_sun_fo = {
+		
+			picture = GFX_idea_chi_sun_fo
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				reformer
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = CHI
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+		}
+
+		
+	security_minister = {
+	
+		chi_xu_dubi = {
+		
+			picture = GFX_idea_chi_xu_dubi
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				silent_lawyer
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = CHI
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+		}
+}
+
+
+country = {
+
+	prepare_to_north_expedition = {
+
+			picture = GFX_idea_prepare_to_north_expedition
+			
+			modifier = {
+				war_support_factor = 0.25
+				stability_factor = 0.20
+				industrial_capacity_factory = 0.10
+				training_time_factor = -0.15
+			}
+		}
+		
+	french_support = {
+
+			picture = GFX_idea_french_support
+			
+			modifier = {
+				army_org_factor = 0.07
+				army_infantry_attack_factor = 0.05
+				army_infantry_defence_factor = 0.05
+			}
+		}
+	}

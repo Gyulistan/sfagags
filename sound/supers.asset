@@ -1,0 +1,25 @@
+sound = {
+	name = "super_eden_gate"
+	file = "menu/eden_gate.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_anarcho_syndicalist"
+	file = "menu/anarcho_syndicalist.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_bad_boys"
+	file = "menu/bad_boys.wav"
+	volume = 1
+	always_load = yes
+}
+sound = {
+	name = "super_truman_win"
+	file = "menu/truman_win.wav"
+	volume = 1
+	always_load = yes
+}
+

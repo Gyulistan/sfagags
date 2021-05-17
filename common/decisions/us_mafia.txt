@@ -1,0 +1,33 @@
+usa_mafia_category = {
+
+	usa_sanction_raids = {
+		icon = GFX_decision_generic_civil_support
+		allowed = { original_tag = USA }
+		available = {
+		}
+		visible = {
+		}
+
+		cost = 30
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision usa_sanction_raids"
+			set_country_flag = usa_raids
+			custom_effect_tooltip = USA_mafia1
+			hidden_effect = {
+				add_to_variable = {
+					var = mafia_influence
+					value = -5
+				}
+				usa_set_mafia_influence_var = yes
+				country_event = { 
+				}
+			}
+		}
+	}

@@ -1,0 +1,151 @@
+focus_tree = {
+	id = BWF
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BWF
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+	
+	default = no
+	focus = {
+		id = bwf_second_offensive
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		x = 4
+		y = 0
+
+	}
+	focus = {
+		id = bwf_betrayal_of_oath
+		icon = GFX_focus_bwf_betrayal_of_oath
+		cost = 10
+		prerequisite = {
+			focus = bwf_second_offensive
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = bwf_soviet_aid
+		icon = GFX_focus_bwf_soviet_aid
+		cost = 10
+		prerequisite = {
+			focus = bwf_second_offensive
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = bwf_first_cavalry_army
+		icon = GFX_focus_bwf_first_cavalry_army
+		cost = 10
+		prerequisite = {
+			focus = bwf_betrayal_of_oath
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = bwf_cut_aid
+		icon = GFX_focus_bwf_cut_aid
+		cost = 10
+		prerequisite = {
+			focus = bwf_betrayal_of_oath
+		}
+		prerequisite = {
+			focus = bwf_soviet_aid
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = bwf_russian
+		icon = GFX_focus_bwf_russian
+		cost = 10
+		prerequisite = {
+			focus = bwf_soviet_aid
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = bwf_why_are_we_fighting
+		icon = GFX_focus_bwf_why_are_we_fighting
+		cost = 10
+		prerequisite = {
+			focus = bwf_first_cavalry_army
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = bwf_london_fortress
+		icon = GFX_focus_bwf_london_fortress
+		cost = 10
+		prerequisite = {
+			focus = bwf_first_cavalry_army
+		}
+		prerequisite = {
+			focus = bwf_cut_aid
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = bwf_train_of_witringham
+		icon = GFX_focus_bwf_train_of_witringham
+		cost = 10
+		prerequisite = {
+			focus = bwf_cut_aid
+		}
+		prerequisite = {
+			focus = bwf_russian
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = bwf_birmigham_arms
+		icon = GFX_focus_bwf_birmigham_arms
+		cost = 10
+		prerequisite = {
+			focus = bwf_russian
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = bwf_english_declaration
+		icon = GFX_focus_bwf_english_declaration
+		cost = 10
+		prerequisite = {
+			focus = bwf_why_are_we_fighting
+		}
+		prerequisite = {
+			focus = bwf_london_fortress
+		}
+		prerequisite = {
+			focus = bwf_train_of_witringham
+		}
+		prerequisite = {
+			focus = bwf_birmigham_arms
+		}
+		x = 4
+		y = 4
+
+	}
+
+}

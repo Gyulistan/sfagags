@@ -132,7 +132,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_kir_proclaim_freedom
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_kir_proclaim_freedom
 		cost = 10
 		prerequisite = {
 			focus = rsr_kir_folk_triumph
@@ -143,7 +143,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_kir_support_soviets
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_kir_support_soviets
 		cost = 10
 		prerequisite = {
 			focus = rsr_kir_proclaim_freedom
@@ -154,7 +154,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_kir_separation_of_powers
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_kir_separation_of_powers
 		cost = 10
 		prerequisite = {
 			focus = rsr_kir_proclaim_freedom
@@ -165,7 +165,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_kir_support_peasants
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_kir_support_peasants
 		cost = 10
 		prerequisite = {
 			focus = rsr_kir_proclaim_freedom
@@ -193,7 +193,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_kir_first_sov_election
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_kir_first_sov_election
 		cost = 10
 		prerequisite = {
 			focus = rsr_kir_resignation_rutin
@@ -204,7 +204,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_kir_tomsky_victory
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_kir_tomsky_victory
 		cost = 10
 		prerequisite = {
 			focus = rsr_kir_first_sov_election
@@ -219,7 +219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_kir_martov_victory
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_kir_martov_victory
 		cost = 10
 		prerequisite = {
 			focus = rsr_kir_first_sov_election
@@ -245,7 +245,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_kir_kirov_victory
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_kir_kirov_victory
 		cost = 10
 		prerequisite = {
 			focus = rsr_kir_first_sov_election

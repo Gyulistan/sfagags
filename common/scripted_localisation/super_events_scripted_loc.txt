@@ -1,0 +1,63 @@
+defined_text = { #SUPER EVENT TITLES
+    name = get_super_event_title
+    
+    text = { 
+        trigger = {
+            has_global_flag = eden_gate_unification
+        }
+        localization_key = "GFX_SPEVNT_Eden_Gate"
+    }
+	
+	text = { 
+        trigger = {
+            has_global_flag = anarcho_syndicalist_unification
+        }
+        localization_key = "GFX_SPEVNT_anarcho_syndicalist"
+    }
+	
+	text = { 
+        trigger = {
+            has_global_flag = mafia_elections
+        }
+        localization_key = "GFX_SPEVNT_mafia_elections"
+    }
+	
+	text = { 
+        trigger = {
+            has_global_flag = truman_elections
+        }
+        localization_key = "GFX_SPEVNT_truman_elections"
+    }
+}
+
+defined_text = { #SUPER EVENT TITLES
+    name = get_superevent_quote
+    
+    text = { 
+        trigger = {
+            has_global_flag = eden_gate_unification
+        }
+        localization_key = "GFX_SPEVNT_Eden_Gate_TEXT"
+    }
+	
+	text = { 
+        trigger = {
+            has_global_flag = anarcho_syndicalist_unification
+        }
+        localization_key = "GFX_SPEVNT_anarcho_syndicalist_TEXT"
+    }
+	
+	text = { 
+        trigger = {
+            has_global_flag = mafia_elections
+        }
+        localization_key = "GFX_SPEVNT_mafia_elections_TEXT"
+    }
+	
+	text = { 
+        trigger = {
+            has_global_flag = truman_elections
+        }
+        localization_key = "GFX_SPEVNT_truman_elections_TEXT"
+    }
+}

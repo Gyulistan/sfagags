@@ -1,6 +1,6 @@
 ﻿capital = 613 # Nanjing
 
-oob = "CHI_1936"
+oob = "CHI_1926"
 set_stability = 0.2
 set_war_support = 0.5
 # Starting tech
@@ -16,10 +16,17 @@ set_technology = {
 }
 
 add_ideas = {
+	prepare_to_north_expedition
+	french_support
+	chi_tan_yankai
+	chi_wang_zhenting
+	chi_fang_yuxiang
+	chi_sun_fo
+	chi_xu_dubi
 }
 
 set_politics = {
-	ruling_party = orthodox_socialism
+	ruling_party = autoritarian_democracy
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -36,15 +43,24 @@ set_popularities = {
 	paternalism = 11
 	}
 
-
-
 create_country_leader = {
-	name = "No Name"
-	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	name = "Chiang Kai-shek"
+	desc = "POLITICS_CHIANG_DESC"
+	picture = "Portrait_Kuomintang_Chiang.dds"
 	expire = "1956.1.1"
-	ideology = orthodox_socialism_subtype
+	ideology = autoritarian_democracy_subtype
 	traits = {
 		
 	}
+}
+
+create_corps_commander = {
+	name = "Bai Chongxi"
+	gfx = "Portrait_Kuomintang_Bai_Chongxi.dds"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }

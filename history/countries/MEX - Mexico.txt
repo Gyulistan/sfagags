@@ -49,3 +49,14 @@ create_country_leader = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "Vicente Lombardo Toledano"
+	desc = "POLITICS_ALVARO_OBREGON_DESC"
+	picture = "Portrait_Mexico_Vicente_Toledano.dds"
+	expire = "1956.1.1"
+	ideology = orthodox_socialism_subtype
+	traits = {
+		
+	}
+}

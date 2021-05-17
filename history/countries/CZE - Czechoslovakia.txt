@@ -21,7 +21,7 @@ set_technology = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = paternalism 
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,11 +41,11 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "No Name"
-	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	name = "Jan Syrový"
+	desc = "POLITICS_JAN_SYROVY_DESC"
+	picture = "Portrait_Czechia_Jan_Syrovy.dds"
 	expire = "1956.1.1"
-	ideology = orthodox_socialism_subtype
+	ideology = paternalism_subtype
 	traits = {
 		
 	}

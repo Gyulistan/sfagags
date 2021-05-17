@@ -1,9 +1,0 @@
-﻿units = {
-	navy = {
-		name = "TP Pacific Carrier Flotilla"
-		location = 13047
-		ship = { name = "HMS TP" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ROOT creator = ROOT } }
-			air_wings = {}
-		}
-	}
-}

@@ -1,0 +1,717 @@
+add_namespace = spw
+
+
+country_event = { # USA_1
+	id = spw.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.1"}
+	title = spw.1.t
+	desc = spw.1.d
+	picture = GFX_event_soviet_america
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.1.a
+		MEX = {
+ 				transfer_state = 375
+				transfer_state = 376
+				transfer_state = 377
+				transfer_state = 378
+				transfer_state = 379
+				transfer_state = 380
+				transfer_state = 382
+				transfer_state = 383
+				transfer_state = 374
+				transfer_state = 813
+				transfer_state = 814
+				375 = {
+					add_core_of = MEX }
+				376 = {
+					add_core_of = MEX }
+				377 = {
+					add_core_of = MEX }
+				378 = {
+					add_core_of = MEX }
+				379 = {
+					add_core_of = MEX }
+				380 = {
+					add_core_of = MEX }
+				814 = {
+					add_core_of = MEX }
+				813 = {
+					add_core_of = MEX }
+				}	
+		WSR = {
+ 				transfer_state = 385
+				transfer_state = 386
+				transfer_state = 473
+				transfer_state = 740
+				transfer_state = 471
+				transfer_state = 463
+				transfer_state = 739
+				}	
+		SPA = {
+ 				transfer_state = 357
+				transfer_state = 358
+				transfer_state = 359
+				transfer_state = 360
+				transfer_state = 361
+				357 = {
+					add_core_of = SPA }	
+				358 = {
+					add_core_of = SPA }	
+				359 = {
+					add_core_of = SPA }
+				360 = {
+					add_core_of = SPA }	
+				361 = {
+					add_core_of = SPA }	
+				}
+				
+		set_province_name = {
+				id = 3957
+				name = "Линкольн"
+			}
+		set_province_name = {
+				id = 3878
+				name = "Маркс"
+			}
+		set_province_name = {
+				id = 4860
+				name = "Эдем"
+			}
+		set_province_name = {
+				id = 1827
+				name = "Лос-Кастильо"
+			}
+		}
+			
+	}
+	
+country_event = { # USA_2
+	id = spw.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.2"}
+	title = spw.2.t
+	desc = spw.2.d
+	picture = GFX_event_refuges
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.2.a
+		add_stability = -0.20
+		country_event = {
+			id = spw.3
+		}	
+	}
+}
+
+country_event = { # USA_3
+	id = spw.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.3"}
+	title = spw.3.t
+	desc = spw.3.d
+	picture = GFX_event_patton
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.3.a
+		MAS = {
+ 				transfer_state = 371
+				transfer_state = 372
+				transfer_state = 370
+				transfer_state = 368
+				transfer_state = 367
+				transfer_state = 365
+				transfer_state = 364
+				transfer_state = 363
+				transfer_state = 366
+				371 = {
+					add_core_of = MAS }	
+				372 = {
+					add_core_of = MAS }	
+				370 = {
+					add_core_of = MAS }
+				368 = {
+					add_core_of = MAS }	
+				367 = {
+					add_core_of = MAS }	
+				365 = {
+					add_core_of = MAS }
+				364 = {
+					add_core_of = MAS }
+				363 = {
+					add_core_of = MAS }
+				366 = {
+					add_core_of = MAS }
+				}
+		country_event = {
+			tag = WSR
+			id = spw.4
+		}
+	}
+
+	option = {
+		name = spw.3.b	
+	}	
+}
+
+country_event = { # USA_4
+	id = spw.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.4"}
+	title = spw.4.t
+	desc = spw.4.d
+	picture = GFX_event_soviet_soldiers
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.4.a
+		country_event = {
+			tag = USA
+			id = spw.5
+		}	
+	}
+}
+
+country_event = { # USA_5
+	id = spw.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.5"}
+	title = spw.5.t
+	desc = spw.5.d
+	picture = GFX_event_countryside
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.5.a			
+		country_event = {
+			tag = WSR
+			id = spw.6
+		}
+		ISF = {
+ 			transfer_state = 387	
+		}
+		387 = {
+			add_core_of = ISF }	
+	}
+	
+	option = {
+		name = spw.5.b				
+	}
+}
+
+country_event = { # USA_6
+	id = spw.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.6"}
+	title = spw.6.t
+	desc = spw.6.d
+	picture = GFX_event_dead_soviets
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.6.a			
+		country_event = {
+			tag = USA
+			id = spw.61
+		}	
+	}
+}
+
+country_event = { # USA_61
+	id = spw.61
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.61"}
+	title = spw.61.t
+	desc = spw.61.d
+	picture = GFX_event_mexican_cavalry
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.61.a			
+		country_event = {
+			id = spw.7
+		}	
+	}
+}
+
+country_event = { # USA_7
+	id = spw.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.7"}
+	title = spw.7.t
+	desc = spw.7.d
+	picture = GFX_event_national_guard
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.7.a			
+		country_event = {
+			id = spw.8
+		}
+		NNG = {
+ 			transfer_state = 384	
+			transfer_state = 821
+			transfer_state = 381
+		}
+		384 = {
+			add_core_of = NNG }	
+		821 = {
+			add_core_of = NNG }
+		381 = {
+			add_core_of = NNG }
+	}
+	
+	option = {
+		name = spw.7.b				
+	}
+}
+
+country_event = { # USA_8
+	id = spw.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.8"}
+	title = spw.8.t
+	desc = spw.8.d
+	picture = GFX_event_ford
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.8.a			
+		country_event = {
+			id = spw.9
+		}
+		AKT = {
+ 			transfer_state = 395	
+			transfer_state = 396
+			transfer_state = 659
+			transfer_state = 393
+			transfer_state = 822
+			transfer_state = 261
+		}
+		395 = {
+			add_core_of = AKT }	
+		396 = {
+			add_core_of = AKT }
+		659 = {
+			add_core_of = AKT }
+		393 = {
+			add_core_of = AKT }
+		822 = {
+			add_core_of = AKT }
+		261 = {
+			add_core_of = AKT }
+	}
+	
+	option = {
+		name = spw.8.b				
+	}
+}
+
+country_event = { # USA_9
+	id = spw.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.9"}
+	title = spw.9.t
+	desc = spw.9.d
+	picture = GFX_event_sectants
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.9.a			
+		country_event = {
+			id = spw.10
+		}
+		APC = {
+ 			transfer_state = 816	
+		}
+		816 = {
+			add_core_of = APC }	
+		AOP = {
+ 			transfer_state = 817	
+		}
+		817 = {
+			add_core_of = AOP }	
+	}
+	
+	option = {
+		name = spw.9.b				
+	}
+	
+	option = {
+		name = spw.9.c				
+	}
+}
+
+country_event = { # USA_10
+	id = spw.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.10"}
+	title = spw.10.t
+	desc = spw.10.d
+	picture = GFX_event_eden_gate
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.10.a			
+		country_event = {
+			id = spw.11
+		}
+		EDG = {
+ 			transfer_state = 815	
+			transfer_state = 388
+			transfer_state = 818
+			transfer_state = 819
+			transfer_state = 820
+			transfer_state = 390
+			transfer_state = 389
+		}
+		815 = {
+			add_core_of = EDG }	
+		388 = {
+			add_core_of = EDG }
+		818 = {
+			add_core_of = EDG }
+		819 = {
+			add_core_of = EDG }
+		820 = {
+			add_core_of = EDG }
+		390 = {
+			add_core_of = EDG }
+		389 = {
+			add_core_of = EDG }
+	}
+	
+	option = {
+		name = spw.10.b				
+	}
+}
+
+country_event = { # USA_11
+	id = spw.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.11"}
+	title = spw.11.t
+	desc = spw.11.d
+	picture = GFX_event_us_communists
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.11.a			
+		country_event = {
+			id = spw.12
+		}
+		APK = {
+ 			transfer_state = 391
+			transfer_state = 392			
+		}
+		391 = {
+			add_core_of = APK }
+		392 = {
+			add_core_of = APK }		
+		FWS = {
+ 			transfer_state = 394	
+		}
+		394 = {
+			add_core_of = FWS }	
+	}
+	
+	option = {
+		name = spw.11.b				
+	}
+	
+	option = {
+		name = spw.11.c				
+	}
+}
+
+country_event = { # USA_12
+	id = spw.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.12"}
+	title = spw.12.t
+	desc = spw.12.d
+	picture = GFX_event_mafia2
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.12.a			
+		country_event = {
+			id = spw.13
+		}
+		TZL = {
+ 			transfer_state = 822	
+		}
+		822 = {
+			add_core_of = TZL }	
+	}
+	
+	option = {
+		name = spw.12.b				
+	}
+}
+
+country_event = { # USA_13
+	id = spw.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.13"}
+	title = spw.13.t
+	desc = spw.13.d
+	picture = GFX_event_texas_rangers
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.13.a			
+		country_event = {
+			id = spw.14
+		}
+		TEX = {
+ 			transfer_state = 813	
+		}
+		813 = {
+			add_core_of = TEX }		
+	}
+	
+	option = {
+		name = spw.13.b				
+	}
+}
+
+country_event = { # USA_14
+	id = spw.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.14"}
+	title = spw.14.t
+	desc = spw.14.d
+	picture = GFX_event_mormons
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.14.a			
+		country_event = {
+			id = spw.15
+		}
+		SOS = {
+ 			transfer_state = 814	
+		}
+		814 = {
+			add_core_of = SOS }		
+	}
+	
+	option = {
+		name = spw.14.b				
+	}
+}
+
+country_event = { # USA_15
+	id = spw.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.15"}
+	title = spw.15.t
+	desc = spw.15.d
+	picture = GFX_event_macarthur
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.15.a			
+			tag = MCA = {
+		country_event = {
+			id = spw.166
+			days = 7
+		}
+	}
+		country_event = {
+			id = spw.16
+		}
+		MCA = {
+ 			transfer_state = 382	
+			transfer_state = 374
+			transfer_state = 383
+			
+		}
+		382 = {
+			add_core_of = MCA }	
+		374 = {
+			add_core_of = MCA }
+		383 = {
+			add_core_of = MCA }	
+		tag = MCA = {
+		load_oob = "MCA_rebellion"
+		}
+	}
+	
+	option = {
+		name = spw.15.b				
+	}
+}
+
+country_event = { # USA_166
+	id = spw.166
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.166"}
+	title = spw.166.t
+	desc = spw.166.d
+	picture = GFX_event_mexican_cavalry2
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.166.a			
+		country_event = {
+			days = 7
+			id = spw.17
+		}
+		NAR = {
+ 			transfer_state = 382	
+			transfer_state = 374
+			
+		}
+		382 = {
+			add_core_of = NAR }	
+		374 = {
+			add_core_of = NAR }
+		383 = {
+			add_core_of = NAR }	
+		tag = NAR = {
+		load_oob = "NAR_postwar"
+		}
+		declare_war_on = { type = annex_everything    target = NAR }
+	}
+}
+
+country_event = { # USA_16
+	id = spw.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.16"}
+	title = spw.16.t
+	desc = spw.16.d
+	picture = GFX_event_mexican_cavalry2
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.16.a			
+	}
+	
+	option = {
+		name = spw.16.b				
+	}
+}
+
+country_event = { # USA_17
+	id = spw.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.17"}
+	title = spw.17.t
+	desc = spw.17.d
+	picture = GFX_event_vonsyatsky
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.17.a	
+		ACF = {
+ 			transfer_state = 363		
+		}
+		363 = {
+			add_core_of = ACF }			
+	}
+	
+	option = {
+		name = spw.17.b				
+	}
+}
+
+country_event = { # USA_18
+	id = spw.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.18"}
+	title = spw.18.t
+	desc = spw.18.d
+	picture = GFX_event_klan
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.18.a	
+		KKK = {
+ 			transfer_state = 364		
+		}
+		364 = {
+			add_core_of = KKK }			
+	}
+	
+	option = {
+		name = spw.18.b				
+	}
+}
+
+country_event = { # USA_19
+	id = spw.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.19"}
+	title = spw.19.t
+	desc = spw.19.d
+	picture = GFX_event_mexican_cavalry2
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.19.a	
+		LFG = {
+ 			transfer_state = 819
+			transfer_state = 820
+			transfer_state = 389
+			transfer_state = 390
+		}
+		819 = {
+			add_core_of = LFG }
+		820 = {
+			add_core_of = LFG }	
+		389 = {
+			add_core_of = LFG }	
+		390 = {
+			add_core_of = LFG }	
+	}
+	
+	option = {
+		name = spw.19.b				
+	}
+}

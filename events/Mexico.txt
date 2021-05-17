@@ -1,0 +1,18 @@
+add_namespace = mexico
+
+country_event = { # Socialist Coup
+	id = mexico.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event mexico.1"}
+	title = mexico.1.t
+	desc = mexico.1.d
+	picture = GFX_event_teddy1
+
+	is_triggered_only = yes
+
+	option = {
+		name = mexico.1.a
+		set_politics = {
+			ruling_party = orthodox_socialism
+			elections_allowed = no  }
+        }
+	}

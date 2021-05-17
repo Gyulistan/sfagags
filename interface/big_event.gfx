@@ -1,0 +1,43 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_Pax_Super_Event_Window"
+		texturefile = "gfx/Pax_Super_Event_Window.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Super_Event_Quote_Background"
+		texturefile = "gfx/Super_Event_Quote_Background.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Super_Event_Image_Test"
+		texturefile = "gfx/super_events/Super_Event_Image_Test.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_SPEVNT_Eden_Gate"
+		texturefile = "gfx/super_events/SPEVNT_Eden_Gate.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SPEVNT_anarcho_syndicalist"
+		texturefile = "gfx/super_events/SPEVNT_anarcho_syndicalist.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SPEVNT_mafia_elections"
+		texturefile = "gfx/super_events/SPEVNT_mafia_elections.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_SPEVNT_truman_elections"
+		texturefile = "gfx/super_events/SPEVNT_truman_elections.dds"
+		legacy_lazy_load = no
+	}
+}

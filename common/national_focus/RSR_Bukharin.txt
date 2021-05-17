@@ -233,7 +233,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_sr_triumph_plsr
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_sr_triumph_plsr
 		cost = 10
 		x = 43
 		y = 4

@@ -202,6 +202,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_event_belov"
+		texturefile = "gfx/event_pictures/event_belov.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_news_event_first_may"
 		texturefile = "gfx/event_pictures/news_event_first_may.dds"
 	}
@@ -216,7 +221,156 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_strasser.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_event_soviet_america"
+		texturefile = "gfx/event_pictures/event_soviet_america.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_event_refuges"
+		texturefile = "gfx/event_pictures/event_refuges.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_patton"
+		texturefile = "gfx/event_pictures/event_patton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_soviet_soldiers"
+		texturefile = "gfx/event_pictures/event_soviet_soldiers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_countryside"
+		texturefile = "gfx/event_pictures/event_countryside.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_dead_soviets"
+		texturefile = "gfx/event_pictures/event_dead_soviets.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_national_guard"
+		texturefile = "gfx/event_pictures/event_national_guard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_ford"
+		texturefile = "gfx/event_pictures/event_ford.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_mexican_cavalry"
+		texturefile = "gfx/event_pictures/event_mexican_cavalry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_sectants"
+		texturefile = "gfx/event_pictures/event_sectants.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_eden_gate"
+		texturefile = "gfx/event_pictures/event_eden_gate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_mafia2"
+		texturefile = "gfx/event_pictures/event_mafia2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_us_communists"
+		texturefile = "gfx/event_pictures/event_us_communists.dds"
+	
+	}
+	
+	spriteType = {
+		name = "GFX_event_texas_rangers"
+		texturefile = "gfx/event_pictures/event_texas_rangers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_mormons"
+		texturefile = "gfx/event_pictures/event_mormons.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_macarthur"
+		texturefile = "gfx/event_pictures/event_macarthur.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_mexican_cavalry2"
+		texturefile = "gfx/event_pictures/event_mexican_cavalry2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_klan"
+		texturefile = "gfx/event_pictures/event_klan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_vonsyatsky"
+		texturefile = "gfx/event_pictures/event_vonsyatsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_duel"
+		texturefile = "gfx/event_pictures/event_duel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_prorab_pavel_stepanovich"
+		texturefile = "gfx/event_pictures/event_prorab_pavel_stepanovich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_sud"
+		texturefile = "gfx/event_pictures/event_sud.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_atom_bomba"
+		texturefile = "gfx/event_pictures/event_atom_bomba.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_vodka"
+		texturefile = "gfx/event_pictures/event_vodka.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_soldiers"
+		texturefile = "gfx/event_pictures/event_soldiers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_zhilyaev"
+		texturefile = "gfx/event_pictures/event_zhilyaev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_war_crimes"
+		texturefile = "gfx/event_pictures/event_war_crimes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_barchenko"
+		texturefile = "gfx/event_pictures/event_barchenko.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_event_train"
+		texturefile = "gfx/event_pictures/event_train.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_tour_eiffel"
+		texturefile = "gfx/event_pictures/event_tour_eiffel.dds"
+	}
 	
 }
 	

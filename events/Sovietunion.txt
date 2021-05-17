@@ -1,60 +1,5 @@
 ﻿add_namespace = sovietunion
-
-news_event = {
-	id = sovietunion.228
-	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.228"}
-	title = sovietunion.228.t
-	desc = sovietunion.228.d
-	picture = GFX_news_event_paris
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = RSR
-		date > 1926.04.30
-	}
-	mean_time_to_happen = {
-		days = 1
-	}
-
-
-	option = {
-		name = sovietunion.228.a 
-	}
-}
-
-
-news_event = {
-	id = sovietunion.1000
-	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.1000"}
-	title = sovietunion.1000.t
-	desc = sovietunion.1000.d
-	picture = GFX_news_event_first_may
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = RSR
-		date > 1926.04.30
-	}
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		hidden_effect = {
-			news_event = {
-				days = 365
-				id = sovietunion.11000
-			}
-		}
-	}
-
-	option = {
-		name = sovietunion.1000.a 
-		add_political_power = 50
-	}
-}		
+	
 	
 news_event = {
 	id = sovietunion.1917
@@ -88,91 +33,6 @@ news_event = {
 	}
 }
 
-country_event = {
-	id = sovietunion.1 # Young Soviet State
-	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.1"}
-	title = sovietunion.1.t
-	desc = sovietunion.1.d
-	picture = GFX_event_kreml
-	
-	is_triggered_only = yes
-	
-	fire_only_once = yes
-
-	option = {
-		name = sovietunion.1.a
-	hidden_effect = {
-		country_event = {
-			id = sovietunion.2
-			days = 1
-				}
-			}
-		}
-		
-	option = {
-		name = sovietunion.1.b
-		}
-	}
-	
-country_event = {  # liberation trip
-	id = sovietunion.2
-	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2"}
-	title = sovietunion.2.t
-	desc = sovietunion.2.d
-	picture = GFX_event_soviet_berlin
-
-	is_triggered_only = yes
-
-	option = {
-		name = sovietunion.2.a
-	hidden_effect = {
-		country_event = {
-			id = sovietunion.3
-			days = 1
-			}
-		}																	
-	}
-}
-
-country_event = { # battle of elba
-	id = sovietunion.3
-	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.3"}
-	title = sovietunion.3.t
-	desc = sovietunion.3.d
-	picture = GFX_event_combat
-
-	is_triggered_only = yes
-
-	option = {
-		name = sovietunion.3.a
-	hidden_effect = {
-		country_event = {
-			id = sovietunion.4
-			days = 1
-			}
-		}
-	}
-}
-
-country_event = { # internal problems
-	id = sovietunion.4
-	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.4"}
-	title = sovietunion.4.t
-	desc = sovietunion.4.d
-	picture = GFX_event_party
-
-	is_triggered_only = yes
-
-	option = {
-		name = sovietunion.4.a
-	hidden_effect = {
-		country_event = {
-			id = sovietunion.5
-			days = 1
-			}
-		}
-	}
-}
 
 country_event = { # successful raid on the enemies of the revolution
 	id = sovietunion.5
@@ -374,6 +234,27 @@ country_event = { # Popov's decline
 			country_event = {
 				id = sovietunion.111
 				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Meat with Belov
+	id = sovietunion.111
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.111"}
+	title = sovietunion.111.t
+	desc = sovietunion.111.d
+	picture = GFX_event_belov
+
+	is_triggered_only = yes
+
+	option = {
+		name = sovietunion.111.a
+		add_political_power = 50
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.13
+				days = 1
 			}
 		}
 	}
@@ -686,6 +567,25 @@ country_event = { # Troubles in CHK
 				days = 3
 			}
 		}		
+	}
+}
+
+country_event = { # Meet in bar
+	id = sovietunion.102
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.102"}
+	title = sovietunion.102.t
+	desc = sovietunion.102.d
+	picture = GFX_event_duel
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.102.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.104
+			}
+		}
 	}
 }
 
@@ -1453,3 +1353,333 @@ country_event = { # New Kalendar
 		}
 	}
 }
+
+											    #############
+							################TUKHACHEVSKY EVENT#####################
+											    #############
+
+country_event = { # razval
+	id = sovietunion.20000
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.20000"}
+	title = sovietunion.20000.t
+	desc = sovietunion.20000.d
+	picture = GFX_event_soviet_america
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.20000.a
+		ORA = {
+ 				transfer_state = 351
+				transfer_state = 248
+				transfer_state = 400
+				351 = {
+					add_core_of = ORA }
+				248 = {
+					add_core_of = ORA }
+				400 = {
+					add_core_of = ORA }
+				}	
+		IMK = {
+ 				transfer_state = 232
+				transfer_state = 229
+				transfer_state = 420
+				232 = {
+					add_core_of = IMK }
+				229 = {
+					add_core_of = IMK }
+				420 = {
+					add_core_of = IMK }
+				}	
+		IMU = {
+ 				transfer_state = 249
+				transfer_state = 256
+				transfer_state = 651
+				249 = {
+					add_core_of = IMU }
+				256 = {
+					add_core_of = IMU }
+				651 = {
+					add_core_of = IMU }
+				}
+		IMT = {
+ 				transfer_state = 584
+				transfer_state = 585
+				transfer_state = 405
+				transfer_state = 742
+				transfer_state = 732
+				584 = {
+					add_core_of = IMU }
+				585 = {
+					add_core_of = IMU }
+				405 = {
+					add_core_of = IMU }
+				742 = {
+					add_core_of = IMU }
+				732 = {
+					add_core_of = IMU }
+				}
+		SDA = {
+ 				transfer_state = 227
+				transfer_state = 221
+				transfer_state = 228
+				transfer_state = 245
+				227 = {
+					add_core_of = SDA }
+				221 = {
+					add_core_of = SDA }
+				228 = {
+					add_core_of = SDA }
+				245 = {
+					add_core_of = SDA }
+				}
+		POS = {
+ 				transfer_state = 568
+				transfer_state = 567
+				transfer_state = 566
+				transfer_state = 569
+				567 = {
+					add_core_of = POS }
+				566 = {
+					add_core_of = POS }
+				568 = {
+					add_core_of = POS }
+				569 = {
+					add_core_of = POS }
+				}
+		OPA = {
+ 				transfer_state = 195
+				transfer_state = 244
+				transfer_state = 208
+				195 = {
+					add_core_of = OPA }
+				244 = {
+					add_core_of = OPA }
+				208  = {
+					add_core_of = OPA }
+				}
+		}
+			
+	}
+
+country_event = { # prorab
+	id = sovietunion.2001
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2001"}
+	title = sovietunion.2001.t
+	desc = sovietunion.2001.d
+	picture = GFX_event_prorab_pavel_stepanovich
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.2001.a
+		}
+			
+	}
+	
+country_event = { # sud
+	id = sovietunion.2002
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2002"}
+	title = sovietunion.2002.t
+	desc = sovietunion.2002.d
+	picture = GFX_event_sud
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.2002.a
+		}
+			
+	}
+
+country_event = { # heyzenberg
+	id = sovietunion.2003
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2003"}
+	title = sovietunion.2003.t
+	desc = sovietunion.2003.d
+	picture = GFX_event_vodka
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.2003.a
+		}
+			
+	}
+	
+country_event = { # atomic bomb
+	id = sovietunion.2004
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2004"}
+	title = sovietunion.2004.t
+	desc = sovietunion.2004.d
+	picture = GFX_event_atom_bomba
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.2004.a
+		}
+			
+	}
+	
+country_event = { # christian
+	id = sovietunion.2005
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2005"}
+	title = sovietunion.2005.t
+	desc = sovietunion.2005.d
+	picture = GFX_event_soldiers
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.2005.a
+		}
+			
+	}
+
+country_event = { # komrod
+	id = sovietunion.2006
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2006"}
+	title = sovietunion.2006.t
+	desc = sovietunion.2006.d
+	picture = GFX_event_zhilyaev
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.2006.a
+		}
+			
+	}
+	
+country_event = { # komrod
+	id = sovietunion.2007
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2007"}
+	title = sovietunion.2007.t
+	desc = sovietunion.2007.d
+	picture = GFX_event_war_crimes
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.2007.a
+		}
+			
+	}
+	
+country_event = { # expedition
+	id = sovietunion.2008
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2008"}
+	title = sovietunion.2008.t
+	desc = sovietunion.2008.d
+	picture = GFX_event_barchenko
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.2008.a
+		}
+	option = {
+		name = sovietunion.2008.b
+		}
+			
+	}
+	
+country_event = { # expedition
+	id = sovietunion.2009
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2009"}
+	title = sovietunion.2009.t
+	desc = sovietunion.2009.d
+	picture = GFX_event_barchenko
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.2009.a
+		}
+			
+	}
+	
+country_event = { # china
+	id = sovietunion.2010
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2010"}
+	title = sovietunion.2010.t
+	desc = sovietunion.2010.d
+	picture = GFX_event_train
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.2010.a
+		}
+			
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

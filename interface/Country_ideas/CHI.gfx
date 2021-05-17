@@ -1,0 +1,39 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_chi_tan_yankai"
+		texturefile = "gfx/interface/Ideas/CHI/chi_tan_yankai.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_chi_wang_zhenting"
+		texturefile = "gfx/interface/Ideas/CHI/chi_wang_zhenting.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_chi_fang_yuxiang"
+		texturefile = "gfx/interface/Ideas/CHI/chi_fang_yuxiang.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_chi_sun_fo"
+		texturefile = "gfx/interface/Ideas/CHI/chi_sun_fo.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_chi_xu_dubi"
+		texturefile = "gfx/interface/Ideas/CHI/chi_xu_dubi.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_prepare_to_north_expedition"
+		texturefile = "gfx/interface/Ideas/CHI/prepare_to_north_expedition.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_french_support"
+		texturefile = "gfx/interface/Ideas/CHI/french_support.tga"
+	}
+	
+
