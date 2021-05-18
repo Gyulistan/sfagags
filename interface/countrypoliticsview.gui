@@ -389,7 +389,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "national_spirit"
 			position = { x = -86 y = 305 }
-			size = { width = 360 height = 50 }
+			size = { width = 360 height = 90 }
 			clipping = no
 						
 			instantTextboxType = {
@@ -406,9 +406,9 @@ guiTypes = {
 			containerWindowType = {
 				name = "national_spirit_container"
 				position = { x = 90 y = 19 }
-				size = { width = 365 height = 68 }
+				size = { width = 332 height = 90 }
 				
-				verticalScrollbar = "right_vertical_slider"
+				horizontalScrollbar = "bottom_horizontal_slider"
 				
 				background = {
 					name = "Background"
@@ -418,16 +418,17 @@ guiTypes = {
 				gridboxtype = {
 					name = "spirit_grid"
 					position = { x = 12 y = 0 }
-					size = { width = 350 height = 100%% }
+					size = { width = 100%% height = 100%% }
 					slotsize = { width = 60 height = 68 }
 					max_slots = { x = 8 y = 1 }
 					format = "UPPER_LEFT"
 				}
 				gridboxtype = {
 					name = "spirit_grid_over_defined"
-					size = { width = 350 height = 100%% }
-					slotsize = { width = 33 height = 32 }
-					max_slots_horizontal = 10
+					position = { x = 12 y = 0 }
+					size = { width = 100%% height = 100%% }
+					slotsize = { width = 60 height = 68 }
+					max_slots = { x = 999 y = 1 }
 					format = "UPPER_LEFT"
 				}
 			}
@@ -635,7 +636,7 @@ guiTypes = {
 		show_position = { x = 544 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 400
 		size = { width=730 height=100%% }
 		show_sound = open_sub_window
 		
@@ -689,7 +690,7 @@ guiTypes = {
 					name = "box_grid"
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 1 }
-					slotsize = { width = 231 height = 105 }
+					slotsize = { width = 231 height = 148 }
 					max_slots_horizontal = 3
 					add_horizontal = yes
 					format = "UPPER_LEFT"
@@ -797,7 +798,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "political_selectable_idea_entry_grid"
-		size = { width = 231 height = 105 }
+		size = { width = 231 height = 148 }
 		clipping = no
 			
 		background = {
@@ -856,25 +857,27 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 80 y = 87 }
+			position = { x = 20 y = 110 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
-			format = right
+			format = left
 			alwaystransparent = yes
 		}
 
-		instantTextboxType = {
-			name = "stats"
-			position = { x = 300 y = 32 }
-			font = "hoi_16mbs"
-			text = ""
-			maxWidth = 142
-			maxHeight = 10
-			format = center
-			alwaystransparent = yes
-		}
+		### ТУПА ХУИТА, ХУЙ ЗНАЕТ КАК РАБОТАЕТ, ЕБАНЫЙ В РОТ! -> ->
+		### Если хотите сделать эту поеботу снова видимой - чините сами!!!!!!!!!!!!!!!!!!!!!!! -> -> -->
+		#instantTextboxType = {
+		#	name = "stats"
+		#	position = { x = 300 y = 0 }
+		#	font = "hoi_16mbs"
+		#	text = ""
+		#	maxWidth = 142
+		#	maxHeight = 10
+		#	format = right
+		#	alwaystransparent = yes
+		#}
 	}
 	
 	containerWindowType = {
