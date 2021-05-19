@@ -646,7 +646,7 @@ guiTypes = {
 		show_position = { x = 544 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 400
+		animation_time = 350
 		size = { width=730 height=100%% }
 		show_sound = open_sub_window
 		
@@ -675,13 +675,13 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = -100 }
+			position = { x = 0 y = 0 }
 			size = { width=730 height=100%% }
 			
 			containerWindowType = {
 				name = "grid"
 				position = { x = 0 y = 0 }
-				size = { width=730 height=-4 }
+				size = { width=730 height=100%% }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 0 bottom = 12}	
 
@@ -813,7 +813,7 @@ guiTypes = {
 			
 		background = {
 			name = "idea_entry_bg"
-			position = { x = 3 y = 0 }
+			position = { x = 0 y = 0 }
 			spriteType = "GFX_idea_entry_bg_2"
 		}
 			
