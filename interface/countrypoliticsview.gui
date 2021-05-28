@@ -8,6 +8,7 @@ guiTypes = {
 		hide_animation_type = accelerated
 		animation_time = 300	
 		size = { width=550 height=100%% }
+		clipping = no
 		
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
@@ -389,7 +390,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "national_spirit"
 			position = { x = -86 y = 305 }
-			size = { width = 360 height = 50 }
+			size = { width = 360 height = 90 }
 			clipping = no
 						
 			instantTextboxType = {
@@ -405,10 +406,10 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "national_spirit_container"
-				position = { x = 90 y = 19 }
-				size = { width = 365 height = 68 }
+				position = { x = 100 y = 19 }
+				size = { width = 322 height = 90 }
 				
-				verticalScrollbar = "right_vertical_slider"
+				horizontalScrollbar = "bottom_horizontal_slider"
 				
 				background = {
 					name = "Background"
@@ -418,16 +419,17 @@ guiTypes = {
 				gridboxtype = {
 					name = "spirit_grid"
 					position = { x = 12 y = 0 }
-					size = { width = 350 height = 100%% }
+					size = { width = 100%% height = 100%% }
 					slotsize = { width = 60 height = 68 }
 					max_slots = { x = 8 y = 1 }
 					format = "UPPER_LEFT"
 				}
 				gridboxtype = {
 					name = "spirit_grid_over_defined"
-					size = { width = 350 height = 100%% }
-					slotsize = { width = 33 height = 32 }
-					max_slots_horizontal = 10
+					position = { x = 12 y = 0 }
+					size = { width = 100%% height = 100%% }
+					slotsize = { width = 60 height = 68 }
+					max_slots = { x = 999 y = 1 }
 					format = "UPPER_LEFT"
 				}
 			}
@@ -458,14 +460,14 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 501 }
+			position = { x = 0 y = 455 }
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
-			margin = { top = 14 bottom = 13}
+			margin = { top = 5 bottom = 15}
 		
 			background = {
 				name = "Background"
-				#quadTextureSprite ="GFX_tiled_window_2b_border"
+				#quadTextureSprite ="GFX_tiled_window"
 				#quadTextureSprite ="GFX_tiled_window_1b_border"
 				quadTextureSprite ="GFX_tiled_window_1b_border"
 			}
@@ -475,10 +477,10 @@ guiTypes = {
 				position = { x = 17 y = 0 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 64 height = 106 }
+				margin = { top = 5 bottom = 0}
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
-
 
 		}
 
@@ -505,7 +507,7 @@ guiTypes = {
 		iconType ={
 			name ="politics_bottom"
 			spriteType = "GFX_main_screens_bottom"
-			position = { x = -2 y = 457 }
+			position = { x = -2000 y = 457 }
 			Orientation = "UPPER_LEFT"
 			scale = 1.02
 		}
@@ -518,7 +520,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "manage_occupied_button"
-			position = { x = 10 y = 467 }
+			position = { x = 180 y = 145 }
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -526,15 +528,21 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 47 y = 474 }
+			position = { x = 217 y = 153 }
 			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			fixedsize = yes
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			alwaystransparent = yes
 		}
 
 		buttonType = {
 			name = "show_subjects_button"
-			position = { x = -180 y = 467 }
+			position = { x = -186 y = 160 }
+			maxWidth = 140
+			maxHeight = 20
+			fixedsize = yes
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_RIGHT"
@@ -542,8 +550,11 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "show_subjects_button_text"
-			position = { x = -145 y = 474 }
+			position = { x = -151 y = 168 }
 			font = "hoi_16mbs"
+			maxWidth = 140
+			maxHeight = 20
+			fixedsize = yes
 			text = "MANAGE_SUBJECTS"
 			Orientation = "UPPER_RIGHT"
 			alwaystransparent = yes
@@ -551,7 +562,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "show_exiles_button"
-			position = { x = 190 y = 467 }
+			position = { x = 180 y = 180 }
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -560,7 +571,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_governments"
-			position = { x = 220 y = 474 }
+			position = { x = 210 y = 188 }
 			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20
@@ -573,19 +584,19 @@ guiTypes = {
 		iconType = {
 			name = "icon_exiled_governments"
 			spriteType = "GFX_icon_exiled_governments"
-			position = { x = 192 y = 468 }
+			position = { x = 183 y = 182 }
 		}
 
 		iconType = {
 			name = "icon_occupied_territories"
 			spriteType = "GFX_icon_occupied_territories"
-			position = { x = 12 y = 468 }
+			position = { x = 182 y = 145 }
 		}
 
 		iconType = {
 			name = "icon_manage_subjects"
 			spriteType = "GFX_icon_manage_subjects"
-			position = { x = 372 y = 468 }
+			position = { x = 366 y = 162 }
 		}
 	}
 	
@@ -635,7 +646,7 @@ guiTypes = {
 		show_position = { x = 544 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 350
 		size = { width=730 height=100%% }
 		show_sound = open_sub_window
 		
@@ -664,15 +675,15 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 50 }
+			position = { x = 0 y = 0 }
 			size = { width=730 height=100%% }
 			
 			containerWindowType = {
 				name = "grid"
 				position = { x = 0 y = 0 }
-				size = { width=730 height=-4 }
+				size = { width=730 height=100%% }
 				verticalScrollbar = "right_vertical_slider"
-				margin = { top = 4 bottom = 12}	
+				margin = { top = 0 bottom = 12}	
 
 				background = {
 					name = "Background"
@@ -689,7 +700,7 @@ guiTypes = {
 					name = "box_grid"
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 1 }
-					slotsize = { width = 231 height = 105 }
+					slotsize = { width = 231 height = 148 }
 					max_slots_horizontal = 3
 					add_horizontal = yes
 					format = "UPPER_LEFT"
@@ -797,12 +808,12 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "political_selectable_idea_entry_grid"
-		size = { width = 231 height = 105 }
+		size = { width = 231 height = 148 }
 		clipping = no
 			
 		background = {
 			name = "idea_entry_bg"
-			position = { x = 3 y = 0 }
+			position = { x = 0 y = 0 }
 			spriteType = "GFX_idea_entry_bg_2"
 		}
 			
@@ -856,25 +867,27 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 80 y = 87 }
+			position = { x = 20 y = 110 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
-			format = right
+			format = left
 			alwaystransparent = yes
 		}
 
-		instantTextboxType = {
-			name = "stats"
-			position = { x = 300 y = 32 }
-			font = "hoi_16mbs"
-			text = ""
-			maxWidth = 142
-			maxHeight = 10
-			format = center
-			alwaystransparent = yes
-		}
+		### ТУПА ХУИТА, ХУЙ ЗНАЕТ КАК РАБОТАЕТ, ЕБАНЫЙ В РОТ! -> ->
+		### Если хотите сделать эту поеботу снова видимой - чините сами!!!!!!!!!!!!!!!!!!!!!!! -> -> -->
+		#instantTextboxType = {
+		#	name = "stats"
+		#	position = { x = 300 y = 0 }
+		#	font = "hoi_16mbs"
+		#	text = ""
+		#	maxWidth = 142
+		#	maxHeight = 10
+		#	format = right
+		#	alwaystransparent = yes
+		#}
 	}
 	
 	containerWindowType = {
