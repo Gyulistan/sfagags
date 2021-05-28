@@ -1,0 +1,2531 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = prs_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PRS
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = prs_anti_crisis_coalition
+		icon = GFX_focus_prs_anti_crisis_coalition
+		x = 34
+		y = 0
+		cost = 10	
+	}
+	
+	focus = {
+		id = prs_election
+		icon = GFX_focus_prs_election
+		x = 34
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = prs_anti_crisis_coalition
+		}		
+	}
+	
+	focus = {
+		id = prs_Rose_order
+		icon = GFX_focus_prs_Rose_order
+		x = 36
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = prs_anti_crisis_coalition
+		}		
+	}
+	
+	focus = {
+		id = prs_friendly_german
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 8
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = prs_election
+		}		
+	}
+	
+	focus = {
+		id = prs_new_freedoms
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 2
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_friendly_german
+		}		
+	}
+	
+	focus = {
+		id = prs_freedom_press
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 0
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_new_freedoms
+		}		
+	}
+	
+	focus = {
+		id = prs_freedom_for_soviets
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 0
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_freedom_press
+		}		
+	}
+	
+	focus = {
+		id = prs_german_resorts
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 2
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_new_freedoms
+		}		
+	}
+	
+	focus = {
+		id = prs_lux_pioners
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 2
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_german_resorts
+		}		
+	}
+	
+	focus = {
+		id = prs_trade_unions_competitions
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 4
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_new_freedoms
+		}		
+	}
+	
+	focus = {
+		id = prs_national_cooperatives
+		icon = GFX_focus_prs_national_cooperatives
+		x = 4
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_trade_unions_competitions
+		}		
+	}
+	
+	focus = {
+		id = prs_national_economy_institute
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 2
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_national_cooperatives
+		}
+		prerequisite = {
+			focus = prs_lux_pioners
+		}
+		prerequisite = {
+			focus = prs_freedom_for_soviets
+		}		
+	}
+	
+	focus = {
+		id = prs_international_project_Autonomy
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 8
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_friendly_german
+		}	
+	}
+	
+	focus = {
+		id = prs_create_SAKRA
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 6
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_international_project_Autonomy
+		}	
+	}
+	
+	focus = {
+		id = prs_eastern_light_industrial
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 6
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_create_SAKRA
+		}	
+	}
+	
+	focus = {
+		id = prs_project_new_village
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 8
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_international_project_Autonomy
+		}	
+	}
+	
+	focus = {
+		id = prs_agriculture_mechanization
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 8
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_project_new_village
+		}	
+	}
+	
+	focus = {
+		id = prs_army_modernization
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 10
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_international_project_Autonomy
+		}	
+	}
+	
+	focus = {
+		id = prs_autonomy_generals
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 10
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_army_modernization
+		}	
+	}
+	
+	focus = {
+		id = prs_free_germany
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 8
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_autonomy_generals
+		}
+		prerequisite = {
+			focus = prs_agriculture_mechanization
+		}
+		prerequisite = {
+			focus = prs_eastern_light_industrial
+		}		
+	}
+	
+	focus = {
+		id = prs_save_marxism
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 14
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_friendly_german
+		}
+	}
+	
+	focus = {
+		id = prs_our_international
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 14
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_save_marxism
+		}	
+	}
+	
+	focus = {
+		id = prs_peoples_friendship_university
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 12
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_our_international
+		}	
+	}
+	
+	focus = {
+		id = prs_find_supporter
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 12
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_our_international
+		}	
+	}
+	
+	focus = {
+		id = prs_suspension_from_moscow
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 12
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_find_supporter
+		}	
+	}
+	
+	focus = {
+		id = prs_invite_the_english
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 12
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_suspension_from_moscow
+		}	
+	}
+	
+	focus = {
+		id = prs_persuade_poland
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 14
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_our_international
+		}	
+	}
+	
+	focus = {
+		id = prs_plan_to_liberate_Europe
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 14
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_persuade_poland
+		}	
+	}
+	
+	focus = {
+		id = prs_red_propaganda
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 16
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_plan_to_liberate_Europe
+		}	
+	}
+	
+	focus = {
+		id = prs_ultimatum_to_copenhagen
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 14
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_plan_to_liberate_Europe
+		}	
+	}
+	
+	focus = {
+		id = prs_bring_revolution_to_the_end
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 14
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_ultimatum_to_copenhagen
+		}	
+	}
+	
+	focus = {
+		id = prs_forward_to_La_Manche
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 13
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_bring_revolution_to_the_end
+		}	
+	}
+	
+	focus = {
+		id = prs_mediterranean_revolutions
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 15
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_bring_revolution_to_the_end
+		}	
+	}
+	
+	focus = {
+		id = prs_dream_of_united_europeans
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 14
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = prs_mediterranean_revolutions
+		}
+		prerequisite = {
+			focus = prs_forward_to_La_Manche
+		}			
+	}
+	
+	focus = {
+		id = prs_Rose_appeals_to_democrats
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 32
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = prs_election
+		}		
+	}
+	
+	focus = {
+		id = prs_democratic_coalition
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 26
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = prs_Rose_appeals_to_democrats
+		}		
+	}
+	
+	focus = {
+		id = prs_new_economic_policy
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 26
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_democratic_coalition
+		}		
+	}
+	
+	focus = {
+		id = prs_independent_industrialization
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 24
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_new_economic_policy
+		}		
+	}
+	
+	focus = {
+		id = prs_urban_develompent
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 22
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_independent_industrialization
+		}		
+	}
+	
+	focus = {
+		id = prs_Posen_szv
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 24
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_independent_industrialization
+		}		
+	}
+	
+	focus = {
+		id = prs_freedom_for_small_business
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 26
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_new_economic_policy
+		}	
+	}
+	
+	focus = {
+		id = prs_commune_legalize
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 26
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_freedom_for_small_business
+		}		
+	}
+	
+	focus = {
+		id = prs_commune_schools
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 26
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_commune_legalize
+		}		
+	}
+	
+	focus = {
+		id = prs_one_way
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 20
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_democratic_coalition
+		}		
+	}
+
+	focus = {
+		id = prs_save_loyalty_to_moscow
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 20
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_one_way
+		}		
+	}
+	
+	focus = {
+		id = prs_Liebknechtstadt_conference
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 18
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_save_loyalty_to_moscow
+		}		
+	}
+	
+	focus = {
+		id = prs_destroy_western_totalitarists
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 20
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_save_loyalty_to_moscow
+		}	
+	}
+	
+	focus = {
+		id = prs_agreement_with_danish
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 20
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_destroy_western_totalitarists
+		}		
+	}
+	
+	focus = {
+		id = prs_negotiations_about_czech_unification
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 19
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_agreement_with_danish
+		}		
+	}
+	
+	focus = {
+		id = prs_profit_from_czech_trade
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 19
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_negotiations_about_czech_unification
+		}		
+	}
+	
+	focus = {
+		id = prs_liberate_germans
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 21
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_agreement_with_danish
+		}		
+	}
+	
+	focus = {
+		id = prs_crush_the_imperialists
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 21
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_liberate_germans
+		}		
+	}
+	
+	focus = {
+		id = prs_end_of_all_wars
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 21
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_crush_the_imperialists
+		}		
+	}
+	
+	focus = {
+		id = prs_fight_for_leadership
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_democratic_coalition
+		}		
+	}
+	
+	focus = {
+		id = prs_Bernsteinianism_conception
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_fight_for_leadership
+		}		
+	}
+	
+	focus = {
+		id = prs_private_education
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 33
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_Bernsteinianism_conception
+		}		
+	}
+	
+	focus = {
+		id = prs_democratic_police
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 29
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_Bernsteinianism_conception
+		}		
+	}
+	
+	focus = {
+		id = prs_regular_army
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 29
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_democratic_police
+		}		
+	}
+	
+	focus = {
+		id = prs_free_speech
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 31
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_Bernsteinianism_conception
+		}		
+	}
+	
+	focus = {
+		id = prs_foreign_press
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 31
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_free_speech
+		}		
+	}
+	
+	focus = {
+		id = prs_conciliation_with_marxists
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = prs_foreign_press
+		}
+		prerequisite = {
+			focus = prs_regular_army
+		}		
+	}
+	
+	focus = {
+		id = prs_concessions_for_commune
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 12
+		cost = 10
+		prerequisite = {
+			focus = prs_conciliation_with_marxists
+		}		
+	}
+	
+	focus = {
+		id = prs_limit_the_soviets
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = prs_concessions_for_commune
+		}		
+	}
+	
+	focus = {
+		id = prs_humble_germany
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = prs_limit_the_soviets
+		}		
+	}
+
+
+
+
+	focus = {
+		id = prs_victory_of_the_independents
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 34
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = prs_Rose_appeals_to_democrats
+		}		
+	}
+	
+	focus = {
+		id = prs_deheroization_of_revolutionaries
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 33
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_victory_of_the_independents
+		}		
+	}
+	
+	focus = {
+		id = prs_disband_comitets
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 33
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_deheroization_of_revolutionaries
+		}		
+	}
+	
+	focus = {
+		id = prs_market_conversions
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 35
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_victory_of_the_independents
+		}		
+	}
+	
+	focus = {
+		id = prs_shock_therapy
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 35
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_market_conversions
+		}		
+	}
+	
+	focus = {
+		id = prs_bye_Lenin
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 34
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_shock_therapy
+		}
+		prerequisite = {
+			focus = prs_disband_comitets
+		}		
+	}
+	
+	focus = {
+		id = prs_democratic_barrier_from_russia
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 32
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_bye_Lenin
+		}	
+	}
+
+	focus = {
+		id = prs_form_new_system
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 34
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_bye_Lenin
+		}	
+	}
+	
+	focus = {
+		id = prs_conversation_with_western_germany
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 36
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_bye_Lenin
+		}	
+	}
+	
+	focus = {
+		id = prs_democratic_elections
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 34
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_conversation_with_western_germany
+		}
+		prerequisite = {
+			focus = prs_form_new_system
+		}
+		prerequisite = {
+			focus = prs_democratic_barrier_from_russia
+		}
+	}
+	
+	focus = {
+		id = prs_western_bolsheviks
+		icon = GFX_focus_prs_western_bolsheviks
+		x = 47
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = prs_election
+		}		
+	}
+	
+	focus = {
+		id = prs_big_convention
+		icon = GFX_focus_prs_big_convention
+		x = 47
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = prs_western_bolsheviks
+		}		
+	}
+	
+	focus = {
+		id = prs_national_ideologue
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 45
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_big_convention
+		}
+		mutually_exclusive = {
+			focus = prs_worker_leader
+		}
+	}
+	
+	focus = {
+		id = prs_united_wolksstadt
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 44
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_national_ideologue
+		}		
+	}
+	
+	focus = {
+		id = prs_party_balance
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 44
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_united_wolksstadt
+		}		
+	}
+	
+	focus = {
+		id = prs_party_combat_units_system
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 44
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_party_balance
+		}		
+	}
+	
+	focus = {
+		id = prs_censorship_remake
+		icon = GFX_focus_prs_censorship_remake
+		x = 43
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_party_combat_units_system
+		}		
+	}
+	
+	focus = {
+		id = prs_national_unity
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 43
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_censorship_remake
+		}		
+	}
+	
+	focus = {
+		id = prs_assignable_soviets
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 45
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_party_combat_units_system
+		}		
+	}
+	
+	focus = {
+		id = prs_mein_kampf_capitalism
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 45
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_assignable_soviets
+		}		
+	}
+	
+	focus = {
+		id = prs_Jude_question
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 40
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_mein_kampf_capitalism
+		}
+		prerequisite = {
+			focus = prs_national_unity
+		}		
+	}
+	
+	focus = {
+		id = prs_kolkhoz_schools
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 42
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_national_unity
+		}		
+	}
+	
+	focus = {
+		id = prs_Strasser_Jugend
+		icon = GFX_focus_prs_Strasser_Jugend
+		x = 42
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = prs_kolkhoz_schools
+		}		
+	}
+	
+	focus = {
+		id = prs_strengthening_of_military_personnel
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 44
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_mein_kampf_capitalism
+		}
+		prerequisite = {
+			focus = prs_national_unity
+		}		
+	}
+	
+	focus = {
+		id = prs_nation_leader
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 44
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = prs_strengthening_of_military_personnel
+		}
+	}
+	
+	focus = {
+		id = prs_Strassers_death
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 44
+		y = 12
+		cost = 10
+		prerequisite = {
+			focus = prs_nation_leader
+		}
+	}
+	
+	focus = {
+		id = prs_leader_of_German_prolete
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 44
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = prs_Strassers_death
+		}
+	}
+	
+	focus = {
+		id = prs_save_the_Strassers_case
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 43
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = prs_leader_of_German_prolete
+		}
+		mutually_exclusive = {
+			focus = prs_new_policy
+		}
+	}
+	
+	focus = {
+		id = prs_new_policy
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 45
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = prs_leader_of_German_prolete
+		}
+		mutually_exclusive = {
+			focus = prs_save_the_Strassers_case
+		}
+	}
+	
+	focus = {
+		id = prs_preemptive_strike
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 44
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = prs_new_policy
+			focus = prs_save_the_Strassers_case
+		}
+	}
+	
+	focus = {
+		id = prs_single_party_organism
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 44
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = prs_preemptive_strike
+		}
+	}
+	
+	focus = {
+		id = prs_pangermanic_internationalism
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 44
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_united_wolksstadt
+		}		
+	}
+	
+	focus = {
+		id = prs_Moscow_occupier
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 38
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_pangermanic_internationalism
+		}
+	}
+	
+	focus = {
+		id = prs_Berlin_pact
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 38
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_Moscow_occupier
+		}
+	}
+	
+	focus = {
+		id = prs_diplomatic_missions_ont_the_east
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 38
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_Berlin_pact
+		}
+	}
+	
+	focus = {
+		id = prs_diversions
+		icon = GFX_focus_prs_diversions
+		x = 38
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_diplomatic_missions_ont_the_east
+		}
+	}
+	
+	focus = {
+		id = prs_Lebensraum
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 40
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_pangermanic_internationalism
+		}
+	}
+	
+	focus = {
+		id = prs_attack_west_czechia
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 40
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_Lebensraum
+		}
+	}
+	
+	focus = {
+		id = prs_alpine_germans
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 40
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_attack_west_czechia
+		}
+	}
+	
+	focus = {
+		id = prs_cantons_revolt
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 40
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_alpine_germans
+		}
+	}
+	
+	focus = {
+		id = prs_holy_liberation_war
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 40
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = prs_cantons_revolt
+		}
+		prerequisite = {
+			focus = prs_diversions
+		}
+	}
+	
+	focus = {
+		id = prs_pangerman_summit
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 40
+		y = 12
+		cost = 10
+		prerequisite = {
+			focus = prs_holy_liberation_war
+		}
+	}
+	
+	focus = {
+		id = prs_dream_of_united_europeans_2
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 40
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = prs_pangerman_summit
+		}
+	}
+	
+	focus = {
+		id = prs_british_ally
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 34
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = prs_dream_of_united_europeans_2
+		}
+		mutually_exclusive = {
+			focus = prs_transfer_across_la_manche
+		}
+	}
+	
+	focus = {
+		id = prs_transfer_across_la_manche
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 36
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = prs_dream_of_united_europeans_2
+		}
+		mutually_exclusive = {
+			focus = prs_british_ally
+		}
+	}
+	
+	focus = {
+		id = prs_heart_of_imperialism
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 38
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = prs_dream_of_united_europeans_2
+		}
+	}
+
+	focus = {
+		id = prs_purge_Europe_of_fascism
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 40
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = prs_dream_of_united_europeans_2
+		}
+	}
+	
+	focus = {
+		id = prs_worker_leader
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 49
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_big_convention
+		}
+		mutually_exclusive = {
+			focus = prs_national_ideologue
+		}
+	}
+	
+	focus = {
+		id = prs_organizing_new_plan
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 48
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_worker_leader
+			focus = prs_national_ideologue
+		}
+	}
+	
+	focus = {
+		id = prs_Lenins_economic_model
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 48
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_organizing_new_plan
+		}
+	}
+	
+	focus = {
+		id = prs_industrialization_time
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 47
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_Lenins_economic_model
+		}
+	}
+	
+	focus = {
+		id = prs_collectivization_of_the_village
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 49
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_Lenins_economic_model
+		}
+	}
+	
+	focus = {
+		id = prs_First_three_years_plan
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 48
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_collectivization_of_the_village
+		}
+		prerequisite = {
+			focus = prs_industrialization_time
+		}
+	}
+	
+	focus = {
+		id = prs_creation_of_military_academy
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 46
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_First_three_years_plan
+		}
+	}
+	
+	focus = {
+		id = prs_defend_plan
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 48
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_First_three_years_plan
+		}
+	}
+	
+	focus = {
+		id = prs_Silesian_resource_development
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 50
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_First_three_years_plan
+		}
+	}
+	
+	focus = {
+		id = prs_brandenburg_factories
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 52
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_First_three_years_plan
+		}
+	}
+	
+    focus = {
+		id = prs_new_venicle_fleet
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 54
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_First_three_years_plan
+		}
+	}
+	
+    focus = {
+		id = prs_aviations_competitions
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 54
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = prs_new_venicle_fleet
+		}
+	}
+	
+    focus = {
+		id = prs_strengthening_against_bourgeoisie
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 48
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = prs_defend_plan
+		}
+	}
+	
+    focus = {
+		id = prs_Lenins_line
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 48
+		y = 12
+		cost = 10
+		prerequisite = {
+			focus = prs_strengthening_against_bourgeoisie
+		}
+	}
+	
+	focus = {
+		id = prs_strengthening_mic
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 50
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = prs_Silesian_resource_development
+		}
+	}
+	
+	focus = {
+		id = prs_university_branches
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 50
+		y = 12
+		cost = 10
+		prerequisite = {
+			focus = prs_strengthening_mic
+		}
+	}
+	
+	focus = {
+		id = prs_new_tanks
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 50
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = prs_university_branches
+		}
+	}
+	
+	focus = {
+		id = prs_autobahns_for_people
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 52
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = prs_brandenburg_factories
+		}
+	}
+	
+	focus = {
+		id = prs_maritime_industry_in_Pomerania
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 52
+		y = 12
+		cost = 10
+		prerequisite = {
+			focus = prs_autobahns_for_people
+		}
+	}
+	
+	focus = {
+		id = prs_Haifisch_project
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 52
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = prs_maritime_industry_in_Pomerania
+		}
+	}
+	
+	focus = {
+		id = prs_civil_mobilization
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 51
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = prs_Haifisch_project
+		}
+		prerequisite = {
+			focus = prs_new_tanks
+		}
+	}
+	
+	focus = {
+		id = prs_mastering_the_new_west
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 50
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = prs_civil_mobilization
+		}
+	}
+	
+	focus = {
+		id = prs_restoration_of_the_Rhenish_industry
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 52
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = prs_civil_mobilization
+		}
+	}
+	
+	focus = {
+		id = prs_German_military_machine
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 51
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = prs_restoration_of_the_Rhenish_industry
+		}
+		prerequisite = {
+			focus = prs_mastering_the_new_west
+		}
+	}
+	
+	focus = {
+		id = prs_parlament_for_the_workers
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 58
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_worker_leader
+		}
+	}
+	
+	focus = {
+		id = prs_better_protection
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 54
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_parlament_for_the_workers
+		}
+	}
+	
+	focus = {
+		id = prs_we_go_the_same_way
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 56
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_parlament_for_the_workers
+		}
+	}
+	
+	focus = {
+		id = prs_increase_the_role_of_the_party
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 58
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_parlament_for_the_workers
+		}
+	}
+	
+	focus = {
+		id = prs_create_gec
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 55
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_increase_the_role_of_the_party
+		}
+	}
+	
+	focus = {
+		id = prs_soviet_police
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 55
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_create_gec
+		}
+	}
+	
+	focus = {
+		id = prs_new_censorship_policy
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 57
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_increase_the_role_of_the_party
+		}
+	}
+	
+	focus = {
+		id = prs_german_writers_union
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 57
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_new_censorship_policy
+		}
+	}
+	
+	focus = {
+		id = prs_youth_organizations
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 59
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_increase_the_role_of_the_party
+		}
+	}
+	
+	focus = {
+		id = prs_creating_science_cities
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 59
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_youth_organizations
+		}
+	}
+	
+	focus = {
+		id = prs_the_Henekk_movement
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 61
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_increase_the_role_of_the_party
+		}
+	}
+	
+	focus = {
+		id = prs_party_institute
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 61
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_the_Henekk_movement
+		}
+	}
+	
+	focus = {
+		id = prs_German_Lenin
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 58
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_party_institute
+		}
+		prerequisite = {
+			focus = prs_creating_science_cities
+		}
+		prerequisite = {
+			focus = prs_german_writers_union
+		}
+		prerequisite = {
+			focus = prs_soviet_police
+		}
+	}
+	
+	focus = {
+		id = prs_soviets_palace_in_berlin
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 58
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_German_Lenin
+		}
+	}
+	
+	
+
+	focus = {
+		id = prs_army_mutiny
+		icon = GFX_focus_prs_army_mutiny
+		x = 73
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = prs_Rose_order
+		}		
+	}
+	
+	focus = {
+		id = prs_Bismarck_receiver
+		icon = GFX_focus_prs_Bismarck_receiver
+		x = 73
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = prs_army_mutiny
+		}		
+	}
+	
+	focus = {
+		id = prs_commandarm_of_honor
+		icon = GFX_focus_prs_commandarm_of_honor
+		x = 67
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_Bismarck_receiver
+		}		
+	}
+	
+	focus = {
+		id = prs_valiant_press
+		icon = GFX_focus_prs_valiant_press
+		x = 65
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_commandarm_of_honor
+		}		
+	}
+	
+	focus = {
+		id = prs_Von_Moltke_military_academy
+		icon = GFX_focus_prs_Von_Moltke_military_academy
+		x = 65
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_valiant_press
+		}		
+	}
+	
+	focus = {
+		id = prs_help_for_cooperatives
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 67
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_commandarm_of_honor
+		}		
+	}
+	
+	focus = {
+		id = prs_relaxe_surveillance
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 67
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_help_for_cooperatives
+		}		
+	}
+	
+	focus = {
+		id = prs_new_leader_new_doctrine
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 66
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_relaxe_surveillance
+		}
+		prerequisite = {
+			focus = prs_Von_Moltke_military_academy
+		}		
+	}
+	
+	focus = {
+		id = prs_army_reform
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 65
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_new_leader_new_doctrine
+		}		
+	}
+	
+	focus = {
+		id = prs_newly_formed_volkspolizei
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 65
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_army_reform
+		}		
+	}
+	
+	focus = {
+		id = prs_mechanized_cavalry
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 67
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_new_leader_new_doctrine
+		}		
+	}
+	
+	focus = {
+		id = prs_restructuring_mic
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 67
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_mechanized_cavalry
+		}		
+	}
+	
+	focus = {
+		id = prs_concept_of_Prussian_socialism
+		icon = GFX_focus_prs_concept_of_Prussian_socialism
+		x = 73
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = prs_Bismarck_receiver
+		}		
+	}
+	
+	focus = {
+		id = prs_Lassalle_institute
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 71
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_concept_of_Prussian_socialism
+		}		
+	}
+	
+	focus = {
+		id = prs_marx_was_wrong
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 71
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_Lassalle_institute
+		}		
+	}
+	
+	focus = {
+		id = prs_solidarism_is_our_way
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 70
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_marx_was_wrong
+		}		
+	}
+	
+	focus = {
+		id = prs_parlament_reform
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 70
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_solidarism_is_our_way
+		}		
+	}
+	
+	focus = {
+		id = prs_trade_unions_is_the_basis_of_the_economy
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 72
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_marx_was_wrong
+		}		
+	}
+	
+	focus = {
+		id = prs_organize_prussian_identify
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 72
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_trade_unions_is_the_basis_of_the_economy
+		}		
+	}
+	
+	focus = {
+		id = prs_new_constitution
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 71
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_organize_prussian_identify
+		}
+		prerequisite = {
+			focus = prs_parlament_reform
+		}		
+	}
+	
+	focus = {
+		id = prs_chairman_commandarm
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 71
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_organize_prussian_identify
+		}
+		prerequisite = {
+			focus = prs_parlament_reform
+		}		
+	}
+	
+	focus = {
+		id = prs_politburo_is_headquarters
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 73
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = prs_concept_of_Prussian_socialism
+		}		
+	}
+	
+	focus = {
+		id = prs_officer_control_over_administration
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 73
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = prs_politburo_is_headquarters
+		}		
+	}
+	
+	focus = {
+		id = prs_policy_of_strict_neutrality
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 75
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = prs_officer_control_over_administration
+		}		
+	}
+	
+	focus = {
+		id = prs_Keel_claims
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 75
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_policy_of_strict_neutrality
+		}		
+	}
+	
+	focus = {
+		id = prs_Thuringian_crisis
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 76
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = prs_policy_of_strict_neutrality
+		}		
+	}
+	
+	focus = {
+		id = prs_occupation_of_northern_czeh
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 77
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_policy_of_strict_neutrality
+		}		
+	}
+	
+	focus = {
+		id = prs_European_Defense_Department
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 79
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = prs_policy_of_strict_neutrality
+		}		
+	}
+	
+	focus = {
+		id = prs_Mission_in_Irland
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 77
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_European_Defense_Department
+		}		
+	}
+	
+	focus = {
+		id = prs_conversation_with_Poland
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 79
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_European_Defense_Department
+		}		
+	}
+	
+	focus = {
+		id = prs_meeting_in_Vienna
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 81
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = prs_European_Defense_Department
+		}		
+	}
+	
+	
+	
+	
+	
+	
+	
+	focus = {
+		id = prs_tanks_in_Berlin
+		icon = GFX_focus_prs_tanks_in_Berlin
+		x = 32
+		y = 14
+		cost = 10
+	}
+	
+	focus = {
+		id = prs_re_nationalization
+		icon = GFX_focus_prs_re_nationalization
+		x = 30
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = prs_tanks_in_Berlin
+		}
+	}
+	
+	focus = {
+		id = prs_restoring_the_soviets
+		icon = GFX_focus_prs_restoring_the_soviets
+		x = 32
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = prs_tanks_in_Berlin
+		}
+	}
+	
+	focus = {
+		id = prs_punishing_the_liberals
+		icon = GFX_focus_prs_punishing_the_liberals
+		x = 34
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = prs_tanks_in_Berlin
+		}
+	}
+	
+	focus = {
+		id = prs_military_communism_in_Germany
+		icon = GFX_focus_prs_military_communism_in_Germany
+		x = 32
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = prs_punishing_the_liberals
+		}
+		prerequisite = {
+			focus = prs_restoring_the_soviets
+		}
+		prerequisite = {
+			focus = prs_re_nationalization
+		}
+	}
+	
+	focus = {
+		id = prs_victories_economic
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 24
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = prs_military_communism_in_Germany
+		}
+	}
+	
+	focus = {
+		id = prs_rails_of_war
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 22
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = prs_victories_economic
+		}
+	}
+	
+	focus = {
+		id = prs_Silesian_complexes
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 22
+		y = 19
+		cost = 10
+		prerequisite = {
+			focus = prs_rails_of_war
+		}
+	}
+	
+	focus = {
+		id = prs_invest_in_Pomeranian_dockyards
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 22
+		y = 20
+		cost = 10
+		prerequisite = {
+			focus = prs_Silesian_complexes
+		}
+	}
+	
+	focus = {
+		id = prs_forced_collectivization
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 26
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = prs_victories_economic
+		}
+	}
+	
+	focus = {
+		id = prs_remove_allowances_for_minors
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 26
+		y = 19
+		cost = 10
+		prerequisite = {
+			focus = prs_forced_collectivization
+		}
+	}
+	
+	focus = {
+		id = prs_Tukhachevsky_military_academy
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 26
+		y = 20
+		cost = 10
+		prerequisite = {
+			focus = prs_remove_allowances_for_minors
+		}
+	}
+	
+	focus = {
+		id = prs_centralized_economy
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 24
+		y = 21
+		cost = 10
+		prerequisite = {
+			focus = prs_Tukhachevsky_military_academy
+		}
+		prerequisite = {
+			focus = prs_invest_in_Pomeranian_dockyards
+		}
+	}
+	
+	focus = {
+		id = prs_soldiers_leader
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = prs_military_communism_in_Germany
+		}
+	}
+	
+	focus = {
+		id = prs_removing_bureaucrats
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 28
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = prs_soldiers_leader
+		}
+	}
+	
+	focus = {
+		id = prs_military_dictatorship_in_soviets
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 28
+		y = 19
+		cost = 10
+		prerequisite = {
+			focus = prs_removing_bureaucrats
+		}
+	}
+	
+	focus = {
+		id = prs_problem_of_free_trade_unions
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 28
+		y = 20
+		cost = 10
+		prerequisite = {
+			focus = prs_removing_bureaucrats
+		}
+	}
+	
+	focus = {
+		id = prs_remove_liberals
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = prs_soldiers_leader
+		}
+	}
+	
+	focus = {
+		id = prs_execute_loyalists
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 19
+		cost = 10
+		prerequisite = {
+			focus = prs_remove_liberals
+		}
+	}
+	
+	focus = {
+		id = prs_REZNYA
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 20
+		cost = 10
+		prerequisite = {
+			focus = prs_execute_loyalists
+		}
+	}
+	
+	focus = {
+		id = prs_commissars_from_army
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 32
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = prs_soldiers_leader
+		}
+	}
+	
+	focus = {
+		id = prs_purge_of_command
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 32
+		y = 19
+		cost = 10
+		prerequisite = {
+			focus = prs_commissars_from_army
+		}
+	}
+	
+	focus = {
+		id = prs_new_blood
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 32
+		y = 20
+		cost = 10
+		prerequisite = {
+			focus = prs_purge_of_command
+		}
+	}
+	
+	focus = {
+		id = prs_government_is_headquarter
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 30
+		y = 21
+		cost = 10
+		prerequisite = {
+			focus = prs_new_blood
+		}
+		prerequisite = {
+			focus = prs_problem_of_free_trade_unions
+		}
+	}
+
+	focus = {
+		id = prs_better_protection_of_revolution
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 36
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = prs_military_communism_in_Germany
+		}
+	}
+	
+	focus = {
+		id = prs_separation_from_moscow
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 35
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = prs_better_protection_of_revolution
+		}
+	}
+	
+	focus = {
+		id = prs_barrier_from_the_west
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 37
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = prs_better_protection_of_revolution
+		}
+	}
+	
+	focus = {
+		id = prs_forces_concentration
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 36
+		y = 19
+		cost = 10
+		prerequisite = {
+			focus = prs_barrier_from_the_west
+			focus = prs_separation_from_moscow
+		}
+	}
+	
+	focus = {
+		id = prs_North_way
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 35
+		y = 20
+		cost = 10
+		prerequisite = {
+			focus = prs_forces_concentration
+		}
+	}
+	
+	focus = {
+		id = prs_marine_landing_in_Schleswig
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 35
+		y = 21
+		cost = 10
+		prerequisite = {
+			focus = prs_North_way
+		}
+	}
+	
+	focus = {
+		id = prs_fleet_in_Keel
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 35
+		y = 22
+		cost = 10
+		prerequisite = {
+			focus = prs_marine_landing_in_Schleswig
+		}
+	}
+	
+	focus = {
+		id = prs_South_way
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 37
+		y = 20
+		cost = 10
+		prerequisite = {
+			focus = prs_forces_concentration
+		}
+	}
+	
+	focus = {
+		id = prs_finish_with_czeh_bourgeoisie
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 37
+		y = 21
+		cost = 10
+		prerequisite = {
+			focus = prs_South_way
+		}
+	}
+	
+	focus = {
+		id = prs_ultimatum_to_austria
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 37
+		y = 22
+		cost = 10
+		prerequisite = {
+			focus = prs_finish_with_czeh_bourgeoisie
+		}
+	}
+	
+	focus = {
+		id = prs_unification_plan
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 36
+		y = 23
+		cost = 10
+		prerequisite = {
+			focus = prs_ultimatum_to_austria
+		}
+		prerequisite = {
+			focus = prs_fleet_in_Keel
+		}
+	}
+	
+	focus = {
+		id = prs_new_Schlieffen_plan
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 35
+		y = 24
+		cost = 10
+		prerequisite = {
+			focus = prs_unification_plan
+		}
+	}
+	
+	focus = {
+		id = prs_mountain_bout
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 37
+		y = 24
+		cost = 10
+		prerequisite = {
+			focus = prs_unification_plan
+		}
+	}
+	
+	focus = {
+		id = prs_Atlantic_line
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 36
+		y = 25
+		cost = 10
+		prerequisite = {
+			focus = prs_mountain_bout
+		}
+		prerequisite = {
+			focus = prs_new_Schlieffen_plan
+		}
+	}
+
+
+
+
+}

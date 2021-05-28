@@ -23,7 +23,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_congress_session
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_congress_session
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_truman_wins
@@ -35,7 +35,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_national_politic
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_national_politic
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_congress_session
@@ -47,7 +47,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_parliament_reverse
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_parliament_reverse
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_congress_session
@@ -83,7 +83,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_down_with_communists
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_down_with_communists
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_american_dream
@@ -119,7 +119,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_eagle_wings
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_eagle_wings
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_arrest_traitors
@@ -396,7 +396,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_economic_depression
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_economic_depression
 		cost = 10
 		x = 25
 		y = 0
@@ -701,7 +701,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_truman_doctrine
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_truman_doctrine
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_view_on_world

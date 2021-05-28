@@ -101,3 +101,16 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 2
 }
+
+create_corps_commander = {
+	name = "Erwin Rommel"
+	picture = "Portrait_Prussian_Erwin_Rommel.dds"
+	traits = { trickster trait_reckless war_hero armor_officer media_personality }
+	skill = 4
+
+
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}

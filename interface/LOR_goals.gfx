@@ -1345,4 +1345,136 @@ spriteTypes = {
 		name = "GFX_focus_usa_tru_cut_back_social_welfare"
 		texturefile = "gfx/interface/goals/focus_usa_tru_cut_back_social_welfare.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_election"
+		texturefile = "gfx/interface/goals/focus_prs_election.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_anti_crisis_coalition"
+		texturefile = "gfx/interface/goals/focus_prs_anti_crisis_coalition.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_Rose_order"
+		texturefile = "gfx/interface/goals/focus_prs_rose_order.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_congress_session"
+		texturefile = "gfx/interface/goals/focus_usa_tru_congress_session.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_national_politic"
+		texturefile = "gfx/interface/goals/focus_usa_tru_national_politic.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_parliament_reverse"
+		texturefile = "gfx/interface/goals/focus_usa_tru_parliament_reverse.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_down_with_communists"
+		texturefile = "gfx/interface/goals/focus_usa_tru_down_with_communists.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_army_mutiny"
+		texturefile = "gfx/interface/goals/focus_prs_army_mutiny.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_economic_depression"
+		texturefile = "gfx/interface/goals/focus_usa_tru_economic_depression.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_Bismarck_receiver"
+		texturefile = "gfx/interface/goals/focus_prs_Bismarck_receiver.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_western_bolsheviks"
+		texturefile = "gfx/interface/goals/focus_prs_western_bolsheviks.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_censorship_remake"
+		texturefile = "gfx/interface/goals/focus_prs_censorship_remake.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_Strasser_Jugend"
+		texturefile = "gfx/interface/goals/focus_prs_Strasser_Jugend.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_tanks_in_Berlin"
+		texturefile = "gfx/interface/goals/focus_prs_tanks_in_Berlin.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_concept_of_Prussian_socialism"
+		texturefile = "gfx/interface/goals/focus_prs_concept_of_Prussian_socialism.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_prs_restoring_the_soviets"
+		texturefile = "gfx/interface/goals/focus_prs_restoring_the_soviets.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_prs_valiant_press"
+		texturefile = "gfx/interface/goals/focus_prs_valiant_press.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_commandarm_of_honor"
+		texturefile = "gfx/interface/goals/focus_prs_commandarm_of_honor.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_Von_Moltke_military_academy"
+		texturefile = "gfx/interface/goals/focus_prs_Von_Moltke_military_academy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_national_cooperatives"
+		texturefile = "gfx/interface/goals/focus_prs_national_cooperatives.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_prs_big_convention"
+		texturefile = "gfx/interface/goals/focus_prs_big_convention.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_diversions"
+		texturefile = "gfx/interface/goals/focus_prs_diversions.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_military_communism_in_Germany"
+		texturefile = "gfx/interface/goals/focus_prs_military_communism_in_Germany.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_punishing_the_liberals"
+		texturefile = "gfx/interface/goals/focus_prs_punishing_the_liberals.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_prs_re_nationalization"
+		texturefile = "gfx/interface/goals/focus_prs_re_nationalization.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_eagle_wings"
+		texturefile = "gfx/interface/goals/focus_usa_tru_eagle_wings.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_truman_doctrine"
+		texturefile = "gfx/interface/goals/focus_usa_tru_truman_doctrine.dds"
+	}
 }
