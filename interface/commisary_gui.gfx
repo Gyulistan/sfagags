@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_decision_bg_commisary"
+		texturefile = "gfx/decisions_gui/decision_bg_commisary.dds"
+	}
+	spriteType = {
+		name = "GFX_nothing_image"
+		texturefile = "gfx/decisions_gui/nothing.dds"
+	}
+}

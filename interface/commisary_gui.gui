@@ -1,0 +1,115 @@
+guiTypes = {
+	containerWindowType = {
+        name = "commisary_gui_container"
+        position = { x = 0 y = 0 }
+		size = { width = 510 height = 310 }
+		Origo = center
+
+		iconType =
+		{
+			name ="commisary_bg_mainview"
+			spriteType = "GFX_decision_bg_commisary"
+			position = { x= -5 y = -20 }
+		}
+
+		instantTextBoxType = {
+			name = "commisary_gui_title"
+			position = { x = 0 y = -20 }
+			font = "hoi_30header"
+			text = "RSR_COMMISARS_TITLE"
+			maxWidth = 510
+			maxHeight = 30
+			format = center
+		}
+		instantTextBoxType = {
+			name = "commisary_help_gui_title"
+			position = { x = 0 y = 10 }
+			font = "hoi_16mbs"
+			text = "RSR_COMMISARS_HELP_TITLE"
+			maxWidth = 510
+			maxHeight = 30
+			format = center
+			pdx_tooltip = "RSR_help_title_commisars"
+		}
+		iconType =
+		{
+			name ="GFX_nothing_image_1"
+			spriteType = "GFX_nothing_image"
+			position = { x= 10 y = 90 }
+			pdx_tooltip = "RSR_name_first"
+		}
+		iconType =
+		{
+			name ="GFX_nothing_image_2"
+			spriteType = "GFX_nothing_image"
+			position = { x= 110 y = 90 }
+			pdx_tooltip = "RSR_name_second"
+		}
+		iconType =
+		{
+			name ="GFX_nothing_image_3"
+			spriteType = "GFX_nothing_image"
+			position = { x= 210 y = 90 }
+			pdx_tooltip = "RSR_name_third"
+		}
+		iconType =
+		{
+			name ="GFX_nothing_image_4"
+			spriteType = "GFX_nothing_image"
+			position = { x= 310 y = 90 }
+			pdx_tooltip = "RSR_name_fourth"
+		}
+		iconType =
+		{
+			name ="GFX_nothing_image_5"
+			spriteType = "GFX_nothing_image"
+			position = { x= 410 y = 90 }
+			pdx_tooltip = "RSR_name_fifth"
+		}
+		instantTextBoxType = {
+			name = "commisare_1_infuence_level"
+			position = { x = 10 y = 220 }
+			font = "hoi_16mbs"
+			text = "RSR_comm1_infl"
+			maxWidth = 85
+			maxHeight = 30
+			format = center
+		}
+		instantTextBoxType = {
+			name = "commisare_2_infuence_level"
+			position = { x = 110 y = 220 }
+			font = "hoi_16mbs"
+			text = "RSR_comm2_infl"
+			maxWidth = 85
+			maxHeight = 30
+			format = center
+		}
+		instantTextBoxType = {
+			name = "commisare_3_infuence_level"
+			position = { x = 210 y = 220 }
+			font = "hoi_16mbs"
+			text = "RSR_comm3_infl"
+			maxWidth = 85
+			maxHeight = 30
+			format = center
+		}
+		instantTextBoxType = {
+			name = "commisare_4_infuence_level"
+			position = { x = 310 y = 220 }
+			font = "hoi_16mbs"
+			text = "RSR_comm4_infl"
+			maxWidth = 85
+			maxHeight = 30
+			format = center
+		}
+		instantTextBoxType = {
+			name = "commisare_5_infuence_level"
+			position = { x = 410 y = 220 }
+			font = "hoi_16mbs"
+			text = "RSR_comm5_infl"
+			maxWidth = 85
+			maxHeight = 30
+			format = center
+		}
+	}
+}
