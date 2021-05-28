@@ -1,0 +1,1 @@
+scripted_gui = {	commisary_gui = {		context_type = decision_category		window_name = "commisary_gui_container"	}}
