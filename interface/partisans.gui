@@ -1,0 +1,519 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Partisans_Window"
+		size = { width = 910 height = 650 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center	
+		moveable = yes
+
+		background = {
+			name = "Background"	
+			spriteType ="GFX_tiled_bg"
+		}
+
+		instantTextBoxType = {
+			name = "Pax_Partisans_Title_textbox"
+			position = { x = 0 y = 15 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 1}
+			text = "TITLE_PARTISANS"
+			maxWidth = 900
+			format = center
+			maxHeight = 24
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "Pax_Partisans_Hint_textbox"
+			position = { x = 0 y = 33 }
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 1}
+			text = "HINT_PARTISANS"
+			maxWidth = 900
+			format = center
+			maxHeight = 20
+			fixedsize = yes	
+			pdx_tooltip = "HINT_PARTISANS_OPENNED"
+		}
+
+		buttonType = {
+            name = "Parisans_Window_Close"
+            position = { x = 774 y = 590 }  
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "CLOSE"
+			buttonFont = "ubu_32"
+            clicksound = click_scroll
+        }
+		containerWindowType = {
+			name = "Partisans_Policy"
+			size = { width = 890 height = 400 }
+			position = { x=10 y=50 }
+			moveable = no
+			clipping = yes
+			background = { 
+				name = "Background"
+				spriteType ="GFX_tiled_window"
+			}
+			iconType = {
+				name = "partisans_gui_country"
+				position = { x = 15 y = 15 }
+				spriteType = "GFX_COUNTRY_PARTISANS_MAP"
+				alwaystransparent = yes
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan1_textbox"
+				position = { x = 60 y = 145 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_1"
+				maxWidth = 20
+				format = center
+				maxHeight = 24
+				fixedsize = yes
+				pdx_tooltip = "PARTISAN_1_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan2_textbox"
+				position = { x = 100 y = 175 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_2"
+				maxWidth = 20
+				format = center
+				maxHeight = 24
+				fixedsize = yes
+				pdx_tooltip = "PARTISAN_2_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan3_textbox"
+				position = { x = 50 y = 200 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_3"
+				maxWidth = 20
+				format = center
+				maxHeight = 24
+				fixedsize = yes
+				pdx_tooltip = "PARTISAN_3_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan4_textbox"
+				position = { x = 40 y = 232 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_4"
+				maxWidth = 20
+				format = center
+				maxHeight = 24 
+				fixedsize = yes
+				pdx_tooltip = "PARTISAN_4_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan5_textbox"
+				position = { x = 75 y = 263 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_5"
+				maxWidth = 20
+				format = center 
+				maxHeight = 24 
+				fixedsize = yes
+				pdx_tooltip = "PARTISAN_5_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan6_textbox"
+				position = { x = 90 y = 290 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_6"
+				maxWidth = 20
+				format = center
+				maxHeight = 24
+				fixedsize = yes
+				pdx_tooltip = "PARTISAN_6_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan7_textbox"
+				position = { x = 140 y = 275 } 
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_7"
+				maxWidth = 20
+				format = center 
+				maxHeight = 24 
+				fixedsize = yes
+				pdx_tooltip = "PARTISAN_7_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan8_textbox"
+				position = { x = 145 y = 313 } 
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_8"
+				maxWidth = 20
+				format = center 
+				maxHeight = 24 
+				fixedsize = yes
+				pdx_tooltip = "PARTISAN_8_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan9_textbox"
+				position = { x = 185 y = 163 } 
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_9"
+				maxWidth = 20
+				format = center 
+				maxHeight = 24 
+				fixedsize = yes
+				pdx_tooltip = "PARTISAN_9_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan10_textbox"
+				position = { x = 187 y = 228 } 
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_10"
+				maxWidth = 30
+				format = center 
+				maxHeight = 24 
+				fixedsize = yes  
+				pdx_tooltip = "PARTISAN_10_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan11_textbox"
+				position = { x = 300 y = 220 } 
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_11"
+				maxWidth = 30
+				format = center 
+				maxHeight = 24
+				fixedsize = yes  
+				pdx_tooltip = "PARTISAN_11_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan12_textbox"
+				position = { x = 255 y = 270 } 
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_12"
+				maxWidth = 30
+				format = center 
+				maxHeight = 24
+				fixedsize = yes  
+				pdx_tooltip = "PARTISAN_12_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan13_textbox"
+				position = { x = 245 y = 320 } 
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_13"
+				maxWidth = 30 
+				format = center 
+				maxHeight = 24
+				fixedsize = yes  
+				pdx_tooltip = "PARTISAN_13_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan14_textbox"
+				position = { x = 410 y = 255 } 
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_14"
+				maxWidth = 30 
+				format = center 
+				maxHeight = 24
+				fixedsize = yes  
+				pdx_tooltip = "PARTISAN_14_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan15_textbox"
+				position = { x = 610 y = 247 } 
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_15"
+				maxWidth = 30 
+				format = center 
+				maxHeight = 24
+				fixedsize = yes  
+				pdx_tooltip = "PARTISAN_15_DESC"
+			}
+			instantTextBoxType = {
+				name = "Pax_Partisan16_textbox"
+				position = { x = 670 y = 120 }  
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "PARTISAN_16"
+				maxWidth = 30 
+				format = center 
+				maxHeight = 24
+				fixedsize = yes  
+				pdx_tooltip = "PARTISAN_16_DESC"
+			}
+		}
+		instantTextBoxType = {
+			name = "Pax_Partisans_Policy1_textbox"
+			position = { x = 18 y = 452 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 1}
+			text = "POLICY_1"
+			maxWidth = 380
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		buttonType = {
+            name = "Policy1_Low" 
+            position = { x = 400 y = 447 } 
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[LOW_POLICY_1]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll  
+        }
+		buttonType = {
+            name = "Policy1_Med"
+            position = { x = 550 y = 447 } 
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[MED_POLICY_1]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll
+        }
+		buttonType = {
+            name = "Policy1_Hig"
+            position = { x = 700 y = 447 } 
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[HIG_POLICY_1]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll  
+        }
+		iconType = {
+			name = "policy1_icon"
+			position = { x = 820 y = 450 }
+			spriteType = "GFX_pol_power_icon"
+			alwaystransparent = yes
+			pdx_tooltip = "HINT_POLPOW"
+		}
+		instantTextBoxType = {
+			name = "Pax_Policy1_PP_textbox"
+			position = { x = 845 y = 455 }
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 1}
+			text = "[POLICY_1_PP_LOW]"
+			format = center
+			maxWidth = 50
+			maxHeight = 20
+			fixedsize = yes
+			pdx_tooltip = "HINT_POLPOW"
+		}
+		
+		instantTextBoxType = {
+			name = "Pax_Partisans_Policy2_textbox"
+			position = { x = 18 y = 486 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 1}
+			text = "POLICY_2"
+			maxWidth = 380
+			maxHeight = 20
+			fixedsize = yes 
+		}
+
+		buttonType = {
+            name = "Policy2_Low"
+            position = { x = 400 y = 481 } 
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[LOW_POLICY_2]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll  
+        }
+		buttonType = { 
+            name = "Policy2_Med"
+            position = { x = 550 y = 481 } 
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[MED_POLICY_2]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll
+        }
+		buttonType = {
+            name = "Policy2_Hig"
+            position = { x = 700 y = 481 } 
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[HIG_POLICY_2]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll  
+        }
+		
+		iconType = {
+			name = "policy2_icon"
+			position = { x = 820 y = 484 }
+			spriteType = "GFX_manpower_icon"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "Pax_Policy2_ARMY_textbox"
+			position = { x = 841 y = 489 }
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 1}
+			text = "[POLICY_2_ARMY_LOW]"
+			format = center
+			maxWidth = 54
+			maxHeight = 20
+			fixedsize = yes
+			pdx_tooltip = "HINT_MANPOWER" 
+		}
+
+
+		instantTextBoxType = {
+			name = "Pax_Partisans_Policy3_textbox"
+			position = { x = 18 y = 519 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 1}
+			text = "POLICY_3"
+			maxWidth = 380
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		buttonType = {
+            name = "Policy3_Low"
+            position = { x = 400 y = 515 }  
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[LOW_POLICY_3]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll  
+        }
+		buttonType = { 
+            name = "Policy3_Med"
+            position = { x = 550 y = 515 } 
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[MED_POLICY_3]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll
+        }
+		buttonType = {
+            name = "Policy3_Hig"
+            position = { x = 700 y = 515 }   
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[HIG_POLICY_3]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll  
+        }
+		
+		iconType = {
+			name = "policy3_icon"
+			position = { x = 816 y = 518 }
+			spriteType = "GFX_industrial_capacity_icon"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "Pax_Policy3_CIV_textbox"
+			position = { x = 841 y = 525 }
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 1} 
+			text = "[POLICY_3_CIV_LOW]"
+			format = center
+			maxWidth = 54
+			maxHeight = 20
+			fixedsize = yes
+			pdx_tooltip = "HINT_CIVF" 
+		}
+		
+		instantTextBoxType = {
+			name = "Pax_Partisans_Policy4_textbox"
+			position = { x = 18 y = 555 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 1}
+			text = "POLICY_4"
+			maxWidth = 380
+			maxHeight = 20
+			fixedsize = yes
+		}
+
+		buttonType = { 
+            name = "Policy4_Low"
+            position = { x = 400 y = 549 }  
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[LOW_POLICY_4]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll  
+        }
+		buttonType = {  
+            name = "Policy4_Med"
+            position = { x = 550 y = 549 } 
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[MED_POLICY_4]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll
+        }
+		buttonType = {
+            name = "Policy4_Hig"
+            position = { x = 700 y = 549 }  
+            quadTextureSprite ="GFX_button_123x34"
+			buttonText = "[HIG_POLICY_4]"
+			buttonFont = "hoi_18mbs"
+            clicksound = click_scroll  
+        }
+		iconType = {
+			name = "policy4_icon"
+			position = { x = 822 y = 553 }
+			spriteType = "GFX_weapons_rifl_icon"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "Pax_Policy4_WEA_textbox"
+			position = { x = 841 y = 557 }
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 1} 
+			text = "[POLICY_4_WEA_LOW]"
+			format = center 
+			maxWidth = 54 
+			maxHeight = 20
+			fixedsize = yes
+			pdx_tooltip = "HINT_WEAP" 
+		}
+		iconType = {
+			name = "cp_icon"
+			position = { x = 15 y = 580 }
+			spriteType = "GFX_cp_icon"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "Pax_cp_textbox"
+			position = { x = 60 y = 590 }
+			font = "hoi_24header" 
+			borderSize = {x = 0 y = 1} 
+			text = "CONTROL_POINTS_SUMM"  
+			maxWidth = 50
+			maxHeight = 20 
+			fixedsize = no
+		}
+		instantTextBoxType = {
+			name = "Pax_cp_hint_textbox"
+			position = { x = 60 y = 610 } 
+			font = "hoi_16mbs" 
+			borderSize = {x = 0 y = 1} 
+			text = "CONTROL_POINTS_HINT"  
+			maxWidth = 
+			maxHeight = 20 
+			fixedsize = no
+		} 
+		buttonType = {
+			name = "controlled_moscow_icon"
+			position = { x = 120 y = 280 }
+			spriteType = "GFX_army_experience"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "Pax_controlled_moscow_textbox"
+			position = { x = 120 y = 280 }
+			font = "hoi_16mbs" 
+			borderSize = {x = 0 y = 1} 
+			text = ""  
+			maxWidth = 16
+			maxHeight = 16
+			fixedsize = yes
+			pdx_tooltip = "HINT_MOSCOW_CONTROLLED"
+		}
+	}
+} 

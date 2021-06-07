@@ -1,0 +1,14 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_COUNTRY_PARTISANS_MAP"
+		textureFile = "gfx/interface/partisans_gui/ussr.dds"
+	}
+	spriteType = {
+		name = "GFX_weapons_rifl_icon"
+		textureFile = "gfx/interface/partisans_gui/icon_weapons.dds"
+	}
+	spriteType = {
+		name = "GFX_cp_icon"
+		textureFile = "gfx/interface/partisans_gui/control_points.dds"
+	}
+} 
