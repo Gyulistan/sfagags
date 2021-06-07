@@ -1,0 +1,96 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			RSR = {
+				set_country_flag = RSR_policy1_low
+				set_country_flag = RSR_policy2_med
+				set_country_flag = RSR_policy3_low
+				set_country_flag = RSR_policy4_hig
+				add_ideas = {
+					PARTISANS_PP_LOW_IDEA
+					PARTISANS_CIVF_LOW_IDEA
+				}
+				set_variable = { points1 = 1 }
+				set_variable = { points2 = 1 }
+				set_variable = { points3 = 1 }
+				set_variable = { points4 = 3 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+		}
+	}
+	on_daily_RSR = {
+		effect = {
+			RSR = {
+				####
+				if = {
+					limit = {
+						has_country_flag = RSR_policy2_low
+					}
+					## Nothing
+				}
+				if = {
+					limit = {
+						has_country_flag = RSR_policy2_med
+					}
+					add_manpower = -25
+				}
+				if = {
+					limit = {
+						has_country_flag = RSR_policy2_hig
+					}
+					add_manpower = -50
+				}
+				####
+				if = {
+					limit = {
+						has_country_flag = RSR_policy4_low
+					}
+					remove_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 44
+					}
+				}
+				if = {
+					limit = {
+						has_country_flag = RSR_policy4_med
+					}
+					remove_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -64
+					}
+				}
+				if = {
+					limit = {
+						has_country_flag = RSR_policy4_hig
+					}
+					remove_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -96
+					}
+				}
+				####
+				add_to_variable = {
+					var = control_points_at_all
+					value = control_points_count
+				}
+				log = "[?control_points_at_all]"
+			}
+		}
+	}
+}
