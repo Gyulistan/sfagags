@@ -1,0 +1,301 @@
+### Buttons Low
+defined_text = {
+	name = LOW_POLICY_1
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy1_low
+		}
+		localization_key = LOW_S
+	} 
+	text = {
+		trigger = { 
+		}
+		localization_key = LOW
+	}
+}
+defined_text = {
+	name = LOW_POLICY_2
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy2_low
+		}
+		localization_key = LOW2_S
+	}
+	text = {
+		trigger = { 
+		}
+		localization_key = LOW2
+	}
+}
+defined_text = {
+	name = LOW_POLICY_3
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy3_low
+		}
+		localization_key = LOW3_S
+	}
+	text = {
+		trigger = { 
+		}
+		localization_key = LOW3
+	}
+}
+defined_text = {
+	name = LOW_POLICY_4
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy4_low
+		}
+		localization_key = LOW4_S
+	}
+	text = {
+		trigger = { 
+		}
+		localization_key = LOW4
+	}
+}
+
+### Buttons Medium
+defined_text = {
+	name = MED_POLICY_1
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy1_med
+		}
+		localization_key = MED_S
+	} 
+	text = {
+		trigger = { 
+		}
+		localization_key = MED
+	}
+}
+defined_text = {
+	name = MED_POLICY_2
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy2_med
+		}
+		localization_key = MED2_S
+	}
+	text = {
+		trigger = { 
+		}
+		localization_key = MED2
+	}
+}
+defined_text = {
+	name = MED_POLICY_3
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy3_med
+		}
+		localization_key = MED3_S
+	}
+	text = {
+		trigger = { 
+		}
+		localization_key = MED3
+	}
+}
+defined_text = {
+	name = MED_POLICY_4
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy4_med
+		}
+		localization_key = MED4_S
+	}
+	text = {
+		trigger = { 
+		}
+		localization_key = MED4
+	}
+}
+
+### Buttons High
+defined_text = {
+	name = HIG_POLICY_1
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy1_hig
+		}
+		localization_key = HIG_S
+	} 
+	text = {
+		trigger = { 
+		}
+		localization_key = HIG
+	}
+}
+defined_text = {
+	name = HIG_POLICY_2
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy2_hig
+		}
+		localization_key = HIG2_S
+	}
+	text = {
+		trigger = { 
+		}
+		localization_key = HIG2
+	}
+}
+defined_text = {
+	name = HIG_POLICY_3
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy3_hig
+		}
+		localization_key = HIG3_S
+	}
+	text = {
+		trigger = { 
+		}
+		localization_key = HIG3
+	}
+}
+defined_text = {
+	name = HIG_POLICY_4
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy4_hig
+		}
+		localization_key = HIG4_S
+	}
+	text = {
+		trigger = { 
+		}
+		localization_key = HIG4
+	}
+}
+
+#### POLICY 1 PP Debuff
+defined_text = {
+	name = POLICY_1_PP_LOW
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy1_low
+		}
+		localization_key = "RED_LOW_PP"
+	} 
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy1_med
+		}
+		localization_key = "RED_MED_PP" 
+	} 
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy1_hig
+		}
+		localization_key = "RED_HIG_PP"
+	} 
+	text = {
+		trigger = { 
+		}
+		localization_key = RED_LOW_PP
+	}
+}
+
+#### POLICY 2 Army Debuff
+defined_text = {
+	name = POLICY_2_ARMY_LOW
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy2_low
+		}
+		localization_key = "0"
+	} 
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy2_med
+		}
+		localization_key = "RED_MED_ARMY" 
+	} 
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy2_hig
+		}
+		localization_key = "RED_HIG_ARMY"
+	} 
+	text = {
+		trigger = { 
+		}
+		localization_key = "0"
+	}
+}
+
+#### POLICY 3 Civ Factories Debuff
+defined_text = {
+	name = POLICY_3_CIV_LOW
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy3_low
+		}
+		localization_key = "RED_LOW_CIV"
+	} 
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy3_med
+		}
+		localization_key = "RED_MED_CIV" 
+	} 
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy3_hig
+		}
+		localization_key = "RED_HIG_CIV"
+	} 
+	text = {
+		trigger = { 
+		}
+		localization_key = "RED_LOW_CIV"
+	}
+}
+
+#### POLICY 4 Weapons Debuff
+defined_text = {
+	name = POLICY_4_WEA_LOW
+
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy4_low
+		}
+		localization_key = "RED_LOW_WEA"
+	} 
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy4_med
+		}
+		localization_key = "RED_MED_WEA" 
+	} 
+	text = {
+		trigger = { 
+			has_country_flag = RSR_policy4_hig
+		}
+		localization_key = "RED_HIG_WEA"
+	} 
+	text = {
+		trigger = { 
+		}
+		localization_key = "RED_LOW_WEA"
+	}
+}

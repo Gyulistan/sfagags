@@ -1,0 +1,458 @@
+scripted_gui = {
+	Pax_Partisans_Window = {
+		context_type = player_context
+		window_name = "Partisans_Window"
+		
+		visible = {
+			has_country_flag = partisans_wind_opened
+		}
+	
+		effects = {
+			Parisans_Window_Close_click = {
+				if = {
+					limit = {
+						has_country_flag = partisans_wind_opened
+					}
+					clr_country_flag  = partisans_wind_opened
+				}
+			}
+			Policy1_Low_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy1_low
+					}
+					remove_ideas = {
+						PARTISANS_PP_HIG_IDEA
+						PARTISANS_PP_MED_IDEA
+					}
+				}
+				else = {
+					set_country_flag = RSR_policy1_low
+					clr_country_flag = RSR_policy1_med
+					clr_country_flag = RSR_policy1_hig
+					remove_ideas = {
+						PARTISANS_PP_LOW_IDEA
+						PARTISANS_PP_HIG_IDEA
+						PARTISANS_PP_MED_IDEA
+					}
+					add_ideas = {
+						PARTISANS_PP_LOW_IDEA
+					}
+					log = "Policy1_Low_click"
+				}
+				set_variable = { points1 = 1 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			Policy2_Low_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy2_low
+					}
+				}
+				else = {
+					set_country_flag = RSR_policy2_low
+					clr_country_flag = RSR_policy2_med
+					clr_country_flag = RSR_policy2_hig
+				}
+				set_variable = { points2 = 0 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			Policy3_Low_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy3_low
+					}
+					remove_ideas = {
+						PARTISANS_CIVF_HIG_IDEA
+						PARTISANS_CIVF_MED_IDEA
+					}
+				}
+				else = {
+					set_country_flag = RSR_policy3_low
+					clr_country_flag = RSR_policy3_med
+					clr_country_flag = RSR_policy3_hig
+					remove_ideas = {
+						PARTISANS_CIVF_LOW_IDEA
+						PARTISANS_CIVF_HIG_IDEA
+						PARTISANS_CIVF_MED_IDEA
+					}
+					add_ideas = {
+						PARTISANS_CIVF_LOW_IDEA
+					}
+				}
+				set_variable = { points3 = 1 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			Policy4_Low_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy4_low
+					}
+				}
+				else = {
+					set_country_flag = RSR_policy4_low
+					clr_country_flag = RSR_policy4_med
+					clr_country_flag = RSR_policy4_hig
+				}
+				set_variable = { points4 = 1 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			Policy1_Med_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy1_med
+					}
+					remove_ideas = {
+						PARTISANS_PP_LOW_IDEA
+						PARTISANS_PP_HIG_IDEA
+					}
+				}
+				else = {
+					clr_country_flag = RSR_policy1_low
+					set_country_flag = RSR_policy1_med
+					clr_country_flag = RSR_policy1_hig
+					remove_ideas = {
+						PARTISANS_PP_LOW_IDEA
+						PARTISANS_PP_HIG_IDEA
+						PARTISANS_PP_MED_IDEA
+					}
+					add_ideas = {
+						PARTISANS_PP_MED_IDEA
+					}
+					log = "Policy1_MED_click"
+				}
+				set_variable = { points1 = 2 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			Policy2_Med_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy2_med
+					}
+				}
+				else = {
+					clr_country_flag = RSR_policy2_low
+					set_country_flag = RSR_policy2_med
+					clr_country_flag = RSR_policy2_hig
+				}
+				set_variable = { points2 = 1 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			Policy3_Med_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy3_med
+					}
+					remove_ideas = {
+						PARTISANS_CIVF_LOW_IDEA
+						PARTISANS_CIVF_HIG_IDEA
+					}
+				}
+				else = {
+					clr_country_flag = RSR_policy3_low
+					set_country_flag = RSR_policy3_med
+					clr_country_flag = RSR_policy3_hig
+					remove_ideas = {
+						PARTISANS_CIVF_LOW_IDEA
+						PARTISANS_CIVF_HIG_IDEA
+						PARTISANS_CIVF_MED_IDEA
+					}
+					add_ideas = {
+						PARTISANS_CIVF_MED_IDEA
+					}
+				}
+				set_variable = { points3 = 2 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			Policy4_Med_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy4_med
+					}
+				}
+				else = {
+					clr_country_flag = RSR_policy4_low
+					set_country_flag = RSR_policy4_med
+					clr_country_flag = RSR_policy4_hig
+				}
+				set_variable = { points4 = 2 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			
+			##High
+			Policy1_Hig_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy1_hig
+					}
+					remove_ideas = {
+						PARTISANS_PP_LOW_IDEA
+						PARTISANS_PP_MED_IDEA
+					}
+				}
+				else = {
+					clr_country_flag = RSR_policy1_low
+					clr_country_flag = RSR_policy1_med
+					set_country_flag = RSR_policy1_hig
+					remove_ideas = {
+						PARTISANS_PP_LOW_IDEA
+						PARTISANS_PP_HIG_IDEA
+						PARTISANS_PP_MED_IDEA
+					}
+					add_ideas = {
+						PARTISANS_PP_HIG_IDEA
+					}
+					log = "Policy1_HIG_click"
+				}
+				set_variable = { points1 = 3 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			Policy2_Hig_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy2_hig
+					}
+				}
+				else = {
+					clr_country_flag = RSR_policy2_low
+					clr_country_flag = RSR_policy2_med
+					set_country_flag = RSR_policy2_hig
+				}
+				set_variable = { points2 = 2 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			Policy3_Hig_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy3_hig
+					}
+					remove_ideas = {
+						PARTISANS_CIVF_LOW_IDEA
+						PARTISANS_CIVF_MED_IDEA
+					}
+				}
+				else = {
+					clr_country_flag = RSR_policy3_low
+					clr_country_flag = RSR_policy3_med
+					set_country_flag = RSR_policy3_hig
+					remove_ideas = {
+						PARTISANS_CIVF_LOW_IDEA
+						PARTISANS_CIVF_HIG_IDEA
+						PARTISANS_CIVF_MED_IDEA
+					}
+					add_ideas = {
+						PARTISANS_CIVF_HIG_IDEA
+					}
+				}
+				set_variable = { points3 = 3 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+			Policy4_Hig_click = {
+				if = {
+					limit = {
+						has_country_flag = RSR_policy4_hig
+					}
+				}
+				else = {
+					clr_country_flag = RSR_policy4_low
+					clr_country_flag = RSR_policy4_med
+					set_country_flag = RSR_policy4_hig
+				}
+				set_variable = { points4 = 3 }
+				set_variable = { control_points_count = 0 }
+				add_to_variable = {
+					var = control_points_count
+					value = points1
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points2
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points3
+				}
+				add_to_variable = {
+					var = control_points_count
+					value = points4
+				}
+			}
+		}
+	}
+}
