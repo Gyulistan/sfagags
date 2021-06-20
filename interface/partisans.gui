@@ -41,7 +41,7 @@ guiTypes = {
             position = { x = 774 y = 590 }  
             quadTextureSprite ="GFX_button_123x34"
 			buttonText = "CLOSE"
-			buttonFont = "ubu_32"
+			buttonFont = "hoi_header24"
             clicksound = click_scroll
         }
 		containerWindowType = {

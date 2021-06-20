@@ -833,3 +833,7 @@ OPA = {
 	color = rgb { 139 95 39 }
 	color_ui = rgb { 113 77 32 }	 
 }
+ZOP = {
+	color = rgb { 190 175 107 }
+	color_ui = rgb { 190 175 107 }	 
+}

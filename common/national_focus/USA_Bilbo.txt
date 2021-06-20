@@ -1,0 +1,274 @@
+focus_tree = {
+	id = USA_Bilbo
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+	
+	continuous_focus_position = { x = 1 y = 1 }
+	
+
+	focus = {
+		id = usa_bil_bilbo_wins
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 15
+		y = 0
+
+	}
+	
+	focus = {
+		id = usa_bil_saving_cabinet
+		icon = GFX_focus_usa_bil_saving_cabinet
+		cost = 10
+		x = 14
+		y = 1
+		prerequisite = {
+			focus = usa_bil_bilbo_wins
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_prepare_act_of_security
+		icon = GFX_focus_usa_bil_prepare_act_of_security
+		cost = 10
+		x = 16
+		y = 1
+		prerequisite = {
+			focus = usa_bil_bilbo_wins
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_attacks_on_pacifists
+		icon = GFX_focus_usa_bil_saving_cabinet
+		cost = 10
+		x = 17
+		y = 2
+		prerequisite = {
+			focus = usa_bil_prepare_act_of_security
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_work_brothers
+		icon = GFX_focus_usa_bil_saving_cabinet
+		cost = 10
+		x = 15
+		y = 2
+		prerequisite = {
+			focus = usa_bil_saving_cabinet
+		}
+		prerequisite = {
+			focus = usa_bil_prepare_act_of_security
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_charles_you_with_us
+		icon = GFX_focus_usa_bil_charles_you_with_us
+		cost = 10
+		x = 13
+		y = 2
+		prerequisite = {
+			focus = usa_bil_saving_cabinet
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_cut_relations
+		icon = GFX_focus_usa_bil_saving_cabinet
+		cost = 10
+		x = 15
+		y = 3
+		prerequisite = {
+			focus = usa_bil_attacks_on_pacifists
+		}
+		prerequisite = {
+			focus = usa_bil_work_brothers
+		}
+		prerequisite = {
+			focus = usa_bil_charles_you_with_us
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_blocade_mexico
+		icon = GFX_focus_usa_bil_blocade_mexico
+		cost = 10
+		x = 15
+		y = 4
+		prerequisite = {
+			focus = usa_bil_cut_relations
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_pressing_guatemala
+		icon = GFX_focus_usa_bil_saving_cabinet
+		cost = 10
+		x = 13
+		y = 5
+		prerequisite = {
+			focus = usa_bil_blocade_mexico
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_rise_second_division
+		icon = GFX_focus_usa_bil_rise_second_division
+		cost = 10
+		x = 13
+		y = 6
+		prerequisite = {
+			focus = usa_bil_pressing_guatemala
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_ufc_mercenaries
+		icon = GFX_focus_usa_bil_ufc_mercenaries
+		cost = 10
+		x = 11
+		y = 6
+		prerequisite = {
+			focus = usa_bil_pressing_guatemala
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_secret_airbase
+		icon = GFX_focus_usa_bil_saving_cabinet
+		cost = 10
+		x = 12
+		y = 7
+		prerequisite = {
+			focus = usa_bil_rise_second_division
+		}
+		prerequisite = {
+			focus = usa_bil_ufc_mercenaries
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_non_recognize_elections
+		icon = GFX_focus_usa_bil_saving_cabinet
+		cost = 10
+		x = 15
+		y = 5
+		prerequisite = {
+			focus = usa_bil_blocade_mexico
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_united_opposition_front
+		icon = GFX_focus_usa_bil_united_opposition_front
+		cost = 10
+		x = 15
+		y = 6
+		prerequisite = {
+			focus = usa_bil_non_recognize_elections
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_operation_mexican_bay
+		icon = GFX_focus_usa_bil_saving_cabinet
+		cost = 10
+		x = 15
+		y = 7
+		prerequisite = {
+			focus = usa_bil_united_opposition_front
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_southern_trainings
+		icon = GFX_focus_usa_bil_saving_cabinet
+		cost = 10
+		x = 17
+		y = 5
+		prerequisite = {
+			focus = usa_bil_blocade_mexico
+		}
+
+	}
+
+	
+	focus = {
+		id = usa_bil_occupation_veracrus
+		icon = GFX_focus_usa_bil_saving_cabinet
+		cost = 10
+		x = 17
+		y = 6
+		prerequisite = {
+			focus = usa_bil_southern_trainings
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_attack_juarez
+		icon = GFX_focus_usa_bil_attack_juarez
+		cost = 10
+		x = 19
+		y = 6
+		prerequisite = {
+			focus = usa_bil_southern_trainings
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_bombing_them
+		icon = GFX_focus_usa_bil_bombing_them
+		cost = 10
+		x = 18
+		y = 7
+		prerequisite = {
+			focus = usa_bil_occupation_veracrus
+		}
+		prerequisite = {
+			focus = usa_bil_attack_juarez
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_ultimatum_soviets
+		icon = GFX_focus_usa_bil_ultimatum_soviets
+		cost = 10
+		x = 15
+		y = 8
+		prerequisite = {
+			focus = usa_bil_secret_airbase
+		}
+		prerequisite = {
+			focus = usa_bil_operation_mexican_bay
+		}
+		prerequisite = {
+			focus = usa_bil_bombing_them
+		}
+
+	}
+	
+	

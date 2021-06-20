@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = TUR
+		owner = ITA
 		victory_points = {
 			1005 1 
 		}
@@ -25,7 +25,7 @@ state={
 	}
 
 	provinces={
-		1005 1119 12013 12016
+		1005 1119 1122 4127
 	}
 	manpower=362689
 	buildings_max_level_factor=1.000

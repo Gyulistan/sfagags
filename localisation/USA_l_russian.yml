@@ -1,6 +1,6 @@
 ﻿ l_russian:
 POLITICS_CALVIN_COOLIGE_DESC:0 "§CДжон Калвин Кулидж§! стал президентом после внезапной смерти Уоррена Гардинга. В тот момент он находился в деревне у родителей и был приведен к присяге своим отцом, мировым судьей, §Yпри свете керосиновой лампы§!. Время его правления стало для США, пожалуй, §Yлучшими годами в истории - страна переживает бурный экономический и культурный рост§!. Тем не менее, во внешней политике Кулидж совсем неактивен - §CШтаты остаются в Антанте лишь формально§!, не принимая никакого участия в её деятельности последние 5 лет. \n\nСейчас США на пике своего развития, Кулидж сделал всё, что от него требовалось, и сейчас ему, видимо, §Yуже поднадоело быть президентом§!. В отличие от своего предшественника, он не склонен к жизни на широкую ногу, а потому большую часть своего времени он проводит положив ноги на стол и считая автомобили, проезжающие по Пенсильвания-Авеню. §YКогда же этот срок закончится...§!"
-    #FOCUS#
+    #FOCUS COOLIGE#
 usa_lazy_president:0 "Ленивый президент"
 usa_walk_on_white_house:0 "Прогулка по Белому Дому"
 usa_meet_with_farmers:0 "Встреча с фермерами"
@@ -11,7 +11,7 @@ usa_occupation_of_nicaragua:0 "Оккупация Никарагуа"
 usa_saint_laurence_seaway:0 "Путь Святого Лаврентия"
 usa_americans_created_bussiness:0 "Американцы созданы для бизнеса!"
 usa_a_little_action:0 "Немного действия"
-    #FOCUS#
+    #FOCUS TRUMAN#
 usa_tru_truman_wins:0 "Победа Трумэна!"
 usa_tru_congress_session:0 "Заседание Конгресса"
 usa_tru_national_politic:0 "Вопрос национальной политики"
@@ -115,7 +115,27 @@ usa_tru_independence_of_forces:0 "Самодостаточность"
 usa_tru_veterans:0 "Ветераны"
 usa_tru_europe_investors:0 "Европейские связи"
 usa_tru_proud_us_mercenary:0 "Я - гордый американский наемник!"
-
+    #FOCUS BILBO#
+usa_bil_bilbo_wins:0 "Победа Бильбо"
+usa_bil_saving_cabinet:0 "Кабинет спасения"
+usa_bil_prepare_act_of_security:0 "Подготовка Акта о нацбезопасности"
+usa_bil_attacks_on_pacifists:0 "Нападки на пацифистов"
+usa_bil_work_brothers:0 "Работайте, братья"
+usa_bil_charles_you_with_us:0 "Чарльз, вы с нами?"
+usa_bil_cut_relations:0 "Порвать отношения"
+usa_bil_blocade_mexico:0 "Блокада Мексики"
+usa_bil_pressing_guatemala:0 "Давление на Гватемалу"
+usa_bil_rise_second_division:0 "Поднять вторую дивизию"
+usa_bil_ufc_mercenaries:0 "Наемники ОФК"
+usa_bil_secret_airbase:0 "Тайная авиабаза"
+usa_bil_non_recognize_elections:0 "Непризнание выборов"
+usa_bil_united_opposition_front:0 "Объединенный фронт оппозиции"
+usa_bil_operation_mexican_bay:0 "Операция в Мексиканском заливе"
+usa_bil_southern_trainings:0 "Южные учения"
+usa_bil_occupation_veracrus:0 "Оккупация Веракруса"
+usa_bil_attack_juarez:0 "Обстрел Хуареса"
+usa_bil_bombing_them:0 "Бомбардировка"
+usa_bil_ultimatum_soviets:0 "Ультиматум коммунистам"   
 
     #EVENT#
 unitedstates.10.t:0 "Теодор Рузвельт возвращается"

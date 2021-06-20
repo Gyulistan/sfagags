@@ -406,7 +406,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_we_are_dead
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_we_are_dead
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_economic_depression
@@ -432,7 +432,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_truman_says_no
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_truman_says_no
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_we_are_dead
@@ -607,7 +607,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_white_arrow
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_white_arrow
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_proportional_taxes

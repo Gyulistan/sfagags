@@ -589,6 +589,24 @@ country_event = { # Meet in bar
 	}
 }
 
+country_event = { # Mission complete
+	id = sovietunion.104
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.104"}
+	title = sovietunion.104.t
+	desc = sovietunion.104.d
+	picture = GFX_event_duel
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.104.a
+		hidden_effect = {
+			country_event = {
+			}
+		}
+	}
+}
+
 country_event = { # Martial law
 	id = sovietunion.101
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.101"}

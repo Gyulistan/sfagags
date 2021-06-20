@@ -1477,4 +1477,69 @@ spriteTypes = {
 		name = "GFX_focus_usa_tru_truman_doctrine"
 		texturefile = "gfx/interface/goals/focus_usa_tru_truman_doctrine.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_truman_says_no"
+		texturefile = "gfx/interface/goals/focus_usa_tru_truman_says_no.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_we_are_dead"
+		texturefile = "gfx/interface/goals/focus_usa_tru_we_are_dead.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_ufc_mercenaries"
+		texturefile = "gfx/interface/goals/focus_usa_bil_ufc_mercenaries.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_rise_second_division"
+		texturefile = "gfx/interface/goals/focus_usa_bil_rise_second_division.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_blocade_mexico"
+		texturefile = "gfx/interface/goals/focus_usa_bil_blocade_mexico.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_united_opposition_front"
+		texturefile = "gfx/interface/goals/focus_usa_bil_united_opposition_front.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_attack_juarez"
+		texturefile = "gfx/interface/goals/focus_usa_bil_attack_juarez.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_bilbo_wins"
+		texturefile = "gfx/interface/goals/focus_usa_bil_bilbo_wins.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_ultimatum_soviets"
+		texturefile = "gfx/interface/goals/focus_usa_bil_ultimatum_soviets.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_bombing_them"
+		texturefile = "gfx/interface/goals/focus_usa_bil_bombing_them.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_prepare_act_of_security"
+		texturefile = "gfx/interface/goals/focus_usa_bil_prepare_act_of_security.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_charles_you_with_us"
+		texturefile = "gfx/interface/goals/focus_usa_bil_charles_you_with_us.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_white_arrow"
+		texturefile = "gfx/interface/goals/focus_usa_tru_white_arrow.dds"
+	}
 }
