@@ -1,0 +1,35 @@
+ideas = {
+	hidden_ideas = {
+		PARTISANS_PP_LOW_IDEA = {
+			modifier = {
+				political_power_cost = 0.3
+			}
+		}
+		PARTISANS_PP_MED_IDEA = {
+			modifier = {
+				political_power_cost = 0.4
+			}
+		}
+		PARTISANS_PP_HIG_IDEA = {
+			modifier = {
+				political_power_cost = 0.5
+			}
+		}
+		
+		PARTISANS_CIVF_LOW_IDEA = {
+			modifier = {
+				consumer_goods_factor = 0.03
+			}
+		}
+		PARTISANS_CIVF_MED_IDEA = {
+			modifier = {
+				consumer_goods_factor = 0.04
+			}
+		}
+		PARTISANS_CIVF_HIG_IDEA = {
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}
