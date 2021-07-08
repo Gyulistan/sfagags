@@ -93,3 +93,25 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 2
 }
+
+create_corps_commander = {
+	name = "William Charles Fuller"
+		picture = "Portrait_Wales_William_Charles_Fuller.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hubert William Lewis"
+		picture = "Portrait_Wales_Hubert_William_Lewis.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

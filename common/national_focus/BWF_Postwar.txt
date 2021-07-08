@@ -1,0 +1,240 @@
+focus_tree = {
+	id = BWF_Postwar
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = BWF
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+	
+	default = no
+	focus = {
+		id = bwf_pw_after_the_storm
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		x = 12
+		y = 0
+
+	}
+	
+	focus = {
+		id = bwf_pw_gallacher_resign
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_after_the_storm
+		}
+		x = 12
+		y = 1
+
+	}
+	
+	focus = {
+		id = bwf_pw_rebuilding_comittee
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_gallacher_resign
+		}
+		x = 8
+		y = 2
+
+	}
+	
+	focus = {
+		id = bwf_pw_demobilization
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_rebuilding_comittee
+		}
+		x = 5
+		y = 3
+
+	}
+	
+	focus = {
+		id = bwf_pw_rebuilding_factories
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_rebuilding_comittee
+		}
+		x = 7
+		y = 3
+
+	}
+	
+	focus = {
+		id = bwf_pw_social_construction
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_demobilization
+		}
+		prerequisite = {
+			focus = bwf_pw_rebuilding_factories
+		}
+		x = 6
+		y = 4
+
+	}
+	
+	focus = {
+		id = bwf_pw_full_harvest
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_rebuilding_comittee
+		}
+		x = 9
+		y = 3
+
+	}
+	
+	focus = {
+		id = bwf_pw_nationalization_land
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_full_harvest
+		}
+		prerequisite = {
+			focus = bwf_pw_rebuilding_factories
+		}
+		x = 8
+		y = 4
+
+	}
+	
+	focus = {
+		id = bwf_pw_militia_forces
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_rebuilding_comittee
+		}
+		x = 11
+		y = 3
+
+	}
+	
+	focus = {
+		id = bwf_pw_countryside_raids
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_militia_forces
+		}
+		prerequisite = {
+			focus = bwf_pw_rebuilding_factories
+		}
+		x = 10
+		y = 4
+
+	}
+	
+	focus = {
+		id = bwf_pw_comendant_of_london
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_social_construction
+		}
+		prerequisite = {
+			focus = bwf_pw_nationalization_land
+		}
+		x = 7
+		y = 5
+
+	}
+	
+	focus = {
+		id = bwf_pw_offer_a_film
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_countryside_raids
+		}
+		prerequisite = {
+			focus = bwf_pw_nationalization_land
+		}
+		x = 9
+		y = 5
+
+	}
+	
+	focus = {
+		id = bwf_pw_plan_of_london_reconstruction
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_comendant_of_london
+		}
+		prerequisite = {
+			focus = bwf_pw_offer_a_film
+		}
+		x = 8
+		y = 6
+
+	}
+	
+	focus = {
+		id = bwf_pw_new_political_system
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_gallacher_resign
+		}
+		x = 15
+		y = 3
+
+	}
+	
+	focus = {
+		id = bwf_pw_constitution_project
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_new_political_system
+		}
+		x = 15
+		y = 4
+
+	}
+	
+	focus = {
+		id = bwf_pw_shinwell_variant
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_constitution_project
+		}
+		mutually_exclusive = {
+			focus = bwf_pw_worker_constitution
+		}
+		x = 14
+		y = 5
+
+	}
+	
+	focus = {
+		id = bwf_pw_worker_constitution
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10
+		prerequisite = {
+			focus = bwf_pw_constitution_project
+		}
+		mutually_exclusive = {
+			focus = bwf_pw_shinwell_variant
+		}
+		x = 16
+		y = 5
+
+	}
+	
+
+}

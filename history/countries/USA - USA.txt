@@ -126,7 +126,7 @@ create_country_leader = {
 create_field_marshal = {
 	name = "John Joseph Pershing"
 	picture = "Portrait_USA_John_Pershing.dds"
-	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
+	traits = { logistics_wizard organizer offensive_doctrine trait_cautious }
 	skill = 5
 	attack_skill = 3
 	defense_skill = 3
@@ -144,5 +144,17 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Fox Conner"
+	picture = "Portrait_USA_Fox_Conner.dds"
+	traits = { infantry_officer trait_reckless }
+	skill = 4
+
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 

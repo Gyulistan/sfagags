@@ -146,6 +146,19 @@ leader_traits = {
 		random = no
 	}
 	
+	corrupted_premier = {
+		political_power_gain = 0.10
+		consumer_goods_factor = 0.07
+
+		random = no
+	}
+	
+	cards_lover = {
+		stability_factor = -0.05
+
+		random = no
+	}
+	
 	
 	# ECONOMY MINISTERS
 

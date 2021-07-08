@@ -59,7 +59,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_down_isolation_politic
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_down_isolation_politic
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_congress_session
@@ -71,7 +71,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_american_dream
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_american_dream
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_national_politic
@@ -95,7 +95,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_drow_reform_plan
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_reform_plan
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_down_isolation_politic
@@ -107,7 +107,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_arrest_traitors
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_arrest_traitors
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_drow_reform_plan
@@ -134,7 +134,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_spy_act
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_spy_act
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_eagle_wings
@@ -146,7 +146,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_international_intelligence
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_international_intelligence
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_spy_act
@@ -158,7 +158,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_migrant_spy
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_migrant_spy
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_spy_act
@@ -170,7 +170,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_american_quotes
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_american_quotes
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_international_intelligence
@@ -185,7 +185,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_act_subversive
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_act_subversive
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_eagle_wings
@@ -197,7 +197,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_new_education
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_new_education
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_act_subversive
@@ -209,7 +209,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_patriot_spirit
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_patriot_spirit
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_act_subversive
@@ -221,7 +221,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_god_help_us
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_god_help_us
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_new_education
@@ -236,7 +236,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_national_policy
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_national_policy
 		cost = 10
 		x = 15
 		y = 3
@@ -246,7 +246,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_variant_democrats
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_variant_democrats
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_national_policy
@@ -262,7 +262,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_reform_plan
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_reform_plan
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_variant_democrats
@@ -275,7 +275,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_afro_control
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_afro_control
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_reform_plan
@@ -288,7 +288,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_latinoamericans_society
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_latinoamericans_society
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_afro_control
@@ -301,7 +301,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_versus_kkk
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_versus_kkk
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_latinoamericans_society
@@ -314,7 +314,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_my_own_view
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_my_own_view
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_national_policy
@@ -330,7 +330,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_our_corruptive_system
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_our_corruptive_system
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_my_own_view
@@ -343,7 +343,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_old_kkk_friends
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_old_kkk_friends
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_our_corruptive_system
@@ -356,7 +356,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_white_black_work
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_white_black_work
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_old_kkk_friends
@@ -369,7 +369,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_latin_deportation
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_latin_deportation
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_white_black_work
@@ -382,7 +382,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_rise_of_nation
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_rise_of_nation
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_latin_deportation
@@ -419,7 +419,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_assess_damage
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_assess_damage
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_economic_depression
@@ -448,7 +448,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_stabilizing_finance_system
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_stabilizing_finance_system
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_truman_says_no
@@ -461,7 +461,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_throught_thunderstorm
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_throught_thunderstorm
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_truman_says_no
@@ -474,7 +474,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_wide_lobbyng
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_wide_lobbyng
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_throught_thunderstorm
@@ -490,7 +490,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_facilitate_lobbyng
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_facilitate_lobbyng
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_wide_lobbyng
@@ -503,7 +503,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_cut_back_weapon
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_cut_back_weapon
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_wide_lobbyng
@@ -529,7 +529,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_support_society_construction
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_support_society_construction
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_facilitate_lobbyng
@@ -542,7 +542,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_proportional_taxes
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_proportional_taxes
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_facilitate_lobbyng
@@ -555,7 +555,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_optimization_education
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_optimization_education
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_cut_back_weapon
@@ -568,7 +568,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_gold_standart
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_gold_standart
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_cut_back_social_welfare
@@ -581,7 +581,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_cut_benefits
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_cut_benefits
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_cut_back_social_welfare
@@ -594,7 +594,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_meet_with_magnats
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_meet_with_magnats
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_support_society_construction
@@ -620,7 +620,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_sell_bancrupt_land
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_sell_bancrupt_land
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_gold_standart
@@ -633,7 +633,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_give_magnats_money
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_give_magnats_money
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_cut_benefits
@@ -646,7 +646,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_anticommunism_institute
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_anticommunism_institute
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_meet_with_magnats
@@ -662,7 +662,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_close_children_house
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_close_children_house
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_sell_bancrupt_land
@@ -691,7 +691,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_view_on_world
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_view_on_world
 		cost = 10
 		x = 15
 		y = 11
@@ -714,7 +714,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_i_love_war
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_i_love_war
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_truman_doctrine
@@ -727,7 +727,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_african_wars
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_african_wars
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_i_love_war
@@ -740,7 +740,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_latin_murders
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_latin_murders
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_i_love_war
@@ -753,7 +753,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_market_of_weapon
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_market_of_weapon
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_african_wars
@@ -768,8 +768,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = usa_tru_meet_with_samurai
-		icon = GFX_focus_usa_lazy_president
+		id = usa_tru_west_problem
+		icon = GFX_focus_usa_tru_west_problem
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_view_on_world
@@ -781,50 +781,153 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = usa_tru_trade_contract
-		icon = GFX_focus_usa_lazy_president
+		id = usa_tru_major_ellis_data
+		icon = GFX_focus_usa_tru_major_ellis_data
 		cost = 10
 		prerequisite = {
-			focus = usa_tru_meet_with_samurai
+			focus = usa_tru_west_problem
+		}
+		x = 10
+		y = 13
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_mobilize_pacific_fleat
+		icon = GFX_focus_usa_tru_mobilize_pacific_fleat
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_west_problem
+		}
+		x = 12
+		y = 13
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_philippine_fortress
+		icon = GFX_focus_usa_tru_philippine_fortress
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_west_problem
+		}
+		x = 8
+		y = 13
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_pressing_cuomintang
+		icon = GFX_focus_usa_tru_pressing_cuomintang
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_philippine_fortress
+		}
+		prerequisite = {
+			focus = usa_tru_major_ellis_data
 		}
 		x = 9
-		y = 13
-		
-
-	}
-	
-	focus = {
-		id = usa_tru_sell_ships
-		icon = GFX_focus_usa_lazy_president
-		cost = 10
-		prerequisite = {
-			focus = usa_tru_meet_with_samurai
-		}
-		x = 11
-		y = 13
-		
-
-	}
-	
-	focus = {
-		id = usa_tru_recognize_the_hegemony
-		icon = GFX_focus_usa_lazy_president
-		cost = 10
-		prerequisite = {
-			focus = usa_tru_trade_contract
-		}
-		prerequisite = {
-			focus = usa_tru_sell_ships
-		}
-		x = 10
 		y = 14
 		
 
 	}
 	
 	focus = {
-		id = usa_tru_european_allies
-		icon = GFX_focus_usa_lazy_president
+		id = usa_tru_cooperation_with_netherlands
+		icon = GFX_focus_usa_tru_cooperation_with_netherlands
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_mobilize_pacific_fleat
+		}
+		prerequisite = {
+			focus = usa_tru_major_ellis_data
+		}
+		x = 11
+		y = 14
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_impossible_ultimatum
+		icon = GFX_focus_usa_tru_impossible_ultimatum
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_pressing_cuomintang
+		}
+		prerequisite = {
+			focus = usa_tru_cooperation_with_netherlands
+		}
+		x = 10
+		y = 15
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_provocation
+		icon = GFX_focus_usa_tru_provocation
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_impossible_ultimatum
+		}
+		mutually_exclusive = {
+			focus = usa_tru_cabal_pacts
+		}
+		x = 9
+		y = 16
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_we_will_crush_them
+		icon = GFX_focus_usa_tru_we_will_crush_them
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_provocation
+		}
+		x = 9
+		y = 17
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_cabal_pacts
+		icon = GFX_focus_usa_tru_cabal_pacts
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_impossible_ultimatum
+		}
+		mutually_exclusive = {
+			focus = usa_tru_provocation
+		}
+		x = 11
+		y = 16
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_mercilles_expluatation
+		icon = GFX_focus_usa_tru_mercilles_expluatation
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_cabal_pacts
+		}
+		x = 11
+		y = 17
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_rivalry
+		icon = GFX_focus_usa_tru_rivalry
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_view_on_world
@@ -836,50 +939,137 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = usa_tru_support_english
-		icon = GFX_focus_usa_lazy_president
+		id = usa_tru_research_french_militarism
+		icon = GFX_focus_usa_tru_research_french_militarism
 		cost = 10
 		prerequisite = {
-			focus = usa_tru_european_allies
+			focus = usa_tru_rivalry
 		}
-		x = 19
+		x = 18
 		y = 13
 		
 
 	}
 	
 	focus = {
-		id = usa_tru_trading_with_entente
-		icon = GFX_focus_usa_lazy_president
+		id = usa_tru_wide_german_help
+		icon = GFX_focus_usa_tru_wide_german_help
 		cost = 10
 		prerequisite = {
-			focus = usa_tru_european_allies
-		}
-		x = 21
-		y = 13
-		
-
-	}
-	
-	focus = {
-		id = usa_tru_white_rise
-		icon = GFX_focus_usa_lazy_president
-		cost = 10
-		prerequisite = {
-			focus = usa_tru_support_english
-		}
-		prerequisite = {
-			focus = usa_tru_trading_with_entente
+			focus = usa_tru_rivalry
 		}
 		x = 20
+		y = 13
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_silently_recognize_fascism
+		icon = GFX_focus_usa_tru_silently_recognize_fascism
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_rivalry
+		}
+		x = 22
+		y = 13
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_irish_maneuvres
+		icon = GFX_focus_usa_tru_irish_maneuvres
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_research_french_militarism
+		}
+		prerequisite = {
+			focus = usa_tru_wide_german_help
+		}
+		x = 19
 		y = 14
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_american_european_contingent
+		icon = GFX_focus_usa_tru_american_european_contingent
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_silently_recognize_fascism
+		}
+		prerequisite = {
+			focus = usa_tru_wide_german_help
+		}
+		x = 21
+		y = 14
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_reconquer_leadership
+		icon = GFX_focus_usa_tru_reconquer_leadership
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_american_european_contingent
+		}
+		prerequisite = {
+			focus = usa_tru_irish_maneuvres
+		}
+		x = 20
+		y = 15
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_exception_italy
+		icon = GFX_focus_usa_tru_exception_italy
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_reconquer_leadership
+		}
+		x = 21
+		y = 16
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_spain_candidate
+		icon = GFX_focus_usa_tru_spain_candidate
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_reconquer_leadership
+		}
+		x = 19
+		y = 16
+		
+
+	}
+	
+	focus = {
+		id = usa_tru_unite_command
+		icon = GFX_focus_usa_tru_unite_command
+		cost = 10
+		prerequisite = {
+			focus = usa_tru_spain_candidate
+		}
+		prerequisite = {
+			focus = usa_tru_exception_italy
+		}
+		x = 20
+		y = 17
 		
 
 	}
 	
 	focus = {
 		id = usa_tru_remember_of_fallen_hero
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_remember_of_fallen_hero
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_recognize_the_hegemony
@@ -898,7 +1088,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_manifest_destiny
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_manifest_destiny
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_remember_of_fallen_hero
@@ -911,10 +1101,17 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_main_question
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_main_question
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_manifest_destiny
+		}
+		prerequisite = {
+			focus = usa_tru_unite_command
+		}
+		prerequisite = {
+			focus = usa_tru_we_will_crush_them
+			focus = usa_tru_mercilles_expluatation
 		}
 		x = 15
 		y = 18
@@ -924,7 +1121,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_separatists_soviet
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_separatists_soviet
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_main_question
@@ -937,7 +1134,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_soviet_criticize
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_soviet_criticize
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_main_question
@@ -950,7 +1147,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_mobilize_navy
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_mobilize_navy
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_separatists_soviet
@@ -963,7 +1160,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_economic_blocade
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_economic_blocade
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_soviet_criticize
@@ -976,7 +1173,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_destroy_the_titan
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_destroy_the_titan
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_economic_blocade
@@ -992,7 +1189,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_use_all_opportunity
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 10
 		x = 37
 		y = 0
@@ -1002,7 +1199,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_experience_great_war
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_army_doctrines
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_use_all_opportunity
@@ -1015,7 +1212,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_young_officers
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_chi_army_reform
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_use_all_opportunity
@@ -1028,7 +1225,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_army_plan
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_war_with_comintern
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_experience_great_war
@@ -1044,7 +1241,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_continue_summerel
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_continue_summerel
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_army_plan
@@ -1060,7 +1257,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_wide_general_stuff
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_generic_military_mission
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_continue_summerel
@@ -1073,7 +1270,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_heavy_armor
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_generic_tank_production
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_wide_general_stuff
@@ -1086,7 +1283,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_support_cavalry
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_cavalry
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_heavy_armor
@@ -1099,7 +1296,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_good_planning
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_position_armies
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_continue_summerel
@@ -1112,7 +1309,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_carpet_bombing
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_escort_fighters
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_good_planning
@@ -1125,7 +1322,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_wide_conscription
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_generic_manpower
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_carpet_bombing
@@ -1138,7 +1335,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_centralized_military
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_support_cavalry
@@ -1154,7 +1351,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_revise_military_school
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_chi_army_reform
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_army_plan
@@ -1175,6 +1372,9 @@ focus_tree = {
 		prerequisite = {
 			focus = usa_tru_revise_military_school
 		}
+		mutually_exclusive = {
+			focus = usa_tru_trust_to_butler
+		}
 		x = 37
 		y = 4
 		
@@ -1183,7 +1383,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_we_need_big_guns
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_army_artillery2
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_macarthur_doctrine
@@ -1196,7 +1396,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_mountain_training
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_military_sphere
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_we_need_big_guns
@@ -1209,7 +1409,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_denver_artillery_school
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_rhineland
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_macarthur_doctrine
@@ -1222,7 +1422,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_support_from_sky
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_CAS
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_denver_artillery_school
@@ -1235,7 +1435,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_doctrine_total_support
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_occypy_start_war
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_support_from_sky
@@ -1251,10 +1451,13 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_trust_to_butler
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_tru_trust_to_butler
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_revise_military_school
+		}
+		mutually_exclusive = {
+			focus = usa_tru_macarthur_doctrine
 		}
 		x = 41
 		y = 4
@@ -1264,7 +1467,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_war_specialists
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_special_forces
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_trust_to_butler
@@ -1277,7 +1480,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_hard_training
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_more_territorial_claims
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_war_specialists
@@ -1290,7 +1493,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_army_and_navy
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_hard_training
@@ -1303,7 +1506,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_new_guard
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_trust_to_butler
@@ -1316,7 +1519,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_vdv
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_generic_paratrooper
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_trust_to_butler
@@ -1329,7 +1532,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_independence_of_forces
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_generic_military_academy
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_trust_to_butler
@@ -1342,7 +1545,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_veterans
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_allies_build_infantry
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_centralized_military
@@ -1364,7 +1567,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_europe_investors
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_goal_generic_attack_allies
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_veterans
@@ -1377,7 +1580,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_tru_proud_us_mercenary
-		icon = GFX_focus_usa_lazy_president
+		icon = GFX_focus_usa_recruit_the_free_corps
 		cost = 10
 		prerequisite = {
 			focus = usa_tru_europe_investors

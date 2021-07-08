@@ -1542,4 +1542,384 @@ spriteTypes = {
 		name = "GFX_focus_usa_tru_white_arrow"
 		texturefile = "gfx/interface/goals/focus_usa_tru_white_arrow.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_arrest_traitors"
+		texturefile = "gfx/interface/goals/focus_usa_tru_arrest_traitors.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_spy_act"
+		texturefile = "gfx/interface/goals/focus_usa_tru_spy_act.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_international_intelligence"
+		texturefile = "gfx/interface/goals/focus_usa_tru_international_intelligence.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_migrant_spy"
+		texturefile = "gfx/interface/goals/focus_usa_tru_migrant_spy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_american_quotes"
+		texturefile = "gfx/interface/goals/focus_usa_tru_american_quotes.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_act_subversive"
+		texturefile = "gfx/interface/goals/focus_usa_tru_act_subversive.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_new_education"
+		texturefile = "gfx/interface/goals/focus_usa_tru_new_education.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_patriot_spirit"
+		texturefile = "gfx/interface/goals/focus_usa_tru_patriot_spirit.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_god_help_us"
+		texturefile = "gfx/interface/goals/focus_usa_tru_god_help_us.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_major_ellis_data"
+		texturefile = "gfx/interface/goals/focus_usa_tru_major_ellis_data.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_reconquer_leadership"
+		texturefile = "gfx/interface/goals/focus_usa_tru_reconquer_leadership.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_american_dream"
+		texturefile = "gfx/interface/goals/focus_usa_tru_american_dream.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_variant_democrats"
+		texturefile = "gfx/interface/goals/focus_usa_tru_variant_democrats.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_my_own_view"
+		texturefile = "gfx/interface/goals/focus_usa_tru_my_own_view.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_national_policy"
+		texturefile = "gfx/interface/goals/focus_usa_tru_national_policy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_afro_control"
+		texturefile = "gfx/interface/goals/focus_usa_tru_afro_control.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_versus_kkk"
+		texturefile = "gfx/interface/goals/focus_usa_tru_versus_kkk.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_old_kkk_friends"
+		texturefile = "gfx/interface/goals/focus_usa_tru_old_kkk_friends.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_latin_deportation"
+		texturefile = "gfx/interface/goals/focus_usa_tru_latin_deportation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_white_black_work"
+		texturefile = "gfx/interface/goals/focus_usa_tru_white_black_work.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_our_corruptive_system"
+		texturefile = "gfx/interface/goals/focus_usa_tru_our_corruptive_system.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_reform_plan"
+		texturefile = "gfx/interface/goals/focus_usa_tru_reform_plan.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_latinoamericans_society"
+		texturefile = "gfx/interface/goals/focus_usa_tru_latinoamericans_society.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_assess_damage"
+		texturefile = "gfx/interface/goals/focus_usa_tru_assess_damage.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_facilitate_lobbyng"
+		texturefile = "gfx/interface/goals/focus_usa_tru_facilitate_lobbyng.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_support_society_construction"
+		texturefile = "gfx/interface/goals/focus_usa_tru_support_society_construction.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_proportional_taxes"
+		texturefile = "gfx/interface/goals/focus_usa_tru_proportional_taxes.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_meet_with_magnats"
+		texturefile = "gfx/interface/goals/focus_usa_tru_meet_with_magnats.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_anticommunism_institute"
+		texturefile = "gfx/interface/goals/focus_usa_tru_anticommunism_institute.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_rise_of_nation"
+		texturefile = "gfx/interface/goals/focus_usa_tru_rise_of_nation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_wide_lobbyng"
+		texturefile = "gfx/interface/goals/focus_usa_tru_wide_lobbyng.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_cut_back_weapon"
+		texturefile = "gfx/interface/goals/focus_usa_tru_cut_back_weapon.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_optimization_education"
+		texturefile = "gfx/interface/goals/focus_usa_tru_optimization_education.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_gold_standart"
+		texturefile = "gfx/interface/goals/focus_usa_tru_gold_standart.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_cut_benefits"
+		texturefile = "gfx/interface/goals/focus_usa_tru_cut_benefits.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_sell_bancrupt_land"
+		texturefile = "gfx/interface/goals/focus_usa_tru_sell_bancrupt_land.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_give_magnats_money"
+		texturefile = "gfx/interface/goals/focus_usa_tru_give_magnats_money.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_close_children_house"
+		texturefile = "gfx/interface/goals/focus_usa_tru_close_children_house.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_west_problem"
+		texturefile = "gfx/interface/goals/focus_usa_tru_west_problem.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_mobilize_pacific_fleat"
+		texturefile = "gfx/interface/goals/focus_usa_tru_mobilize_pacific_fleat.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_rivalry"
+		texturefile = "gfx/interface/goals/focus_usa_tru_rivalry.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_research_french_militarism"
+		texturefile = "gfx/interface/goals/focus_usa_tru_research_french_militarism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_wide_german_help"
+		texturefile = "gfx/interface/goals/focus_usa_tru_wide_german_help.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_silently_recognize_fascism"
+		texturefile = "gfx/interface/goals/focus_usa_tru_silently_recognize_fascism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_down_isolation_politic"
+		texturefile = "gfx/interface/goals/focus_usa_tru_down_isolation_politic.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_philippine_fortress"
+		texturefile = "gfx/interface/goals/focus_usa_tru_philippine_fortress.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_cooperation_with_netherlands"
+		texturefile = "gfx/interface/goals/focus_usa_tru_cooperation_with_netherlands.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_irish_maneuvres"
+		texturefile = "gfx/interface/goals/focus_usa_tru_irish_maneuvres.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_exception_italy"
+		texturefile = "gfx/interface/goals/focus_usa_tru_exception_italy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_spain_candidate"
+		texturefile = "gfx/interface/goals/focus_usa_tru_spain_candidate.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_market_of_weapon"
+		texturefile = "gfx/interface/goals/focus_usa_tru_market_of_weapon.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_latin_murders"
+		texturefile = "gfx/interface/goals/focus_usa_tru_latin_murders.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_pressing_cuomintang"
+		texturefile = "gfx/interface/goals/focus_usa_tru_pressing_cuomintang.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_american_european_contingent"
+		texturefile = "gfx/interface/goals/focus_usa_tru_american_european_contingent.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_remember_of_fallen_hero"
+		texturefile = "gfx/interface/goals/focus_usa_tru_remember_of_fallen_hero.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_african_wars"
+		texturefile = "gfx/interface/goals/focus_usa_tru_african_wars.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_i_love_war"
+		texturefile = "gfx/interface/goals/focus_usa_tru_i_love_war.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_view_on_world"
+		texturefile = "gfx/interface/goals/focus_usa_tru_view_on_world.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_impossible_ultimatum"
+		texturefile = "gfx/interface/goals/focus_usa_tru_impossible_ultimatum.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_provocation"
+		texturefile = "gfx/interface/goals/focus_usa_tru_provocation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_we_will_crush_them"
+		texturefile = "gfx/interface/goals/focus_usa_tru_we_will_crush_them.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_cabal_pacts"
+		texturefile = "gfx/interface/goals/focus_usa_tru_cabal_pacts.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_mercilles_expluatation"
+		texturefile = "gfx/interface/goals/focus_usa_tru_mercilles_expluatation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_unite_command"
+		texturefile = "gfx/interface/goals/focus_usa_tru_unite_command.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_manifest_destiny"
+		texturefile = "gfx/interface/goals/focus_usa_tru_manifest_destiny.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_main_question"
+		texturefile = "gfx/interface/goals/focus_usa_tru_main_question.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_separatists_soviet"
+		texturefile = "gfx/interface/goals/focus_usa_tru_separatists_soviet.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_soviet_criticize"
+		texturefile = "gfx/interface/goals/focus_usa_tru_soviet_criticize.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_mobilize_navy"
+		texturefile = "gfx/interface/goals/focus_usa_tru_mobilize_navy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_economic_blocade"
+		texturefile = "gfx/interface/goals/focus_usa_tru_economic_blocade.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_destroy_the_titan"
+		texturefile = "gfx/interface/goals/focus_usa_tru_destroy_the_titan.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_stabilizing_finance_system"
+		texturefile = "gfx/interface/goals/focus_usa_tru_stabilizing_finance_system.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_throught_thunderstorm"
+		texturefile = "gfx/interface/goals/focus_usa_tru_throught_thunderstorm.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_continue_summerel"
+		texturefile = "gfx/interface/goals/focus_usa_tru_continue_summerel.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_macarthur_doctrine"
+		texturefile = "gfx/interface/goals/focus_usa_tru_macarthur_doctrine.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_tru_trust_to_butler"
+		texturefile = "gfx/interface/goals/focus_usa_tru_trust_to_butler.dds"
+	}
 }

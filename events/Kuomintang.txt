@@ -2,12 +2,19 @@ add_namespace = kuo
 
 country_event = { # 
 	id = kuo.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event kuo1"}
+	immediate = {log = "[GetDateText]: [Root.GetName]: event kuo.1"}
 	title = kuo.1.t
 	desc = kuo.1.d
 	picture = 
 
 	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CHI
+		date > 1926.11.06
+	}
 
 	option = {
 		name = kuo.1.a

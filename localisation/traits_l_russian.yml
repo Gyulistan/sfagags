@@ -32,6 +32,9 @@
  silent_workhorse:0 "Рабочая лошадка"
  smiling_oilman:0 "Весёлый нефтяник"
  
+ corrupted_premier:0 "Коррумпированный премьер"
+ cards_lover:0 "Любитель перекинуться в карты"
+ 
  administrative_genius:0 "Административный гений"
  balanced_budget_economy:0 "Сбалансированная экономика"
  bank_president:0 "Банкир"

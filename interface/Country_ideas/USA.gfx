@@ -7,6 +7,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_usa_tom_pendergast"
+		texturefile = "gfx/interface/Ideas/USA/usa_tom_pendergast.tga"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_usa_john_sargent"
 		texturefile = "gfx/interface/Ideas/USA/usa_john_sargent.tga"
 	}

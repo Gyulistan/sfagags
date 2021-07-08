@@ -41,8 +41,36 @@ ideas = {
 				}
 			
 			traits = {
-				conservatist
+				liberal
 				pragmatic_statesman
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+		usa_tom_pendergast = {
+		
+			picture = GFX_idea_usa_tom_pendergast
+			
+			available = {
+					OR = {
+						has_government = liberalism
+					}
+				}
+			
+			traits = {
+				liberal
+				corrupted_premier
+				cards_lover
 				head_of_government
 			}
 			
