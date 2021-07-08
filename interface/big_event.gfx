@@ -18,26 +18,27 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SPEVNT_Eden_Gate"
+		name = "GFX_SPEVNT_Eden_Gate_img"
 		texturefile = "gfx/super_events/SPEVNT_Eden_Gate.dds"
+	}
+	spriteType = {
+		name = "GFX_superev_img_bg" 
+		texturefile = "gfx/event_image_bg.dds"
 		legacy_lazy_load = no
 	}
-	
+	 
 	spriteType = {
-		name = "GFX_SPEVNT_anarcho_syndicalist"
-		texturefile = "gfx/super_events/SPEVNT_anarcho_syndicalist.dds"
-		legacy_lazy_load = no
+		name = "GFX_SPEVNT_anarcho_syndicalist_img"
+		texturefile = "gfx/super_events/SPEVNT_anarcho_syndicalist.dds"  
 	}
-	
+	 
 	spriteType = {
-		name = "GFX_SPEVNT_mafia_elections"
+		name = "GFX_SPEVNT_mafia_elections_img"
 		texturefile = "gfx/super_events/SPEVNT_mafia_elections.dds"
-		legacy_lazy_load = no
 	}
 	
 	spriteType = {
-		name = "GFX_SPEVNT_truman_elections"
+		name = "GFX_SPEVNT_truman_elections_img"
 		texturefile = "gfx/super_events/SPEVNT_truman_elections.dds"
-		legacy_lazy_load = no
 	}
 }

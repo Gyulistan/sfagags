@@ -8,25 +8,24 @@ guiTypes = {
 		Orientation = center
 		Origo = center
 		clipping = no	
-		moveable = yes
-
+		moveable = yes  
+ 
 		background = {
 			name = "Background"	
 			spriteType ="GFX_tiled_bg"
-		}
-
-		iconType = {
-			name ="Super_Event_Image_Eden_Gate"
-			spriteType = "GFX_SPEVNT_Eden_Gate"
+		}  
+	
+		background = { 
+			name ="Super_Event_Image_BG"
+			spriteType = "GFX_superev_img_bg" 
 			position = { x = 35 y = 0 }
 		}
-		
-		iconType = {
-			name ="Super_Event_Image_truman_elections"
-			spriteType = "GFX_SPEVNT_truman_elections"
-			position = { x = 35 y = 0 }
+	
+		iconType = {  
+			name ="Super_Event_Image_a"
+			position = { x = 61 y = 41 }
+			spriteType = "GFX_SPEVNT_Eden_Gate" 
 		}
-
 
 		instantTextBoxType = {
 			name = "Pax_Super_Event_Title_textbox"
