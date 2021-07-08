@@ -155,34 +155,39 @@ if = {
 		target = ARM
 		autonomous_state = autonomy_sov_union_resp
 	}
+	set_autonomy = {
+		target = FER
+		autonomous_state = autonomy_sov_union_resp
+	}
 	else	= {
-	puppet = EST
-	puppet = LAT
-	puppet = AZR
-	puppet = POL
-	puppet = UKR
-	puppet = MON
-	puppet = TAN
-	puppet = KRI
-	puppet = YAK
-	puppet = TNC
-	puppet = GAL
-	puppet = GIL
-	puppet = KFR
-	puppet = KRL
-	puppet = LBR
-	puppet = MOL
-	puppet = NCR
-	puppet = FIN
-	puppet = KAZ
-	puppet = TOR
-	puppet = FIR
-	puppet = KIR
-	puppet = USB
-	puppet = TAD
-	puppet = TYR
-	puppet = BYR
-	puppet = ARM
+		puppet = EST
+		puppet = LAT
+		puppet = AZR
+		puppet = POL
+		puppet = UKR
+		puppet = MON
+		puppet = TAN
+		puppet = KRI
+		puppet = YAK
+		puppet = TNC
+		puppet = GAL
+		puppet = GIL
+		puppet = KFR
+		puppet = KRL
+		puppet = LBR
+		puppet = MOL
+		puppet = NCR
+		puppet = FIN
+		puppet = KAZ
+		puppet = TOR
+		puppet = FIR
+		puppet = KIR
+		puppet = USB
+		puppet = TAD
+		puppet = TYR
+		puppet = BYR
+		puppet = ARM
+		pupprt = FER
 	}
 }
 	
@@ -235,6 +240,8 @@ add_to_faction = TAD
 add_to_faction = TYR
 add_to_faction = BYK
 add_to_faction = PRS
+add_to_faction = FER
+
 
 add_ideas = {
 	rsr_boris_kamkov

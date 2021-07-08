@@ -1620,7 +1620,6 @@ country_event = { # expedition
 		}
 			
 	}
-	
 country_event = { # expedition
 	id = sovietunion.2009
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.2009"}
@@ -1655,49 +1654,127 @@ country_event = { # china
 			
 	}
 
+country_event = { # начало гражданки
+	id = sovietunion.1488
+	immediate = {log = "Ya obosralsya!"}
+	title = sovietunion.1488.t
+	desc = sovietunion.1488.d
+	picture = GFX_event_second_civil_war
+	fire_only_once = yes
 
 
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.1488.a
+	}
+}
+country_event = { # Белогвардейская диктатура - Деникин
+	id = sovietunion.1489
+	immediate = {log = "Ya obosralsya!"}
+	title = sovietunion.1489.t
+	desc = sovietunion.1489.d
+	picture = GFX_event_denikin_won_cw
+	fire_only_once = yes
 
 
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.1489.a
+	}
+}
+
+country_event = { # Сахаров
+	id = sovietunion.1450
+	immediate = {log = "Ya obosralsya!"}
+	title = sovietunion.1450.t
+	desc = sovietunion.1450.d
+	picture = GFX_event_sakharov_won_cw
+	fire_only_once = yes
 
 
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.1450.a
+	}
+}
 
 
+country_event = { # Антонов
+	id = sovietunion.1451
+	immediate = {log = "Ya obosralsya!"}
+	title = sovietunion.1451.t
+	desc = sovietunion.1451.d
+	picture = GFX_event_sakharov_won_cw
+	fire_only_once = yes
 
 
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.1451.a
+	}
+}
+
+country_event = { # Келлер
+	id = sovietunion.1452
+	immediate = {log = "Ya obosralsya!"}
+	title = sovietunion.1452.t
+	desc = sovietunion.1452.d
+	picture = GFX_event_denikin_won_cw
+	fire_only_once = yes
 
 
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.1452.a
+	}
+}
+country_event = {
+	id = sovietunion.1453
+	immediate = {log = "Ya obosralsya!"}
+	title = sovietunion.1453.t
+	desc = sovietunion.1453.d
+	picture = GFX_event_esseres_won_cw
+	fire_only_once = yes
 
 
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.1453.a
+	}
+}
+country_event = { # а
+	id = sovietunion.1454
+	immediate = {log = "Ya obosralsya!"}
+	title = sovietunion.1454.t
+	desc = sovietunion.1454.d
+	picture = GFX_event_reds_won_cw
+	fire_only_once = yes
 
 
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.1454.a
+	}
+}
+country_event = { # капееец
+	id = sovietunion.1455
+	immediate = {log = "Ya obosralsya!"}
+	title = sovietunion.1455.t
+	desc = sovietunion.1455.d
+	picture = GFX_event_etern_separatism_cw
+	fire_only_once = yes
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.1455.a
+	}
+}

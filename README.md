@@ -6,7 +6,6 @@
 В дескрипторы надо прописать это:
 ```
 replace_path="common/abilities"
-replace_path="common/ai_areas"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_peace"
@@ -42,6 +41,7 @@ replace_path="gfx/flags"
 
 ## TO-DO List:
 * ~~**Починить** эту сраную **карту**~~
-* Сделать дневник по Труману
+* ~~Сделать дневник по Труману~~
 * ~~Сделать дневник по Сов. Германии~~(заморожен) 
 * ~~Включить комплюктер~~
+* Сделать из Франции не залупу, а конфетку
