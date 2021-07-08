@@ -4,19 +4,17 @@ music = {
 	chance = {
 		modifier = {
 			factor = 0.5
-		}		
+		}
 	}
 }
-
-# PEACE SONGS ##################
 music = {
-	song = "general_peace_1"
+	song = "Tachanka"
 	
 	chance = {
 		modifier = {
 			factor = 1
 
-			has_war = no
+			tag = RSR
 		}		
 	}	
 }

@@ -8,8 +8,8 @@ music = {
 
 # General Peace:
 music = {
-	name = "general_peace_1"
-	file = "general_peace_heartsofmen.ogg"
+	name = "Tachanka"
+	file = "Tachanka.ogg"
 	volume = 0.65
 }
 music = {
