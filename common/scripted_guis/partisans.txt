@@ -455,4 +455,25 @@ scripted_gui = {
 			}
 		}
 	}
+    Suka_Open_Button_Partisans = {
+        window_name = "Partisans_Button_Window"
+        context_type = player_context
+		parent_window_token = topbar
+         
+        visible = {
+            tag = RSR 
+        }
+		
+        effects = {
+            open_window_partisans_click = {
+                
+            }
+        }
+        
+        properties = {
+            open_window_partisans = {
+                frame = 1
+            }
+        }
+    }
 }
