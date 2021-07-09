@@ -1,0 +1,13 @@
+rsr_partisans_category = {
+	icon = GFX_decision_category_thompson
+	
+	priority = 10
+
+	allowed = {
+			tag = RSR
+		}
+	visible = {
+		tag = RSR
+	}
+	visible_when_empty = no
+}
