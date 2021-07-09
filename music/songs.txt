@@ -7,17 +7,6 @@ music = {
 		}
 	}
 }
-music = {
-	song = "Tachanka"
-	
-	chance = {
-		modifier = {
-			factor = 1
-
-			tag = RSR
-		}		
-	}	
-}
 
 music = {
 	song = "general_peace_2"
@@ -26,7 +15,7 @@ music = {
 		modifier = {
 			factor = 1
 
-			has_war = no
+			tag = RSR
 		}		
 	}	
 }
