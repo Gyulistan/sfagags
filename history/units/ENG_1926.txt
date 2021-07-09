@@ -73,7 +73,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 9458
+		location = 6335
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
@@ -82,7 +82,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 50
 		}
-		location = 9458
+		location = 6318
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
@@ -91,7 +91,31 @@ units = {
 	#Western Command	
 	division= {	
 		name = "6th Cavalry Brigade"
-		location = 6489
+		location = 3463
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+
+	}
+	division= {	
+		name = "8th Cavalry Brigade"
+		location = 3241
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+
+	}
+	division= {	
+		name = "11th Cavalry Brigade"
+		location = 6301
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+
+	}
+	division= {	
+		name = "14th Cavalry Brigade"
+		location = 3301
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.1
@@ -174,7 +198,19 @@ units = {
 			is_name_ordered = yes
 			name_order = 48
 		}
-		location = 9458
+		location = 507
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1
+
+	}
+
+	division= {	# "43th 'South Midland' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 77
+		}
+		location = 13070
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.1
@@ -186,7 +222,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 48
 		}
-		location = 6489
+		location = 6378
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.1
