@@ -1,0 +1,13 @@
+ideas = {
+   treaty_of_sevres = {
+   picture = GFX_idea_unfinished_campaign_of_the_proletariat
+   
+   modifier = {
+   army_attack_factor = -1.5
+   army_defence_factor = -1.0
+   training_time_army_factor = 2.0
+   industrial_capacity_factory = -0.1
+   }
+   }
+   }
+   

@@ -43,9 +43,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Maurice Viollette"
-	desc = "POLITICS_MAURICE_VIOLLETTE_DESC"
-	picture = "Portrait_French_NA_Maurice_Viollette.dds"
+	name = "Edgar Puaud"
+	desc = "POLITICS_EDGAR_PUAUD_DESC"
+	picture = "Portrait_French_SP_Edgar_Puaud.dds"
 	expire = "1965.1.1"
 	ideology = autoritarian_democracy_subtype
 	traits = {
