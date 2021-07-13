@@ -1,5 +1,34 @@
 ideas = {
+	country = {
 
+		bwf_second_attack_on_briestol = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea bwf_second_attack_on_briestol"}
+
+            targeted_modifier = {
+                tag = ENG
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.1
+            }
+
+			picture = bwf_second_attack_on_briestol
+		}
+		bwf_russian_delegation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea bwf_russian_delegation"}
+
+            modifier = {
+                max_command_power = 20
+				military_leader_cost_factor = -0.5 
+				offence = 0.15
+            }
+		}
+		bwf_fast_fortification = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea bwf_fast_fortification"}
+
+            modifier = {
+                production_speed_bunker_factor = 0.35
+            }
+		}
+	}
 	head_of_government = {
 
 		sng_robert_page_arnot = {
