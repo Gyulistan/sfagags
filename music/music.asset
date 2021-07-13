@@ -14,8 +14,8 @@ music = {
 }
 music = {
 	name = "general_peace_3"
-	file = "asongforthechildrenofww2.ogg"
-	volume = 0.65
+	file = "whirlwinds_of_danger.ogg"
+	volume = 0.85
 }
 
 # General war:

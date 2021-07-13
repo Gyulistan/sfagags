@@ -27,7 +27,11 @@ music = {
 		modifier = {
 			factor = 1
 
-			has_war = no
+			OR = {
+				has_government = radical_bolshevism
+				has_government = orthodox_socialism
+				has_government = accelerationism
+			}
 		}		
 	}
 }
