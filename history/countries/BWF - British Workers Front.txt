@@ -102,6 +102,7 @@ create_country_leader = {
 	name = "Willie Gallacher"
 	desc = "POLITICS_WILLIE_GALLACHER_DESC"
 	picture = "Portrait_SovBritain_Willie_Gallacher.dds"
+	
 	expire = "1953.3.1"
 	ideology = radical_bolshevism_subtype
 	traits = {
@@ -114,7 +115,7 @@ create_corps_commander = {
 		picture = "Portrait_SovBritain_Sam_Wild.dds"
 	traits = { trait_reckless }
 	skill = 2
-
+	
 
 	
 	attack_skill = 2
@@ -128,7 +129,7 @@ create_corps_commander = {
 		picture = "Portrait_SovBritain_Thom_Witringham.dds"
 	traits = { career_officer }
 	skill = 3
-
+	id = 228
 
 	
 	attack_skill = 3
