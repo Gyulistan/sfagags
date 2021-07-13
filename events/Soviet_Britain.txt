@@ -1,30 +1,218 @@
 add_namespace = sovietbritain
 
 country_event = {
-	id = sovietbritain.1 # English Revolution
+	id = sovietbritain.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.1"}
 	title = sovietbritain.1.t
 	desc = sovietbritain.1.d
-	picture = GFX_event_british_revolution
 
-	is_triggered_only = no
-	
-	trigger = {
-		tag = BWF
-		is_puppet = no
-		AND = {
-			date > 1926.7.3
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	fire_only_once = yes
 			
 	option = {
 		name = sovietbritain.1.a
-		add_political_power = 25
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -1500
+		}
+		BWF = {
+			country_event = {
+				id = sovietbritain.2
+				days = 3
+			}
 		}	
 	}
+	option = {
+		name = sovietbritain.1.b
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -1000
+		}
+		BWF = {
+			country_event = {
+				id = sovietbritain.3
+				days = 3
+			}
+		}	
+	}
+	option = {
+		name = sovietbritain.1.c
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -500
+		}
+		BWF = {
+			country_event = {
+				id = sovietbritain.4
+				days = 3
+			}
+		}	
+	}
+	option = {
+		name = sovietbritain.1.d
+		BWF = {
+			country_event = {
+				id = sovietbritain.5
+				days = 3
+			}
+			set_country_flag = BWF_russian_not_helped
+		}	
+	}
+}
+country_event = {
+	id = sovietbritain.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.2S"}
+	title = sovietbritain.2.t
+	desc = sovietbritain.2.d
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = sovietbritain.2.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1500
+			producer = RSR
+		}
+	}	
+}
+country_event = {
+	id = sovietbritain.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.3"}
+	title = sovietbritain.2.t
+	desc = sovietbritain.3.d
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = sovietbritain.3.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = RSR
+		}
+	}	
+}
+country_event = {
+	id = sovietbritain.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.4"}
+	title = sovietbritain.2.t
+	desc = sovietbritain.4.d
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = sovietbritain.4.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+			producer = RSR
+		}
+	}	
+}
+country_event = {
+	id = sovietbritain.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.5"}
+	title = sovietbritain.5.t
+	desc = sovietbritain.5.d
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = sovietbritain.5.a
+		add_war_support = -0.05
+	}	
+}
+
+country_event = {
+	id = sovietbritain.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.6"}
+	title = sovietbritain.6.t
+	desc = sovietbritain.6.d
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = sovietbritain.6.a
+		BWF = {
+			add_ideas = { bwf_russian_delegation }
+		}
+		add_command_power = -50
+		add_political_power = -75
+	}	
+	option = {
+		name = sovietbritain.6.b
+	}	
+}
+
+### United
+country_event = { #Yorkshire Socialist Republic
+	id = sovietbritain.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.7"}
+	title = sovietbritain.7.t
+	desc = sovietbritain.7.d
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = sovietbritain.7.a
+		BWF = {
+			annex_country = {
+			    target = SRY
+			    transfer_troops = yes
+			}
+		}
+	}	
+	option = {
+		name = sovietbritain.7.b
+		BWF = {
+			declare_war_on = {
+			    target = SRY
+			    type = annex_everything
+			}
+		}
+	}	
+}
+
+country_event = { #Scotland Workers Front
+	id = sovietbritain.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.7"}
+	title = sovietbritain.8.t
+	desc = sovietbritain.8.d
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = sovietbritain.8.a
+		BWF = {
+			annex_country = {
+			    target = SCF
+			    transfer_troops = yes
+			}
+		}
+	}	
+	option = {
+		name = sovietbritain.8.b
+		BWF = {
+			declare_war_on = {
+			    target = SCF
+			    type = annex_everything
+			}
+		}
+	}	
+}
