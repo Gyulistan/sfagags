@@ -1,0 +1,344 @@
+focus_tree = {
+	id = BWF
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BWF
+		}
+	}
+	 
+	continuous_focus_position = { x = 1000 y = 50 }
+	
+	default = no
+	focus = {
+		id = bwf_second_offensive 
+		icon = GFX_focus_bwf_second_offensive
+		cost = 10 
+		x = 4
+		y = 0
+		bypass = {
+			OR = {
+				338 = {
+					is_controlled_by = BWF
+				}
+				has_war = no
+			}
+		}
+		completion_reward = { 
+			add_timed_idea = {
+				idea = bwf_second_attack_on_briestol
+				days = 80
+			}
+
+		}
+	}
+	focus = {
+		id = bwf_betrayal_of_oath
+		icon = GFX_focus_bwf_betrayal_of_oath
+		cost = 10
+		prerequisite = {
+			focus = bwf_second_offensive
+		}
+		bypass = {
+			NOT = {
+				has_war_with = ENG
+			}
+		}
+		x = 3
+		y = 1
+		completion_reward = { 
+			hidden_effect = {
+				ENG = {
+					every_unit_leader = {
+						limit = {
+							has_id = 9292
+						}
+						set_nationality = BWF
+					}
+				}
+			}
+			custom_effect_tooltip = BWF_friederick_poole_wil_be_your_tt
+			add_command_power = 15
+		}
+	}
+	focus = {
+		id = bwf_soviet_aid
+		icon = GFX_focus_bwf_soviet_aid
+		cost = 10
+		prerequisite = {
+			focus = bwf_second_offensive
+		}
+		bypass = {
+			has_war = no
+		}
+		x = 5
+		y = 1
+		completion_reward = { 
+			RSR = {
+				country_event = {
+					id = sovietbritain.1
+					days = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = bwf_first_cavalry_army
+		icon = GFX_focus_bwf_first_cavalry_army
+		cost = 10
+		prerequisite = {
+			focus = bwf_betrayal_of_oath
+		}
+		bypass = {
+			has_war = no
+		}
+		x = 2
+		y = 2
+		completion_reward = {
+			division_template = {
+				name = "Red Cavalry"
+				division_names_group = ENG_CAV_01
+				priority = 1
+				regiments = {
+					cavalry = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry = { x = 0 y = 2 }
+					cavalry = { x = 1 y = 0 }
+					cavalry = { x = 1 y = 1 }
+					cavalry = { x = 1 y = 2 }
+					cavalry = { x = 2 y = 0 }
+					cavalry = { x = 2 y = 1 }
+					cavalry = { x = 2 y = 2 }
+				}
+				support = { 
+					engineer = { x = 0 y = 0 }
+				} 
+			}
+			125 = {
+				create_unit = {
+					division = "name = \"Red Cavalry\" division_template = \"Red Cavalry\" start_experience_factor = 0.21 start_equipment_factor = 0.9"
+					owner = BWF
+				}
+				create_unit = {
+					division = "name = \"Red Cavalry\" division_template = \"Red Cavalry\" start_experience_factor = 0.22 start_equipment_factor = 0.98"
+					owner = BWF
+				}
+				create_unit = {
+					division = "name = \"Red Cavalry\" division_template = \"Red Cavalry\" start_experience_factor = 0.22 start_equipment_factor = 0.98"
+					owner = BWF
+				}
+			}
+		}
+	}
+	focus = {
+		id = bwf_cut_aid
+		icon = GFX_focus_bwf_cut_aid
+		cost = 10
+		prerequisite = {
+			focus = bwf_betrayal_of_oath
+		}
+		prerequisite = {
+			focus = bwf_soviet_aid
+		}
+		bypass = {
+			NOT = {
+				has_war_with = ENG
+			}
+		}
+		x = 4
+		y = 2
+		completion_reward = {
+			ENG = { 
+				add_timed_idea = {
+				    idea = eng_bwf_cut_supplies
+				    days = 60
+				}
+			}
+		}
+	}
+	focus = {
+		id = bwf_russian
+		icon = GFX_focus_bwf_russian
+		cost = 10
+		prerequisite = {
+			focus = bwf_soviet_aid
+		}
+		bypass = {
+			NOT = {
+				OR = {
+					has_war_with = ENG
+					has_country_flag = BWF_russian_not_helped
+				}
+			}
+		}
+		x = 6 
+		y = 2
+		completion_reward = { 
+			RSR = {
+				country_event = {
+					id = sovietbritain.6
+					days = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = bwf_why_are_we_fighting
+		icon = GFX_focus_bwf_why_are_we_fighting
+		cost = 10
+		prerequisite = {
+			focus = bwf_first_cavalry_army
+		}
+		bypass = {
+			has_war = no
+		}
+		x = 1
+		y = 3
+		completion_reward = { 
+			add_ideas = {
+				extensive_conscription
+			}
+			add_ideas = {
+				war_economy
+			}
+			add_war_support = 0.15
+		}
+	}
+	focus = {
+		id = bwf_london_fortress
+		icon = GFX_focus_bwf_london_fortress
+		cost = 10
+		prerequisite = {
+			focus = bwf_first_cavalry_army
+		}
+		bypass = {
+			has_war = no
+		}
+		prerequisite = {
+			focus = bwf_cut_aid
+		}
+		x = 3
+		y = 3
+		completion_reward = { 
+			add_timed_idea = {
+				idea = bwf_fast_fortification
+				days = 180
+			}
+		}
+	}
+	focus = {
+		id = bwf_train_of_witringham
+		icon = GFX_focus_bwf_train_of_witringham
+		cost = 10
+		prerequisite = {
+			focus = bwf_cut_aid
+		}
+		prerequisite = {
+			focus = bwf_russian
+		}
+		bypass = {
+			has_war = no
+		}
+		x = 5
+		y = 3
+		completion_reward = {
+			every_unit_leader = {
+				limit = {
+					has_id = 228
+				}
+				promote_leader = yes
+				add_unit_leader_trait = skilled_staffer
+			}
+		}
+	}
+	focus = {
+		id = bwf_birmigham_arms
+		icon = GFX_focus_bwf_birmigham_arms
+		cost = 10
+		prerequisite = {
+			focus = bwf_russian
+		}
+		available = {
+			128 = {
+				is_controlled_by = BWF
+			}
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			128 = {
+				add_building_construction = {
+				    type = arms_factory
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = bwf_english_declaration
+		icon = GFX_focus_bwf_english_declaration
+		cost = 10
+		prerequisite = {
+			focus = bwf_why_are_we_fighting
+		}
+		prerequisite = {
+			focus = bwf_london_fortress
+		}
+		prerequisite = {
+			focus = bwf_train_of_witringham
+		}
+		prerequisite = {
+			focus = bwf_birmigham_arms
+		}
+		available = {
+			BWF = {
+				has_war = no
+			}
+			SCF = {
+				has_war = no
+			}
+			SRY = {
+				has_war = no
+			}
+		}
+		x = 4
+		y = 4
+		completion_reward = {
+			SCF = {
+				country_event = {
+					id = sovietbritain.8
+					days = 1
+				}
+			}
+			SRY = {
+				country_event = {
+					id = sovietbritain.7
+					days = 1
+				}
+			}
+			dismantle_faction = yes
+			122 = {
+				add_core_of = BWF
+			}
+			131 = {
+				add_core_of = BWF
+			}
+			121 = {
+				add_core_of = BWF
+			}
+			133 = {
+				add_core_of = BWF
+			}
+			136 = {
+				add_core_of = BWF
+			}
+			120 = {
+				add_core_of = BWF
+			}
+
+		}
+	}
+
+}
