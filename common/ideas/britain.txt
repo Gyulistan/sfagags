@@ -222,5 +222,14 @@ ideas = {
 
 			picture = eng_memory_of_the_king
 		}
+		eng_bwf_cut_supplies = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea eng_bwf_cut_supplies"}
+
+			modifier = {
+				consumer_goods_factor = 0.5
+			}
+
+			picture = eng_supplies_cut
+		}
 	}		
 }
