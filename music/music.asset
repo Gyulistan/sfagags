@@ -15,13 +15,13 @@ music = {
 music = {
 	name = "general_peace_3"
 	file = "whirlwinds_of_danger.ogg"
-	volume = 0.85
+	volume = 0.95
 }
 
 # General war:
 music = {
 	name = "general_war_1"
-	file = "general_war_bringforththetanks.ogg"
+	file = "internationale.ogg"
 	volume = 0.65
 }
 music = {

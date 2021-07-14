@@ -37,6 +37,22 @@ music = {
 }
 
 music = {
+	song = "general_war_1"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			OR = {
+				has_government = radical_bolshevism
+				has_government = orthodox_socialism
+				has_government = accelerationism
+			}
+		}		
+	}	
+}
+
+music = {
 	song = "allies_peace_1"
 	
 	chance = {
@@ -90,17 +106,7 @@ music = {
 
 # WAR SONGS ####################
 
-music = {
-	song = "general_war_1"
-	
-	chance = {
-		modifier = {
-			factor = 1
 
-			has_war = yes
-		}		
-	}	
-}
 
 music = {
 	song = "general_war_2"
