@@ -1,0 +1,220 @@
+division_template = {
+	name = "Infanterie Division"
+	division_names_group = GER_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Kavallerie Division"
+	division_names_group = GER_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {	
+	}
+}
+
+division_template = {
+	name = "Division der Volksmiliz"
+	division_names_group = GER_INF_01
+	priority = 0
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	support = {	
+	}
+}
+
+units = {		
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 6488
+		division_template = "Division der Volksmiliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9517
+		division_template = "Division der Volksmiliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 692
+		division_template = "Division der Volksmiliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6377
+		division_template = "Division der Volksmiliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 495
+		division_template = "Division der Volksmiliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 587
+		division_template = "Division der Volksmiliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6469
+		division_template = "Kavallerie Division"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.74
+
+	}
+
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11545
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6487
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.7
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11481
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.65
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6559
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.09
+		start_equipment_factor = 0.55
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3522
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.11
+		start_equipment_factor = 0.7
+
+	}
+	division= {		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11359
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.6
+
+	}
+
+}
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "RSR" 
+		}
+		requested_factories = 3
+		progress = 0.3
+		efficiency = 39
+	}
+}
