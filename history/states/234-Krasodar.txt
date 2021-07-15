@@ -11,8 +11,7 @@ state={
 	}
 
 	history={
-		owner = NCR
-		victory_points = {
+		owner = RSR		victory_points = {
 			3720 1 
 		}
 		victory_points = {
@@ -29,7 +28,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = NCR
+		add_core_of = RSR
 	}
 
 	provinces={
