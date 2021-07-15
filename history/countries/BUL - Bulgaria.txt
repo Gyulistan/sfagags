@@ -83,23 +83,20 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	radical_bolshevism = 11
-	orthodox_socialism = 11
-	accelerationism = 11
-	social_democracy = 11
-	liberalism = 11
-	conservatism = 11
-	autoritarian_democracy = 12
-	national_militarism = 11
-	paternalism = 11
+	radical_bolshevism = 26
+	orthodox_socialism = 30
+	accelerationism = 14
+	social_democracy = 13
+	liberalism = 9
+	conservatism = 8
 	}
 
 
 
 create_country_leader = {
-	name = "No Name"
+	name = "Aleksander Staboliyskiy"
 	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	picture = "Portrait_Bulgaria_Aleksandar_Stamboliyski.dds"
 	expire = "1956.1.1"
 	ideology = orthodox_socialism_subtype
 	traits = {
