@@ -1,0 +1,137 @@
+division_template = {
+	name = "Paidal sena Prabhaag"			
+	division_names_group = RAJ_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Milishiya Diveejan"
+	division_names_group = RAJ_GAR_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+
+division_template = {
+	name = "Ghudasavaar sena Diveejan"
+	division_names_group = RAJ_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	division= {
+		name = "1. Paidal sena Prabhaag"
+		location = 4459
+		division_template = "Paidal sena Prabhaag"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "2. Paidal sena Prabhaag"
+		location = 10361
+		division_template = "Paidal sena Prabhaag"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "3. Paidal sena Prabhaag"
+		location = 4544
+		division_template = "Paidal sena Prabhaag"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "4. Paidal sena Prabhaag"
+		location = 1101
+		division_template = "Paidal sena Prabhaag"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "1. Milishiya Diveejan"
+		location = 12452
+		division_template = "Milishiya Diveejan"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "2. Milishiya Diveejan"
+		location = 12035
+		division_template = "Milishiya Diveejan"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "3. Milishiya Diveejan"
+		location = 12307
+		division_template = "Milishiya Diveejan"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "4. Milishiya Diveejan"
+		location = 1538
+		division_template = "Milishiya Diveejan"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "5. Milishiya Diveejan"
+		location = 1101
+		division_template = "Milishiya Diveejan"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "6. Milishiya Diveejan"
+		location = 12063
+		division_template = "Milishiya Diveejan"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "7. Milishiya Diveejan"
+		location = 12063
+		division_template = "Milishiya Diveejan"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "1. Ghudasavaar sena Diveejan"
+		location = 10361
+		division_template = "Ghudasavaar sena Diveejan"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+	division= {
+		name = "2. Ghudasavaar sena Diveejan"
+		location = 11929
+		division_template = "Ghudasavaar sena Diveejan"
+		start_experience_factor = 0.13
+		start_equipment_factor = 0.78
+	}
+}
