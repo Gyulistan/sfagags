@@ -1653,6 +1653,80 @@ country_event = { # china
 		}
 			
 	}
+	
+												#############
+								################SVERDLOV EVENT#####################
+											    #############
+												
+country_event = { # Second Revolution
+	id = sovietunion.3000
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.3000"}
+	title = sovietunion.3000.t
+	desc = sovietunion.3000.d
+	picture = GFX_event_frunze
+
+	is_triggered_only = yes
+
+	option = {
+	name = sovietunion.3000.a
+		remove_ideas_with_trait = head_of_government
+		add_ideas = rsr_yakov_sverdlov
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = rsr_leonid_krasin
+		remove_ideas_with_trait = economy_minister
+		add_ideas = rsr_valerian_kuybyshev 
+		remove_ideas_with_trait = security_minister
+		add_ideas = rsr_yakov_agranov
+		remove_ideas_with_trait = defence_minister
+		add_ideas = rsr_mikhail_frunze
+		kill_country_leader = yes
+	set_politics = {
+			ruling_party = radical_bolshevism
+			elections_allowed = no    }
+	create_country_leader = {
+			name = "Yakov Sverdlov"
+			desc = "POLITICS_YAKOV_SVERDLOV_DESC"
+			picture = "Portrait_Russian_Yakov_Sverdlov.dds"
+			expire = "1965.1.1"
+			ideology = radical_bolshevism_subtype
+			traits = {}
+		}
+	add_political_power = 50
+	add_stability = 0.05
+	load_focus_tree = rsr_sverd_tree
+			}
+	}	
+
+country_event =	{ # Anti-Cossack
+	id = sovietunion.3100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.3100"}
+	title = sovietunion.3100.t
+	desc = sovietunion.3100.d
+	picture = GFX_event_cossacks
+
+	is_triggered_only = yes
+
+	option = {
+	name = sovietunion.3100.a
+
+			}
+	}	
+	
+country_event =	{ # Frenkel
+	id = sovietunion.3200
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.3200"}
+	title = sovietunion.3200.t
+	desc = sovietunion.3200.d
+	picture = GFX_event_frenkel
+
+	is_triggered_only = yes
+
+	option = {
+	name = sovietunion.3200.a
+
+			}
+	}
+												
 
 country_event = { # начало гражданки
 	id = sovietunion.1488

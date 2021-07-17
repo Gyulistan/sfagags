@@ -192,6 +192,26 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_rsr_yakov_sverdlov"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_yakov_sverdlov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rsr_leonid_krasin"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_leonid_krasin.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rsr_mikhail_frunze"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_mikhail_frunze.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_rsr_yakov_agranov"
+		texturefile = "gfx/interface/Ideas/RSR/rsr_yakov_agranov.tga"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_rsr_mikhail_tomsky_eco"
 		texturefile = "gfx/interface/Ideas/RSR/rsr_mikhail_tomsky_eco.tga"
 	}

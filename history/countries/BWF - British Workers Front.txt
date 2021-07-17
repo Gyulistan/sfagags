@@ -73,6 +73,7 @@ add_ideas = {
 	sng_thomas_witringham
 	sng_clemens_palme_dutt
 	sng_joseph_tito
+	SNG_arno_directive
 }
 
 if = {

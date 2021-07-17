@@ -289,6 +289,34 @@ ideas = {
 			
 						}
 				}
+				
+		rsr_yakov_sverdlov = {
+		
+			picture = GFX_idea_rsr_yakov_sverdlov
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				flamboyant_tough_guy
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
 		}
 		
 		
@@ -396,6 +424,36 @@ ideas = {
 			traits = {
 				radical_bolshevik
 				iron_fisted_brute
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+						
+				}
+				
+		rsr_leonid_krasin = {
+		
+			picture = GFX_idea_rsr_leonid_krasin
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				great_compromiser
 				foreign_minister
 			}
 			
@@ -544,6 +602,35 @@ ideas = {
 			traits = {
 				radical_bolshevik
 				experienced_organizer
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+				
+		rsr_mikhail_frunze = {
+		
+			picture = GFX_idea_rsr_mikhail_frunze
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+						
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				war_hero
 				defence_minister
 			}
 			
@@ -1058,6 +1145,34 @@ ideas = {
 			traits = {
 				radical_bolshevik
 				prince_of_terror
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = RSR
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+				
+		rsr_yakov_agranov = {
+		
+			picture = GFX_idea_rsr_yakov_agranov
+			
+			available = {
+					OR = {
+						has_government = radical_bolshevism
+					}
+				}
+			
+			traits = {
+				radical_bolshevik
+				back_stabber
 				security_minister
 			}
 			

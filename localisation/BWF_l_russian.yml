@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿ l_russian:
  
     #FOCUS#
@@ -54,3 +55,27 @@ sovietbritain.8.b:0 "Мы не отдадим независимость!"
     ##Ideas not BWF
 
 eng_bwf_cut_supplies:0 "Обрезаны поставки"
+=======
+﻿ l_english:
+ 
+    #FOCUS#
+    #CIVIL WAR#
+bwf_second_offensive:0 "Second siege of Bristol"
+bwf_betrayal_of_oath:0 "Betrayal of the Oath"
+bwf_soviet_aid:0 "Help from elder Brother"
+bwf_first_cavalry_army:0 "First cavalry division"
+bwf_cut_aid:0 "Cut off supplying"
+bwf_russian:0 "Russian"
+bwf_why_are_we_fighting:0 "Why are we fighting"
+bwf_london_fortress:0 "London frtification"
+bwf_train_of_witringham:0 "Whitringham armored train"
+bwf_birmigham_arms:0 "Nationalisation of BSA"
+bwf_english_declaration:0 "Declaration of British workers"
+
+
+  
+    #EVENT#
+sovietbritain.1.t:0 "British Revolutiob"
+sovietbritain.1.d:0 "Great October revolution, which happened in 1917 in Russia, gave hope for every worker in world. British workers were excited when Russian Comunists won reactionaries and built Workers State. When they tried to help European workers to complete their holly goal, they were stopped by Entente. But they didn't forgot us. And British people had own uprising in 1925 against opressors! Now we are at war, enemies are loosing, but they are not weak. In addition, nationalist uprisings have taken place throughout the country, which, of course, we must suppress. \n\nOur path is hard, but we will win! We will raze the old hated system and all those who support it to the ground! We will build a new state in which freedom and justice will reign for everyone! Nobody dares to stand in our way! Our cause is right! Victory will be ours!"
+sovietbritain.1.a:0 "To the Victor, Comrades!"
+>>>>>>> Stashed changes

@@ -40,4 +40,9 @@ spriteTypes = {
 		name = "GFX_idea_SNG_war_of_liberation"
 		texturefile = "gfx/interface/Ideas/BWF/war_of_liberation.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_SNG_arno_directive"
+		texturefile = "gfx/interface/Ideas/BWF/arno_directive.tga"
+	}
 

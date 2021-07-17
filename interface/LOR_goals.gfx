@@ -1922,4 +1922,134 @@ spriteTypes = {
 		name = "GFX_focus_usa_tru_trust_to_butler"
 		texturefile = "gfx/interface/goals/focus_usa_tru_trust_to_butler.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_rebirth"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_rebirth.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_idea_frenkel"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_idea_frenkel.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_three_decrets"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_three_decrets.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_decret_of_reunification"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_decret_of_reunification.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_decret_of_market_destruction"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_decret_of_market_destruction.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_decret_of_red_terror"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_decret_of_red_terror.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_menskevick_scum"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_menskevick_scum.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_sr_traitors"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_sr_traitors.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_red_army"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_red_army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_new_comintern"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_new_comintern.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_preobrazhensky_theory"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_preobrazhensky_theory.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_anticossack_repression"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_anticossack_repression.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_old_guard"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_old_guard.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_teology_view"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_teology_view.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_attack_caucasus"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_attack_caucasus.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_to_the_south"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_to_the_south.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_strike_to_the_limitroph"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_strike_to_the_limitroph.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_sucessor"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_sucessor.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_revolution_in_siege"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_revolution_in_siege.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_industrialization_congress"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_industrialization_congress.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_first_accumulation"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_first_accumulation.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_directive_of_first_plan"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_directive_of_first_plan.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_loosen_grip"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_loosen_grip.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_plan_republics"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_plan_republics.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_new_soviet_union"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_new_soviet_union.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_new_pact"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_new_pact.dds"
+	}
 }

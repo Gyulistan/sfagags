@@ -372,6 +372,21 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_tour_eiffel.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_event_frunze"
+		texturefile = "gfx/event_pictures/event_frunze.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_cossacks"
+		texturefile = "gfx/event_pictures/event_cossacks.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_frenkel"
+		texturefile = "gfx/event_pictures/event_frenkel.dds"
+	}
+	
 }
 	
 	

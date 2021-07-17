@@ -629,6 +629,30 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
+create_corps_commander = {
+	name = "Mikhail Yefremov"
+		picture = "Portrait_Russian_Mikhail_Yefremov.dds"
+	traits = { infantry_officer }
+	skill = 2
+
+	
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+		name = "Mustafa Kemal"
+		picture = "Portrait_Russian_Mustafa_Kemal.dds"
+		traits = { war_hero brilliant_strategist }
+		skill = 3 
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 2
+	}
+
 create_navy_leader = {
 	name = "Sergey Gorshkov"
 	id = 411
