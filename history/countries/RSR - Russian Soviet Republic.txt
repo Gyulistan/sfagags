@@ -187,7 +187,7 @@ if = {
 		puppet = TYR
 		puppet = BYR
 		puppet = ARM
-		pupprt = FER
+		puppet = FER
 	}
 }
 	
@@ -241,6 +241,7 @@ add_to_faction = TYR
 add_to_faction = BYK
 add_to_faction = PRS
 add_to_faction = FER
+add_to_faction = MOR
 
 
 add_ideas = {
