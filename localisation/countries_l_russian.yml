@@ -4083,6 +4083,7 @@
  OPA_paternalism:0 "Марксистский фронт"
  OPA_paternalism_DEF:0 "Марксистский фронт"
  OPA_paternalism_ADJ:0 "Советск."
+<<<<<<< HEAD
  
  NIC_radical_bolshevism:0 "Консерваторы"
  NIC_radical_bolshevism_DEF:0 "Консерваторы"
@@ -4139,3 +4140,5 @@
  NIK_paternalism:0 "Либералы"
  NIK_paternalism_DEF:0 "Либералы"
  NIK_paternalism_ADJ:0 "Никарагуанск."
+
+
