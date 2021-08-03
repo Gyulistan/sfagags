@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 100
 			tag = USA
 		}
 	}
@@ -69,6 +69,43 @@ focus_tree = {
 
 	}
 	focus = {
+		id = usa_curtis_crisp_act
+		icon = GFX_focus_usa_continue_my_politic
+		cost = 10
+		prerequisite = {
+			focus = usa_continue_my_politic
+		}
+		x = 5
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_federal_agency_of_price
+		icon = GFX_focus_usa_continue_my_politic
+		cost = 10
+		prerequisite = {
+			focus = usa_mcnaury_haugen_act
+		}
+		x = 1
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_closed_question
+		icon = GFX_focus_usa_continue_my_politic
+		cost = 10
+		prerequisite = {
+			focus = usa_federal_agency_of_price
+			focus = usa_curtis_crisp_act
+		}
+
+		x = 3
+		y = 5
+
+	}
+	focus = {
 		id = usa_morrow_go
 		icon = GFX_focus_usa_morrow_go
 		cost = 10
@@ -90,6 +127,29 @@ focus_tree = {
 		y = 3
 
 	}
+	
+	focus = {
+		id = usa_mediation_in_peace
+		icon = GFX_focus_usa_occupation_of_nicaragua
+		cost = 10
+		prerequisite = {
+			focus = usa_occupation_of_nicaragua
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = usa_six_pan_american_congress
+		icon = GFX_focus_usa_occupation_of_nicaragua
+		cost = 10
+		prerequisite = {
+			focus = usa_mediation_in_peace
+		}
+		x = 10
+		y = 5
+
+	}
 	focus = {
 		id = usa_saint_laurence_seaway
 		icon = GFX_focus_usa_saint_laurence_seaway
@@ -99,6 +159,62 @@ focus_tree = {
 		}
 		x = 12
 		y = 3
+
+	}
+	
+	focus = {
+		id = usa_recognize_dobell_government
+		icon = GFX_focus_usa_saint_laurence_seaway
+		cost = 10
+		prerequisite = {
+			focus = usa_saint_laurence_seaway
+		}
+		mutually_exclusive = {
+			focus = usa_oppose_tyrant
+		}
+		x = 12
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_pact_of_friendship
+		icon = GFX_focus_usa_saint_laurence_seaway
+		cost = 10
+		prerequisite = {
+			focus = usa_recognize_dobell_government
+		}
+		x = 12
+		y = 5
+
+	}
+	
+	focus = {
+		id = usa_oppose_tyrant
+		icon = GFX_focus_usa_saint_laurence_seaway
+		cost = 10
+		prerequisite = {
+			focus = usa_saint_laurence_seaway
+		}
+		mutually_exclusive = {
+			focus = usa_recognize_dobell_government
+		}
+		
+		x = 14
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_support_mcnaughton_army
+		icon = GFX_focus_usa_saint_laurence_seaway
+		cost = 10
+		prerequisite = {
+			focus = usa_oppose_tyrant
+		}
+		
+		x = 14
+		y = 5
 
 	}
 	focus = {
@@ -121,6 +237,30 @@ focus_tree = {
 		}
 		x = 7
 		y = 3
+
+	}
+	
+	focus = {
+		id = usa_raid_in_alabama
+		icon = GFX_focus_usa_a_little_action
+		cost = 10
+		prerequisite = {
+			focus = usa_a_little_action
+		}
+		x = 7
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_last_nail
+		icon = GFX_focus_usa_a_little_action
+		cost = 10
+		prerequisite = {
+			focus = usa_raid_in_alabama
+		}
+		x = 7
+		y = 5
 
 	}
 	

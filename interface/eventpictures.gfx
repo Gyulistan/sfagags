@@ -387,6 +387,16 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_frenkel.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_event_interrogation"
+		texturefile = "gfx/event_pictures/event_interrogation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_bilbo_talks"
+		texturefile = "gfx/event_pictures/event_bilbo_talks.dds"
+	}
+	
 }
 	
 	

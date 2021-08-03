@@ -1,6 +1,6 @@
 ﻿capital = 317
 
-oob = "NIC_1926"
+oob = "NIK_1926"
 
 # Starting tech
 set_technology = {
@@ -14,7 +14,7 @@ set_convoys = 10
 
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = liberalism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -32,16 +32,16 @@ set_popularities = {
 	}
 	
 declare_war_on = {
-		target = NIK
+		target = NIC
 		type = annex_everything
 	}
 
 create_country_leader = {
-	name = "Emiliano Chamorro Vargas"
-	desc = "POLITICS_EMILIANO_CHAMORRO_DESC"
-	picture = "Portrait_Nicaragua_Emiliano_Chamorro.dds"
+	name = "Juan Bautista Sacasa"
+	desc = "POLITICS_JUAN_SACASA_DESC"
+	picture = "Portrait_Nikaragua_Juan_Sacasa.dds"
 	expire = "1956.1.1"
-	ideology = conservatism_subtype
+	ideology = liberalism_subtype
 	traits = {
 		
 	}

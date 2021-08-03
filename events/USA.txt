@@ -39,3 +39,38 @@ country_event = {
 		set_country_flag = mafia_influence
 		}
 	}
+	
+					################
+	  ################ИВЕНТЫ БИЛЬБО#####################
+					################
+country_event = {
+	id = unitedstates.200 # Deal
+	immediate = {log = "[GetDateText]: [Root.GetName]: event unitedstates.200"}
+	title = unitedstates.200.t
+	desc = unitedstates.200.d
+	picture = GFX_event_interrogation
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = unitedstates.200.a
+		}
+	}
+	
+country_event = {
+	id = unitedstates.250 # Deal
+	immediate = {log = "[GetDateText]: [Root.GetName]: event unitedstates.250"}
+	title = unitedstates.250.t
+	desc = unitedstates.250.d
+	picture = GFX_event_bilbo_talks
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = unitedstates.250.a
+		}
+	}

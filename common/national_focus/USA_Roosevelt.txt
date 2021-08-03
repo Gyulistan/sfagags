@@ -1,0 +1,344 @@
+focus_tree = {
+	id = USA_Roosevelt
+	country = {
+		factor = 0
+		modifier = {
+			add = 200
+			tag = USA
+		}
+	}
+	default = no
+	
+	continuous_focus_position = { x = 1000 y = 1 }
+	
+
+	focus = {
+		id = usa_ros_roosevelt_wins
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 6
+		y = 0
+
+	}
+	
+	focus = {
+		id = usa_ros_new_cabinet
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_roosevelt_wins
+		}
+		x = 6
+		y = 1
+
+	}
+	
+	focus = {
+		id = usa_ros_new_economic_programm
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_new_cabinet
+		}
+		x = 6
+		y = 2
+
+	}
+	
+	focus = {
+		id = usa_ros_talk_to_congress
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_new_economic_programm
+		}
+		x = 6
+		y = 3
+
+	}
+	
+	focus = {
+		id = usa_ros_dont_borger_monopoly
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_talk_to_congress
+		}
+		x = 5
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_ros_we_need
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_talk_to_congress
+		}
+		x = 7
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_ros_social_justice
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_dont_borger_monopoly
+		}
+		prerequisite = {
+			focus = usa_ros_we_need
+		}
+		x = 6
+		y = 5
+
+	}
+	
+	focus = {
+		id = usa_ros_oppose_trusts
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_social_justice
+		}
+		x = 6
+		y = 6
+
+	}
+	
+	focus = {
+		id = usa_ros_start_investigation
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_oppose_trusts
+		}
+		x = 6
+		y = 7
+
+	}
+	
+	focus = {
+		id = usa_ros_jpmorgan
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_start_investigation
+		}
+		x = 5
+		y = 8
+
+	}
+	
+	focus = {
+		id = usa_ros_general_electric
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_start_investigation
+		}
+		x = 7
+		y = 8
+
+	}
+	
+	focus = {
+		id = usa_ros_start_court
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_general_electric
+		}
+		prerequisite = {
+			focus = usa_ros_jpmorgan
+		}
+		x = 6
+		y = 9
+
+	}
+	
+	focus = {
+		id = usa_ros_privatise_property
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_start_court
+		}
+		mutually_exclusive = {
+			focus = usa_ros_just_tax
+		}
+		x = 5
+		y = 10
+
+	}
+	
+	focus = {
+		id = usa_ros_just_tax
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_start_court
+		}
+		mutually_exclusive = {
+			focus = usa_ros_privatise_property
+		}
+		
+		x = 7
+		y = 10
+
+	}
+	
+	focus = {
+		id = usa_ros_just_like_the_old_days
+		icon = GFX_focus_usa_ros_just_like_the_old_days
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_just_tax
+			focus = usa_ros_privatise_property
+		}
+
+		x = 6
+		y = 11
+
+	}
+	
+	focus = {
+		id = usa_ros_end_days
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+
+		x = 6
+		y = 12
+
+	}
+	
+	focus = {
+		id = usa_ros_catastrophe
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_end_days
+		}
+		x = 5
+		y = 13
+
+	}
+	
+	focus = {
+		id = usa_ros_franklin_decision
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_end_days
+		}
+		x = 7
+		y = 13
+
+	}
+	
+	focus = {
+		id = usa_ros_new_cours
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_catastrophe
+		}
+		prerequisite = {
+			focus = usa_ros_franklin_decision
+		}
+		x = 6
+		y = 14
+
+	}
+	
+	focus = {
+		id = usa_ros_restore_bank_system
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_new_cours
+		}
+		x = 5
+		y = 15
+
+	}
+	
+	focus = {
+		id = usa_ros_burn_debts
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_restore_bank_system
+		}
+		x = 4
+		y = 16
+
+	}
+	
+	focus = {
+		id = usa_ros_creation_fsz
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_burn_debts
+		}
+		x = 3
+		y = 17
+
+	}
+	
+	
+	focus = {
+		id = usa_ros_hungry_help
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_new_cours
+		}
+		x = 7
+		y = 15
+
+	}
+	
+	focus = {
+		id = usa_ros_restore_farms
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_hungry_help
+		}
+		x = 8
+		y = 16
+
+	}
+	
+	focus = {
+		id = usa_ros_cut_grants
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_restore_farms
+		}
+		x = 9
+		y = 17
+
+	}
+	
+	focus = {
+		id = usa_ros_we_win
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_ros_cut_grants
+		}
+		prerequisite = {
+			focus = usa_ros_creation_fsz
+		}
+		x = 6
+		y = 18
+
+	}
+	
+	

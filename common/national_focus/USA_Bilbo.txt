@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 20
+			add = 2000
 			tag = USA
 		}
 	}
@@ -59,7 +59,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_bil_work_brothers
-		icon = GFX_focus_usa_bil_saving_cabinet
+		icon = GFX_focus_usa_bil_work_brothers
 		cost = 10
 		x = 15
 		y = 2
@@ -268,6 +268,154 @@ focus_tree = {
 		prerequisite = {
 			focus = usa_bil_bombing_them
 		}
+
+	}
+	
+	focus = {
+		id = usa_bil_act_of_national_security
+		icon = GFX_focus_usa_bil_act_of_national_security
+		cost = 10
+		x = 6
+		y = 3
+
+	}
+	
+	focus = {
+		id = usa_bil_guarantee
+		icon = GFX_focus_usa_bil_guarantee
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_act_of_national_security
+		}
+		x = 6
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_bil_use_criminal_connections
+		icon = GFX_focus_usa_bil_use_criminal_connections
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_guarantee
+		}
+		x = 4
+		y = 5
+
+	}
+	
+	focus = {
+		id = usa_bil_buy_republicans
+		icon = GFX_focus_usa_bil_buy_republicans
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_use_criminal_connections
+		}
+		x = 5
+		y = 6
+
+	}
+	
+	focus = {
+		id = usa_bil_mahinations_with_comittee
+		icon = GFX_focus_usa_bil_mahinations_with_comittee
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_use_criminal_connections
+		}
+		x = 3
+		y = 6
+
+	}
+	
+	focus = {
+		id = usa_bil_rully_of_russel
+		icon = GFX_focus_usa_bil_rully_of_russel
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_guarantee
+		}
+		x = 8
+		y = 5
+
+	}
+	
+	
+	focus = {
+		id = usa_bil_talk_with_judges
+		icon = GFX_focus_usa_bil_talk_with_judges
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_rully_of_russel
+		}
+		x = 9
+		y = 6
+
+	}
+	
+	focus = {
+		id = usa_bil_our_backyards
+		icon = GFX_focus_usa_bil_our_backyards
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_rully_of_russel
+		}
+		x = 7
+		y = 6
+
+	}
+	
+	focus = {
+		id = usa_bil_go_to_senat
+		icon = GFX_focus_usa_bil_go_to_senat
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_guarantee
+		}
+		x = 6
+		y = 5
+
+	}
+	
+	focus = {
+		id = usa_bil_voting
+		icon = GFX_focus_usa_bil_voting
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_go_to_senat
+		}
+		x = 6
+		y = 7
+
+	}
+	
+	focus = {
+		id = usa_bil_new_james_polk
+		icon = GFX_focus_usa_bil_new_james_polk
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_voting
+		}
+		mutually_exclusive = {
+			focus = usa_bil_fuck_them
+		}
+		x = 5
+		y = 8
+
+	}
+	
+	focus = {
+		id = usa_bil_fuck_them
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_voting
+		}
+		mutually_exclusive = {
+			focus = usa_bil_new_james_polk
+		}
+		x = 7
+		y = 8
 
 	}
 	

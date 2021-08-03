@@ -134,6 +134,17 @@ create_field_marshal = {
 	logistics_skill = 5
 }
 
+create_field_marshal = {
+	name = "John L. Hines"
+	picture = "Portrait_USA_John_Hines.dds"
+	traits = { trait_reckless thorough_planner }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 create_corps_commander = {
 	name = "Walter Krueger"
 	picture = "Portrait_USA_Walter_Krueger.dds"
@@ -157,4 +168,17 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 3
 }
+
+create_corps_commander = {
+	name = "Merritte W. Ireland"
+	picture = "Portrait_USA_Merritte_Ireland.dds"
+	traits = { trait_cautious }
+	skill = 2
+
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 

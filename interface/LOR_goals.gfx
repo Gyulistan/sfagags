@@ -2052,4 +2052,74 @@ spriteTypes = {
 		name = "GFX_focus_rsr_sve_new_pact"
 		texturefile = "gfx/interface/goals/focus_rsr_sve_new_pact.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_use_criminal_connections"
+		texturefile = "gfx/interface/goals/focus_usa_bil_use_criminal_connections.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_talk_with_judges"
+		texturefile = "gfx/interface/goals/focus_usa_bil_talk_with_judges.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_ros_just_like_the_old_days"
+		texturefile = "gfx/interface/goals/focus_usa_ros_just_like_the_old_days.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_new_james_polk"
+		texturefile = "gfx/interface/goals/focus_usa_bil_new_james_polk.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_fuck_them"
+		texturefile = "gfx/interface/goals/focus_usa_bil_fuck_them.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_buy_republicans"
+		texturefile = "gfx/interface/goals/focus_usa_bil_buy_republicans.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_mahinations_with_comittee"
+		texturefile = "gfx/interface/goals/focus_usa_bil_mahinations_with_comittee.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_our_backyards"
+		texturefile = "gfx/interface/goals/focus_usa_bil_our_backyards.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_act_of_national_security"
+		texturefile = "gfx/interface/goals/focus_usa_bil_act_of_national_security.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_guarantee"
+		texturefile = "gfx/interface/goals/focus_usa_bil_guarantee.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_rully_of_russel"
+		texturefile = "gfx/interface/goals/focus_usa_bil_rully_of_russel.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_go_to_senat"
+		texturefile = "gfx/interface/goals/focus_usa_bil_go_to_senat.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_voting"
+		texturefile = "gfx/interface/goals/focus_usa_bil_voting.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_bil_work_brothers"
+		texturefile = "gfx/interface/goals/focus_usa_bil_work_brothers.dds"
+	}
 }
