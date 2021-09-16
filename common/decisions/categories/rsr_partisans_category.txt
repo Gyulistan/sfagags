@@ -4,10 +4,11 @@ rsr_partisans_category = {
 	priority = 10
 
 	allowed = {
-			tag = RSR
+			tag = RSR 
 		}
-	visible = {
+	visible = { 
 		tag = RSR
 	}
-	visible_when_empty = no
+	scripted_gui = rsr_btn_gui
+	visible_when_empty = no  
 }

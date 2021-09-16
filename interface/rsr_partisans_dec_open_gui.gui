@@ -1,0 +1,25 @@
+guiTypes = {
+	containerWindowType = {
+        name = "open_partisans_rsr_container" 
+        position = { x = 0 y = 0 } 
+		size = { width = 510 height = 50 }
+		buttonType = {
+			name = "open_rsr_partisans_btn"
+			position = { x = 105 y = 8 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "OPEN_MENU_RSR"
+			buttonFont = "hoi_24header"
+			clicksound = click_default 
+			oversound = ui_menu_over
+		}
+		instantTextBoxType = {
+			name = "partisans_point_decs_text"
+			position = { x = 0 y = -20 }
+			font = "hoi_30header" 
+			text = "RSR_POINTS_ON_DECS"
+			maxWidth = 510
+			maxHeight = 30
+			format = center
+		}
+	}
+}
