@@ -1,0 +1,62 @@
+﻿#######################################
+## Red Order: Legacy of Revolution ####
+#######################################
+##         Portugalia events       ####
+#######################################
+
+add_namespace = por
+news_event = {
+	id = por.1   #Trigger Coup 9 July
+	title = por.1.t
+	desc = por.1.d
+	hidden = yes
+	picture = GFX_news_event_revolution_portugalia_9thjuly
+
+	fire_only_once = yes
+
+	trigger = {
+		date > 1926.7.1
+		
+		country_exists = POR
+		tag = POR
+	}
+	
+	    immediate = {
+	    	news_event = { id = por.2 days = 1 }
+	    	log = "Trigger event: POR - coup 9 july"
+	    }
+	
+	    option = {
+	    name = por.1.a
+	
+	    }
+	}
+
+news_event = {
+	id = por.2   # Coup 9th July
+	title = por.2.t
+	desc = por.2.d
+	picture = GFX_news_event_revolution_portugalia_9thjuly
+	major = yes
+
+	is_triggered_only = yes
+		
+	
+	    option = {
+		    trigger = {
+				tag = POR
+			}
+	    	name = por.2.a
+			set_politics = {
+				ruling_party = autoritarian_democracy
+			    elections_allowed = no
+			}
+	    }
+
+	    option = {
+		    trigger = {
+				NOT = { tag = POR }
+			}
+	    	name = por.2.b
+	    }
+	}

@@ -30,11 +30,11 @@ set_popularities = {
 	}
 
 create_country_leader = {
-	name = "No Name"
-	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	name = "Artur Ivens Ferraz"
+	desc = "POLITICS_ARTUR_IVENS_DESC"
+	picture = "gfx/leaders/POR/Portrait_Portugal_Artur_Ivens_Ferraz.dds"
 	expire = "1956.1.1"
-	ideology = orthodox_socialism_subtype
+	ideology = autoritarian_democracy_subtype
 	traits = {
 		
 	}

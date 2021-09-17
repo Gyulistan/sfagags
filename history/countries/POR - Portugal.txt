@@ -32,31 +32,43 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = autoritarian_democracy
+	ruling_party = paternalism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	radical_bolshevism = 11
-	orthodox_socialism = 11
-	accelerationism = 11
-	social_democracy = 11
-	liberalism = 11
-	conservatism = 11
-	autoritarian_democracy = 12
-	national_militarism = 11
-	paternalism = 11
+	social_democracy = 5
+	liberalism = 5
+	conservatism = 8
+	autoritarian_democracy = 35
+	national_militarism = 12
+	paternalism = 35
 	}
 
+news_event = {
+	id = portugal.1
+	days = 9
+}
+
 create_country_leader = {
-	name = "No Name"
-	desc = "POLITICS_L_C_R_DUNCOMBE_JEWELL_DESC"
-	picture = "Portrait_Cornwall_Louis_Charles_Richard_Duncombe_Jewell.dds"
+	name = "Gomis da Costa"
+	desc = "POLITICS_GOMIS_DA_COSTA_DESC"
+	picture = "Portrait_Portugal_Gomis_da_Costa.dds"
 	expire = "1956.1.1"
-	ideology = orthodox_socialism_subtype
+	ideology = paternalism_subtype
 	traits = {
 		
 	}
 }
 
+create_country_leader = {
+	name = "Fragoso Carmona"
+	desc = "POLITICS_Fragoso_Carmona_DESC"
+	picture = "Portrait_Portugal_Fragozu_Carmona.dds"
+	expire = "1956.1.1"
+	ideology = autoritarian_democracy_subtype
+	traits = {
+		
+	}
+}
