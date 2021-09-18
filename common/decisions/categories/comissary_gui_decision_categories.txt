@@ -5,8 +5,8 @@ commisary_gui_decision_category = {
 
 	allowed = { original_tag = RSR }
 
-	priority = 1000
-
+	priority = 1000 
+ 
 	scripted_gui = commisary_gui
 	visible_when_empty = yes
 }  
