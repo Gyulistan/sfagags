@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
         name = "open_partisans_rsr_container" 
         position = { x = 0 y = 0 } 
-		size = { width = 510 height = 50 }
+		size = { width = 510 height = 420 }
 		buttonType = {
 			name = "open_rsr_partisans_btn"
 			position = { x = 105 y = 8 }
@@ -19,6 +19,21 @@ guiTypes = {
 			text = "RSR_POINTS_ON_DECS"
 			maxWidth = 510
 			maxHeight = 30
+			format = center
+		}
+		iconType = {
+			name = "partisans_decs_bg_whites"
+			position = { x = 0 y = 110 }
+			spriteType = "GFX_decision_bg_partisans"
+			alwaystransparent = yes 
+		}
+		instantTextBoxType = {
+			name = "partisans_help_dec_text"
+			position = { x = -3 y = 50 }
+			font = "hoi_30header" 
+			text = "RSR_help_hint_dec_parts"
+			maxWidth = 490
+			maxHeight = 300
 			format = center
 		}
 	}
