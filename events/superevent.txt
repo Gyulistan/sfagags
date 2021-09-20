@@ -18,7 +18,7 @@ country_event = {
 	option = {
 		name = super.1.a
         set_global_flag = eden_gate_unification
-		sound_effect = "superev_eden_gate"
+		play_song = "super_1" 
 	}
 }
 
@@ -40,7 +40,7 @@ country_event = {
 	option = {
 		name = super.2.a
         set_global_flag = anarcho_syndicalist_unification
-		sound_effect = "superev_anarcho_syndicalist"
+		play_song = "super_2" 
 	}
 }
 
@@ -62,7 +62,7 @@ country_event = {
 	option = {
 		name = super.3.a
         set_global_flag = mafia_elections
-		sound_effect = "superev_bad_boys"
+		play_song = "super_3" 
 	}
 }
 
@@ -84,6 +84,28 @@ country_event = {
 	option = {
 		name = super.4.a
         set_global_flag = truman_elections
-		sound_effect = "superev_truman_win"
+		play_song = "super_4" 
+	}
+}
+
+country_event = {		
+	id = super.5
+	title = super.5.t
+	desc = super.5.d
+	picture = GFX_event_soldiers_read
+
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	fire_only_once = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.5.a
+        set_global_flag = meme_one
+		play_song = "super_5" 
 	}
 }
