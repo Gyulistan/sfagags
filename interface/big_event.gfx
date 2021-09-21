@@ -41,4 +41,12 @@ spriteTypes = {
 		name = "GFX_SPEVNT_truman_elections_img"
 		texturefile = "gfx/super_events/SPEVNT_truman_elections.dds"
 	}
+	spriteType = {
+		name = "GFX_SPEVNT_meme_one_img"
+		texturefile = "gfx/super_events/SPEVNT_meme_one.dds"
+	}
+	spriteType = {
+		name = "GFX_SPEVNT_tukh_gas_war_img"
+		texturefile = "gfx/super_events/SPEVNT_tukh_gas_war.dds"
+	}
 }
