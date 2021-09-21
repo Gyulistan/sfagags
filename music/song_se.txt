@@ -43,3 +43,12 @@ music = {
 		}		
 	}	
 }
+music = { 
+	song = "super_6"
+	
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}	
+}
