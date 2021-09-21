@@ -109,3 +109,25 @@ country_event = {
 		play_song = "super_5" 
 	}
 }
+
+country_event = {		
+	id = super.6
+	title = super.6.t
+	desc = super.6.d
+	picture = GFX_event_soldiers_read
+
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	fire_only_once = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.6.a
+        set_global_flag = tukh_gas_war
+		play_song = "super_6" 
+	}
+}
