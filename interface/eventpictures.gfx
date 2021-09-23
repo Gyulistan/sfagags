@@ -373,30 +373,36 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_event_frunze"
-		texturefile = "gfx/event_pictures/event_frunze.dds"
+		name = "GFX_event_second_civil_war"
+		texturefile = "gfx/event_pictures/event_second_civwar.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_event_cossacks"
-		texturefile = "gfx/event_pictures/event_cossacks.dds"
+		name = "GFX_event_denikin_won_cw"
+		texturefile = "gfx/event_pictures/event_denikin_won.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_sakharov_won_cw"
+		texturefile = "gfx/event_pictures/event_sakharov_won.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_event_frenkel"
-		texturefile = "gfx/event_pictures/event_frenkel.dds"
+		name = "GFX_event_esseres_won_cw"
+		texturefile = "gfx/event_pictures/event_esseres_won.dds"
 	}
-	
 	spriteType = {
-		name = "GFX_event_interrogation"
-		texturefile = "gfx/event_pictures/event_interrogation.dds"
+		name = "GFX_event_reds_won_cw"
+		texturefile = "gfx/event_pictures/event_reds_won.dds"
 	}
-	
 	spriteType = {
-		name = "GFX_event_bilbo_talks"
-		texturefile = "gfx/event_pictures/event_bilbo_talks.dds"
+		name = "GFX_event_etern_separatism_cw"
+		texturefile = "gfx/event_pictures/event_etern_separatism.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_news_event_revolution_portugalia_9thjuly"
+		texturefile = "gfx/event_pictures/news_event_revolution_portugalia_9thjuly.dds"
+	}
 }
 	
 	
