@@ -15,10 +15,41 @@ music = {
 	volume = 0.95
 } 
 music = {
+	name = "general_peace_4"
+	file = "i_am_waiting_for_letter.ogg"
+	volume = 0.95
+} 
+music = {
+	name = "general_peace_5"
+	file = "best_friend.ogg"
+	volume = 0.95
+} 
+music = {
+	name = "general_peace_6"
+	file = "two_sailors.ogg"
+	volume = 0.95
+} 
+music = {
+	name = "general_peace_7"
+	file = "on_the_snow.ogg"
+	volume = 0.95
+} 
+music = {
+	name = "general_peace_8"
+	file = "glasses.ogg"
+	volume = 0.95
+} 
+music = {
+	name = "general_peace_9"
+	file = "all_by_myself.ogg"
+	volume = 0.95
+} 
+music = {
 	name = "general_war_1"
 	file = "internationale.ogg"
 	volume = 0.65
 }
+
 
 ## SE
 music = {
@@ -63,4 +94,9 @@ music = {
 	name = "super_8"
 	file = "se/athem_of_modders.ogg"
 	volume = 0.85
+}
+music = {
+	name = "super_9"
+	file = "se/lib_russia.ogg"
+	volume = 0.95
 }
