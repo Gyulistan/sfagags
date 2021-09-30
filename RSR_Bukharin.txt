@@ -1,0 +1,1832 @@
+focus_tree = {
+	id = rsr_sovnarkom_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = RSR
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+	
+	default = no
+	focus = {
+		id = rsr_eliminate_chk
+		icon = GFX_focus_rsr_eliminate_chk
+		cost = 10.00
+		available = {
+			hidden_trigger = { always = no }
+		}
+		x = 14
+		y = 0
+
+	}
+	focus = {
+		id = rsr_lift_emergency
+		icon = GFX_focus_rsr_lift_emergency
+		cost = 10.00
+		available = {
+			hidden_trigger = { always = no }
+		}
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = rsr_approve_unity
+		icon = GFX_focus_rsr_approve_unity
+		cost = 10.00
+		available = {
+			hidden_trigger = { always = no }
+		}
+		x = 18
+		y = 0
+
+	}
+	focus = {
+		id = rsr_remove_tukhachevsky
+		icon = GFX_focus_rsr_remove_tukhachevsky
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_eliminate_chk
+		}
+		prerequisite = {
+			focus = rsr_lift_emergency
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = rsr_remove_popov
+		icon = GFX_focus_rsr_remove_popov
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_lift_emergency
+		}
+		prerequisite = {
+			focus = rsr_approve_unity
+		}
+		x = 17
+		y = 1
+
+	}
+	focus = {
+		id = rsr_fourth_congress
+		icon = GFX_focus_fourth_congress
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_remove_tukhachevsky
+		}
+		prerequisite = {
+			focus = rsr_remove_popov
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = rsr_new_socialists
+		icon = GFX_focus_new_socialists
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_fourth_congress
+		}
+		mutually_exclusive = {
+			focus =	rsr_left_srs
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = rsr_influence_republic
+		icon = GFX_focus_influence_republic
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_new_socialists
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = rsr_anti_esser_rhetoric
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_new_socialists
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = rsr_influence_komsomol
+		icon = GFX_focus_influence_komsomol
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_anti_esser_rhetoric
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = rsr_defeat_sign_of_labor
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_influence_komsomol
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = rsr_rehabilitation_bukh
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_defeat_sign_of_labor
+		}
+		mutually_exclusive = {
+			focus = rsr_repressions_bukh
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = rsr_repressions_bukh
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_defeat_sign_of_labor
+		}
+		mutually_exclusive = {
+			focus = rsr_rehabilitation_bukh
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = rsr_shoot_bolsheviks
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_repressions_bukh
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = rsr_ban_left_sr
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_shoot_bolsheviks
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = rsr_deal_spiridonova
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_ban_left_sr
+		}
+		x = 18
+		y = 10
+		
+
+	}
+	focus = {
+		id = rsr_left_srs
+		icon = GFX_focus_rsr_left_srs
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_fourth_congress
+		}
+		x = 25
+		y = 3
+		mutually_exclusive = {
+			focus =	rsr_new_socialists
+		}
+	}
+	
+	focus = {
+		id = rsr_nep_bukh
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_new_socialists
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = rsr_sr_triumph_plsr
+		icon = GFX_focus_rsr_sr_triumph_plsr
+		cost = 10
+		x = 43
+		y = 4
+		prerequisite = {
+			focus = rsr_left_srs
+		}
+
+	}
+	focus = {
+		id = rsr_sr_create_ogpu
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_triumph_plsr
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = rsr_sr_foreign_department
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_create_ogpu
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = rsr_sr_external_terror
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_foreign_department
+		}
+		x = 31
+		y = 7
+
+	}
+	focus = {
+		id = rsr_sr_emperor_gold
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_external_terror
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_leplevsky_special_committee
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_create_ogpu
+		}
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = rsr_sr_case_uglanov
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_leplevsky_special_committee
+		}
+		x = 33
+		y = 7
+
+	}
+	focus = {
+		id = rsr_sr_round_up_on_krasnodar
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_case_uglanov
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_do_not_dig
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_round_up_on_krasnodar
+		}
+		x = 30
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_may_have_chance
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_do_not_dig
+		}
+		mutually_exclusive = {
+			focus = rsr_sr_we_can_handle
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sr_without_victims
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_may_have_chance
+		}
+		mutually_exclusive = {
+			focus = rsr_sr_with_victims
+		}
+		x = 24
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sr_with_victims
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_may_have_chance
+		}
+		mutually_exclusive = {
+			focus = rsr_sr_without_victims
+		}
+		x = 28
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sr_the_most_accurate
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_with_victims
+		}
+		x = 27
+		y = 12
+
+	}
+	focus = {
+		id = rsr_sr_the_most_dexterous
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_with_victims
+		}
+		x = 29
+		y = 12
+
+	}
+	focus = {
+		id = rsr_sr_we_can_handle
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_do_not_dig
+		}
+		mutually_exclusive = {
+			focus = rsr_sr_may_have_chance
+		}
+		x = 34
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sr_big_investigation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_we_can_handle
+		}
+		x = 34
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sr_investigation_village_councils
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_big_investigation
+		}
+		x = 32
+		y = 12
+
+	}
+	focus = {
+		id = rsr_sr_what_in_october
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_big_investigation
+		}
+		x = 34
+		y = 12
+
+	}
+	focus = {
+		id = rsr_sr_look_at_correspondence
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_investigation_village_councils
+		}
+		prerequisite = {
+			focus = rsr_sr_what_in_october
+		}
+		x = 33
+		y = 13
+
+	}
+	focus = {
+		id = rsr_sr_quick_response_units
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_leplevsky_special_committee
+		}
+		x = 35
+		y = 7
+
+	}
+	focus = {
+		id = rsr_sr_footprints_republics
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_big_investigation
+		}
+		x = 36
+		y = 12
+
+	}
+	focus = {
+		id = rsr_sr_how_issue_with_money
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_what_in_october
+		}
+		prerequisite = {
+			focus = rsr_sr_footprints_republics
+		}
+		x = 35
+		y = 13
+
+	}
+	focus = {
+		id = rsr_sr_really_nothing
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_look_at_correspondence
+		}
+		prerequisite = {
+			focus = rsr_sr_how_issue_with_money
+		}
+		x = 34
+		y = 14
+
+	}
+	focus = {
+		id = rsr_sr_vacation_for_kamkov
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_triumph_plsr
+		}
+		x = 43
+		y = 5
+
+	}
+	focus = {
+		id = rsr_sr_great_reforms_of_kolegaev
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_vacation_for_kamkov
+		}
+		x = 43
+		y = 6
+
+	}
+	focus = {
+		id = rsr_sr_how_dare_he
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_great_reforms_of_kolegaev
+		}
+		x = 43
+		y = 7
+
+	}
+	focus = {
+		id = rsr_sr_prime_algasov
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_how_dare_he
+		}
+		mutually_exclusive = {
+			focus = rsr_sr_prime_kamkov
+		}
+		x = 39
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_further_autonomy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_prime_algasov
+		}
+		x = 37
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_church_control
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_prime_algasov
+		}
+		x = 41
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_assessment_of_situation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_how_dare_he
+		}
+		x = 43
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_congress_national_workers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_assessment_of_situation
+		}
+		x = 43
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sr_reform_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_congress_national_workers
+		}
+		x = 43
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sr_comrades_for_work
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_reform_plan
+		}
+		x = 43
+		y = 12
+
+	}
+	focus = {
+		id = rsr_sr_monetary_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_comrades_for_work
+		}
+		x = 43
+		y = 13
+
+	}
+	focus = {
+		id = rsr_sr_obruchev_expedition
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_monetary_reform
+		}
+		x = 43
+		y = 14
+
+	}
+	focus = {
+		id = rsr_sr_unionzoloto
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_obruchev_expedition
+		}
+		x = 43
+		y = 15
+
+	}
+	focus = {
+		id = rsr_sr_mass_military_construction
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_unionzoloto
+		}
+		x = 43
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_soviet_gold_reserve
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_mass_military_construction
+		}
+		x = 43
+		y = 17
+
+	}
+	focus = {
+		id = rsr_sr_prime_kamkov
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_how_dare_he
+		}
+		mutually_exclusive = {
+			focus = rsr_sr_prime_algasov
+		}
+		x = 47
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_church_persecution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_prime_kamkov
+		}
+		x = 45
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_youth_festival
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_church_persecution
+		}
+		x = 45
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sr_antisoviet_art
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_youth_festival
+		}
+		x = 45
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sr_premiere_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_prime_kamkov
+		}
+		x = 47
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_new_union_law
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_premiere_plan
+		}
+		x = 47
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sr_wave_terror
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_new_union_law
+		}
+		x = 47
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sr_party_appeal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_prime_kamkov
+		}
+		x = 49
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_party_authority
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_party_appeal
+		}
+		x = 49
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sr_bureaucratization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_party_authority
+		}
+		x = 49
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sr_early_communism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_antisoviet_art
+		}
+		prerequisite = {
+			focus = rsr_sr_wave_terror
+		}
+		prerequisite = {
+			focus = rsr_sr_bureaucratization
+		}
+		x = 47
+		y = 12
+
+	}
+	focus = {
+		id = rsr_sr_interests_of_revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_triumph_plsr
+		}
+		x = 55
+		y = 5
+
+	}
+	focus = {
+		id = rsr_sr_article_warriors_revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_interests_of_revolution
+		}
+		x = 52
+		y = 6
+
+	}
+	focus = {
+		id = rsr_sr_rearmament_needs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_article_warriors_revolution
+		}
+		x = 50
+		y = 7
+
+	}
+	focus = {
+		id = rsr_sr_arms_trust
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_article_warriors_revolution
+		}
+		x = 52
+		y = 7
+
+	}
+	focus = {
+		id = rsr_sr_trust_sponsorship
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_arms_trust
+		}
+		x = 52
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_weapons_manufacturers_council
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_rearmament_needs
+		}
+		x = 50
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_academy_red_commanders
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_article_warriors_revolution
+		}
+		x = 54
+		y = 7
+
+	}
+	focus = {
+		id = rsr_sr_civil_war_experience
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_academy_red_commanders
+		}
+		x = 54
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_revolutionary_military_council
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_weapons_manufacturers_council
+		}
+		prerequisite = {
+			focus = rsr_sr_trust_sponsorship
+		}
+		prerequisite = {
+			focus = rsr_sr_civil_war_experience
+		}
+		x = 52
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_research_institute_muraviov
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_interests_of_revolution
+		}
+		x = 58
+		y = 6
+
+	}
+	focus = {
+		id = rsr_sr_the_needs_red_fleet
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_research_institute_muraviov
+		}
+		x = 57
+		y = 7
+
+	}
+	focus = {
+		id = rsr_sr_baltic_nii
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_the_needs_red_fleet
+		}
+		x = 57
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_preparation_great_war
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_research_institute_muraviov
+		}
+		x = 62
+		y = 7
+
+	}
+	focus = {
+		id = rsr_sr_expansion_political_department
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_preparation_great_war
+		}
+		x = 60
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_ogpu_units
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_expansion_political_department
+		}
+		x = 60
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_road_to_india
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_preparation_great_war
+		}
+		x = 62
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_show_strength
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_road_to_india
+		}
+		x = 62
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_our_cause_right
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_show_strength
+		}
+		x = 62
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sr_care_of_security
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_the_most_accurate
+		}
+		prerequisite = {
+			focus = rsr_sr_the_most_dexterous
+		}
+		x = 28
+		y = 13
+
+	}
+	focus = {
+		id = rsr_sr_for_the_cause
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_care_of_security
+		}
+		x = 28
+		y = 14
+
+	}
+	focus = {
+		id = rsr_sr_some_necessary_paper
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_act_fact
+		}
+		x = 26
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_few_witnesses
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_act_fact
+		}
+		x = 28
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_act_fact
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_for_the_cause
+		}
+		x = 28
+		y = 15
+
+	}
+	focus = {
+		id = rsr_sr_few_traitors
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_act_fact
+		}
+		x = 30
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_played_nikolai_alexandrovich
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_some_necessary_paper
+		}
+		prerequisite = {
+			focus = rsr_sr_few_witnesses
+		}
+		prerequisite = {
+			focus = rsr_sr_few_traitors
+		}
+		x = 28
+		y = 17
+
+	}
+	focus = {
+		id = rsr_sr_performers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_without_victims
+		}
+		x = 24
+		y = 12
+
+	}
+	focus = {
+		id = rsr_sr_to_burn_better
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_performers
+		}
+		x = 24
+		y = 13
+
+	}
+	focus = {
+		id = rsr_sr_operation_institute
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_to_burn_better
+		}
+		x = 24
+		y = 14
+
+	}
+	focus = {
+		id = rsr_sr_confession
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_operation_institute
+		}
+		x = 24
+		y = 15
+
+	}
+	focus = {
+		id = rsr_sr_ban_pns
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_confession
+		}
+		x = 24
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_grab_uglanov
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_ban_pns
+		}
+		x = 24
+		y = 17
+
+	}
+	focus = {
+		id = rsr_sr_comrade_bukharin
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_grab_uglanov
+			focus = rsr_sr_played_nikolai_alexandrovich
+			focus = rsr_sr_really_nothing
+		}
+		x = 26
+		y = 18
+
+	}
+	focus = {
+		id = rsr_sr_fair_trial
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_comrade_bukharin
+		}
+		x = 26
+		y = 19
+
+	}
+	focus = {
+		id = rsr_sr_you_will_never_come_back
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_fair_trial
+		}
+		mutually_exclusive = {
+			focus = rsr_sr_let_the_solovki_keep
+		}
+		x = 25
+		y = 20
+
+	}
+	focus = {
+		id = rsr_sr_let_the_solovki_keep
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_fair_trial
+		}
+		mutually_exclusive = {
+			focus = rsr_sr_you_will_never_come_back
+		}
+		x = 27
+		y = 20
+
+	}
+	focus = {
+		id = rsr_sr_death_penalty_moratorium
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_prime_algasov
+		}
+		x = 39
+		y = 9
+
+	}
+	focus = {
+		id = rsr_sr_nationality_councils
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_further_autonomy
+		}
+		x = 37
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sr_ethnic_workers_councils
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_nationality_councils
+		}
+		x = 37
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sr_great_amnesty
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_death_penalty_moratorium
+		}
+		x = 39
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sr_weapon_free
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_great_amnesty
+		}
+		x = 39
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sr_soviet_patriarch
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_church_control
+		}
+		x = 41
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sr_jesus_was_communist
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_soviet_patriarch
+		}
+		x = 41
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sr_free_land_soviet_land
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_ethnic_workers_councils
+		}
+		prerequisite = {
+			focus = rsr_sr_weapon_free
+		}
+		prerequisite = {
+			focus = rsr_sr_jesus_was_communist
+		}
+		x = 39
+		y = 12
+
+	}
+	focus = {
+		id = rsr_sr_specially_authorized
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_comrades_for_work
+		}
+		x = 39
+		y = 13
+
+	}
+	focus = {
+		id = rsr_sr_creation_selkoms
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_specially_authorized
+		}
+		x = 39
+		y = 14
+
+	}
+	focus = {
+		id = rsr_sr_village_state_relationship
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_creation_selkoms
+		}
+		x = 39
+		y = 15
+
+	}
+	focus = {
+		id = rsr_sr_destruction_speculative_unions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_creation_selkoms
+		}
+		x = 37
+		y = 15
+
+	}
+	focus = {
+		id = rsr_sr_take_control_smuggling
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_destruction_speculative_unions
+		}
+		x = 37
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_price_discussion
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_village_state_relationship
+		}
+		x = 39
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_repurchase_equipment
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_price_discussion
+		}
+		x = 39
+		y = 17
+
+	}
+	focus = {
+		id = rsr_sr_we_dont_need
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_take_control_smuggling
+		}
+		x = 37
+		y = 17
+
+	}
+	focus = {
+		id = rsr_sr_farm_modernization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_creation_selkoms
+		}
+		x = 41
+		y = 15
+
+	}
+	focus = {
+		id = rsr_sr_equipment_on_credit
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_farm_modernization
+		}
+		x = 41
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_free_communes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_equipment_on_credit
+		}
+		x = 41
+		y = 17
+
+	}
+	focus = {
+		id = rsr_sr_industrial_inspection
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_comrades_for_work
+		}
+		x = 47
+		y = 13
+
+	}
+	focus = {
+		id = rsr_sr_revitalization_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_industrial_inspection
+		}
+		x = 47
+		y = 14
+
+	}
+	focus = {
+		id = rsr_sr_labor_collectives
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_revitalization_industry
+		}
+		x = 47
+		y = 15
+
+	}
+	focus = {
+		id = rsr_sr_general_federation_manufacturers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_labor_collectives
+		}
+		x = 47
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_general_consumer_federation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_general_federation_manufacturers
+		}
+		x = 47
+		y = 17
+
+	}
+	focus = {
+		id = rsr_sr_inventory_return
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_revitalization_industry
+		}
+		x = 45
+		y = 15
+
+	}
+	focus = {
+		id = rsr_sr_trade_with_germany
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_inventory_return
+		}
+		x = 45
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_factory_schools
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_trade_with_germany
+		}
+		x = 45
+		y = 17
+
+	}
+	focus = {
+		id = rsr_sr_party_control
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_revitalization_industry
+		}
+		x = 49
+		y = 15
+
+	}
+	focus = {
+		id = rsr_sr_working_environment_standards
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_party_control
+		}
+		x = 49
+		y = 16
+
+	}
+	focus = {
+		id = rsr_sr_red_corners
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_working_environment_standards
+		}
+		x = 49
+		y = 17
+
+	}
+	focus = {
+		id = rsr_sr_our_holy_goal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_preparation_great_war
+		}
+		x = 64
+		y = 8
+
+	}
+	focus = {
+		id = rsr_sr_bayonets_of_revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = rsr_sr_our_holy_goal
+		}
+		x = 64
+		y = 9
+
+	}
+	focus = {
+		id = rsr_monetary_reform
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_nep_bukh
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = rsr_get_rich
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_nep_bukh
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = rsr_compulsory_loans
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_monetary_reform
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = rsr_price_adjustment
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_get_rich
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = rsr_organization_trusts
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_compulsory_loans
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = rsr_cost_accounting
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_price_adjustment
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = rsr_concessions
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_organization_trusts
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = rsr_family_row
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_cost_accounting
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = rsr_economic_revival
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_concessions
+		}
+		prerequisite = {
+			focus = rsr_family_row
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = rsr_socialist_market
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_economic_revival
+		}
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = rsr_smooth_centralization
+		icon = GFX_focus_smooth_centralization
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_influence_republic
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = rsr_our_cadres
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_smooth_centralization
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = rsr_our_people
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_smooth_centralization
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = rsr_joint_trusts
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_our_cadres
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = rsr_increasing_dependency
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_our_people
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = rsr_deal_with_frunze
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_joint_trusts
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = rsr_deal_with_goloshchekin
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_increasing_dependency
+		}
+		x = 6
+		y = 8
+
+	}
+	focus = {
+		id = rsr_local_conventions
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_deal_with_frunze
+		}
+		prerequisite = {
+			focus = rsr_deal_with_goloshchekin
+		}
+		x = 5
+		y = 9
+
+	}
+	focus = {
+		id = rsr_start_merging
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_local_conventions
+		}
+		x = 5
+		y = 10
+
+	}
+	focus = {
+		id = rsr_free_bolsheviks
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_rehabilitation_bukh
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = rsr_union_with_rkp
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_free_bolsheviks
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = rsr_invite_stalin
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_union_with_rkp
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = rsr_invinsible_party
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_invite_stalin
+			focus = rsr_deal_spiridonova
+		}
+		x = 17
+		y = 11
+
+	}
+}

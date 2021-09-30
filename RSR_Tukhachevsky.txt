@@ -1,0 +1,2051 @@
+focus_tree = {
+	id = rsr_tukh_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = RSR
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+	default = no
+	focus = {
+		id = rsr_red_napoleon
+		icon = GFX_focus_rsr_red_napoleon
+		cost = 10
+		x = 9
+		y = 0
+
+	}
+	focus = {
+		id = rsr_new_red_army
+		icon = GFX_focus_rsr_bol_bolshevik_army
+		cost = 10
+		x = 40
+		y = 0
+
+	}
+	focus = {
+		id = rsr_soviet_control
+		icon = GFX_focus_rsr_soviet_control
+		cost = 10
+		prerequisite = {
+			focus = rsr_red_napoleon
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = rsr_soldiers_soviets
+		icon = GFX_focus_rsr_soldiers_soviets
+		cost = 10
+		prerequisite = {
+			focus = rsr_soviet_control
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = rsr_disloyal_generals
+		icon = GFX_focus_rsr_disloyal_generals
+		cost = 10
+		prerequisite = {
+			focus = rsr_red_napoleon
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = rsr_restructurization_chk
+		icon = GFX_focus_rsr_restructurization_chk
+		cost = 10
+		prerequisite = {
+			focus = rsr_disloyal_generals
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = rsr_military_tribunal
+		icon = GFX_focus_rsr_military_tribunal
+		cost = 10
+		prerequisite = {
+			focus = rsr_soldiers_soviets
+		}
+		prerequisite = {
+			focus = rsr_restructurization_chk
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = rsr_clean_narkomats
+		icon = GFX_focus_rsr_clean_narkomats
+		cost = 10
+		prerequisite = {
+			focus = rsr_red_napoleon
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = rsr_narkomat_propaganda
+		icon = GFX_focus_rsr_narkomat_propaganda
+		cost = 10
+		prerequisite = {
+			focus = rsr_clean_narkomats
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = rsr_supreme_soviet
+		icon = GFX_focus_rsr_supreme_soviet
+		cost = 10
+		prerequisite = {
+			focus = rsr_narkomat_propaganda
+		}
+		prerequisite = {
+			focus = rsr_restructurization_chk
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = rsr_great_lider
+		icon = GFX_focus_rsr_great_lider
+		cost = 10
+		prerequisite = {
+			focus = rsr_military_tribunal
+		}
+		prerequisite = {
+			focus = rsr_supreme_soviet
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = rsr_immediate_centralization
+		icon = GFX_centralization_of_government
+		cost = 10
+		prerequisite = {
+			focus = rsr_great_lider
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = rsr_temperate_path
+		icon = GFX_focus_generic_military_academy
+		cost = 10
+		prerequisite = {
+			focus = rsr_immediate_centralization
+		}
+		mutually_exclusive = {
+			focus = rsr_we_will_not_delay
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = rsr_military_parties
+		icon = GFX_focus_rsr_communism_does_not_stop
+		cost = 10
+		prerequisite = {
+			focus = rsr_temperate_path
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = rsr_we_will_not_delay
+		icon = GFX_focus_rsr_approve_unity
+		cost = 10
+		prerequisite = {
+			focus = rsr_immediate_centralization
+		}
+		mutually_exclusive = {
+			focus = rsr_temperate_path
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = rsr_military_restructuring
+		icon = GFX_focus_rsr_military_restructuring
+		cost = 10
+		prerequisite = {
+			focus = rsr_great_lider
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = rsr_general_labor_service
+		icon = GFX_focus_rsr_general_labor_service
+		cost = 10
+		prerequisite = {
+			focus = rsr_military_restructuring
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = rsr_military_leader
+		icon = GFX_focus_rsr_military_leader
+		cost = 10
+		prerequisite = {
+			focus = rsr_general_labor_service
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = rsr_work_agitation
+		icon = GFX_focus_rsr_work_agitation
+		cost = 10
+		prerequisite = {
+			focus = rsr_military_leader
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = rsr_irregular_working_hours
+		icon = GFX_focus_rsr_irregular_working_hours
+		cost = 10
+		prerequisite = {
+			focus = rsr_general_labor_service
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = rsr_state_coercion
+		icon = GFX_focus_rsr_state_coercion
+		cost = 10
+		prerequisite = {
+			focus = rsr_irregular_working_hours
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = rsr_material_stimulation
+		icon = GFX_focus_rsr_material_stimulation
+		cost = 10
+		prerequisite = {
+			focus = rsr_work_agitation
+		}
+		prerequisite = {
+			focus = rsr_state_coercion
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = rsr_rearmament_plans
+		icon = GFX_goal_generic_fortify_city
+		cost = 10
+		prerequisite = {
+			focus = rsr_new_red_army
+		}
+		x = 38
+		y = 1
+
+	}
+	focus = {
+		id = rsr_recoilless_guns
+		icon = GFX_goal_generic_occupy_start_war
+		cost = 10
+		prerequisite = {
+			focus = rsr_rearmament_plans
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = rsr_office_commissioner_special_works
+		icon = GFX_focus_rsr_office_commissioner_special_works
+		cost = 10
+		prerequisite = {
+			focus = rsr_recoilless_guns
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = rsr_kurchevsky_guns
+		icon = GFX_goal_generic_army_artillery
+		cost = 10
+		prerequisite = {
+			focus = rsr_office_commissioner_special_works
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = rsr_artillery_orders
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10
+		prerequisite = {
+			focus = rsr_office_commissioner_special_works
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = rsr_wide_military_construction
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = rsr_material_stimulation
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = rsr_prisoner_labor
+		icon = GFX_focus_rsr_prisoner_labor
+		cost = 10
+		prerequisite = {
+			focus = rsr_wide_military_construction
+		}
+		x = 15
+		y = 11
+
+	}
+	focus = {
+		id = rsr_main_artillery_department
+		icon = GFX_goal_generic_build_tank
+		cost = 10
+		prerequisite = {
+			focus = rsr_office_commissioner_special_works
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = rsr_cultural_transformation
+		icon = GFX_focus_rsr_cultural_transformation
+		cost = 10
+		prerequisite = {
+			focus = rsr_great_lider
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = rsr_recognize_our_history
+		icon = GFX_focus_rsr_recognize_our_history
+		cost = 10
+		prerequisite = {
+			focus = rsr_cultural_transformation
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = rsr_prospects_omp
+		icon = GFX_focus_rsr_prospects_omp
+		cost = 10
+		prerequisite = {
+			focus = rsr_rearmament_plans
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = rsr_department_18
+		icon = GFX_focus_rsr_department_18
+		cost = 10
+		prerequisite = {
+			focus = rsr_prospects_omp
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = rsr_church_closure
+		icon = GFX_focus_rsr_church_closure
+		cost = 10
+		prerequisite = {
+			focus = rsr_cultural_transformation
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = rsr_rewrite_history
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		cost = 10
+		prerequisite = {
+			focus = rsr_church_closure
+		}
+		prerequisite = {
+			focus = rsr_recognize_our_history
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = rsr_continuing_education_courses
+		icon = GFX_focus_rsr_continuing_education_courses
+		cost = 10
+		prerequisite = {
+			focus = rsr_new_red_army
+		}
+		x = 40
+		y = 1
+
+	}
+	focus = {
+		id = rsr_military_institutes
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10
+		prerequisite = {
+			focus = rsr_continuing_education_courses
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = rsr_quick_war_plan
+		icon = GFX_focus_generic_license_production
+		cost = 10
+		prerequisite = {
+			focus = rsr_military_institutes
+		}
+		x = 40
+		y = 3
+
+	}
+	focus = {
+		id = rsr_mechanized_wedge_strike
+		icon = GFX_goal_generic_army_tanks
+		cost = 10
+		prerequisite = {
+			focus = rsr_quick_war_plan
+		}
+		x = 40
+		y = 4
+
+	}
+	focus = {
+		id = rsr_eternal_war
+		icon = GFX_focus_rsr_eternal_war
+		cost = 10
+		prerequisite = {
+			focus = rsr_cultural_transformation
+		}
+		x = 20
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_shit
+		icon = GFX_focus_rsr_shit
+		cost = 10
+		x = 25
+		y = 0
+
+	}
+	
+	
+	focus = {
+		id = rsr_soldier_country
+		icon = GFX_focus_rsr_soldier_country
+		cost = 10
+		prerequisite = {
+			focus = rsr_eternal_war
+		}
+		prerequisite = {
+			focus = rsr_church_closure
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = rsr_christian_destruction_project
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10
+		prerequisite = {
+			focus = rsr_rewrite_history
+		}
+		prerequisite = {
+			focus = rsr_soldier_country
+		}
+		x = 20
+		y = 8
+
+	}
+	focus = {
+		id = rsr_militant_atheism
+		icon = GFX_focus_rsr_militant_atheism
+		cost = 10
+		prerequisite = {
+			focus = rsr_christian_destruction_project
+		}
+		mutually_exclusive = {
+			focus = rsr_natural_religion
+		}
+		x = 17
+		y = 9
+
+	}
+	focus = {
+		id = rsr_science_propaganda
+		icon = GFX_focus_rsr_science_propaganda
+		cost = 10
+		prerequisite = {
+			focus = rsr_militant_atheism
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = rsr_natural_religion
+		icon = GFX_focus_rsr_natural_religion
+		cost = 10
+		prerequisite = {
+			focus = rsr_christian_destruction_project
+		}
+		mutually_exclusive = {
+			focus = rsr_militant_atheism
+		}
+		x = 22
+		y = 9
+
+	}
+	focus = {
+		id = rsr_first_state_rite
+		icon = GFX_focus_rsr_first_state_rite
+		cost = 10
+		prerequisite = {
+			focus = rsr_natural_religion
+		}
+		x = 20
+		y = 10
+
+	}
+	focus = {
+		id = rsr_cult_of_ancestors
+		icon = GFX_focus_rsr_cult_of_ancestors
+		cost = 10
+		prerequisite = {
+			focus = rsr_first_state_rite
+		}
+		x = 20
+		y = 11
+
+	}
+	focus = {
+		id = rsr_idols
+		icon = GFX_focus_rsr_idols
+		cost = 10
+		prerequisite = {
+			focus = rsr_cult_of_ancestors
+		}
+		x = 20
+		y = 12
+
+	}
+	focus = {
+		id = rsr_slavic_revival
+		icon = GFX_focus_rsr_slavic_revival
+		cost = 10
+		prerequisite = {
+			focus = rsr_idols
+		}
+		x = 19
+		y = 13
+
+	}
+	focus = {
+		id = rsr_special_department
+		icon = GFX_focus_rsr_special_department
+		cost = 10
+		prerequisite = {
+			focus = rsr_slavic_revival
+		}
+		x = 19
+		y = 14
+
+	}
+	focus = {
+		id = rsr_department_geology
+		icon = GFX_focus_rsr_department_geology
+		cost = 10
+		prerequisite = {
+			focus = rsr_special_department
+		}
+		x = 15
+		y = 15
+
+	}
+	focus = {
+		id = rsr_processing_of_scientists
+		icon = GFX_focus_rsr_processing_of_scientists
+		cost = 10
+		prerequisite = {
+			focus = rsr_department_geology
+		}
+		x = 16
+		y = 16
+
+	}
+	focus = {
+		id = rsr_top_control
+		icon = GFX_focus_rsr_top_control
+		cost = 10
+		prerequisite = {
+			focus = rsr_department_geology
+		}
+		x = 14
+		y = 16
+
+	}
+	focus = {
+		id = rsr_obruchev_expedition
+		icon = GFX_focus_rsr_obruchev_expedition
+		cost = 10
+		prerequisite = {
+			focus = rsr_top_control
+		}
+		x = 13
+		y = 17
+
+	}
+	focus = {
+		id = rsr_barchenko_expedition
+		icon = GFX_focus_rsr_barchenko_expedition
+		cost = 10
+		prerequisite = {
+			focus = rsr_top_control
+		}
+		prerequisite = {
+			focus = rsr_processing_of_scientists
+		}
+		x = 15
+		y = 17
+
+	}
+	focus = {
+		id = rsr_rerikh_expedition
+		icon = GFX_focus_rsr_rerikh_expedition
+		cost = 10
+		prerequisite = {
+			focus = rsr_processing_of_scientists
+		}
+		x = 17
+		y = 17
+
+	}
+	focus = {
+		id = rsr_new_teaching
+		icon = GFX_focus_rsr_new_teaching
+		cost = 10
+		prerequisite = {
+			focus = rsr_special_department
+		}
+		x = 17
+		y = 15
+
+	}
+	focus = {
+		id = rsr_new_ideological_doctrine
+		icon = GFX_focus_rsr_new_ideological_doctrine
+		cost = 10
+		prerequisite = {
+			focus = rsr_special_department
+		}
+		x = 19
+		y = 15
+
+	}
+	focus = {
+		id = rsr_great_ryugen_construction
+		icon = GFX_focus_rsr_great_ryugen_construction
+		cost = 10
+		prerequisite = {
+			focus = rsr_new_ideological_doctrine
+		}
+		x = 19
+		y = 16
+
+	}
+	focus = {
+		id = rsr_semi_automatic_weapons
+		icon = GFX_focus_rsr_semi_automatic_weapons
+		cost = 10
+		prerequisite = {
+			focus = rsr_new_red_army
+		}
+		x = 42
+		y = 1
+
+	}
+	focus = {
+		id = rsr_development_additional_weapons
+		icon = GFX_focus_secret_rearmament
+		cost = 10
+		prerequisite = {
+			focus = rsr_semi_automatic_weapons
+		}
+		x = 42
+		y = 2
+
+	}
+	focus = {
+		id = rsr_electrical_innovation
+		icon = GFX_goal_generic_radar
+		cost = 10
+		prerequisite = {
+			focus = rsr_development_additional_weapons
+		}
+		x = 42
+		y = 3
+
+	}
+	focus = {
+		id = rsr_techs_are_the_future
+		icon = GFX_goal_generic_air_production
+		cost = 10
+		prerequisite = {
+			focus = rsr_semi_automatic_weapons
+		}
+		x = 44
+		y = 2
+
+	}
+	focus = {
+		id = rsr_tank_institute
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		prerequisite = {
+			focus = rsr_techs_are_the_future
+		}
+		x = 44
+		y = 3
+
+	}
+	focus = {
+		id = rsr_air_fleet
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10
+		prerequisite = {
+			focus = rsr_tank_institute
+		}
+		x = 42
+		y = 4
+
+	}
+	focus = {
+		id = rsr_kalinin_kb
+		icon = GFX_focus_rsr_kalinin_kb
+		cost = 10
+		prerequisite = {
+			focus = rsr_air_fleet
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = rsr_eclipse_heaven
+		icon = GFX_goal_generic_air_bomber
+		cost = 10
+		prerequisite = {
+			focus = rsr_air_fleet
+		}
+		x = 43
+		y = 5
+
+	}
+	focus = {
+		id = rsr_personnel_training
+		icon = GFX_focus_chi_army_reform
+		cost = 10
+		prerequisite = {
+			focus = rsr_tank_institute
+		}
+		x = 44
+		y = 4
+
+	}
+	focus = {
+		id = rsr_revive_pantheon_gods
+		icon = GFX_focus_rsr_revive_pantheon_gods
+		cost = 10
+		prerequisite = {
+			focus = rsr_natural_religion
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = rsr_commissioner_priest
+		icon = GFX_focus_rsr_commissioner_priest
+		cost = 10
+		prerequisite = {
+			focus = rsr_revive_pantheon_gods
+		}
+		x = 24
+		y = 11
+
+	}
+	focus = {
+		id = rsr_rites_red_army
+		icon = GFX_focus_rsr_rites_red_army
+		cost = 10
+		prerequisite = {
+			focus = rsr_commissioner_priest
+		}
+		x = 24
+		y = 12
+
+	}
+	focus = {
+		id = rsr_mass_release
+		icon = GFX_focus_generic_tank_production
+		cost = 10
+		prerequisite = {
+			focus = rsr_personnel_training
+		}
+		x = 45
+		y = 5
+
+	}
+	focus = {
+		id = rsr_planning_soviet
+		icon = GFX_goal_generic_cavalry
+		cost = 10
+		prerequisite = {
+			focus = rsr_mass_release
+		}
+		x = 45
+		y = 6
+
+	}
+	focus = {
+		id = rsr_technology_development
+		icon = GFX_focus_generic_license_production
+		cost = 10
+		prerequisite = {
+			focus = rsr_mass_release
+		}
+		x = 43
+		y = 6
+
+	}
+	focus = {
+		id = rsr_tsentrobryon
+		icon = GFX_goal_generic_political_pressure
+		cost = 10
+		prerequisite = {
+			focus = rsr_mass_release
+		}
+		x = 47
+		y = 6
+
+	}
+	focus = {
+		id = rsr_we_roll_them_into_the_ground
+		icon = GFX_goal_continuous_armor_production
+		cost = 10
+		prerequisite = {
+			focus = rsr_technology_development
+		}
+		prerequisite = {
+			focus = rsr_planning_soviet
+		}
+		prerequisite = {
+			focus = rsr_tsentrobryon
+		}
+		x = 45
+		y = 7
+
+	}
+	focus = {
+		id = rsr_forced_confiscation
+		icon = GFX_focus_rsr_forced_confiscation
+		cost = 10
+		prerequisite = {
+			focus = rsr_military_restructuring
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = rsr_first_steps
+		icon = GFX_focus_rsr_first_steps
+		cost = 10
+		prerequisite = {
+			focus = rsr_forced_confiscation
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = rsr_monetary_reform
+		icon = GFX_focus_rsr_monetary_reform
+		cost = 10
+		prerequisite = {
+			focus = rsr_military_restructuring
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = rsr_military_construction_commission
+		icon = GFX_focus_rsr_military_construction_commission
+		cost = 10
+		prerequisite = {
+			focus = rsr_forced_confiscation
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = rsr_building_codes
+		icon = GFX_focus_rsr_building_codes
+		cost = 10
+		prerequisite = {
+			focus = rsr_military_construction_commission
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = rsr_dual_use_products
+		icon = GFX_focus_rsr_dual_use_products
+		cost = 10
+		prerequisite = {
+			focus = rsr_first_steps
+		}
+		x = 6
+		y = 8
+
+	}
+	focus = {
+		id = rsr_eurotorg
+		icon = GFX_focus_rsr_eurotorg
+		cost = 10
+		prerequisite = {
+			focus = rsr_monetary_reform
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = rsr_attraction_of_peasants
+		icon = GFX_focus_rsr_attraction_of_peasants
+		cost = 10
+		prerequisite = {
+			focus = rsr_building_codes
+		}
+		prerequisite = {
+			focus = rsr_dual_use_products
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = rsr_agricultural_committee
+		icon = GFX_focus_rsr_agricultural_committee
+		cost = 10
+		prerequisite = {
+			focus = rsr_attraction_of_peasants
+		}
+		x = 5
+		y = 10
+
+	}
+	focus = {
+		id = rsr_bread_standards
+		icon = GFX_focus_rsr_bread_standards
+		cost = 10
+		prerequisite = {
+			focus = rsr_agricultural_committee
+		}
+		x = 3
+		y = 11
+
+	}
+	focus = {
+		id = rsr_state_farms
+		icon = GFX_focus_rsr_state_farms
+		cost = 10
+		prerequisite = {
+			focus = rsr_agricultural_committee
+		}
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = rsr_start_mechanization
+		icon = GFX_focus_rsr_start_mechanization
+		cost = 10
+		prerequisite = {
+			focus = rsr_agricultural_committee
+		}
+		x = 7
+		y = 11
+
+	}
+	focus = {
+		id = rsr_heavy_industry
+		icon = GFX_focus_generic_industry_3
+		cost = 10
+		prerequisite = {
+			focus = rsr_eurotorg
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = rsr_machine_factories
+		icon = GFX_focus_rsr_machine_factories
+		cost = 10
+		prerequisite = {
+			focus = rsr_heavy_industry
+		}
+		x = 9
+		y = 11
+
+	}
+	focus = {
+		id = rsr_soldiers_construction
+		icon = GFX_focus_rsr_soldiers_construction
+		cost = 10
+		prerequisite = {
+			focus = rsr_wide_military_construction
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = rsr_railway_construction
+		icon = GFX_focus_rsr_railway_construction
+		cost = 10
+		prerequisite = {
+			focus = rsr_wide_military_construction
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = rsr_modern_agriculture
+		icon = GFX_focus_rsr_modern_agriculture
+		cost = 10
+		prerequisite = {
+			focus = rsr_start_mechanization
+		}
+		prerequisite = {
+			focus = rsr_machine_factories
+		}
+		x = 8
+		y = 12
+
+	}
+	focus = {
+		id = rsr_peasant_support
+		icon = GFX_focus_rsr_kir_support_peasants
+		cost = 10
+		prerequisite = {
+			focus = rsr_bread_standards
+		}
+		prerequisite = {
+			focus = rsr_state_farms
+		}
+		x = 4
+		y = 12
+
+	}
+	focus = {
+		id = rsr_bowels_the_earth
+		icon = GFX_focus_rsr_bowels_the_earth
+		cost = 10
+		prerequisite = {
+			focus = rsr_railway_construction
+		}
+		prerequisite = {
+			focus = rsr_prisoner_labor
+		}
+		x = 14
+		y = 12
+
+	}
+	focus = {
+		id = rsr_russia_raises
+		icon = GFX_focus_rsr_russia_raises
+		cost = 10
+		prerequisite = {
+			focus = rsr_soldiers_construction
+		}
+		prerequisite = {
+			focus = rsr_machine_factories
+		}
+		x = 10
+		y = 12
+
+	}
+	focus = {
+		id = rsr_self_sufficient_agricultural
+		icon = GFX_focus_rsr_self_sufficient_agricultural
+		cost = 10
+		prerequisite = {
+			focus = rsr_peasant_support
+		}
+		prerequisite = {
+			focus = rsr_modern_agriculture
+		}
+		x = 6
+		y = 13
+
+	}
+	focus = {
+		id = rsr_country_factory
+		icon = GFX_focus_rsr_country_factory
+		cost = 10
+		prerequisite = {
+			focus = rsr_russia_raises
+		}
+		prerequisite = {
+			focus = rsr_bowels_the_earth
+		}
+		x = 12
+		y = 13
+
+	}
+	focus = {
+		id = rsr_perfect_war_communism
+		icon = GFX_focus_rsr_perfect_war_communism
+		cost = 10
+		prerequisite = {
+			focus = rsr_self_sufficient_agricultural
+		}
+		prerequisite = {
+			focus = rsr_country_factory
+		}
+		x = 9
+		y = 14
+
+	}
+	focus = {
+		id = rsr_overwhelm_them_work
+		icon = GFX_focus_rsr_overwhelm_them_work
+		cost = 10
+		prerequisite = {
+			focus = rsr_temperate_path
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = rsr_ours_to_the_fore
+		icon = GFX_focus_rsr_ours_to_the_fore
+		cost = 10
+		prerequisite = {
+			focus = rsr_military_parties
+		}
+		prerequisite = {
+			focus = rsr_overwhelm_them_work
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = rsr_coups
+		icon = GFX_focus_rsr_coups
+		cost = 10
+		prerequisite = {
+			focus = rsr_ours_to_the_fore
+		}
+		x = 2
+		y = 9
+
+	}
+	focus = {
+		id = rsr_integration
+		icon = GFX_focus_rsr_integration
+		cost = 10
+		prerequisite = {
+			focus = rsr_coups
+		}
+		x = 2
+		y = 10
+
+	}
+	focus = {
+		id = rsr_atheistic_circles
+		icon = GFX_focus_rsr_atheistic_circles
+		cost = 10
+		prerequisite = {
+			focus = rsr_militant_atheism
+		}
+		x = 18
+		y = 10
+
+	}
+	focus = {
+		id = rsr_repress_priests
+		icon = GFX_focus_rsr_repress_priests
+		cost = 10
+		prerequisite = {
+			focus = rsr_science_propaganda
+		}
+		prerequisite = {
+			focus = rsr_atheistic_circles
+		}
+		x = 17
+		y = 11
+
+	}
+	focus = {
+		id = rsr_sell_church_values
+		icon = GFX_focus_rsr_sell_church_values
+		cost = 10
+		prerequisite = {
+			focus = rsr_repress_priests
+		}
+		x = 16
+		y = 12
+
+	}
+	focus = {
+		id = rsr_showdown
+		icon = GFX_focus_rsr_showdown
+		cost = 10
+		prerequisite = {
+			focus = rsr_repress_priests
+		}
+		x = 18
+		y = 12
+
+	}
+	focus = {
+		id = rsr_state_atheism
+		icon = GFX_focus_rsr_state_atheism
+		cost = 10
+		prerequisite = {
+			focus = rsr_sell_church_values
+		}
+		prerequisite = {
+			focus = rsr_showdown
+		}
+		x = 17
+		y = 13
+
+	}
+	focus = {
+		id = rsr_remodel_temples
+		icon = GFX_focus_rsr_remodel_temples
+		cost = 10
+		prerequisite = {
+			focus = rsr_natural_religion
+		}
+		x = 22
+		y = 10
+
+	}
+	focus = {
+		id = rsr_sacred_places
+		icon = GFX_focus_rsr_sacred_places
+		cost = 10
+		prerequisite = {
+			focus = rsr_remodel_temples
+		}
+		x = 22
+		y = 11
+
+	}
+	focus = {
+		id = rsr_cathedral_of_great_perun
+		icon = GFX_focus_rsr_cathedral_of_great_perun
+		cost = 10
+		prerequisite = {
+			focus = rsr_sacred_places
+		}
+		x = 22
+		y = 12
+
+	}
+	focus = {
+		id = rsr_pagan_propaganda_committee
+		icon = GFX_focus_rsr_pagan_propaganda_committee
+		cost = 10
+		prerequisite = {
+			focus = rsr_idols
+		}
+		prerequisite = {
+			focus = rsr_cathedral_of_great_perun
+		}
+		prerequisite = {
+			focus = rsr_rites_red_army
+		}
+		x = 22
+		y = 13
+
+	}
+	focus = {
+		id = rsr_punish_heretics
+		icon = GFX_focus_rsr_punish_heretics
+		cost = 10
+		prerequisite = {
+			focus = rsr_pagan_propaganda_committee
+		}
+		x = 21
+		y = 14
+
+	}
+	focus = {
+		id = rsr_help_spirits_in_production
+		icon = GFX_focus_rsr_help_spirits_in_production
+		cost = 10
+		prerequisite = {
+			focus = rsr_pagan_propaganda_committee
+		}
+		x = 23
+		y = 14
+
+	}
+	focus = {
+		id = rsr_veles_help_us
+		icon = GFX_focus_rsr_veles_help_us
+		cost = 10
+		prerequisite = {
+			focus = rsr_punish_heretics
+		}
+		prerequisite = {
+			focus = rsr_help_spirits_in_production
+		}
+		x = 22
+		y = 15
+
+	}
+	focus = {
+		id = rsr_battle_study
+		icon = GFX_focus_rsr_battle_study
+		cost = 10
+		x = 20
+		y = 0
+
+	}
+	focus = {
+		id = rsr_little_war
+		icon = GFX_focus_rsr_little_war
+		cost = 10
+		prerequisite = {
+			focus = rsr_battle_study
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = rsr_direct_confrontation
+		icon = GFX_focus_rsr_direct_confrontation
+		cost = 10
+		prerequisite = {
+			focus = rsr_little_war
+		}
+		mutually_exclusive = {
+			focus = rsr_yakir_plan
+		}
+		x = 14
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_yakir_plan
+		icon = GFX_focus_rsr_yakir_plan
+		cost = 10
+		prerequisite = {
+			focus = rsr_little_war
+		}
+		mutually_exclusive = {
+			focus = rsr_direct_confrontation
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = rsr_proxy_war
+		icon = GFX_focus_rsr_proxy_war
+		cost = 10
+		prerequisite = {
+			focus = rsr_yakir_plan
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = rsr_yakir_plan_2
+		icon = GFX_focus_rsr_yakir_plan_2
+		cost = 10
+		prerequisite = {
+			focus = rsr_yakir_plan
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = rsr_desert_construction
+		icon = GFX_focus_rsr_desert_construction
+		cost = 10
+		prerequisite = {
+			focus = rsr_yakir_plan
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = rsr_yakir_plan_3
+		icon = GFX_focus_rsr_yakir_plan_3
+		cost = 10
+		prerequisite = {
+			focus = rsr_yakir_plan_2
+		}
+		prerequisite = {
+			focus = rsr_desert_construction
+		}
+		prerequisite = {
+			focus = rsr_proxy_war
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = rsr_train_go
+		icon = GFX_focus_rsr_train_go
+		cost = 10
+		prerequisite = {
+			focus = rsr_yakir_plan_2
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = rsr_info_stop
+		icon = GFX_focus_rsr_info_stop
+		cost = 10
+		prerequisite = {
+			focus = rsr_yakir_plan_2
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = rsr_kemal_manifesto
+		icon = GFX_focus_rsr_kemal_manifesto
+		cost = 10
+		prerequisite = {
+			focus = rsr_little_war
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = rsr_great_final
+		icon = GFX_focus_rsr_great_final
+		cost = 10
+		prerequisite = {
+			focus = rsr_little_war
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = rsr_invasion_in_europe
+		icon = GFX_focus_rsr_invasion_in_europe
+		cost = 10
+		prerequisite = {
+			focus = rsr_great_final
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = rsr_terror_forces
+		icon = GFX_focus_rsr_terror_forces
+		cost = 10
+		prerequisite = {
+			focus = rsr_invasion_in_europe
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = rsr_mass_fleet_construction
+		icon = GFX_focus_rsr_mass_fleet_construction
+		cost = 10
+		prerequisite = {
+			focus = rsr_invasion_in_europe
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = rsr_declare_victory
+		icon = GFX_focus_rsr_declare_victory
+		cost = 10
+		prerequisite = {
+			focus = rsr_invasion_in_europe
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = rsr_strike_to_the_heart
+		icon = GFX_focus_rsr_strike_to_the_heart
+		cost = 10
+		prerequisite = {
+			focus = rsr_declare_victory
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = rsr_for_the_soviet_science
+		icon = GFX_focus_rsr_for_the_soviet_science
+		cost = 10
+		x = 37
+		y = 7
+
+	}
+	focus = {
+		id = rsr_electric
+		icon = GFX_focus_rsr_electric
+		cost = 10
+		prerequisite = {
+			focus = rsr_for_the_soviet_science
+		}
+		x = 29
+		y = 8
+
+	}
+	focus = {
+		id = rsr_crush_him_spirit
+		icon = GFX_focus_rsr_crush_him_spirit
+		cost = 10
+		prerequisite = {
+			focus = rsr_electric
+		}
+		x = 29
+		y = 9
+
+	}
+	focus = {
+		id = rsr_endless_energy
+		icon = GFX_focus_rsr_endless_energy
+		cost = 10
+		prerequisite = {
+			focus = rsr_crush_him_spirit
+		}
+		x = 30
+		y = 10
+
+	}
+	focus = {
+		id = rsr_tesla_coil
+		icon = GFX_focus_rsr_tesla_coil
+		cost = 10
+		prerequisite = {
+			focus = rsr_endless_energy
+		}
+		x = 29
+		y = 11
+
+	}
+	focus = {
+		id = rsr_electrotanks
+		icon = GFX_focus_rsr_electrotanks
+		cost = 10
+		prerequisite = {
+			focus = rsr_tesla_coil
+		}
+		x = 29
+		y = 12
+
+	}
+	focus = {
+		id = rsr_aviator
+		icon = GFX_focus_rsr_aviator
+		cost = 10
+		prerequisite = {
+			focus = rsr_for_the_soviet_science
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = rsr_fate_of_family
+		icon = GFX_focus_rsr_fate_of_family
+		cost = 10
+		prerequisite = {
+			focus = rsr_aviator
+		}
+		x = 31
+		y = 9
+
+	}
+	focus = {
+		id = rsr_closed_kb
+		icon = GFX_focus_rsr_closed_kb
+		cost = 10
+		prerequisite = {
+			focus = rsr_fate_of_family
+		}
+		x = 32
+		y = 10
+
+	}
+	focus = {
+		id = rsr_up_and_up
+		icon = GFX_focus_rsr_up_and_up
+		cost = 10
+		prerequisite = {
+			focus = rsr_closed_kb
+		}
+		x = 31
+		y = 11
+
+	}
+	focus = {
+		id = rsr_vertoplans
+		icon = GFX_focus_rsr_vertoplans
+		cost = 10
+		prerequisite = {
+			focus = rsr_up_and_up
+		}
+		x = 31
+		y = 12
+
+	}
+	focus = {
+		id = rsr_atom
+		icon = GFX_focus_rsr_atom
+		cost = 10
+		prerequisite = {
+			focus = rsr_for_the_soviet_science
+		}
+		x = 39
+		y = 8
+
+	}
+	focus = {
+		id = rsr_new_mechanics
+		icon = GFX_focus_rsr_new_mechanics
+		cost = 10
+		prerequisite = {
+			focus = rsr_atom
+		}
+		prerequisite = {
+			focus = rsr_cvant
+		}
+		x = 37
+		y = 9
+
+	}
+	focus = {
+		id = rsr_field_theory
+		icon = GFX_focus_rsr_field_theory
+		cost = 10
+		prerequisite = {
+			focus = rsr_new_mechanics
+		}
+		x = 37
+		y = 10
+
+	}
+	focus = {
+		id = rsr_applied_relativity
+		icon = GFX_focus_rsr_applied_relativity
+		cost = 10
+		prerequisite = {
+			focus = rsr_atom
+		}
+		x = 39
+		y = 9
+
+	}
+	focus = {
+		id = rsr_destroy_world
+		icon = GFX_focus_rsr_destroy_world
+		cost = 10
+		prerequisite = {
+			focus = rsr_applied_relativity
+		}
+		x = 39
+		y = 10
+
+	}
+	focus = {
+		id = rsr_induced_radiacy
+		icon = GFX_focus_rsr_induced_radiacy
+		cost = 10
+		prerequisite = {
+			focus = rsr_destroy_world
+		}
+		x = 39
+		y = 11
+
+	}
+	focus = {
+		id = rsr_person_talk
+		icon = GFX_focus_rsr_person_talk
+		cost = 10
+		prerequisite = {
+			focus = rsr_atom
+		}
+		x = 41
+		y = 9
+
+	}
+	focus = {
+		id = rsr_cvant
+		icon = GFX_focus_rsr_cvant
+		cost = 10
+		prerequisite = {
+			focus = rsr_for_the_soviet_science
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = rsr_reactive_research
+		icon = GFX_focus_rsr_reactive_research
+		cost = 10
+		prerequisite = {
+			focus = rsr_cvant
+		}
+		prerequisite = {
+			focus = rsr_aviator
+		}
+		x = 33
+		y = 9
+
+	}
+	focus = {
+		id = rsr_loyalty
+		icon = GFX_focus_rsr_loyalty
+		cost = 10
+		prerequisite = {
+			focus = rsr_cvant
+		}
+		x = 35
+		y = 9
+
+	}
+	focus = {
+		id = rsr_space_rays
+		icon = GFX_focus_rsr_space_rays
+		cost = 10
+		prerequisite = {
+			focus = rsr_loyalty
+		}
+		x = 35
+		y = 10
+
+	}
+	focus = {
+		id = rsr_spectre_small_particles
+		icon = GFX_focus_rsr_spectre_small_particles
+		cost = 10
+		prerequisite = {
+			focus = rsr_space_rays
+		}
+		x = 35
+		y = 11
+
+	}
+	focus = {
+		id = rsr_chemistry
+		icon = GFX_focus_rsr_chemistry
+		cost = 10
+		prerequisite = {
+			focus = rsr_for_the_soviet_science
+		}
+		x = 43
+		y = 8
+
+	}
+	focus = {
+		id = rsr_women_fate
+		icon = GFX_focus_rsr_women_fate
+		cost = 10
+		prerequisite = {
+			focus = rsr_chemistry
+		}
+		x = 44
+		y = 9
+
+	}
+	focus = {
+		id = rsr_death_radiacy
+		icon = GFX_focus_rsr_death_radiacy
+		cost = 10
+		prerequisite = {
+			focus = rsr_chemistry
+		}
+		x = 42
+		y = 10
+
+	}
+	focus = {
+		id = rsr_death_water
+		icon = GFX_focus_rsr_death_water
+		cost = 10
+		prerequisite = {
+			focus = rsr_radiacy_potential
+		}
+		x = 42
+		y = 12
+
+	}
+	focus = {
+		id = rsr_radiacy_potential
+		icon = GFX_focus_rsr_radiacy_potential
+		cost = 10
+		prerequisite = {
+			focus = rsr_death_radiacy
+		}
+		prerequisite = {
+			focus = rsr_atom
+		}
+		x = 42
+		y = 11
+
+	}
+	focus = {
+		id = rsr_veles
+		icon = GFX_focus_rsr_veles
+		cost = 10
+		prerequisite = {
+			focus = rsr_for_the_soviet_science
+		}
+		x = 27
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_slavic_arian_veds
+		icon = GFX_focus_rsr_slavic_arian_veds
+		cost = 10
+		prerequisite = {
+			focus = rsr_veles
+		}
+		x = 27
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_syon_protocols
+		icon = GFX_focus_rsr_syon_protocols
+		cost = 10
+		prerequisite = {
+			focus = rsr_slavic_arian_veds
+		}
+		mutually_exclusive = {
+			focus = rsr_control_up
+		}
+		x = 26
+		y = 10
+
+	}
+	
+	focus = {
+		id = rsr_control_up
+		icon = GFX_focus_rsr_control_up
+		cost = 10
+		prerequisite = {
+			focus = rsr_slavic_arian_veds
+		}
+		mutually_exclusive = {
+			focus = rsr_syon_protocols
+		}
+		x = 28
+		y = 10
+
+	}
+	
+	focus = {
+		id = rsr_we_gardarika
+		icon = GFX_focus_rsr_we_gardarika
+		cost = 10
+		prerequisite = {
+			focus = rsr_syon_protocols
+			focus = rsr_control_up
+		}
+
+
+		x = 27
+		y = 11
+
+	}
+	
+	
+	
+	focus = {
+		id = rsr_severstroy
+		icon = GFX_focus_rsr_severstroy
+		cost = 10
+		prerequisite = {
+			focus = rsr_for_the_soviet_science
+		}
+		x = 47
+		y = 8
+
+	}
+	focus = {
+		id = rsr_geological_intelligence
+		icon = GFX_focus_rsr_geological_intelligence
+		cost = 10
+		prerequisite = {
+			focus = rsr_severstroy
+		}
+		x = 46
+		y = 9
+
+	}
+	focus = {
+		id = rsr_pioners
+		icon = GFX_focus_rsr_pioners
+		cost = 10
+		prerequisite = {
+			focus = rsr_severstroy
+		}
+		x = 48
+		y = 9
+
+	}
+	focus = {
+		id = rsr_construction_plans
+		icon = GFX_focus_rsr_construction_plans
+		cost = 10
+		prerequisite = {
+			focus = rsr_pioners
+		}
+		prerequisite = {
+			focus = rsr_geological_intelligence
+		}
+		x = 47
+		y = 10
+
+	}
+	focus = {
+		id = rsr_territory_preparing
+		icon = GFX_focus_rsr_territory_preparing
+		cost = 10
+		prerequisite = {
+			focus = rsr_construction_plans
+		}
+		x = 47
+		y = 11
+
+	}
+	focus = {
+		id = rsr_soviet_atom
+		icon = GFX_focus_rsr_soviet_atom
+		cost = 10
+		prerequisite = {
+			focus = rsr_territory_preparing
+		}
+		x = 45
+		y = 12
+
+	}
+	focus = {
+		id = rsr_soviet_chemistry
+		icon = GFX_focus_rsr_soviet_chemistry
+		cost = 10
+		prerequisite = {
+			focus = rsr_territory_preparing
+		}
+		x = 47
+		y = 12
+
+	}
+	focus = {
+		id = rsr_soviet_bacteriology
+		icon = GFX_focus_rsr_soviet_bacteriology
+		cost = 10
+		prerequisite = {
+			focus = rsr_territory_preparing
+		}
+		x = 49
+		y = 12
+
+	}
+}

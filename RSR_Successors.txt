@@ -1,0 +1,341 @@
+focus_tree = {
+	id = rsr_successors_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 0
+			tag = RSR
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+	
+	default = no
+	focus = {
+		id = rsr_sc_successors
+		icon = GFX_focus_rsr_sc_successors
+		cost = 10.00
+		x = 8
+		y = 0
+
+	}
+
+
+	focus = {
+		id = rsr_sc_funeral
+		icon = GFX_focus_rsr_sc_funeral
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_successors
+		}
+		x = 8
+		y = 1
+
+	}
+	
+	focus = {
+		id = rsr_sc_mutual_accusations
+		icon = GFX_focus_rsr_sc_mutual_accusations
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_funeral
+		}
+		x = 8
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_sc_dissolve_politburo
+		icon = GFX_focus_rsr_sc_dissolve_politburo
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_mutual_accusations
+		}
+		mutually_exclusive = {
+			focus = rsr_sc_purge_politburo
+		}
+		
+		x = 1
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sc_purge_politburo
+		icon = GFX_focus_rsr_sc_purge_politburo
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_mutual_accusations
+		}
+		mutually_exclusive = {
+			focus = rsr_sc_dissolve_politburo
+		}
+		x = 3
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sc_beloborodov_affair
+		icon = GFX_focus_rsr_sc_beloborodov_affair
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_purge_politburo
+		}
+		x = 3
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sc_maybe_we_will_fight
+		icon = GFX_focus_rsr_sc_maybe_we_will_fight
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_beloborodov_affair
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = rsr_sc_positions_of_government
+		icon = GFX_focus_rsr_sc_positions_of_government
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_maybe_we_will_fight
+			focus = rsr_sc_main_question
+		}
+		x = 2
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sc_consolidation_with_reds
+		icon = GFX_focus_rsr_sc_consolidation_with_reds
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_dissolve_politburo
+		}
+		x = 1
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sc_main_question
+		icon = GFX_focus_rsr_sc_main_question
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_consolidation_with_reds
+		}
+		x = 1
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sc_rubbish_from_hut
+		icon = GFX_focus_rsr_sc_rubbish_from_hut
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_mutual_accusations
+		}
+		mutually_exclusive = {
+			focus = rsr_sc_people_have_know
+		}
+		x = 7
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sc_our_investigation
+		icon = GFX_focus_rsr_sc_our_investigation
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_rubbish_from_hut
+		}
+		x = 7
+		y = 4
+
+	}
+	
+	
+	focus = {
+		id = rsr_sc_personal_meeting
+		icon = GFX_focus_rsr_sc_personal_meeting
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_our_investigation
+		}
+		x = 7
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sc_people_have_know
+		icon = GFX_focus_rsr_sc_people_have_know
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_mutual_accusations
+		}
+		mutually_exclusive = {
+			focus = rsr_sc_rubbish_from_hut
+		}
+		x = 9
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sc_tribute_memory
+		icon = GFX_focus_rsr_sc_tribute_memory
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_people_have_know
+		}
+		x = 9
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sc_high_accusations
+		icon = GFX_focus_rsr_sc_high_accusations
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_tribute_memory
+		}
+		x = 9
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sc_positions_of_people
+		icon = GFX_focus_rsr_sc_positions_of_people
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_high_accusations
+			focus = rsr_sc_personal_meeting
+		}
+		x = 8
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sc_left_turn
+		icon = GFX_focus_rsr_sc_left_turn
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_mutual_accusations
+		}
+		mutually_exclusive = {
+			focus = rsr_sc_course_of_the_chief
+		}
+		x = 13
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sc_market_discuss
+		icon = GFX_focus_rsr_sc_market_discuss
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_left_turn
+		}
+		x = 13
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sc_crush_uglanov
+		icon = GFX_focus_rsr_sc_crush_uglanov
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_market_discuss
+		}
+		x = 13
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sc_course_of_the_chief
+		icon = GFX_focus_rsr_sc_course_of_the_chief
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_mutual_accusations
+		}
+		mutually_exclusive = {
+			focus = rsr_sc_left_turn
+		}
+		x = 15
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sc_troyka
+		icon = GFX_focus_rsr_sc_troyka
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_course_of_the_chief
+		}
+		x = 15
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sc_permutations
+		icon = GFX_focus_rsr_sc_permutations
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_troyka
+		}
+		x = 15
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sc_positions_of_ideology
+		icon = GFX_focus_rsr_sc_positions_of_ideology
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_crush_uglanov
+			focus = rsr_sc_permutations
+		}
+		x = 14
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sc_duel
+		icon = GFX_focus_rsr_sc_duel
+		cost = 10.00
+		prerequisite = {
+			focus = rsr_sc_positions_of_ideology
+		}
+		prerequisite = {
+			focus = rsr_sc_positions_of_government
+		}
+		prerequisite = {
+			focus = rsr_sc_positions_of_people
+		}
+		x = 8
+		y = 7
+
+	}
+	
+	
+}

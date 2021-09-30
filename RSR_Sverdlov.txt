@@ -1,0 +1,490 @@
+focus_tree = {
+	id = rsr_sverd_tree
+	country = {
+		factor = 1
+		modifier = {
+			add = 200
+			tag = RSR
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+	default = no
+	focus = {
+		id = rsr_sve_rebirth
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		x = 9
+		y = 0
+
+	}
+	
+	focus = {
+		id = rsr_sve_three_decrets
+		icon = GFX_focus_rsr_sve_three_decrets
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_rebirth
+		}
+		x = 9
+		y = 1
+
+	}
+	
+	focus = {
+		id = rsr_sve_decret_of_reunification
+		icon = GFX_focus_rsr_sve_decret_of_reunification
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_three_decrets
+		}
+		x = 5
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_sve_decret_of_market_destruction
+		icon = GFX_focus_rsr_sve_decret_of_market_destruction
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_three_decrets
+		}
+		x = 9
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_sve_decret_of_red_terror
+		icon = GFX_focus_rsr_sve_decret_of_red_terror
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_three_decrets
+		}
+		x = 13
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_sve_sucessor
+		icon = GFX_focus_rsr_sve_sucessor
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_decret_of_reunification
+		}
+		x = 5
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_strike_to_the_limitroph
+		icon = GFX_focus_rsr_sve_strike_to_the_limitroph
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_sucessor
+		}
+		x = 5
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sve_new_comintern
+		icon = GFX_focus_rsr_sve_new_comintern
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_decret_of_reunification
+		}
+		x = 3
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_attack_caucasus
+		icon = GFX_focus_rsr_sve_attack_caucasus
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_sucessor
+		}
+		x = 3
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sve_to_the_south
+		icon = GFX_focus_rsr_sve_to_the_south
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_attack_caucasus
+		}
+		x = 3
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sve_new_pact
+		icon = GFX_focus_rsr_sve_new_pact
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_strike_to_the_limitroph
+		}
+		
+		prerequisite = {
+			focus = rsr_sve_to_the_south
+		}
+		x = 4
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sve_revolution_in_siege
+		icon = GFX_focus_rsr_sve_revolution_in_siege
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_decret_of_market_destruction
+		}
+		
+		x = 9
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_preobrazhensky_theory
+		icon = GFX_focus_rsr_sve_preobrazhensky_theory
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_decret_of_market_destruction
+		}
+		
+		x = 7
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_teology_view
+		icon = GFX_focus_rsr_sve_teology_view
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_decret_of_market_destruction
+		}
+		
+		x = 11
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_industrialization_congress
+		icon = GFX_focus_rsr_sve_industrialization_congress
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_teology_view
+		}
+		prerequisite = {
+			focus = rsr_sve_preobrazhensky_theory
+		}
+		prerequisite = {
+			focus = rsr_sve_revolution_in_siege
+		}
+		x = 9
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sve_first_accumulation
+		icon = GFX_focus_rsr_sve_first_accumulation
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_industrialization_congress
+		}
+		
+		x = 9
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sve_directive_of_first_plan
+		icon = GFX_focus_rsr_sve_directive_of_first_plan
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_first_accumulation
+		}
+		
+		x = 9
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sve_menskevick_scum
+		icon = GFX_focus_rsr_sve_menskevick_scum
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_decret_of_red_terror
+		}
+		
+		x = 13
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_anticossack_repression
+		icon = GFX_focus_rsr_sve_anticossack_repression
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_decret_of_red_terror
+		}
+		
+		x = 15
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_sr_traitors
+		icon = GFX_focus_rsr_sve_sr_traitors
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_menskevick_scum
+		}
+		
+		x = 13
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sve_old_guard
+		icon = GFX_focus_rsr_sve_old_guard
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_menskevick_scum
+		}
+		
+		x = 15
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sve_red_army
+		icon = GFX_focus_rsr_sve_red_army
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_old_guard
+		}
+		
+		x = 15
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sve_loosen_grip
+		icon = GFX_focus_rsr_sve_loosen_grip
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_red_army
+		}
+		prerequisite = {
+			focus = rsr_sve_sr_traitors
+		}
+		
+		x = 14
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sve_plan_republics
+		icon = GFX_focus_rsr_sve_plan_republics
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_directive_of_first_plan
+		}
+		prerequisite = {
+			focus = rsr_sve_new_pact
+		}
+		
+		x = 6
+		y = 7
+
+	}
+	
+	focus = {
+		id = rsr_sve_idea_frenkel
+		icon = GFX_focus_rsr_sve_idea_frenkel
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_directive_of_first_plan
+		}
+		prerequisite = {
+			focus = rsr_sve_loosen_grip
+		}
+		
+		x = 12
+		y = 7
+
+	}
+	
+	focus = {
+		id = rsr_sve_new_soviet_union
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_idea_frenkel
+		}
+		prerequisite = {
+			focus = rsr_sve_plan_republics
+		}
+		
+		x = 9
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_sve_gulag_construction
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		
+		x = 15
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_sve_glavpromstroy
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_gulag_construction
+		}
+		
+		x = 13
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_sve_gushosdor
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_gulag_construction
+		}
+		
+		x = 17
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_sve_osobstroy
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_gulag_construction
+		}
+		
+		x = 15
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_sve_all_for_and_no
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_gushosdor
+		}
+		prerequisite = {
+			focus = rsr_sve_osobstroy
+		}
+		prerequisite = {
+			focus = rsr_sve_glavpromstroy
+		}
+		
+		x = 15
+		y = 10
+
+	}
+	
+	focus = {
+		id = rsr_sve_secret_ck_comittee
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_all_for_and_no
+		}
+		
+		x = 15
+		y = 11
+
+	}
+	
+	focus = {
+		id = rsr_sve_welfare_life
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_secret_ck_comittee
+		}
+		mutually_exclusive = {
+			focus = rsr_sve_keep_in_fear
+			focus = rsr_sve_we_just_beginning
+		}
+		
+		
+		x = 13
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_sve_keep_in_fear
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_secret_ck_comittee
+		}
+		mutually_exclusive = {
+			focus = rsr_sve_welfare_life
+			focus = rsr_sve_we_just_beginning
+		}
+		
+		x = 15
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_sve_we_just_beginning
+		icon = GFX_focus_rsr_sve_we_just_beginning
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_secret_ck_comittee
+		}
+		mutually_exclusive = {
+			focus = rsr_sve_welfare_life
+			focus = rsr_sve_keep_in_fear
+		}
+		
+		x = 17
+		y = 12
+
+	}
+	
