@@ -397,6 +397,26 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_bilbo_talks.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_event_vodka_and_meatballs"
+		texturefile = "gfx/event_pictures/event_vodka_and_meatballs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_yagoda_and_guys"
+		texturefile = "gfx/event_pictures/event_yagoda_and_guys.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_chekists6"
+		texturefile = "gfx/event_pictures/event_chekists6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_duel2"
+		texturefile = "gfx/event_pictures/event_duel2.dds"
+	}
+	
 }
 	
 	

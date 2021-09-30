@@ -1,0 +1,10 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_swz_dock_construction"
+		texturefile = "gfx/interface/Ideas/SWZ/swz_dock_construction.tga"
+	}
+	
+
+

@@ -1,0 +1,15 @@
+ideas = {
+
+
+	country = {
+
+		UWZ_energy = {
+
+			picture = uwz_energy
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.12
+			}
+		}
+	}
+}

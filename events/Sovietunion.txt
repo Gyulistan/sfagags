@@ -589,6 +589,25 @@ country_event = { # Meet in bar
 	}
 }
 
+country_event = { # Подстава
+	id = sovietunion.103
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.103"}
+	title = sovietunion.103.t
+	desc = sovietunion.103.d
+	picture = GFX_event_vodka_and_meatballs
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.103.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.105
+			}
+		}
+	}
+}
+
 country_event = { # Mission complete
 	id = sovietunion.104
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.104"}
@@ -602,6 +621,82 @@ country_event = { # Mission complete
 		name = sovietunion.104.a
 		hidden_effect = {
 			country_event = {
+			}
+		}
+	}
+}
+
+country_event = { # Приглашение
+	id = sovietunion.105
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.105"}
+	title = sovietunion.105.t
+	desc = sovietunion.105.d
+	picture = GFX_event_yagoda_and_guys
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.105.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.106
+			}
+		}
+	}
+}
+
+country_event = { # Стрела
+	id = sovietunion.106
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.106"}
+	title = sovietunion.106.t
+	desc = sovietunion.106.d
+	picture = GFX_event_chekists6
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.106.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.107
+			}
+		}
+	}
+}
+
+country_event = { # Финал
+	id = sovietunion.107
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.107"}
+	title = sovietunion.107.t
+	desc = sovietunion.107.d
+	picture = GFX_event_duel2
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.107.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.108
+			}
+		}
+	}
+}
+
+country_event = { # Разбор полётов
+	id = sovietunion.108
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.108"}
+	title = sovietunion.108.t
+	desc = sovietunion.108.d
+	picture = GFX_event_duel
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.108.a
+		hidden_effect = {
+			country_event = {
+				id = sovietunion.109
 			}
 		}
 	}

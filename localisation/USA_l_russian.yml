@@ -177,6 +177,16 @@ usa_bil_go_to_senat:0 "Внесение на рассмотрение"
 usa_bil_voting:0 "Голосование..."
 usa_bil_new_james_polk:0 "Наследник Джеймса Полка"
 usa_bil_fuck_them:0 "К черту вас всех!"
+    #FOCUS ROTSTHEIN#
+usa_rot_rothstein_wins:0 "Победа Ротштейна"
+usa_rot_cabinet_of_good_guys:0 "Кабинет хороших людей"
+usa_rot_guarantee_free_trade:0 "Гарантия свободного рынка"
+usa_rot_cancel_prohibition:0 "Отмена Сухого закона"
+usa_rot_legalization_our_bussiness:0 "Легализация нашего дела"
+usa_rot_propose_to_hoover:0 "Предложение, от которого нельзя отказаться"
+usa_rot_our_personal_guard:0 "Наши личные каратели"
+usa_rot_create_new_elite:0 "Создание новой элиты"
+usa_rot_war_with_big_bussiness:0 "Война большому бизнесу"
 
     #EVENT#
 unitedstates.10.t:0 "Теодор Рузвельт возвращается"

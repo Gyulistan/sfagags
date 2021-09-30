@@ -3,812 +3,809 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 1
+			add = 1000
 			tag = RSR
 		}
 	}
-	continuous_focus_position = { x = 50 y = 2000 }
+	continuous_focus_position = { x = 50 y = 3000 }
 	default = no
 	focus = {
-		id = rsr_chekists_at_helm
+		id = rsr_pop_chekists_at_helm
 		icon = GFX_focus_rsr_chekists_at_helm
-		cost = 10.00
+		cost = 10
 		x = 16
 		y = 0
 
 	}
+	
 	focus = {
-		id = rsr_end_the_srs
-		icon = GFX_focus_rsr_end_the_srs
-		cost = 10.00
+		id = rsr_pop_deal_with_generals
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_chekists_at_helm
+			focus = rsr_pop_chekists_at_helm
 		}
-		x = 14
+		x = 9
 		y = 1
 
 	}
+	
 	focus = {
-		id = rsr_strike_at_the_bolsheviks
-		icon = GFX_focus_rsr_strike_at_the_bolsheviks
-		cost = 10.00
+		id = rsr_pop_operation_sokol
+		icon = GFX_focus_rsr_pop_operation_sokol
+		cost = 10
 		prerequisite = {
-			focus = rsr_chekists_at_helm
+			focus = rsr_pop_deal_with_generals
 		}
-		x = 16
-		y = 1
+		x = 7
+		y = 2
 
 	}
+	
 	focus = {
-		id = rsr_eliminate_tukhachevsky_supporters
-		icon = GFX_focus_rsr_eliminate_tukhachevsky_supporters
-		cost = 10.00
+		id = rsr_pop_no_hero
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_chekists_at_helm
+			focus = rsr_pop_operation_sokol
 		}
-		x = 18
-		y = 1
+		x = 5
+		y = 3
 
 	}
+	
 	focus = {
-		id = rsr_together_we_are_strong
-		icon = GFX_focus_rsr_together_we_are_strong
-		cost = 10.00
+		id = rsr_pop_to_finland
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_end_the_srs
+			focus = rsr_pop_no_hero
+		}
+		x = 5
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_pop_to_helsinki
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_operation_sokol
+		}
+		x = 7
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_pop_out_liberals
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_to_helsinki
+		}
+		x = 7
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_pop_total_spy
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_out_liberals
 		}
 		prerequisite = {
-			focus = rsr_strike_at_the_bolsheviks
+			focus = rsr_pop_to_finland
+		}
+		x = 6
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_pop_lapland_incident
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_total_spy
+		}
+		x = 6
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_pop_operation_vikhr
+		icon = GFX_focus_rsr_pop_operation_vikhr
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_deal_with_generals
+		}
+		x = 10
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_pop_so_we_attack
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_operation_vikhr
+		}
+		x = 10
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_pop_buy_friends
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_so_we_attack
+		}
+		x = 10
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_pop_arrest_corruptioner
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_buy_friends
+		}
+		x = 10
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_pop_chekists_in_army
+		icon = GFX_focus_rsr_pop_chekists_in_army
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_arrest_corruptioner
 		}
 		prerequisite = {
-			focus = rsr_eliminate_tukhachevsky_supporters
+			focus = rsr_pop_lapland_incident
+		}
+		x = 8
+		y = 7
+
+	}
+	
+	focus = {
+		id = rsr_pop_administrative_work
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_chekists_at_helm
 		}
 		x = 16
 		y = 2
 
 	}
+	
 	focus = {
-		id = rsr_one_state_one_party
-		icon = GFX_focus_rsr_approve_unity
-		cost = 10.00
+		id = rsr_pop_republican_chekists
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_together_we_are_strong
+			focus = rsr_pop_administrative_work
 		}
-		x = 8
+		x = 14
 		y = 3
 
 	}
+	
 	focus = {
-		id = rsr_bukharin_arrest
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_legitimize_coup
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_one_state_one_party
-		}
-		x = 6
-		y = 4
-
-	}
-	focus = {
-		id = rsr_close_all_newspapers
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_one_state_one_party
-		}
-		x = 10
-		y = 4
-
-	}
-	focus = {
-		id = rsr_shock_communist_economy
-		icon = GFX_focus_rsr_shock_communist_economy
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_together_we_are_strong
+			focus = rsr_pop_administrative_work
 		}
 		x = 16
 		y = 3
 
 	}
+	
 	focus = {
-		id = rsr_new_currency
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_give_little_bureaucracy
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_shock_communist_economy
+			focus = rsr_pop_administrative_work
+		}
+		x = 18
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_pop_popov_give_stability
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_republican_chekists
 		}
 		x = 14
 		y = 4
 
 	}
+	
 	focus = {
-		id = rsr_forced_industrialization
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_constitution_guarantee
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_shock_communist_economy
+			focus = rsr_pop_legitimize_coup
 		}
 		x = 16
 		y = 4
 
 	}
+	
 	focus = {
-		id = rsr_redens_brandler_contract
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_control_promices
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_forced_industrialization
-		}
-		x = 16
-		y = 5
-
-	}
-	focus = {
-		id = rsr_camp_headquarters
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_redens_brandler_contract
-		}
-		x = 16
-		y = 6
-
-	}
-	focus = {
-		id = rsr_soviet_electricity
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_camp_headquarters
-		}
-		x = 16
-		y = 7
-
-	}
-	focus = {
-		id = rsr_military_construction
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_soviet_electricity
-		}
-		x = 16
-		y = 8
-
-	}
-	focus = {
-		id = rsr_five_year_plans
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_shock_communist_economy
+			focus = rsr_pop_give_little_bureaucracy
 		}
 		x = 18
 		y = 4
 
 	}
+	
 	focus = {
-		id = rsr_planning_committee
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_deal_with_soviets
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_five_year_plans
+			focus = rsr_pop_chekists_at_helm
 		}
-		x = 18
-		y = 5
+		x = 24
+		y = 1
 
 	}
+	
 	focus = {
-		id = rsr_start_the_first_plan
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_show_preemstvennost
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_planning_committee
+			focus = rsr_pop_deal_with_soviets
 		}
-		x = 18
-		y = 6
+		x = 22
+		y = 2
 
 	}
+	
 	focus = {
-		id = rsr_housing_stock
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_teach_them_marcsism
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_start_the_first_plan!
-		}
-		x = 18
-		y = 7
-
-	}
-	focus = {
-		id = rsr_urbanization
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_planning_committee
-		}
-		x = 20
-		y = 6
-
-	}
-	focus = {
-		id = rsr_city_expansion
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_urbanization
-		}
-		x = 20
-		y = 7
-
-	}
-	focus = {
-		id = rsr_we_will_be_the_first
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_housing_stock
-		}
-		prerequisite = {
-			focus = rsr_city_expansion
-		}
-		x = 19
-		y = 8
-
-	}
-	focus = {
-		id = rsr_communism_does_not_stop
-		icon = GFX_focus_rsr_communism_does_not_stop
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_together_we_are_strong
-		}
-		x = 29
-		y = 3
-
-	}
-	focus = {
-		id = rsr_middle_east_target
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_communism_does_not_stop
-		}
-		x = 23
-		y = 4
-
-	}
-	focus = {
-		id = rsr_persian_revolution
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_middle_east_target
+			focus = rsr_pop_show_preemstvennost
 		}
 		x = 21
-		y = 5
+		y = 3
 
 	}
+	
 	focus = {
-		id = rsr_turkish_revolution
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_we_defend_revolution
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_middle_east_target
+			focus = rsr_pop_show_preemstvennost
 		}
 		x = 23
-		y = 5
+		y = 3
 
 	}
+	
 	focus = {
-		id = rsr_invasion_of_afghanistan
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_communism_our_target
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_middle_east_target
+			focus = rsr_pop_teach_them_marcsism
+		}
+		prerequisite = {
+			focus = rsr_pop_we_defend_revolution
+		}
+		x = 22
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_pop_give_fear
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_deal_with_soviets
+		}
+		x = 26
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_pop_little_censorship
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_give_fear
 		}
 		x = 25
-		y = 5
+		y = 3
 
 	}
+	
 	focus = {
-		id = rsr_arab_communist_committee
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_more_autonomy
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_persian_revolution
-		}
-		prerequisite = {
-			focus = rsr_turkish_revolution
-		}
-		prerequisite = {
-			focus = rsr_invasion_of_afghanistan
-		}
-		x = 23
-		y = 6
-
-	}
-	focus = {
-		id = rsr_tito_new_mission
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_arab_communist_committee
-		}
-		x = 26
-		y = 7
-
-	}
-	focus = {
-		id = rsr_destabilization_of_us
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_tito_new_mission
-		}
-		x = 26
-		y = 8
-
-	}
-	focus = {
-		id = rsr_british_comrades
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_communism_does_not_stop
-		}
-		x = 29
-		y = 4
-
-	}
-	focus = {
-		id = rsr_military_technical_cooperation
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_british_comrades
+			focus = rsr_pop_give_fear
 		}
 		x = 27
-		y = 5
+		y = 3
 
 	}
+	
 	focus = {
-		id = rsr_involvement_of_specialists
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_no_death
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_british_comrades
+			focus = rsr_pop_give_fear
 		}
 		x = 29
-		y = 5
+		y = 3
 
 	}
+	
 	focus = {
-		id = rsr_food_aid
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_popov_true_sr
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_british_comrades
-		}
-		x = 31
-		y = 5
-
-	}
-	focus = {
-		id = rsr_british_in_comintern
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_military_technical_cooperation
+			focus = rsr_pop_more_autonomy
 		}
 		prerequisite = {
-			focus = rsr_involvement_of_specialists
+			focus = rsr_pop_no_death
 		}
 		prerequisite = {
-			focus = rsr_food_aid
+			focus = rsr_pop_little_censorship
 		}
-		x = 29
-		y = 6
-
-	}
-	focus = {
-		id = rsr_soviet_ireland
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_british_in_comintern
-		}
-		x = 29
-		y = 7
-
-	}
-	focus = {
-		id = rsr_invasion_of_sweden
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_soviet_ireland
-		}
-		x = 29
-		y = 8
-
-	}
-	focus = {
-		id = rsr_japan_imperiaslists
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_communism_does_not_stop
-		}
-		x = 35
+		x = 27
 		y = 4
 
 	}
+	
 	focus = {
-		id = rsr_revolutionary_syndicalism
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_just_calm_down
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_japan_imperiaslists
-		}
-		x = 33
-		y = 5
-
-	}
-	focus = {
-		id = rsr_support_for_koreans
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_japan_imperiaslists
-		}
-		x = 35
-		y = 5
-
-	}
-	focus = {
-		id = rsr_weapons_for_our_friends
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_japan_imperiaslists
-		}
-		x = 37
-		y = 5
-
-	}
-	focus = {
-		id = rsr_revolution
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_revolutionary_syndicalism
+			focus = rsr_pop_popov_give_stability
 		}
 		prerequisite = {
-			focus = rsr_support_for_koreans
+			focus = rsr_pop_constitution_guarantee
 		}
 		prerequisite = {
-			focus = rsr_weapons_for_our_friends
-		}
-		x = 35
-		y = 6
-
-	}
-	focus = {
-		id = rsr_enemy_on_the_east
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_revolution
-		}
-		x = 32
-		y = 7
-
-	}
-	focus = {
-		id = rsr_state_single_bank
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_new_currency
-		}
-		x = 14
-		y = 5
-
-	}
-	focus = {
-		id = rsr_tax_deductible
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_state_single_bank
-		}
-		x = 12
-		y = 6
-
-	}
-	focus = {
-		id = rsr_agricultural_committee
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_state_single_bank
-		}
-		x = 14
-		y = 6
-
-	}
-	focus = {
-		id = rsr_plan_ten_bags
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_agricultural_committee
-		}
-		x = 14
-		y = 7
-
-	}
-	focus = {
-		id = rsr_agricultural_control_commission
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_tax_deductible
-		}
-		x = 12
-		y = 7
-
-	}
-	focus = {
-		id = rsr_soviet_agriculture_the_best 
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_agricultural_control_commission
-		}
-		prerequisite = {
-			focus = rsr_plan_ten_bags
-		}
-		x = 13
-		y = 8
-
-	}
-	focus = {
-		id = rsr_soviet_economy
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_soviet_agriculture_the_best 
-		}
-		prerequisite = {
-			focus = rsr_military_construction
-		}
-		prerequisite = {
-			focus = rsr_we_will_be_the_first
+			focus = rsr_pop_control_promices
 		}
 		x = 16
-		y = 9
-
-	}
-	focus = {
-		id = rsr_eliminate_the_new_socialists
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_one_state_one_party
-		}
-		x = 8
-		y = 4
-
-	}
-	focus = {
-		id = rsr_newspaper_communism
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_close_all_newspapers
-		}
-		prerequisite = {
-			focus = rsr_eliminate_the_new_socialists
-		}
-		x = 9
 		y = 5
 
 	}
+	
 	focus = {
-		id = rsr_destroy_the_tsarism
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_eliminate_the_new_socialists
-		}
-		prerequisite = {
-			focus = rsr_bukharin_arrest
-		}
-		x = 7
-		y = 5
-
-	}
-	focus = {
-		id = rsr_tight_centralization
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_destroy_the_tsarism
-		}
-		prerequisite = {
-			focus = rsr_newspaper_communism
-		}
-		x = 8
+		id = rsr_pop_quickly_ck
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		x = 24
 		y = 6
 
 	}
+	
 	focus = {
-		id = rsr_new_territorial_division
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_start_investigation
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
 		prerequisite = {
-			focus = rsr_tight_centralization
+			focus = rsr_pop_quickly_ck
 		}
-		x = 6
+		x = 20
 		y = 7
 
 	}
+	
 	focus = {
-		id = rsr_elimination_of_nations
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_who_find
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
 		prerequisite = {
-			focus = rsr_tight_centralization
+			focus = rsr_pop_start_investigation
 		}
-		x = 8
-		y = 7
-
-	}
-	focus = {
-		id = rsr_supervision_system
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_tight_centralization
-		}
-		x = 10
-		y = 7
-
-	}
-	focus = {
-		id = rsr_deportation
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_new_territorial_division
-		}
-		prerequisite = {
-			focus = rsr_supervision_system
-		}
-		prerequisite = {
-			focus = rsr_elimination_of_nations
-		}
-		x = 8
+		x = 9
 		y = 8
 
 	}
+	
 	focus = {
-		id = rsr_cultprosvet
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_based_thing
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
 		prerequisite = {
-			focus = rsr_deportation
+			focus = rsr_pop_who_find
 		}
-		x = 5
+		mutually_exclusive = {
+			focus = rsr_pop_personally_chairman
+		}
+		
+		x = 8
 		y = 9
 
 	}
+	
 	focus = {
-		id = rsr_glorify_the_leader
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_find_contra
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
 		prerequisite = {
-			focus = rsr_deportation
+			focus = rsr_pop_based_thing
 		}
-		x = 7
-		y = 9
-
-	}
-	focus = {
-		id = rsr_soviet_consciousness
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_deportation
-		}
-		x = 9
-		y = 9
-
-	}
-	focus = {
-		id = rsr_soviet_kalendar
-		icon = GFX_focus_rsr_soviet_kalendar
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_deportation
-		}
-		x = 11
-		y = 9
-		completion_reward = {
-				country_event = sovietunion.10020
-		}
-	}
-	focus = {
-		id = rsr_union_of_militant_atheists
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_cultprosvet
-		}
-		prerequisite = {
-			focus = rsr_glorify_the_leader
-		}
+		
 		x = 6
 		y = 10
 
 	}
+	
 	focus = {
-		id = rsr_blow_to_religion
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_maga_plan
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
 		prerequisite = {
-			focus = rsr_soviet_consciousness
+			focus = rsr_pop_find_contra
 		}
-		prerequisite = {
-			focus = rsr_soviet_kalendar
-		}
-		x = 10
-		y = 10
-
-	}
-	focus = {
-		id = rsr_new_soviet_man
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = rsr_union_of_militant_atheists
-		}
-		prerequisite = {
-			focus = rsr_blow_to_religion
-		}
-		x = 8
+		
+		x = 4
 		y = 11
 
 	}
+	
 	focus = {
-		id = rsr_manchurian_soviet_republic
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_control_soviets
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
 		prerequisite = {
-			focus = rsr_enemy_on_the_east
+			focus = rsr_pop_maga_plan
 		}
-		x = 32
-		y = 8
+		
+		x = 2
+		y = 12
 
 	}
+	
 	focus = {
-		id = rsr_finish_him
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = rsr_pop_control_administration
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
 		prerequisite = {
-			focus = rsr_destabilization_of_us
+			focus = rsr_pop_maga_plan
+		}
+		
+		x = 4
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_pop_their_apparatus
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_control_soviets
+		}
+		
+		x = 0
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_pop_jugde_individualism
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_control_soviets
+		}
+		
+		x = 2
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_pop_chase_on_party_members
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_control_administration
+		}
+		
+		x = 4
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_pop_on_flat
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_their_apparatus
 		}
 		prerequisite = {
-			focus = rsr_invasion_of_sweden
+			focus = rsr_pop_jugde_individualism
+		}
+		x = 1
+		y = 14
+
+	}
+	
+	focus = {
+		id = rsr_pop_find_contro
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_chase_on_party_members
+		}
+		x = 4
+		y = 14
+
+	}
+	
+	focus = {
+		id = rsr_pop_manipulate_old
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_find_contro
+		}
+		x = 3
+		y = 15
+
+	}
+	
+	focus = {
+		id = rsr_pop_stand_new
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_find_contro
+		}
+		x = 5
+		y = 15
+
+	}
+	
+	focus = {
+		id = rsr_pop_maybe_he
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_on_flat
 		}
 		prerequisite = {
-			focus = rsr_manchurian_soviet_republic
+			focus = rsr_pop_manipulate_old
 		}
-		x = 29
+		prerequisite = {
+			focus = rsr_pop_stand_new
+		}
+		x = 2
+		y = 16
+
+	}
+	
+	focus = {
+		id = rsr_pop_start_chase
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_maybe_he
+		}
+		x = 1
+		y = 17
+
+	}
+	
+	focus = {
+		id = rsr_pop_yagoda_view
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_maybe_he
+		}
+		x = 3
+		y = 17
+
+	}
+	
+	focus = {
+		id = rsr_pop_every_step
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_start_chase
+		}
+		prerequisite = {
+			focus = rsr_pop_yagoda_view
+		}
+		x = 2
+		y = 18
+
+	}
+	
+	focus = {
+		id = rsr_pop_no_escape
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_every_step
+		}
+		x = 2
+		y = 19
+
+	}
+	
+	focus = {
+		id = rsr_pop_operation_country
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_find_contra
+		}
+		x = 6
+		y = 11
+
+	}
+	
+	focus = {
+		id = rsr_pop_send_agents
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_operation_country
+		}
+		x = 6
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_pop_persuade_elder
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_operation_country
+		}
+		x = 8
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_pop_prepare_ambush
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_send_agents
+		}
+		prerequisite = {
+			focus = rsr_pop_persuade_elder
+		}
+		x = 7
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_pop_find_traitors
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_prepare_ambush
+		}
+		x = 7
+		y = 14
+
+	}
+	
+	focus = {
+		id = rsr_pop_verdict
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_find_traitors
+		}
+		x = 7
+		y = 15
+
+	}
+	
+	focus = {
+		id = rsr_pop_personally_chairman
+		icon = GFX_focus_rsr_pop_sta
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_who_find
+		}
+		mutually_exclusive = {
+			focus = rsr_pop_based_thing
+		}
+		x = 10
 		y = 9
 
 	}
-}
+	
+	focus = {
+		id = rsr_pop_stop_reforms
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_quickly_ck
+		}
+		x = 22
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_pop_full_army_ready
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_quickly_ck
+		}
+		x = 24
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_pop_dont_election_time
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_quickly_ck
+		}
+		x = 26
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_pop_calm_attache
+		icon = GFX_focus_rsr_chekists_at_helm
+		cost = 10
+		prerequisite = {
+			focus = rsr_pop_quickly_ck
+		}
+		x = 28
+		y = 7
+
+	}
+	

@@ -1,0 +1,16 @@
+ideas = {
+
+
+	country = {
+
+		CWZ_american_lifery = {
+
+			picture = cwz_american_lifery
+			
+			modifier = {
+				min_export = 0.15
+				local_manpower =  0.5
+			}
+		}
+	}
+}

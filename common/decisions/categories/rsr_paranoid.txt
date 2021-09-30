@@ -1,0 +1,14 @@
+rsr_paranoid_category = {
+	icon = GFX_decision_category_thompson
+	picture = GFX_DER_decision_paranoid
+	
+	priority = 10
+
+	allowed = {
+			original_tag = RSR
+		}
+	visible = {
+		has_country_flag = popov_paranoid
+	}
+	visible_when_empty = yes
+}

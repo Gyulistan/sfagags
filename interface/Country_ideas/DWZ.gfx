@@ -1,0 +1,10 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_dwz_contrsegregation"
+		texturefile = "gfx/interface/Ideas/DWZ/dwz_contrsegregation.tga"
+	}
+	
+
+

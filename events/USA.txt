@@ -74,3 +74,30 @@ country_event = {
 		name = unitedstates.250.a
 		}
 	}
+	
+country_event = {
+	id = unitedstates.105 # Deal
+	immediate = {log = "[GetDateText]: [Root.GetName]: event unitedstates.105"}
+	title = unitedstates.105.t
+	desc = unitedstates.105.d
+	picture = GFX_event_interrogation
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+			
+	option = {
+		name = unitedstates.105.a
+		set_politics = {
+			ruling_party = conservatism
+			elections_allowed = yes  }
+		create_country_leader = {
+			name = "Theodore Roosevelt"
+			desc = "POLITICS_THEODORE_ROOSEVELT_DESC"
+			picture = "Portrait_USA_Theodore_Roosevelt.dds"
+			expire = "1965.1.1"
+			ideology = conservatism_subtype
+			traits = {}
+		}
+		}
+	}

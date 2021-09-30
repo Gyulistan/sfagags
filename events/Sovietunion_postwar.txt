@@ -715,3 +715,191 @@ country_event = { # USA_19
 		name = spw.19.b				
 	}
 }
+
+##################################################################
+
+
+country_event = { # POPOV
+	id = spw.200
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.200"}
+	title = spw.200.t
+	desc = spw.200.d
+	picture = GFX_event_soviet_america
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.200.a
+		SWZ = {
+ 				transfer_state = 386
+				transfer_state = 385
+				transfer_state = 387
+				transfer_state = 388
+				transfer_state = 819
+				transfer_state = 815
+				transfer_state = 816
+				transfer_state = 817
+				transfer_state = 818
+				transfer_state = 381
+				}
+			}
+		}
+	
+country_event = { # POPOV
+	id = spw.201
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.201"}
+	title = spw.201.t
+	desc = spw.201.d
+	picture = GFX_event_soviet_america
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.201.a
+				CWZ = {
+ 				transfer_state = 820
+				transfer_state = 390
+				transfer_state = 821			
+				transfer_state = 391			
+				transfer_state = 392
+				transfer_state = 384
+				transfer_state = 383
+				transfer_state = 373
+				transfer_state = 389			
+				}		
+		}
+	}
+	
+country_event = { # POPOV
+	id = spw.202
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.202"}
+	title = spw.202.t
+	desc = spw.202.d
+	picture = GFX_event_soviet_america
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.202.a
+			UWZ = {
+ 				transfer_state = 378
+				transfer_state = 379
+				transfer_state = 380
+				transfer_state = 814
+				transfer_state = 377
+				transfer_state = 376
+				transfer_state = 382
+				transfer_state = 383
+				transfer_state = 373
+				}
+		}
+	}
+	
+country_event = { # POPOV
+	id = spw.203
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.203"}
+	title = spw.203.t
+	desc = spw.203.d
+	picture = GFX_event_soviet_america
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.203.a
+			DWZ = {
+ 				transfer_state = 375
+				transfer_state = 813
+				transfer_state = 374
+				transfer_state = 371
+				transfer_state = 372
+				transfer_state = 370
+				transfer_state = 367
+				transfer_state = 365
+				transfer_state = 366
+				transfer_state = 373
+				transfer_state = 368
+				}
+		}
+	}
+	
+country_event = { # POPOV
+	id = spw.204
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.204"}
+	title = spw.204.t
+	desc = spw.204.d
+	picture = GFX_event_soviet_america
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.204.a
+		RWZ = {
+ 				transfer_state = 395
+				transfer_state = 396
+				transfer_state = 393
+				transfer_state = 261
+				transfer_state = 369
+				transfer_state = 370
+				transfer_state = 367
+				transfer_state = 365
+				transfer_state = 366
+				transfer_state = 373
+				transfer_state = 822
+				}
+		}
+	}
+	
+country_event = { # POPOV
+	id = spw.205
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.205"}
+	title = spw.205.t
+	desc = spw.205.d
+	picture = GFX_event_soviet_america
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.205.a
+				EWZ = {
+ 				transfer_state = 364
+				transfer_state = 363
+				transfer_state = 362
+				transfer_state = 360
+				transfer_state = 361
+				transfer_state = 358
+				transfer_state = 357
+				transfer_state = 359
+				}
+		}
+	}
+	
+country_event = { # POPOV
+	id = spw.206
+	immediate = {log = "[GetDateText]: [Root.GetName]: event spw.206"}
+	title = spw.206.t
+	desc = spw.206.d
+	picture = GFX_event_soviet_america
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+	
+	option = {
+		name = spw.206.a
+				CWZ = {
+ 				transfer_state = 394
+				}
+		}
+	}

@@ -2122,4 +2122,49 @@ spriteTypes = {
 		name = "GFX_focus_usa_bil_work_brothers"
 		texturefile = "gfx/interface/goals/focus_usa_bil_work_brothers.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_we_just_beginning"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_we_just_beginning.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_pop_chekists_in_army"
+		texturefile = "gfx/interface/goals/focus_rsr_pop_chekists_in_army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_pop_operation_sokol"
+		texturefile = "gfx/interface/goals/focus_rsr_pop_operation_sokol.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_pop_operation_vikhr"
+		texturefile = "gfx/interface/goals/focus_rsr_pop_operation_vikhr.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_rot_rothstein_wins"
+		texturefile = "gfx/interface/goals/focus_usa_rot_rothstein_wins.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_rot_cabinet_of_good_guys"
+		texturefile = "gfx/interface/goals/focus_usa_rot_cabinet_of_good_guys.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_rot_propose_to_hoover"
+		texturefile = "gfx/interface/goals/focus_usa_rot_propose_to_hoover.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_rot_war_with_big_bussiness"
+		texturefile = "gfx/interface/goals/focus_usa_rot_war_with_big_bussiness.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_rot_our_personal_guard"
+		texturefile = "gfx/interface/goals/focus_usa_rot_our_personal_guard.dds"
+	}
 }

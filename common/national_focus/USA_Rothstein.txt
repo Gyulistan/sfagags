@@ -1,0 +1,124 @@
+focus_tree = {
+	id = USA_Rothstein
+	country = {
+		factor = 0
+		modifier = {
+			add = 20000
+			tag = USA
+		}
+	}
+	default = no
+	
+	continuous_focus_position = { x = 1 y = 1 }
+	
+
+	focus = {
+		id = usa_rot_rothstein_wins
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		x = 15
+		y = 0
+
+	}
+	
+	focus = {
+		id = usa_rot_cabinet_of_good_guys
+		icon = GFX_focus_usa_rot_cabinet_of_good_guys
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_rothstein_wins
+		}
+		x = 14
+		y = 1
+
+	}
+	
+	focus = {
+		id = usa_rot_guarantee_free_trade
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_rothstein_wins
+		}
+		x = 16
+		y = 1
+
+	}
+	
+	focus = {
+		id = usa_rot_cancel_prohibition
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_guarantee_free_trade
+		}
+		x = 17
+		y = 2
+
+	}
+	
+	focus = {
+		id = usa_rot_legalization_our_bussiness
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_cancel_prohibition
+		}
+		x = 16
+		y = 3
+
+	}
+	
+	focus = {
+		id = usa_rot_propose_to_hoover
+		icon = GFX_focus_usa_rot_propose_to_hoover
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_cabinet_of_good_guys
+		}
+		x = 13
+		y = 2
+
+	}
+	
+	focus = {
+		id = usa_rot_our_personal_guard
+		icon = GFX_focus_usa_rot_our_personal_guard
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_propose_to_hoover
+		}
+		x = 14
+		y = 3
+
+	}
+	
+	focus = {
+		id = usa_rot_create_new_elite
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_our_personal_guard
+		}
+		prerequisite = {
+			focus = usa_rot_legalization_our_bussiness
+		}
+		x = 15
+		y = 4
+
+	}
+	
+	focus = {
+		id = usa_rot_war_with_big_bussiness
+		icon = GFX_focus_usa_rot_war_with_big_bussiness
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_create_new_elite
+		}
+		x = 15
+		y = 5
+
+	}
+	
+	
+	

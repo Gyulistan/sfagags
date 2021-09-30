@@ -1,0 +1,10 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_rwz_bloody_competition"
+		texturefile = "gfx/interface/Ideas/RWZ/rwz_bloody_competition.tga"
+	}
+	
+
+

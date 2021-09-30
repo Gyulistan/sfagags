@@ -1,0 +1,10 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_uwz_energy"
+		texturefile = "gfx/interface/Ideas/UWZ/uwz_energy.tga"
+	}
+	
+
+

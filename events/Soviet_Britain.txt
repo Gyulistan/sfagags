@@ -216,3 +216,35 @@ country_event = { #Scotland Workers Front
 		}
 	}	
 }
+
+country_event = { # Стрела
+	id = sovietbritain.106
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.106"}
+	title = sovietbritain.106.t
+	desc = sovietbritain.106.d
+	picture = GFX_event_chekists6
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sovietunion.106.a
+		create_country_leader = {
+			name = "Tom Wintringham"
+			desc = "POLITICS_TOM_WINTRIGHAM_DESC"
+			picture = "Portrait_SovBritain_Thom_Witringham.dds"
+			expire = "1965.1.1"
+			ideology = paternalism_subtype
+			traits = {}
+		}
+		set_politics = {
+			ruling_party = paternalism
+			elections_allowed = no    }
+		set_party_name = {
+			ideology = paternalism
+			long_name = BWF_paternalism_general_long
+			name = BWF_paternalism_general
+			}
+		set_cosmetic_tag = BWF_generals
+		}
+	}
+}

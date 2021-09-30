@@ -1,0 +1,10 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_cwz_american_lifery"
+		texturefile = "gfx/interface/Ideas/CWZ/cwz_american_lifery.tga"
+	}
+	
+
+

@@ -1,0 +1,17 @@
+ideas = {
+
+
+	country = {
+
+		EWZ_new_life = {
+
+			picture = ewz_new_life
+			
+			modifier = {
+				local_manpower =  -0.10
+				industrial_capacity_factory = 0.10
+				production_factory_max_efficiency_factor = 0.10
+			}
+		}
+	}
+}

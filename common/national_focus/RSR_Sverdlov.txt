@@ -355,3 +355,136 @@ focus_tree = {
 
 	}
 	
+	focus = {
+		id = rsr_sve_gulag_construction
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		
+		x = 15
+		y = 8
+
+	}
+	
+	focus = {
+		id = rsr_sve_glavpromstroy
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_gulag_construction
+		}
+		
+		x = 13
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_sve_gushosdor
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_gulag_construction
+		}
+		
+		x = 17
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_sve_osobstroy
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_gulag_construction
+		}
+		
+		x = 15
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_sve_all_for_and_no
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_gushosdor
+		}
+		prerequisite = {
+			focus = rsr_sve_osobstroy
+		}
+		prerequisite = {
+			focus = rsr_sve_glavpromstroy
+		}
+		
+		x = 15
+		y = 10
+
+	}
+	
+	focus = {
+		id = rsr_sve_secret_ck_comittee
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_all_for_and_no
+		}
+		
+		x = 15
+		y = 11
+
+	}
+	
+	focus = {
+		id = rsr_sve_welfare_life
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_secret_ck_comittee
+		}
+		mutually_exclusive = {
+			focus = rsr_sve_keep_in_fear
+			focus = rsr_sve_we_just_beginning
+		}
+		
+		
+		x = 13
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_sve_keep_in_fear
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_secret_ck_comittee
+		}
+		mutually_exclusive = {
+			focus = rsr_sve_welfare_life
+			focus = rsr_sve_we_just_beginning
+		}
+		
+		x = 15
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_sve_we_just_beginning
+		icon = GFX_focus_rsr_sve_we_just_beginning
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_secret_ck_comittee
+		}
+		mutually_exclusive = {
+			focus = rsr_sve_welfare_life
+			focus = rsr_sve_keep_in_fear
+		}
+		
+		x = 17
+		y = 12
+
+	}
+	

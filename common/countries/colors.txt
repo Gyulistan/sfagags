@@ -842,3 +842,33 @@ NIK = {
 	color = rgb { 122  134  199 }
 	color_ui = rgb { 122  134  199 }	 
 }
+
+SWZ = {
+	color = rgb { 130 0 0 }
+	color_ui = rgb { 125 0 0 }	 
+}
+
+CWZ = {
+	color = rgb { 130 0 0 }
+	color_ui = rgb { 125 0 0 }	 
+}
+
+RWZ = {
+	color = rgb { 130 0 0 }
+	color_ui = rgb { 125 0 0 }	 
+}
+
+EWZ = {
+	color = rgb { 130 0 0 }
+	color_ui = rgb { 125 0 0 }	 
+}
+
+DWZ = {
+	color = rgb { 130 0 0 }
+	color_ui = rgb { 125 0 0 }	 
+}
+
+UWZ = {
+	color = rgb { 130 0 0 }
+	color_ui = rgb { 125 0 0 }	 
+}

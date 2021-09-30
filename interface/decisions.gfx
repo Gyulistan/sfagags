@@ -14,6 +14,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_DER_decision_paranoid"
+		texturefile = "gfx/interface/decisions/decision_category_paranoid.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_decision_generic_civil_support"
 		texturefile = "gfx/interface/decisions/decision_generic_civil_support.dds"
 	}

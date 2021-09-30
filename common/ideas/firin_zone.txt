@@ -1,0 +1,16 @@
+ideas = {
+
+
+	country = {
+
+		SWZ_dock_construction = {
+
+			picture = swz_dock_construction
+			
+			modifier = {
+				production_speed_dockyard_factor = 0.10
+				local_manpower =  -0.10
+			}
+		}
+	}
+}
