@@ -49,4 +49,12 @@ spriteTypes = {
 		name = "GFX_SPEVNT_tukh_gas_war_img"
 		texturefile = "gfx/super_events/SPEVNT_tukh_gas_war.dds"
 	}
+	spriteType = {
+		name = "GFX_SPEVNT_second_cw_img"
+		texturefile = "gfx/super_events/SPEVNT_second_cw.dds"
+	}
+	spriteType = {
+		name = "GFX_SPEVNT_meme_two_img"
+		texturefile = "gfx/super_events/SPEVNT_meme_two.dds"
+	}
 }

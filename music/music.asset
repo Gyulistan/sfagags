@@ -45,15 +45,12 @@ music = {
 	name = "super_5"
 	file = "se/mafia_sings.ogg"
 	volume = 0.65
-<<<<<<< HEAD
 }
 
 music = {
 	name = "super_6"
 	file = "se/tukhachevskiy.ogg"
 	volume = 0.65
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 
 music = {
@@ -66,10 +63,4 @@ music = {
 	name = "super_8"
 	file = "se/athem_of_modders.ogg"
 	volume = 0.85
-=======
->>>>>>> parent of 35a7a48 (Add files via upload)
-=======
->>>>>>> parent of 0383c76 (Add files via upload)
-=======
->>>>>>> parent of 0383c76 (Add files via upload)
 }

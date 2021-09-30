@@ -4,17 +4,11 @@ rsr_partisans_category = {
 	priority = 10
 
 	allowed = {
-			tag = RSR
+			tag = RSR 
 		}
 	visible = {
 		tag = RSR
 	}
-<<<<<<< HEAD
-<<<<<<< HEAD
 	scripted_gui = rsr_btn_gui
-=======
->>>>>>> parent of bfb29ae (Партизаны)
-=======
->>>>>>> parent of bfb29ae (Партизаны)
 	visible_when_empty = no
 }
