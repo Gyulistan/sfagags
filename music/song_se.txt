@@ -71,13 +71,3 @@ music = {
 		}		
 	}	
 }
-
-music = { 
-	song = "super_9"
-	
-	chance = {
-		modifier = {
-			factor = 0
-		}		
-	}	
-}

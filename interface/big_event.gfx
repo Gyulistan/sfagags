@@ -57,8 +57,4 @@ spriteTypes = {
 		name = "GFX_SPEVNT_meme_two_img"
 		texturefile = "gfx/super_events/SPEVNT_meme_two.dds"
 	}
-	spriteType = {
-		name = "GFX_SPEVNT_lib_russia_img"
-		texturefile = "gfx/super_events/SPEVNT_lib_russia.dds"
-	}
 }

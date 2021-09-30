@@ -28,36 +28,6 @@ defined_text = { #SUPER EVENT TITLES
         }
         localization_key = "GFX_SPEVNT_truman_elections"
     }
-    text = { 
-        trigger = {
-            has_global_flag = meme_one
-        }
-        localization_key = "GFX_SPEVNT_meme_one"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = tukh_gas_war
-        }
-        localization_key = "GFX_SPEVNT_tukh_gas_war"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = second_cw
-        }
-        localization_key = "GFX_SPEVNT_second_cw"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = meme_two
-        }
-        localization_key = "GFX_SPEVNT_meme_two"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = lib_russia
-        }
-        localization_key = "GFX_SPEVNT_lib_russia"
-    }
 }
 
 defined_text = { #SUPER EVENT TITLES
@@ -90,36 +60,6 @@ defined_text = { #SUPER EVENT TITLES
         }
         localization_key = "GFX_SPEVNT_truman_elections_TEXT"
     }
-    text = { 
-        trigger = {
-            has_global_flag = meme_one
-        }
-        localization_key = "GFX_SPEVNT_meme_one_TEXT"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = tukh_gas_war
-        }
-        localization_key = "GFX_SPEVNT_tukh_gas_war_TEXT"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = second_cw
-        }
-        localization_key = "GFX_SPEVNT_second_cw_TEXT"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = meme_two
-        }
-        localization_key = "GFX_SPEVNT_meme_two_TEXT"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = lib_russia
-        }
-        localization_key = "GFX_SPEVNT_lib_russia_TEXT"
-    }
 }
 
 defined_text = {
@@ -148,35 +88,5 @@ defined_text = {
             has_global_flag = truman_elections
         }
         localization_key = "GFX_SPEVNT_truman_elections_img"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = meme_one
-        }
-        localization_key = "GFX_SPEVNT_meme_one_img"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = tukh_gas_war
-        }
-        localization_key = "GFX_SPEVNT_tukh_gas_war_img"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = second_cw
-        }
-        localization_key = "GFX_SPEVNT_second_cw_img"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = meme_two
-        }
-        localization_key = "GFX_SPEVNT_meme_two_img"
-    }
-    text = { 
-        trigger = {
-            has_global_flag = lib_russia
-        }
-        localization_key = "GFX_SPEVNT_lib_russia_img"
     }
 }
