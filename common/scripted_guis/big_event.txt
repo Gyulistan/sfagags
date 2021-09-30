@@ -9,6 +9,11 @@ scripted_gui = {
 				has_global_flag = anarcho_syndicalist_unification
 				has_global_flag = mafia_elections
 				has_global_flag = truman_elections
+				has_global_flag = meme_one
+				has_global_flag = tukh_gas_war
+				has_global_flag = second_cw
+				has_global_flag = meme_two
+				has_global_flag = lib_russia
 			}
 		}
 	
@@ -22,13 +27,22 @@ scripted_gui = {
 							has_global_flag = anarcho_syndicalist_unification
 							has_global_flag = mafia_elections
 							has_global_flag = truman_elections
+							has_global_flag = meme_one
+							has_global_flag = tukh_gas_war
+							has_global_flag = second_cw
+							has_global_flag = meme_two
+							has_global_flag = lib_russia
 						}
 					}
 					clr_global_flag  = eden_gate_unification
 					clr_global_flag = anarcho_syndicalist_unification
 					clr_global_flag  = mafia_elections
 					clr_global_flag = truman_elections
-
+					clr_global_flag = meme_one
+					clr_global_flag = tukh_gas_war
+					clr_global_flag = second_cw
+					clr_global_flag = meme_two
+					clr_global_flag = lib_russia
 				}
 			}
 		}

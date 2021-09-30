@@ -1,0 +1,903 @@
+focus_tree = {
+	id = rsr_martov
+	country = {
+		factor = 0
+		modifier = {
+			add = 200
+			tag = RSR
+		}
+	}
+	continuous_focus_position = { x = 50 y = 4000 }
+	default = no
+focus = {
+		id = rsr_martov_won
+		icon = GFX_focus_aboba
+		x = 35
+		y = 0
+		cost = 35	
+	}
+focus = {
+		id = rsr_assign_roles
+		icon = GFX_focus_aboba
+		x = 35
+		y = 1
+		prerequisite = {
+			focus = rsr_martov_won
+		}
+		cost = 35	
+	}
+focus = {
+		id = rsr_freedom_for_prisoners
+		icon = GFX_focus_aboba
+		x = 32
+		y = 1
+		prerequisite = {
+			focus = rsr_martov_won
+		}
+		cost = 35	
+	}
+focus = {
+		id = rsr_new_supreme_council
+		icon = GFX_focus_aboba
+		x = 38
+		y = 1
+		prerequisite = {
+			focus = rsr_martov_won
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_rehabilitation_of_church
+		icon = GFX_focus_aboba
+		x = 32
+		y = 2
+		prerequisite = {
+			focus = rsr_freedom_for_prisoners
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_fresh_up_the_soviets
+		icon = GFX_focus_aboba
+		x = 38
+		y = 2
+		prerequisite = {
+			focus = rsr_new_supreme_council
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_preparations_for_elections
+		icon = GFX_focus_aboba
+		x = 35
+		y = 3
+		prerequisite = {
+			focus = rsr_rehabilitation_of_church
+		}
+		prerequisite = {
+		    focus = rsr_assign_roles
+		}
+		prerequisite = {
+			focus = rsr_fresh_up_the_soviets
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_safety_of_stations
+		icon = GFX_focus_aboba
+		x = 37
+		y = 4
+		prerequisite = {
+			focus = rsr_preparations_for_elections
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_no_radicals
+		icon = GFX_focus_aboba
+		x = 33
+		y = 4
+		prerequisite = {
+			focus = rsr_preparations_for_elections 
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_mensheviks_won
+		icon = GFX_focus_aboba
+		x = 35
+		y = 5
+		prerequisite = {
+			focus = rsr_preparations_for_elections
+		}
+		prerequisite = {
+			focus = rsr_safety_of_stations
+		}	
+		prerequisite = {
+			focus = rsr_no_radicals
+		}			
+		cost = 35		
+	}
+focus = {
+		id = rsr_ussr_renewal_plan
+		icon = GFX_focus_aboba
+		x = 35
+		y = 6
+		prerequisite = {
+			focus = rsr_mensheviks_won
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_three_rules
+		icon = GFX_focus_aboba
+		x = 35
+		y = 7
+		prerequisite = {
+			focus = rsr_ussr_renewal_plan
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_perestroika
+		icon = GFX_focus_aboba
+		x = 32
+		y = 8
+		prerequisite = {
+			focus = rsr_three_rules
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_democracy
+		icon = GFX_focus_aboba
+		x = 35
+		y = 8
+		prerequisite = {
+			focus = rsr_three_rules
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_glasnost
+		icon = GFX_focus_aboba
+		x = 38
+		y = 8
+		prerequisite = {
+			focus = rsr_three_rules
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_fire_unloyal_soldiers
+		icon = GFX_focus_aboba
+		x = 31
+		y = 9
+		prerequisite = {
+			focus = rsr_perestroika
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_sr_dissolution
+		icon = GFX_focus_aboba
+		x = 35
+		y = 9
+		prerequisite = {
+			focus = rsr_democracy
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_limited_privatization
+		icon = GFX_focus_aboba
+		x = 39
+		y = 9
+		prerequisite = {
+			focus = rsr_glasnost
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_condemn_bolshevism
+		icon = GFX_focus_aboba
+		x = 30
+		y = 10
+		prerequisite = {
+			focus = rsr_fire_unloyal_soldiers
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_change_agrarian_politics
+		icon = GFX_focus_aboba
+		x = 35
+		y = 10
+		prerequisite = {
+			focus = rsr_sr_dissolution
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_price_liberalization
+		icon = GFX_focus_aboba
+		x = 40
+		y = 10
+		prerequisite = {
+			focus = rsr_limited_privatization
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_abolition_of_execution
+		icon = GFX_focus_aboba
+		x = 30
+		y = 11
+		prerequisite = {
+			focus = rsr_condemn_bolshevism
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_no_prodrazverstka
+		icon = GFX_focus_aboba
+		x = 34
+		y = 11
+		prerequisite = {
+			focus = rsr_change_agrarian_politics
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_kolkhoz_question
+		icon = GFX_focus_aboba
+		x = 36
+		y = 11
+		prerequisite = {
+			focus = rsr_change_agrarian_politics
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_reduce_the_workday
+		icon = GFX_focus_aboba
+		x = 40
+		y = 11
+		prerequisite = {
+			focus = rsr_price_liberalization
+		}	
+		cost = 35		
+	}
+focus = {
+		id = rsr_more_reforms
+		icon = GFX_focus_aboba
+		x = 35
+		y = 12
+		prerequisite = {
+			focus = rsr_abolition_of_execution
+		}
+        prerequisite = {
+			focus = rsr_no_prodrazverstka
+		}
+		prerequisite = {
+			focus = rsr_kolkhoz_question
+		}
+		prerequisite = {
+			focus = rsr_reduce_the_workday
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_return_the_names
+		icon = GFX_focus_aboba
+		x = 35
+		y = 13
+		prerequisite = {
+			focus = rsr_more_reforms
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_dashing_thirties
+		icon = GFX_focus_aboba
+		x = 35
+		y = 14
+		prerequisite = {
+			focus = rsr_return_the_names
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_february_legacy
+		icon = GFX_focus_aboba
+		x = 34
+		y = 15
+		prerequisite = {
+			focus = rsr_dashing_thirties
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_ussr_renewal
+		icon = GFX_focus_aboba
+		x = 36
+		y = 15
+		prerequisite = {
+			focus = rsr_dashing_thirties
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_emigrants_return
+		icon = GFX_focus_aboba
+		x = 34
+		y = 16
+		prerequisite = {
+			focus = rsr_february_legacy
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_ussr_is_dead
+		icon = GFX_focus_aboba
+		x = 36
+		y = 16
+		prerequisite = {
+			focus = rsr_ussr_renewal
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_royal_assets
+		icon = GFX_focus_aboba
+		x = 34
+		y = 17
+		prerequisite = {
+			focus = rsr_emigrants_return
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_cis_project
+		icon = GFX_focus_aboba
+		x = 36
+		y = 17
+		prerequisite = {
+			focus = rsr_ussr_is_dead
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_martov_assassination_attempt
+		icon = GFX_focus_aboba
+		x = 35
+		y = 18
+		prerequisite = {
+			focus = rsr_cis_project
+		}
+		prerequisite = {
+		    focus = rsr_royal_assets
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_shoulder
+		icon = GFX_focus_aboba
+		x = 25
+		y = 19
+		prerequisite = {
+			focus = rsr_martov_assassination_attempt
+		}
+		mutually_exclusive = {
+	        focus = rsr_belly
+		}
+		available = {
+		hidden = {
+		always = no
+		}
+	    }
+		cost = 35		
+	}
+focus = {
+		id = rsr_belly
+		icon = GFX_focus_aboba
+		x = 45
+		y = 19
+		prerequisite = {
+			focus = rsr_martov_assassination_attempt
+		}
+		mutually_exclusive = {
+	        focus = rsr_shoulder
+		}
+		available = {
+		hidden = {
+		always = no
+		}
+	    }
+		cost = 35		
+	}
+focus = {
+		id = rsr_martovs_successor
+		icon = GFX_focus_aboba
+		x = 45
+		y = 20
+		prerequisite = {
+			focus = rsr_belly
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_emergency_powers
+		icon = GFX_focus_aboba
+		x = 45
+		y = 21
+		prerequisite = {
+			focus = rsr_martovs_successor
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_investigate_attempt
+		icon = GFX_focus_aboba
+		x = 45
+		y = 22
+		prerequisite = {
+			focus = rsr_emergency_powers
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_shadow_games
+		icon = GFX_focus_aboba
+		x = 45
+		y = 23
+		prerequisite = {
+			focus = rsr_investigate_attempt
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_the_list
+		icon = GFX_focus_aboba
+		x = 45
+		y = 24
+		prerequisite = {
+			focus = rsr_shadow_games
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_traitors
+		icon = GFX_focus_aboba
+		x = 45
+		y = 25
+		prerequisite = {
+			focus = rsr_the_list
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_stabilisation
+		icon = GFX_focus_aboba
+		x = 45
+		y = 26
+		prerequisite = {
+			focus = rsr_traitors
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_i_need_some_rest
+		icon = GFX_focus_aboba
+		x = 25
+		y = 20
+		prerequisite = {
+			focus = rsr_shoulder
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_tsereteli
+		icon = GFX_focus_aboba
+		x = 25
+		y = 21
+		prerequisite = {
+			focus = rsr_i_need_some_rest
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_tsereteli_reforms
+		icon = GFX_focus_aboba
+		x = 25
+		y = 22
+		prerequisite = {
+			focus = rsr_tsereteli
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_resources_for_investigation
+		icon = GFX_focus_aboba
+		x = 27
+		y = 22
+		prerequisite = {
+			focus = rsr_tsereteli
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_discredit_maklakov
+		icon = GFX_focus_aboba
+		x = 23
+		y = 22
+		prerequisite = {
+			focus = rsr_tsereteli
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_martov_is_back
+		icon = GFX_focus_aboba
+		x = 25
+		y = 23
+		prerequisite = {
+			focus = rsr_resources_for_investigation
+		}
+		prerequisite = {
+			focus = rsr_tsereteli_reforms
+		}
+		prerequisite = {
+			focus = rsr_discredit_maklakov
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_new_thinking
+		icon = GFX_focus_aboba
+		x = 20
+		y = 24
+		prerequisite = {
+			focus = rsr_martov_is_back
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_continue_ussr_renewal
+		icon = GFX_focus_aboba
+		x = 30
+		y = 24
+		prerequisite = {
+			focus = rsr_martov_is_back
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_antialcohol_campaign
+		icon = GFX_focus_aboba
+		x = 18
+		y = 25
+		prerequisite = {
+			focus = rsr_new_thinking
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_legalize_private
+		icon = GFX_focus_aboba
+		x = 20
+		y = 25
+		prerequisite = {
+			focus = rsr_new_thinking
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_cis_cooperation
+		icon = GFX_focus_aboba
+		x = 22
+		y = 25
+		prerequisite = {
+			focus = rsr_new_thinking
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_entente_embassy
+		icon = GFX_focus_aboba
+		x = 20
+		y = 26
+		prerequisite = {
+			focus = rsr_antialcohol_campaign
+		}
+		prerequisite = {
+			focus = rsr_legalize_private
+		}
+		prerequisite = {
+			focus = rsr_cis_cooperation
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_friends_with_entente
+		icon = GFX_focus_aboba
+		x = 19
+		y = 27
+		prerequisite = {
+			focus = rsr_entente_embassy
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_no_threat
+		icon = GFX_focus_aboba
+		x = 21
+		y = 27
+		prerequisite = {
+			focus = rsr_entente_embassy
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_less_soldiers
+		icon = GFX_focus_aboba
+		x = 18
+		y = 28
+		prerequisite = {
+			focus = rsr_friends_with_entente
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_trade_treaty
+		icon = GFX_focus_aboba
+		x = 22
+		y = 28
+		prerequisite = {
+			focus = rsr_no_threat
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_grain_for_money
+		icon = GFX_focus_aboba
+		x = 20
+		y = 28
+		prerequisite = {
+			focus = rsr_friends_with_entente
+		}
+		prerequisite = {
+			focus = rsr_no_threat
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_no_help_for_east_europe
+		icon = GFX_focus_aboba
+		x = 19
+		y = 29
+		prerequisite = {
+			focus = rsr_less_soldiers
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_more_loans
+		icon = GFX_focus_aboba
+		x = 21
+		y = 29
+		prerequisite = {
+			focus = rsr_trade_treaty
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_milestone_in_politics
+		icon = GFX_focus_aboba
+		x = 20
+		y = 30
+		prerequisite = {
+			focus = rsr_no_help_for_east_europe
+		}
+		prerequisite = {
+			focus = rsr_grain_for_money
+		}
+		prerequisite = {
+			focus = rsr_more_loans
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_no_comintern
+		icon = GFX_focus_aboba
+		x = 20
+		y = 31	
+		prerequisite = {
+			focus = rsr_milestone_in_politics
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_three_hundred_days
+		icon = GFX_focus_aboba
+		x = 20
+		y = 32
+		prerequisite = {
+			focus = rsr_no_comintern
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_french_help
+		icon = GFX_focus_aboba
+		x = 18
+		y = 33
+		prerequisite = {
+			focus = rsr_three_hundred_days
+		}
+		mutually_exclusive = {
+			focus = rsr_no_help
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_no_help
+		icon = GFX_focus_aboba
+		x = 22
+		y = 33
+		prerequisite = {
+			focus = rsr_three_hundred_days
+		}
+		mutually_exclusive = {
+			focus = rsr_french_help
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_illegitimate_germany
+		icon = GFX_focus_aboba
+		x = 18
+		y = 34
+		prerequisite = {
+			focus = rsr_french_help
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_try_to_overcome_hunger
+		icon = GFX_focus_aboba
+		x = 22
+		y = 34
+		prerequisite = {
+			focus = rsr_no_help
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_foreign_industrialists
+		icon = GFX_focus_aboba
+		x = 18
+		y = 35
+		prerequisite = {
+			focus = rsr_illegitimate_germany
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_currency_reform
+		icon = GFX_focus_aboba
+		x = 22
+		y = 35
+		prerequisite = {
+			focus = rsr_try_to_overcome_hunger
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_foreign_food_help
+		icon = GFX_focus_aboba
+		x = 18
+		y = 36
+		prerequisite = {
+			focus = rsr_foreign_industrialists
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_goods_deficit
+		icon = GFX_focus_aboba
+		x = 22
+		y = 36
+		prerequisite = {
+			focus = rsr_currency_reform
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_economic_crisis
+		icon = GFX_focus_aboba
+		x = 20
+		y = 37
+		prerequisite = {
+			focus = rsr_foreign_food_help
+			focus = rsr_goods_deficit
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_more_oil_production
+		icon = GFX_focus_aboba
+		x = 18
+		y = 38
+		prerequisite = {
+			focus = rsr_economic_crisis
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_foreign_capital
+		icon = GFX_focus_aboba
+		x = 20
+		y = 38
+		prerequisite = {
+			focus = rsr_economic_crisis
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_lower_payment
+		icon = GFX_focus_aboba
+		x = 22
+		y = 38
+		prerequisite = {
+			focus = rsr_economic_crisis
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_more_oil_selling
+		icon = GFX_focus_aboba
+		x = 18
+		y = 39
+		prerequisite = {
+			focus = rsr_more_oil_production
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_increase_hours
+		icon = GFX_focus_aboba
+		x = 20
+		y = 39
+		prerequisite = {
+			focus = rsr_foreign_capital
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_tighten_the_belts
+		icon = GFX_focus_aboba
+		x = 22
+		y = 39
+		prerequisite = {
+			focus = rsr_lower_payment
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_save_russia
+		icon = GFX_focus_aboba
+		x = 20
+		y = 40
+		prerequisite = {
+			focus = rsr_more_oil_selling
+		}
+		prerequisite = {
+			focus = rsr_increase_hours
+		}
+		prerequisite = {
+			focus = rsr_tighten_the_belts
+		}
+		cost = 35		
+	}
+}

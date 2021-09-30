@@ -1,13 +1,14 @@
 rsr_partisans_category = {
 	icon = GFX_decision_category_thompson
-	
+	 
 	priority = 10
 
 	allowed = {
-			tag = RSR
+			tag = RSR 
 		}
 	visible = {
 		tag = RSR
 	}
+	scripted_gui = rsr_btn_gui
 	visible_when_empty = no
 }

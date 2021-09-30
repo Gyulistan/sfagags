@@ -1,0 +1,126 @@
+music_station = "base_music"
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+
+music = {
+	song = "general_peace_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = RSR
+		}		
+	}	
+}
+
+music = {
+	song = "general_peace_3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			OR = {
+				has_government = radical_bolshevism
+				has_government = orthodox_socialism
+				has_government = accelerationism
+			}
+		}		
+	}
+}
+
+music = {
+	song = "general_war_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			OR = {
+				has_government = radical_bolshevism
+				has_government = orthodox_socialism
+				has_government = accelerationism
+			}
+		}		
+	}	
+}
+
+music = {
+	song = "general_peace_4"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = RSR
+		}		
+	}	
+}
+
+music = {
+	song = "general_peace_5"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = RSR
+		}		
+	}	
+}
+
+music = {
+	song = "general_peace_6"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = RSR
+		}		
+	}	
+}
+
+music = {
+	song = "general_peace_7"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = RSR
+		}		
+	}	
+}
+
+music = {
+	song = "general_peace_8"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = RSR
+		}		
+	}
+}
+
+music = {
+	song = "general_peace_9"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			tag = USA
+		}		
+	}
+}

@@ -28,7 +28,100 @@ ideas = {
 				
 			
 						}
-				}				
+				}
+
+		ger_heinrich_bruning = {
+		
+			picture = GFX_idea_ger_heinrich_bruning
+			
+			available = {
+					NOT = {
+						OR = {
+							has_government = radical_bolshevism
+							has_government = orthodox_socialism
+							has_government = social_democracy
+							has_government = accelerationism
+							has_government = liberalism
+						}
+					}
+				}
+			
+			traits = {
+				conservatist
+				silent_workhorse
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+
+		ger_karl_josef_wirth = {
+		
+			picture = GFX_idea_karl_josef_wirth
+			
+			available = {
+					NOT = {
+						OR = {
+							has_government = national_militarism
+							has_government = radical_bolshevism
+							has_government = orthodox_socialism
+							has_government = paternalism
+						}
+					}
+				}
+			
+			traits = {
+				liberal
+				pragmatic_statesman
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+
+		ger_theodor_duesterberg = {
+		
+			picture = GFX_idea_theodor_duesterberg
+			
+			available = {
+					has_government = national_militarism
+				}
+			
+			traits = {
+				nationalist
+				flamboyant_tough_guy
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
 		}
 		
 		
@@ -48,6 +141,32 @@ ideas = {
 			traits = {
 				paternalist
 				general_staffer
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+		ger_ulrich_gra_von_brockdorff_rantzau = {
+		
+			picture = GFX_idea_ger_ulrich_gra_von_brockdorff_rantzau
+			
+			available = {
+					NOT = {
+						has_government = national_militarism
+					}
+				}
+			
+			traits = {
+				great_compromiser
 				foreign_minister
 			}
 			
@@ -94,7 +213,64 @@ ideas = {
 				
 			
 						}
-				}	
+				}
+		ger_werner_von_blomberg = {
+		
+			picture = GFX_idea_ger_werner_von_blomberg
+			
+			available = {
+					OR = {
+						has_government = national_militarism
+						
+					}
+				}
+			
+			traits = {
+				nationalist
+				former_military_commissar
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+		ger_wilhelm_groener = {
+		
+			picture = GFX_idea_ger_wilhelm_groener
+			
+			available = {
+					NOT = {
+						OR = {
+							has_government = national_militarism
+							has_government = paternalism
+						}
+					}
+				}
+			
+			traits = {
+				failed_marshal
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
 		}
 
 	economy_minister = {
@@ -126,6 +302,28 @@ ideas = {
 			
 						}
 				}	
+		ger_hans_luther = {
+		
+			picture = GFX_idea_ger_hans_luther
+			
+			available = {}
+			
+			traits = {
+				industrial_chemist
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = GER
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
 		}
 		
 	security_minister = {
@@ -198,7 +396,97 @@ ideas = {
 
 			picture = ger_working_resistance
 		}
-		
+
+		ger_working_resistance_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_working_resistance_1"}
+
+			modifier = {
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_factory_max_efficiency_factor = -0.3
+				production_factory_efficiency_gain_factor = -0.25
+				production_lack_of_resource_penalty_factor = 0.25
+			}
+
+			picture = ger_working_resistance
+		}
+
+		ger_working_resistance_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_working_resistance_2"}
+
+			modifier = {
+				industrial_capacity_factory = -0.35
+				industrial_capacity_dockyard = -0.35
+				production_factory_max_efficiency_factor = -0.35
+				production_factory_efficiency_gain_factor = -0.3
+				production_lack_of_resource_penalty_factor = 0.3
+			}
+
+			picture = ger_working_resistance
+		}
+
+		ger_working_resistance_3 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_working_resistance_3"}
+
+			modifier = {
+				industrial_capacity_factory = -0.45
+				industrial_capacity_dockyard = -0.45
+				production_factory_max_efficiency_factor = -0.45
+				production_factory_efficiency_gain_factor = -0.45
+				production_lack_of_resource_penalty_factor = 0.45
+				stability_factor = -0.35
+
+			}
+
+			picture = ger_working_resistance
+		}
+
+		ger_new_workers_labour = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_new_workers_labour"}
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_industrial_complex_factor = 0.25
+			}
+
+			picture = ger_working_resistance
+		}
+
+		ger_new_workers_labour_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_new_workers_labour_1"}
+
+			modifier = {
+				consumer_goods_factor = -0.135
+				production_speed_industrial_complex_factor = 0.3
+			}
+
+			picture = ger_working_resistance
+		}
+
+		ger_new_workers_labour_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_new_workers_labour_2"}
+
+			modifier = {
+				consumer_goods_factor = -0.175
+				production_speed_industrial_complex_factor = 0.35
+
+			}
+
+			picture = ger_working_resistance
+		}
+
+		ger_new_workers_labour_3 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_new_workers_labour_2"}
+
+			modifier = {
+				consumer_goods_factor = -0.2
+				production_speed_industrial_complex_factor = 0.35
+				
+			}
+
+			picture = ger_working_resistance
+		}
+
 		ger_confrontation_concerns = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ger_confrontation_concerns"}
 
