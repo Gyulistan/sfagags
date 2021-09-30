@@ -42,6 +42,7 @@ music = {
 			factor = 0
 		}		
 	}	
+<<<<<<< HEAD
 }
 music = { 
 	song = "super_6"
@@ -51,6 +52,8 @@ music = {
 			factor = 0
 		}		
 	}	
+<<<<<<< HEAD
+<<<<<<< HEAD
 }
 music = { 
 	song = "super_7"
@@ -71,3 +74,12 @@ music = {
 		}		
 	}	
 }
+=======
+}
+>>>>>>> parent of 35a7a48 (Add files via upload)
+=======
+}
+>>>>>>> parent of 0383c76 (Add files via upload)
+=======
+}
+>>>>>>> parent of 0383c76 (Add files via upload)
