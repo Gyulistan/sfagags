@@ -1,7 +1,7 @@
 focus_tree = {
 	id = rsr_sverd_tree
 	country = {
-		factor = 0
+		factor = 1
 		modifier = {
 			add = 200
 			tag = RSR
