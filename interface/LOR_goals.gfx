@@ -2167,4 +2167,19 @@ spriteTypes = {
 		name = "GFX_focus_usa_rot_our_personal_guard"
 		texturefile = "gfx/interface/goals/focus_usa_rot_our_personal_guard.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_ros_roosevelt_wins"
+		texturefile = "gfx/interface/goals/focus_usa_ros_roosevelt_wins.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sr_prime_algasov"
+		texturefile = "gfx/interface/goals/focus_rsr_sr_prime_algasov.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sr_prime_kamkov"
+		texturefile = "gfx/interface/goals/focus_rsr_sr_prime_kamkov.dds"
+	}
 }

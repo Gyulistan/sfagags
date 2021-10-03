@@ -14,7 +14,7 @@ focus_tree = {
 
 	focus = {
 		id = usa_ros_roosevelt_wins
-		icon = GFX_focus_usa_bil_bilbo_wins
+		icon = GFX_focus_usa_ros_roosevelt_wins
 		cost = 10
 		x = 6
 		y = 0
