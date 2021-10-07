@@ -1200,16 +1200,6 @@ focus = {
 		cost = 35		
 	}
 focus = {
-		id = rsr_litbel_terrorism
-		icon = GFX_focus_aboba
-		x = 27
-		y = 37
-		prerequisite = {
-			focus = rsr_europe
-		}
-		cost = 35		
-	}
-focus = {
 		id = rsr_finnish_unsatisfaction
 		icon = GFX_focus_aboba
 		x = 27
@@ -1250,12 +1240,22 @@ focus = {
 		cost = 35		
 	}
 focus = {
+		id = rsr_ukrainian_destabilisation
+		icon = GFX_focus_aboba
+		x = 30
+		y = 39
+		prerequisite = {
+			focus = rsr_borotbists_flee
+		}
+		cost = 35		
+	}
+focus = {
 		id = rsr_ukraine_collapsed
 		icon = GFX_focus_aboba
 		x = 30
 		y = 40
 		prerequisite = {
-			focus = rsr_borotbists_flee
+			focus = rsr_ukrainian_destabilisation
 		}
 		cost = 35		
 	}
@@ -1295,9 +1295,6 @@ focus = {
 		x = 25
 		y = 42
 		prerequisite = {
-			focus = rsr_save_russia
-		}
-		prerequisite = {
 			focus = rsr_independent_baltics
 		}
 		prerequisite = {
@@ -1305,6 +1302,9 @@ focus = {
 		}
 		prerequisite = {
 			focus = rsr_moldova_occupation
+		}
+		prerequisite = {
+			focus = rsr_save_russia
 		}
 		cost = 35		
 	}
