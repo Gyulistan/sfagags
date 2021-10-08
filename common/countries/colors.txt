@@ -872,3 +872,8 @@ UWZ = {
 	color = rgb { 130 0 0 }
 	color_ui = rgb { 125 0 0 }	 
 }
+
+WAR = {
+	color = rgb { 26 74 41 }
+	color_ui = rgb { 26 74 41 }	 
+}

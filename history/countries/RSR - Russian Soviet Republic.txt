@@ -242,6 +242,9 @@ add_to_faction = BYK
 add_to_faction = PRS
 add_to_faction = FER
 add_to_faction = MOR
+add_to_faction = SLO
+add_to_faction = HUN
+add_to_faction = ROM
 
 
 add_ideas = {

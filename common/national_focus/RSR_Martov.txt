@@ -385,7 +385,17 @@ focus = {
 		prerequisite = {
 			focus = rsr_cis_project
 		}
-		cost = 35		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		custom_effect_tooltip = martov_cis_tt
+		hidden = {
+		country_event = {
+			 id = rsrmartov.1
+			 days = 5
+		}
+	    }
+		}
+		cost = 3		
 	}
 focus = {
 		id = rsr_martov_assassination_attempt
@@ -1329,7 +1339,7 @@ focus = {
 		cost = 35		
 	}
 focus = {
-		id = rsr_martov_suicide
+		id = rsr_zhmurki
 		icon = GFX_focus_aboba
 		x = 25
 		y = 44
@@ -1338,6 +1348,21 @@ focus = {
 		}
 		prerequisite = {
 			focus = rsr_racketeers
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_martov_suicide
+		icon = GFX_focus_aboba
+		x = 25
+		y = 45
+		prerequisite = {
+			focus = rsr_zhmurki
+	    }
+		available = {
+			hidden = {
+				always = no
+			}
 		}
 		cost = 35		
 	}
