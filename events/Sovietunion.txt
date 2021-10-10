@@ -1607,10 +1607,6 @@ country_event = { # sud
 	
 	option = {
 		name = sovietunion.2002.a
-			swap_ideas = {
-				add_idea = clique_military_1
-				remove_idea = clique_military
-			}
 		}
 			
 	}
@@ -1828,10 +1824,10 @@ country_event =	{ # Frenkel
 												
 
 country_event = { # начало гражданки
-	id = sovietunion.1488
+	id = sovietunion.1337
 	immediate = {log = "Ya obosralsya!"}
-	title = sovietunion.1488.t
-	desc = sovietunion.1488.d
+	title = sovietunion.1337.t
+	desc = sovietunion.1337.d
 	picture = GFX_event_second_civil_war
 	fire_only_once = yes
 
@@ -1839,7 +1835,79 @@ country_event = { # начало гражданки
 	is_triggered_only = yes
 	
 	option = {
-		name = sovietunion.1488.a
+		name = sovietunion.1337.a
+		if = {
+		limit = {
+		has_country_flag = RSR_stopped_partisan_1
+		}
+		else = {
+		WAR = { annex_country = {
+				target = FIN
+				transfer_troops = no
+				}
+		}
+		WAR = { transfer_state = 216 }
+		WAR = { transfer_state = 215 }
+		WAR = { transfer_state = 213 }
+		WAR = { transfer_state = 722 }
+		}
+		}
+		if = {
+		limit = {
+		has_country_flag = RSR_stopped_partisan_2
+		}
+		else = {
+		WAR = { transfer_state = 208 }
+		WAR = { transfer_state = 209 }
+		WAR = { transfer_state = 263 }
+		WAR = { transfer_state = 244 }
+		WAR = { transfer_state = 264 }
+		WAR = { transfer_state = 216 }
+		WAR = { transfer_state = 351 }
+		WAR = { transfer_state = 214 }
+		}
+		}
+		if = {
+		limit = {
+		has_country_flag = RSR_stopped_partisan_3
+		}
+		else = {
+		WAR = { annex_country = {
+				target = EST
+				transfer_troops = no
+				}
+		}
+		WAR = { annex_country = {
+				target = LAT
+				transfer_troops = no
+				}
+		}
+		}
+		WAR = { transfer_state = 826 }
+		}
+		if = {
+		limit = {
+		has_country_flag = RSR_stopped_partisan_4
+		}
+		else = {
+		WAR = { annex_country = {
+		        target = LBR
+				transfer_troops = no
+				}
+		}
+		WAR = { annex_country = {
+		        target = POL
+				transfer_troops = no
+				}
+		}
+		}
+		}
+		WAR = {
+		declare_war_on = {
+		target = RSR
+		type = annex_everything
+		}
+		}
 	}
 }
 country_event = { # Белогвардейская диктатура - Деникин

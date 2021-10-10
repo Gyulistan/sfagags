@@ -1,24 +1,8 @@
 objectTypes = {
-	pdxmesh = {
-		name = "RSR_mosin_long_rifle_mesh"
-		file = "gfx/models/small_arms/weapon_SOV_rifle_M91-30.mesh"
-	}
-	pdxmesh = {
-		name = "RSR_mosin_rifle_mesh"
-		file = "gfx/models/small_arms/weapon_SOV_rifle_M91.mesh"
-	}
-	pdxmesh = {
-		name = "RSR_sks_rifle_mesh"
-		file = "gfx/models/small_arms/weapon_SOV_rifle_SKS45.mesh"
-	}
-	pdxmesh = {
-		name = "RSR_stv_rifle_mesh"
-		file = "gfx/models/small_arms/weapon_SOV_rifle_STV40.mesh"
-	}
-	################
+
 	pdxmesh = {
 		name = "RSR_infantry_rifle_mesh"
-		file = "gfx/models/units/SOV_soldier.mesh"
+		file = "gfx/models/units/RSR_infantry.mesh"
 
 		animation = { id = "idle"				type = "GER_infantry_rifle_idle_animation" }
 		animation = { id = "attack"				type = "GER_infantry_rifle_attack_animation" }
