@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 1
+			add = 10
 			tag = RSR
 		}
 	}
@@ -16,7 +16,10 @@ focus_tree = {
 		cost = 10
 		x = 9
 		y = 0
-
+		completion_reward = {
+			remove_ideas = power_struggle
+			add_ideas = consequences_of_the_coup_1
+		}
 	}
 	focus = {
 		id = rsr_new_red_army
@@ -35,7 +38,12 @@ focus_tree = {
 		}
 		x = 7
 		y = 1
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = consequences_of_the_coup_1
+				add_idea = consequences_of_the_coup_2
+			}
+		}
 	}
 	focus = {
 		id = rsr_soldiers_soviets
@@ -46,7 +54,12 @@ focus_tree = {
 		}
 		x = 6
 		y = 2
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = consequences_of_the_coup_2
+				add_idea = consequences_of_the_coup_3
+			}
+		}
 	}
 	focus = {
 		id = rsr_disloyal_generals
@@ -57,7 +70,12 @@ focus_tree = {
 		}
 		x = 9
 		y = 1
-
+		completion_reward = {
+			country_event = {
+				id = sovietunion.2002
+				days = 1
+			}
+		}
 	}
 	focus = {
 		id = rsr_restructurization_chk
@@ -68,7 +86,14 @@ focus_tree = {
 		}
 		x = 9
 		y = 2
-
+		completion_reward = {
+			add_political_power = 200
+			remove_ideas_with_trait = security_minister
+			add_timed_idea = {
+				idea = chk_restructurisation
+				days = 170
+			}
+		}
 	}
 	focus = {
 		id = rsr_military_tribunal
@@ -82,7 +107,13 @@ focus_tree = {
 		}
 		x = 7
 		y = 3
-
+		completion_reward = {
+			remove_ideas = clique_military_1
+			add_timed_idea = {
+				idea = tukhachevsky_purge
+				days = 320
+			}
+		}
 	}
 	focus = {
 		id = rsr_clean_narkomats
@@ -93,7 +124,21 @@ focus_tree = {
 		}
 		x = 11
 		y = 1
-
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = orthodox_socialism
+				popularity = -0.1
+			}
+			add_popularity = {
+				ideology = accelerationism
+				popularity = -0.1
+			}
+			add_popularity = {
+				ideology = radical_bolshevism
+				popularity = 0.145
+			}
+		}
 	}
 	focus = {
 		id = rsr_narkomat_propaganda
@@ -104,7 +149,12 @@ focus_tree = {
 		}
 		x = 12
 		y = 2
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = propaganda_narcom
+				days = 90
+			}
+		}
 	}
 	focus = {
 		id = rsr_supreme_soviet
@@ -118,7 +168,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 3
-
+		completion_reward = {
+			add_ideas = { supreme_soviet_tukh }
+		}
 	}
 	focus = {
 		id = rsr_great_lider
@@ -130,9 +182,17 @@ focus_tree = {
 		prerequisite = {
 			focus = rsr_supreme_soviet
 		}
+		available = {
+			NOT = { has_idea = tukhachevsky_purge }
+		}
 		x = 9
 		y = 4
-
+		completion_reward = {
+			swap_ideas = {
+				add_idea = consequences_of_the_coup_4
+				remove_idea = consequences_of_the_coup_3
+			}
+		}
 	}
 	focus = {
 		id = rsr_immediate_centralization
