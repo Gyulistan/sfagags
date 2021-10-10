@@ -1,0 +1,132 @@
+defined_text = {
+	name = LONDON_INFLUENCE
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = england_influence
+			value = 40
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = LONDON_LOW_INFLUENCE
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = england_influence
+			value = 75
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = LONDON_MEDIUM_INFLUENCE
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = england_influence
+			value = 100
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = LONDON_HIGH_INFLUENCE
+	}
+}
+defined_text = {
+	name = LONDON_COLOUR
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = england_influence
+			value = 40
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = LONDON_RED
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = england_influence
+			value = 75
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = LONDON_ORANGE
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = england_influence
+			value = 100
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = LONDON_GREEN
+	}
+}
+defined_text = {
+	name = CARDIFF_INFLUENCE
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 40
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = CARDIFF_LOW_INFLUENCE
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 75
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = CARDIFF_MEDIUM_INFLUENCE
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 100
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = CARDIFF_HIGH_INFLUENCE
+	}
+}
+defined_text = {
+	name = CARDIFF_COLOUR
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 40
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = CARDIFF_RED
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 75
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = CARDIFF_ORANGE
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 100
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = CARDIFF_GREEN
+	}
+}

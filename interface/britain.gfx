@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_britain_map_ui"
+		texturefile = "gfx/interface/britain_gui/britainmap.dds"
+	}
+
+}
