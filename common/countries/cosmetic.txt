@@ -5,3 +5,9 @@ BWF_generals = {
     color_ui = rgb { 29 29 29 }
 }
 
+
+dead_zone = {
+    color = rgb { 24 24 26 }
+    color_ui = rgb { 24 24 26 }
+}
+

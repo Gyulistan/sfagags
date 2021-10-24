@@ -92,57 +92,9 @@ guiTypes = {
 				fixedsize = yes						
 			}
 
-			iconType =
-			{
-				name ="stability_bg"
-				spriteType = "GFX_diplo_unity_bg"
-				position = { x= 370 y = 1 }
-			}	
-			
-			iconType =
-			{
-				name ="stability_icon"
-				spriteType = "GFX_stability_icon"
-				position = { x= 378 y = 9 }
-			}			
-
-			instantTextboxType = {
-				name = "stability_value"
-				position = { x = 369 y = 42 }
-				font = "hoi_16mbs"
-				text = "100%"
-				maxWidth = 44
-				maxHeight = 20
-				format = center
-			}
-			
-			iconType =
-			{
-				name ="war_support_bg"
-				spriteType = "GFX_diplo_unity_bg"
-				position = { x= 414 y = 1 }
-			}	
-			
-			iconType =
-			{
-				name ="war_support_icon"
-				spriteType = "GFX_war_support_icon"
-				position = { x= 421 y = 9 }
-			}			
-
-			instantTextboxType = {
-				name = "war_support_value"
-				position = { x = 414 y = 42 }
-				font = "hoi_16mbs"
-				text = "100%"
-				maxWidth = 44
-				maxHeight = 20
-				format = center
-			}
-			
 			containerWindowType = {
 				name = "opinion_info"
-				position = { x = 425 y = 5 }
+				position = { x = 341 y = 5 } #position = { x = 425 y = 5 }
 				size = { width = 100 height = 60 }
 				clipping = no
 			
@@ -186,6 +138,56 @@ guiTypes = {
 					format = center
 				}
 			}
+
+			iconType =
+			{
+				name ="stability_bg"
+				spriteType = "GFX_diplo_unity_bg"
+				position = { x= 447 y = 1 } #position = { x= 370 y = 1 }
+			}	
+			
+			iconType =
+			{
+				name ="stability_icon"
+				spriteType = "GFX_stability_icon"
+				position = { x= 455 y = 9 } #position = { x= 378 y = 9 }
+			}			
+
+			instantTextboxType = {
+				name = "stability_value"
+				position = { x = 446 y = 42 } #position = { x = 369 y = 42 }
+				font = "hoi_16mbs"
+				text = "100%"
+				maxWidth = 44
+				maxHeight = 20
+				format = center
+			}
+			
+			iconType =
+			{
+				name ="war_support_bg"
+				spriteType = "GFX_diplo_unity_bg"
+				position = { x= 490 y = 1 } #position = { x= 414 y = 1 }
+			}	
+			
+			iconType =
+			{
+				name ="war_support_icon"
+				spriteType = "GFX_war_support_icon"
+				position = { x= 497 y = 9 } #position = { x= 421 y = 9 }
+			}			
+
+			instantTextboxType = {
+				name = "war_support_value"
+				position = { x = 490 y = 42 } #osition = { x = 414 y = 42 }
+				font = "hoi_16mbs"
+				text = "100%"
+				maxWidth = 44
+				maxHeight = 20
+				format = center
+			}
+			
+
 			
 			#------------------------- TAB BUTTONS ----------------------------
 			iconType = {
@@ -399,7 +401,7 @@ guiTypes = {
 				name = "national_spirit_info"
 				position = { x = 17 y = 285 }
 				size = { width = 530 height = 70 }
-				
+				horizontalScrollbar = "bottom_horizontal_slider"
 				
 				iconType = {
 					name = "diplo_nat_spirits_bg"
@@ -407,21 +409,10 @@ guiTypes = {
 					position = { x = -2 y = -14 }
 				}
 				
-				
-				instantTextBoxType = {
-					name = "spirit_title"
-					position = { x = -1000 y = 0 }
-					font = "hoi_18mbs"
-					borderSize = {x = 0 y = 0}
-					text = "FE_COUNTRY_SPIRIT"
-					maxWidth = 240
-					maxHeight = 30	
-				}
-				
 				containerWindowType = {
 					name = "national_spirit_container"
 					position = { x = 0 y = 0 }
-					size = { width = 520 height = 87 }
+					size = { width = 515 height = 90 }
 					horizontalScrollbar = "bottom_horizontal_slider"
 					
 					background = {
@@ -431,10 +422,10 @@ guiTypes = {
 					
 					gridboxtype = {
 						name = "national_spirit_ideas_grid"
-						position = { x = 10 y = 0 } 
+						position = { x = 8 y = 0 }
 						size = { width = 370 height = 65 }
 						slotsize = { width = 64 height = 64 }
-						max_slots = { x = 999 y = 1 }
+						max_slots = { x = 900 y = 1 }
 						format = "UPPER_LEFT"
 					}
 					gridboxtype = {
@@ -442,7 +433,7 @@ guiTypes = {
 						position = { x = 0 y = 0 }
 						size = { width = 370 height = 65 }
 						slotsize = { width = 33 height = 32 }
-						max_slots_horizontal = 999
+						max_slots_horizontal = 10
 						format = "UPPER_LEFT"
 					}
 				}
