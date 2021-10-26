@@ -1,0 +1,74 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "britain_power_struggle_container"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 512 }
+		
+		iconType = {
+			name ="map"
+			spriteType = "GFX_britain_map_ui"
+			position = { x= 0	 y = 0 }
+		}
+		instantTextBoxType = {
+				name = "Hint_textbox"
+				position = { x = 100 y = 0 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 100
+				text = "BRITAIN_STRUGGLE_HINT"
+				format = center
+				pdx_tooltip = "BRITAIN_STRUGGLE_HINT_DESC"
+		}
+		instantTextBoxType = {
+				name = "London_textbox"
+				position = { x = 211 y = 421 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "LONDON"
+				maxWidth = 75
+				format = center
+				maxHeight = 50
+				fixedsize = yes
+				pdx_tooltip = "LONDON_DESC"
+				
+		}
+		instantTextBoxType = {
+				name = "Cardiff_textbox"
+				position = { x = 110 y = 410 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "CARDIFF"
+				maxWidth = 75
+				format = center
+				maxHeight = 50
+				fixedsize = yes
+				pdx_tooltip = "CARDIFF_DESC"
+		}
+		instantTextBoxType = {
+				name = "Edinburgh_textbox"
+				position = { x = 133 y = 165 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "EDINBURGH"
+				maxWidth = 75
+				format = center
+				maxHeight = 50
+				fixedsize = yes
+				pdx_tooltip = "EDINBURGH_DESC"
+		}
+		instantTextBoxType = {
+				name = "Right_text"
+				position = { x = 300 y = 0 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "RIGHT_TEXT"
+				format = center
+				maxHeight = 500
+				fixedsize = no
+		}
+	}
+
+}
+		
+		

@@ -1,0 +1,83 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_clique_military_1"
+		texturefile = "gfx/interface/Ideas/RSR/clique_military.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_consequences_of_the_coup_1"
+		texturefile = "gfx/interface/Ideas/TUKHA/coup_detat.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_consequences_of_the_coup_2"
+		texturefile = "gfx/interface/Ideas/TUKHA/coup_detat.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_consequences_of_the_coup_3"
+		texturefile = "gfx/interface/Ideas/TUKHA/coup_detat.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_consequences_of_the_coup_4"
+		texturefile = "gfx/interface/Ideas/TUKHA/coup_detat.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_chk_restructurisation"
+		texturefile = "gfx/interface/Ideas/TUKHA/restruct_chk.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_propaganda_narcom"
+		texturefile = "gfx/interface/Ideas/TUKHA/propaganda_narkomat.tga" 
+	}
+	spriteType = {
+		name = "GFX_idea_tukhachevsky_purge"
+		texturefile = "gfx/interface/Ideas/TUKHA/officers_purge.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_supreme_soviet_tukh"
+		texturefile = "gfx/interface/Ideas/TUKHA/loyal_soviet.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_unification_progress_1"
+		texturefile = "gfx/interface/Ideas/TUKHA/centalisation.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_unification_progress_2"
+		texturefile = "gfx/interface/Ideas/TUKHA/centalisation.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_unification_progress_3"
+		texturefile = "gfx/interface/Ideas/TUKHA/centalisation.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_disaster_8"
+		texturefile = "gfx/interface/Ideas/RSR/economic_disaster.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_disaster_7"
+		texturefile = "gfx/interface/Ideas/RSR/economic_disaster.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_disaster_6"
+		texturefile = "gfx/interface/Ideas/RSR/economic_disaster.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_disaster_5"
+		texturefile = "gfx/interface/Ideas/RSR/economic_disaster.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_disaster_4"
+		texturefile = "gfx/interface/Ideas/RSR/economic_disaster.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_disaster_3"
+		texturefile = "gfx/interface/Ideas/RSR/economic_disaster.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_disaster_2"
+		texturefile = "gfx/interface/Ideas/RSR/economic_disaster.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_disaster_1"
+		texturefile = "gfx/interface/Ideas/RSR/economic_disaster.tga"
+	}
+
+}

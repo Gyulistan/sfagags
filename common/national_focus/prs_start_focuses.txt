@@ -1,7 +1,7 @@
 focus_tree = {
 	id = prs_start_focuses
 	country = {
-		factor = 0
+		factor = 2
 		modifier = {
 			add = 100
 			tag = PRS

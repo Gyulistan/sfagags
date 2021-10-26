@@ -1,0 +1,16 @@
+scripted_gui = {
+
+	struggle_map = {
+		context_type = decision_category
+        window_name = "britain_power_struggle_container"
+         
+        visible = {
+            tag = BWF 
+        }
+        properties = {
+            map = {
+                image = map
+            }
+        }
+    }
+}

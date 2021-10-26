@@ -50,7 +50,7 @@ rsr_partisans_category = {
           days_mission_timeout = 365
           timeout_effect = {
 				country_event = {
-					id = sovietunion.1488
+					id = sovietunion.1337
 					days = 1
 				}
           }

@@ -1,0 +1,16 @@
+britain_power_struggle = {
+	britain_map = {
+		icon = generic_research
+		available = {
+			tag = BWF
+		}
+		complete_effect = {
+			random_list = {
+				
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

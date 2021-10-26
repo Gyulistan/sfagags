@@ -5,8 +5,14 @@ BWF_generals = {
     color_ui = rgb { 29 29 29 }
 }
 
+
 JAP_soviet = {
     color = rgb { 155 69 32 }
     color_ui = rgb { 109 49 22 }
+}
+
+dead_zone = {
+    color = rgb { 24 24 26 }
+    color_ui = rgb { 24 24 26 }
 }
 

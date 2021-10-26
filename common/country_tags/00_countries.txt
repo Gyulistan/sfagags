@@ -200,3 +200,4 @@ EWZ = "countries/East Worker Zone.txt"
 DWZ = "countries/South Worker Zone.txt"
 UWZ = "countries/California Worker Zone.txt"
 REB = "countries/Baikal Empire.txt"
+WAR = "countries/White Army.txt

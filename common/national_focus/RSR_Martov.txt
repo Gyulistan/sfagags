@@ -348,7 +348,7 @@ focus = {
 		cost = 35		
 	}
 focus = {
-		id = rsr_royal_assets
+		id = rsr_royal_debts
 		icon = GFX_focus_aboba
 		x = 34
 		y = 17
@@ -368,12 +368,42 @@ focus = {
 		cost = 35		
 	}
 focus = {
-		id = rsr_martov_assassination_attempt
+		id = rsr_royal_assets
 		icon = GFX_focus_aboba
-		x = 35
+		x = 34
+		y = 18
+		prerequisite = {
+			focus = rsr_royal_debts
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_cis_est
+		icon = GFX_focus_aboba
+		x = 36
 		y = 18
 		prerequisite = {
 			focus = rsr_cis_project
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		custom_effect_tooltip = martov_cis_tt
+		hidden = {
+		country_event = {
+			 id = rsrmartov.1
+			 days = 5
+		}
+	    }
+		}
+		cost = 3		
+	}
+focus = {
+		id = rsr_martov_assassination_attempt
+		icon = GFX_focus_aboba
+		x = 35
+		y = 19
+		prerequisite = {
+			focus = rsr_cis_est
 		}
 		prerequisite = {
 		    focus = rsr_royal_assets
@@ -384,7 +414,7 @@ focus = {
 		id = rsr_shoulder
 		icon = GFX_focus_aboba
 		x = 25
-		y = 19
+		y = 20
 		prerequisite = {
 			focus = rsr_martov_assassination_attempt
 		}
@@ -402,7 +432,7 @@ focus = {
 		id = rsr_belly
 		icon = GFX_focus_aboba
 		x = 45
-		y = 19
+		y = 20
 		prerequisite = {
 			focus = rsr_martov_assassination_attempt
 		}
@@ -420,7 +450,7 @@ focus = {
 		id = rsr_martovs_successor
 		icon = GFX_focus_aboba
 		x = 45
-		y = 20
+		y = 21
 		prerequisite = {
 			focus = rsr_belly
 		}
@@ -430,7 +460,7 @@ focus = {
 		id = rsr_emergency_powers
 		icon = GFX_focus_aboba
 		x = 45
-		y = 21
+		y = 22
 		prerequisite = {
 			focus = rsr_martovs_successor
 		}
@@ -440,7 +470,7 @@ focus = {
 		id = rsr_investigate_attempt
 		icon = GFX_focus_aboba
 		x = 45
-		y = 22
+		y = 23
 		prerequisite = {
 			focus = rsr_emergency_powers
 		}
@@ -450,7 +480,7 @@ focus = {
 		id = rsr_shadow_games
 		icon = GFX_focus_aboba
 		x = 45
-		y = 23
+		y = 24
 		prerequisite = {
 			focus = rsr_investigate_attempt
 		}
@@ -460,7 +490,7 @@ focus = {
 		id = rsr_the_list
 		icon = GFX_focus_aboba
 		x = 45
-		y = 24
+		y = 25
 		prerequisite = {
 			focus = rsr_shadow_games
 		}
@@ -470,7 +500,7 @@ focus = {
 		id = rsr_traitors
 		icon = GFX_focus_aboba
 		x = 45
-		y = 25
+		y = 26
 		prerequisite = {
 			focus = rsr_the_list
 		}
@@ -480,7 +510,7 @@ focus = {
 		id = rsr_stabilisation
 		icon = GFX_focus_aboba
 		x = 45
-		y = 26
+		y = 27
 		prerequisite = {
 			focus = rsr_traitors
 		}
@@ -490,7 +520,7 @@ focus = {
 		id = rsr_i_need_some_rest
 		icon = GFX_focus_aboba
 		x = 25
-		y = 20
+		y = 21
 		prerequisite = {
 			focus = rsr_shoulder
 		}
@@ -500,7 +530,7 @@ focus = {
 		id = rsr_tsereteli
 		icon = GFX_focus_aboba
 		x = 25
-		y = 21
+		y = 22
 		prerequisite = {
 			focus = rsr_i_need_some_rest
 		}
@@ -510,7 +540,7 @@ focus = {
 		id = rsr_tsereteli_reforms
 		icon = GFX_focus_aboba
 		x = 25
-		y = 22
+		y = 23
 		prerequisite = {
 			focus = rsr_tsereteli
 		}
@@ -520,7 +550,7 @@ focus = {
 		id = rsr_resources_for_investigation
 		icon = GFX_focus_aboba
 		x = 27
-		y = 22
+		y = 23
 		prerequisite = {
 			focus = rsr_tsereteli
 		}
@@ -530,7 +560,7 @@ focus = {
 		id = rsr_discredit_maklakov
 		icon = GFX_focus_aboba
 		x = 23
-		y = 22
+		y = 23
 		prerequisite = {
 			focus = rsr_tsereteli
 		}
@@ -540,7 +570,7 @@ focus = {
 		id = rsr_martov_is_back
 		icon = GFX_focus_aboba
 		x = 25
-		y = 23
+		y = 24
 		prerequisite = {
 			focus = rsr_resources_for_investigation
 		}
@@ -556,7 +586,7 @@ focus = {
 		id = rsr_new_thinking
 		icon = GFX_focus_aboba
 		x = 20
-		y = 24
+		y = 25
 		prerequisite = {
 			focus = rsr_martov_is_back
 		}
@@ -566,7 +596,7 @@ focus = {
 		id = rsr_continue_ussr_renewal
 		icon = GFX_focus_aboba
 		x = 30
-		y = 24
+		y = 25
 		prerequisite = {
 			focus = rsr_martov_is_back
 		}
@@ -576,7 +606,7 @@ focus = {
 		id = rsr_antialcohol_campaign
 		icon = GFX_focus_aboba
 		x = 18
-		y = 25
+		y = 26
 		prerequisite = {
 			focus = rsr_new_thinking
 		}
@@ -586,7 +616,7 @@ focus = {
 		id = rsr_legalize_private
 		icon = GFX_focus_aboba
 		x = 20
-		y = 25
+		y = 26
 		prerequisite = {
 			focus = rsr_new_thinking
 		}
@@ -596,7 +626,7 @@ focus = {
 		id = rsr_cis_cooperation
 		icon = GFX_focus_aboba
 		x = 22
-		y = 25
+		y = 26
 		prerequisite = {
 			focus = rsr_new_thinking
 		}
@@ -606,7 +636,7 @@ focus = {
 		id = rsr_entente_embassy
 		icon = GFX_focus_aboba
 		x = 20
-		y = 26
+		y = 27
 		prerequisite = {
 			focus = rsr_antialcohol_campaign
 		}
@@ -622,7 +652,7 @@ focus = {
 		id = rsr_friends_with_entente
 		icon = GFX_focus_aboba
 		x = 19
-		y = 27
+		y = 28
 		prerequisite = {
 			focus = rsr_entente_embassy
 		}
@@ -632,7 +662,7 @@ focus = {
 		id = rsr_no_threat
 		icon = GFX_focus_aboba
 		x = 21
-		y = 27
+		y = 28
 		prerequisite = {
 			focus = rsr_entente_embassy
 		}
@@ -642,7 +672,7 @@ focus = {
 		id = rsr_less_soldiers
 		icon = GFX_focus_aboba
 		x = 18
-		y = 28
+		y = 29
 		prerequisite = {
 			focus = rsr_friends_with_entente
 		}
@@ -652,7 +682,7 @@ focus = {
 		id = rsr_trade_treaty
 		icon = GFX_focus_aboba
 		x = 22
-		y = 28
+		y = 29
 		prerequisite = {
 			focus = rsr_no_threat
 		}
@@ -662,7 +692,7 @@ focus = {
 		id = rsr_grain_for_money
 		icon = GFX_focus_aboba
 		x = 20
-		y = 28
+		y = 29
 		prerequisite = {
 			focus = rsr_friends_with_entente
 		}
@@ -675,7 +705,7 @@ focus = {
 		id = rsr_no_help_for_east_europe
 		icon = GFX_focus_aboba
 		x = 19
-		y = 29
+		y = 30
 		prerequisite = {
 			focus = rsr_less_soldiers
 		}
@@ -685,7 +715,7 @@ focus = {
 		id = rsr_more_loans
 		icon = GFX_focus_aboba
 		x = 21
-		y = 29
+		y = 30
 		prerequisite = {
 			focus = rsr_trade_treaty
 		}
@@ -695,7 +725,7 @@ focus = {
 		id = rsr_milestone_in_politics
 		icon = GFX_focus_aboba
 		x = 20
-		y = 30
+		y = 31
 		prerequisite = {
 			focus = rsr_no_help_for_east_europe
 		}
@@ -711,7 +741,7 @@ focus = {
 		id = rsr_no_comintern
 		icon = GFX_focus_aboba
 		x = 20
-		y = 31	
+		y = 32	
 		prerequisite = {
 			focus = rsr_milestone_in_politics
 		}
@@ -721,7 +751,7 @@ focus = {
 		id = rsr_three_hundred_days
 		icon = GFX_focus_aboba
 		x = 20
-		y = 32
+		y = 33
 		prerequisite = {
 			focus = rsr_no_comintern
 		}
@@ -731,7 +761,7 @@ focus = {
 		id = rsr_french_help
 		icon = GFX_focus_aboba
 		x = 18
-		y = 33
+		y = 34
 		prerequisite = {
 			focus = rsr_three_hundred_days
 		}
@@ -744,7 +774,7 @@ focus = {
 		id = rsr_no_help
 		icon = GFX_focus_aboba
 		x = 22
-		y = 33
+		y = 34
 		prerequisite = {
 			focus = rsr_three_hundred_days
 		}
@@ -757,7 +787,7 @@ focus = {
 		id = rsr_illegitimate_germany
 		icon = GFX_focus_aboba
 		x = 18
-		y = 34
+		y = 35
 		prerequisite = {
 			focus = rsr_french_help
 		}
@@ -767,7 +797,7 @@ focus = {
 		id = rsr_try_to_overcome_hunger
 		icon = GFX_focus_aboba
 		x = 22
-		y = 34
+		y = 35
 		prerequisite = {
 			focus = rsr_no_help
 		}
@@ -777,7 +807,7 @@ focus = {
 		id = rsr_foreign_industrialists
 		icon = GFX_focus_aboba
 		x = 18
-		y = 35
+		y = 36
 		prerequisite = {
 			focus = rsr_illegitimate_germany
 		}
@@ -787,7 +817,7 @@ focus = {
 		id = rsr_currency_reform
 		icon = GFX_focus_aboba
 		x = 22
-		y = 35
+		y = 36
 		prerequisite = {
 			focus = rsr_try_to_overcome_hunger
 		}
@@ -797,7 +827,7 @@ focus = {
 		id = rsr_foreign_food_help
 		icon = GFX_focus_aboba
 		x = 18
-		y = 36
+		y = 37
 		prerequisite = {
 			focus = rsr_foreign_industrialists
 		}
@@ -807,7 +837,7 @@ focus = {
 		id = rsr_goods_deficit
 		icon = GFX_focus_aboba
 		x = 22
-		y = 36
+		y = 37
 		prerequisite = {
 			focus = rsr_currency_reform
 		}
@@ -817,7 +847,7 @@ focus = {
 		id = rsr_economic_crisis
 		icon = GFX_focus_aboba
 		x = 20
-		y = 37
+		y = 38
 		prerequisite = {
 			focus = rsr_foreign_food_help
 			focus = rsr_goods_deficit
@@ -828,7 +858,7 @@ focus = {
 		id = rsr_more_oil_production
 		icon = GFX_focus_aboba
 		x = 18
-		y = 38
+		y = 39
 		prerequisite = {
 			focus = rsr_economic_crisis
 		}
@@ -838,7 +868,7 @@ focus = {
 		id = rsr_foreign_capital
 		icon = GFX_focus_aboba
 		x = 20
-		y = 38
+		y = 39
 		prerequisite = {
 			focus = rsr_economic_crisis
 		}
@@ -848,7 +878,7 @@ focus = {
 		id = rsr_lower_payment
 		icon = GFX_focus_aboba
 		x = 22
-		y = 38
+		y = 39
 		prerequisite = {
 			focus = rsr_economic_crisis
 		}
@@ -858,7 +888,7 @@ focus = {
 		id = rsr_more_oil_selling
 		icon = GFX_focus_aboba
 		x = 18
-		y = 39
+		y = 40
 		prerequisite = {
 			focus = rsr_more_oil_production
 		}
@@ -868,7 +898,7 @@ focus = {
 		id = rsr_increase_hours
 		icon = GFX_focus_aboba
 		x = 20
-		y = 39
+		y = 40
 		prerequisite = {
 			focus = rsr_foreign_capital
 		}
@@ -878,7 +908,7 @@ focus = {
 		id = rsr_tighten_the_belts
 		icon = GFX_focus_aboba
 		x = 22
-		y = 39
+		y = 40
 		prerequisite = {
 			focus = rsr_lower_payment
 		}
@@ -888,7 +918,7 @@ focus = {
 		id = rsr_save_russia
 		icon = GFX_focus_aboba
 		x = 20
-		y = 40
+		y = 41
 		prerequisite = {
 			focus = rsr_more_oil_selling
 		}
@@ -904,7 +934,7 @@ focus = {
 		id = rsr_sovereignty_question
 		icon = GFX_focus_aboba
 		x = 30
-		y = 25
+		y = 26
 		prerequisite = {
 			focus = rsr_continue_ussr_renewal
 		}
@@ -914,7 +944,7 @@ focus = {
 		id = rsr_sovereignty_1
 		icon = GFX_focus_aboba
 		x = 29
-		y = 26
+		y = 27
 		prerequisite = {
 			focus = rsr_sovereignty_question
 		}
@@ -924,7 +954,7 @@ focus = {
 		id = rsr_sovereignty_2
 		icon = GFX_focus_aboba
 		x = 31
-		y = 26
+		y = 27
 		prerequisite = {
 			focus = rsr_sovereignty_question
 		}
@@ -934,7 +964,7 @@ focus = {
 		id = rsr_sovereignty_referendums
 		icon = GFX_focus_aboba
 		x = 30
-		y = 27
+		y = 28
 		prerequisite = {
 			focus = rsr_sovereignty_1
 		}
@@ -947,7 +977,7 @@ focus = {
 		id = rsr_new_borders
 		icon = GFX_focus_aboba
 		x = 30
-		y = 28
+		y = 29
 		prerequisite = {
 			focus = rsr_sovereignty_referendums
 		}
@@ -957,7 +987,7 @@ focus = {
 		id = rsr_caucasia
 		icon = GFX_focus_aboba
 		x = 27
-		y = 29
+		y = 30
 		prerequisite = {
 			focus = rsr_new_borders
 		}
@@ -967,7 +997,7 @@ focus = {
 		id = rsr_asia
 		icon = GFX_focus_aboba
 		x = 30
-		y = 29
+		y = 30
 		prerequisite = {
 			focus = rsr_new_borders
 		}
@@ -977,7 +1007,7 @@ focus = {
 		id = rsr_far_east
 		icon = GFX_focus_aboba
 		x = 33
-		y = 29
+		y = 30
 		prerequisite = {
 			focus = rsr_new_borders
 		}
@@ -987,7 +1017,7 @@ focus = {
 		id = rsr_ordzhonikidze
 		icon = GFX_focus_aboba
 		x = 27
-		y = 30
+		y = 31
 		prerequisite = {
 			focus = rsr_caucasia
 		}
@@ -997,7 +1027,7 @@ focus = {
 		id = rsr_ordzh_compromise
 		icon = GFX_focus_aboba
 		x = 27
-		y = 31
+		y = 32
 		prerequisite = {
 			focus = rsr_ordzhonikidze
 		}
@@ -1007,7 +1037,7 @@ focus = {
 		id = rsr_persian_war
 		icon = GFX_focus_aboba
 		x = 27
-		y = 32
+		y = 33
 		prerequisite = {
 			focus = rsr_ordzh_compromise
 		}
@@ -1017,7 +1047,7 @@ focus = {
 		id = rsr_caucasia_border_conf
 		icon = GFX_focus_aboba
 		x = 27
-		y = 33
+		y = 34
 		prerequisite = {
 			focus = rsr_persian_war
 		}
@@ -1027,7 +1057,7 @@ focus = {
 		id = rsr_deportation
 		icon = GFX_focus_aboba
 		x = 27
-		y = 34
+		y = 35
 		prerequisite = {
 			focus = rsr_caucasia_border_conf
 		}
@@ -1037,7 +1067,7 @@ focus = {
 		id = rsr_goloshyokin_and_frunze
 		icon = GFX_focus_aboba
 		x = 30
-		y = 30
+		y = 31
 		prerequisite = {
 			focus = rsr_asia
 		}
@@ -1047,7 +1077,7 @@ focus = {
 		id = rsr_unsatisfied_locals
 		icon = GFX_focus_aboba
 		x = 30
-		y = 31
+		y = 32
 		prerequisite = {
 			focus = rsr_goloshyokin_and_frunze
 		}
@@ -1057,7 +1087,7 @@ focus = {
 		id = rsr_skirmishes
 		icon = GFX_focus_aboba
 		x = 30
-		y = 32
+		y = 33
 		prerequisite = {
 			focus = rsr_unsatisfied_locals
 		}
@@ -1067,7 +1097,7 @@ focus = {
 		id = rsr_asian_uprising
 		icon = GFX_focus_aboba
 		x = 30
-		y = 33
+		y = 34
 		prerequisite = {
 			focus = rsr_skirmishes
 		}
@@ -1077,7 +1107,7 @@ focus = {
 		id = rsr_two_divisions
 		icon = GFX_focus_aboba
 		x = 30
-		y = 34
+		y = 35
 		prerequisite = {
 			focus = rsr_asian_uprising
 		}
@@ -1087,7 +1117,7 @@ focus = {
 		id = rsr_far_east_unsatisfied
 		icon = GFX_focus_aboba
 		x = 33
-		y = 30
+		y = 31
 		prerequisite = {
 			focus = rsr_far_east
 		}
@@ -1097,7 +1127,7 @@ focus = {
 		id = rsr_far_east_army_unloyal
 		icon = GFX_focus_aboba
 		x = 33
-		y = 31
+		y = 32
 		prerequisite = {
 			focus = rsr_far_east_unsatisfied
 		}
@@ -1107,7 +1137,7 @@ focus = {
 		id = rsr_sovereign_fer
 		icon = GFX_focus_aboba
 		x = 33
-		y = 32
+		y = 33
 		prerequisite = {
 			focus = rsr_far_east_army_unloyal
 		}
@@ -1117,7 +1147,7 @@ focus = {
 		id = rsr_yakutia_uprising
 		icon = GFX_focus_aboba
 		x = 33
-		y = 33
+		y = 34
 		prerequisite = {
 			focus = rsr_sovereign_fer
 		}
@@ -1127,7 +1157,7 @@ focus = {
 		id = rsr_far_east_campaign
 		icon = GFX_focus_aboba
 		x = 33
-		y = 34
+		y = 35
 		prerequisite = {
 			focus = rsr_yakutia_uprising
 		}
@@ -1137,7 +1167,7 @@ focus = {
 		id = rsr_europe
 		icon = GFX_focus_aboba
 		x = 30
-		y = 35
+		y = 36
 		prerequisite = {
 			focus = rsr_deportation
 		}
@@ -1153,7 +1183,7 @@ focus = {
 		id = rsr_litbel_terrorism
 		icon = GFX_focus_aboba
 		x = 27
-		y = 36
+		y = 37
 		prerequisite = {
 			focus = rsr_europe
 		}
@@ -1163,7 +1193,7 @@ focus = {
 		id = rsr_ukrainian_riots
 		icon = GFX_focus_aboba
 		x = 30
-		y = 36
+		y = 37
 		prerequisite = {
 			focus = rsr_europe
 		}
@@ -1173,17 +1203,7 @@ focus = {
 		id = rsr_polish_coup
 		icon = GFX_focus_aboba
 		x = 33
-		y = 36
-		prerequisite = {
-			focus = rsr_europe
-		}
-		cost = 35		
-	}
-focus = {
-		id = rsr_litbel_terrorism
-		icon = GFX_focus_aboba
-		x = 27
-		y = 36
+		y = 37
 		prerequisite = {
 			focus = rsr_europe
 		}
@@ -1193,7 +1213,7 @@ focus = {
 		id = rsr_finnish_unsatisfaction
 		icon = GFX_focus_aboba
 		x = 27
-		y = 37
+		y = 38
 		prerequisite = {
 			focus = rsr_litbel_terrorism
 		}
@@ -1203,7 +1223,7 @@ focus = {
 		id = rsr_baltics_and_finland
 		icon = GFX_focus_aboba
 		x = 27
-		y = 38
+		y = 39
 		prerequisite = {
 			focus = rsr_finnish_unsatisfaction
 		}
@@ -1213,7 +1233,7 @@ focus = {
 		id = rsr_independent_baltics
 		icon = GFX_focus_aboba
 		x = 27
-		y = 39
+		y = 40
 		prerequisite = {
 			focus = rsr_baltics_and_finland
 		}
@@ -1223,14 +1243,14 @@ focus = {
 		id = rsr_borotbists_flee
 		icon = GFX_focus_aboba
 		x = 30
-		y = 37
+		y = 38
 		prerequisite = {
 			focus = rsr_ukrainian_riots
 		}
 		cost = 35		
 	}
 focus = {
-		id = rsr_ukraine_collapsed
+		id = rsr_ukrainian_destabilisation
 		icon = GFX_focus_aboba
 		x = 30
 		y = 39
@@ -1240,10 +1260,20 @@ focus = {
 		cost = 35		
 	}
 focus = {
+		id = rsr_ukraine_collapsed
+		icon = GFX_focus_aboba
+		x = 30
+		y = 40
+		prerequisite = {
+			focus = rsr_ukrainian_destabilisation
+		}
+		cost = 35		
+	}
+focus = {
 		id = rsr_gsr_intervention
 		icon = GFX_focus_aboba
 		x = 33
-		y = 37
+		y = 38
 		prerequisite = {
 			focus = rsr_polish_coup
 		}
@@ -1253,7 +1283,7 @@ focus = {
 		id = rsr_moldavanian_riot
 		icon = GFX_focus_aboba
 		x = 33
-		y = 38
+		y = 39
 		prerequisite = {
 			focus = rsr_gsr_intervention
 		}
@@ -1263,7 +1293,7 @@ focus = {
 		id = rsr_moldova_occupation
 		icon = GFX_focus_aboba
 		x = 33
-		y = 39
+		y = 40
 		prerequisite = {
 			focus = rsr_moldavanian_riot
 		}
@@ -1273,10 +1303,7 @@ focus = {
 		id = rsr_corruption
 		icon = GFX_focus_aboba
 		x = 25
-		y = 41
-		prerequisite = {
-			focus = rsr_save_russia
-		}
+		y = 42
 		prerequisite = {
 			focus = rsr_independent_baltics
 		}
@@ -1286,13 +1313,16 @@ focus = {
 		prerequisite = {
 			focus = rsr_moldova_occupation
 		}
+		prerequisite = {
+			focus = rsr_save_russia
+		}
 		cost = 35		
 	}
 focus = {
 		id = rsr_criminality
 		icon = GFX_focus_aboba
 		x = 24
-		y = 42
+		y = 43
 		prerequisite = {
 			focus = rsr_corruption
 		}
@@ -1302,9 +1332,22 @@ focus = {
 		id = rsr_racketeers
 		icon = GFX_focus_aboba
 		x = 26
-		y = 42
+		y = 43
 		prerequisite = {
 			focus = rsr_corruption
+		}
+		cost = 35		
+	}
+focus = {
+		id = rsr_zhmurki
+		icon = GFX_focus_aboba
+		x = 25
+		y = 44
+		prerequisite = {
+			focus = rsr_criminality
+		}
+		prerequisite = {
+			focus = rsr_racketeers
 		}
 		cost = 35		
 	}
@@ -1312,12 +1355,14 @@ focus = {
 		id = rsr_martov_suicide
 		icon = GFX_focus_aboba
 		x = 25
-		y = 43
+		y = 45
 		prerequisite = {
-			focus = rsr_criminality
-		}
-		prerequisite = {
-			focus = rsr_racketeers
+			focus = rsr_zhmurki
+	    }
+		available = {
+			hidden = {
+				always = no
+			}
 		}
 		cost = 35		
 	}

@@ -1,0 +1,27 @@
+state={
+	id=825
+	name="STATE_825"
+
+	state_category = town
+
+	history={
+		owner = RSR
+		victory_points = {
+			13226 25 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		add_core_of = RSR
+		
+
+	}
+
+	provinces={
+		13226
+	}
+	manpower=183000
+	buildings_max_level_factor=1.000
+}
