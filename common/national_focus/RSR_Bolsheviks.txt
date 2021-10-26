@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 1
+			add = 2000000
 			tag = RSR
 		}
 	}
@@ -692,30 +692,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = rsr_bol_industrial_base
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = rsr_bol_new_cours
-		}
-		x = 7
-		y = 8
-
-	}
-	focus = {
-		id = rsr_bol_active_collaboration
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = rsr_bol_new_cours
-		}
-		x = 9
-		y = 8
-
-	}
-	focus = {
-		id = rsr_bol_new_cours
-		icon = GFX_goal_unknown
+		id = rsr_bol_dont_have_time
+		icon = GFX_focus_rsr_bol_dont_have_time
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_grigory_zinoviev
@@ -725,64 +703,129 @@ focus_tree = {
 
 	}
 	focus = {
-		id = rsr_bol_zinoviev_appeal
+		id = rsr_bol_mass_armed_recruitment
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = rsr_bol_active_collaboration
+			focus = rsr_bol_dont_have_time
 		}
-		x = 10
-		y = 9
+		x = 5
+		y = 8
 
 	}
 	focus = {
-		id = rsr_bol_kulak_offensive
+		id = rsr_bol_fast_construction
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = rsr_bol_active_collaboration
+			focus = rsr_bol_dont_have_time
 		}
-		prerequisite = {
-			focus = rsr_bol_industrial_base
-		}
-		x = 8
-		y = 9
+		x = 7
+		y = 8
 
 	}
 	focus = {
-		id = rsr_bol_pressure_on_peasantry
-		icon = GFX_focus_rsr_bol_pressure_on_peasantry
+		id = rsr_bol_intensive_procurements
+		icon = GFX_focus_rsr_bol_intensive_procurements
 		cost = 10
 		prerequisite = {
-			focus = rsr_bol_industrial_base
+			focus = rsr_bol_dont_have_time
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = rsr_bol_bolsheviks_in_army
+		icon = GFX_focus_rsr_bol_bolsheviks_in_army
+		cost = 10
+		prerequisite = {
+			focus = rsr_bol_dont_have_time
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = rsr_bol_dont_quality
+		icon = GFX_focus_rsr_bol_dont_quality
+		cost = 10
+		prerequisite = {
+			focus = rsr_bol_mass_armed_recruitment
+		}
+		prerequisite = {
+			focus = rsr_bol_fast_construction
 		}
 		x = 6
 		y = 9
 
 	}
 	focus = {
-		id = rsr_bol_zinoviev_plan
+		id = rsr_bol_european_bureau
+		icon = GFX_focus_rsr_bol_european_bureau
+		cost = 10
+		prerequisite = {
+			focus = rsr_bol_intensive_procurements
+		}
+		prerequisite = {
+			focus = rsr_bol_fast_construction
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = rsr_bol_militant_communism
+		icon = GFX_focus_rsr_bol_militant_communism
+		cost = 10
+		prerequisite = {
+			focus = rsr_bol_intensive_procurements
+		}
+		prerequisite = {
+			focus = rsr_bol_bolsheviks_in_army
+		}
+		x = 10
+		y = 9
+
+	}
+	focus = {
+		id = rsr_bol_prepare_masses_to_big_war
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = rsr_bol_pressure_on_peasantry
+			focus = rsr_bol_european_bureau
 		}
 		prerequisite = {
-			focus = rsr_bol_kulak_offensive
+			focus = rsr_bol_militant_communism
 		}
-		prerequisite = {
-			focus = rsr_bol_zinoviev_appeal
-		}
-		x = 8
+		x = 9
 		y = 10
 
 	}
 	focus = {
-		id = rsr_bol_two_year_plan
+		id = rsr_bol_training_in_germany
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = rsr_bol_zinoviev_plan
+			focus = rsr_bol_european_bureau
+		}
+		prerequisite = {
+			focus = rsr_bol_dont_quality
+		}
+		x = 7
+		y = 10
+
+	}
+
+	focus = {
+		id = rsr_bol_first_step_of_zinoviev_plan
+		icon = GFX_focus_rsr_bol_first_step_of_zinoviev_plan
+		cost = 10
+		prerequisite = {
+			focus = rsr_bol_training_in_germany
+		}
+		prerequisite = {
+			focus = rsr_bol_prepare_masses_to_big_war
 		}
 		x = 8
 		y = 11

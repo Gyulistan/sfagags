@@ -1821,6 +1821,24 @@ country_event =	{ # Frenkel
 
 			}
 	}
+	
+												#############
+								################ZINOVIEV EVENT#####################
+											    #############
+country_event =	{ # Zinoviev
+	id = sovietunion.4000
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.4000"}
+	title = sovietunion.4000.t
+	desc = sovietunion.4000.d
+	picture = GFX_event_grenade
+
+	is_triggered_only = yes
+
+	option = {
+	name = sovietunion.4000.a
+
+			}
+	}												
 												
 
 country_event = { # начало гражданки

@@ -181,4 +181,16 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Robert Lee Bullard"
+	picture = "Portrait_USA_Robert_Bullard.dds"
+	traits = { inflexible_strategist }
+	skill = 2
+
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
 

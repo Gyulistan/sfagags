@@ -61,6 +61,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/Ideas/USA/usa_alexandr_palmer.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_usa_charles_luciano"
+		texturefile = "gfx/interface/Ideas/USA/usa_charles_luciano.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_waxey_gordon"
+		texturefile = "gfx/interface/Ideas/USA/usa_waxey_gordon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_dutch_shulz"
+		texturefile = "gfx/interface/Ideas/USA/usa_dutch_shulz.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_meyer_lanski"
+		texturefile = "gfx/interface/Ideas/USA/usa_meyer_lanski.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_usa_bugsy_siegel"
+		texturefile = "gfx/interface/Ideas/USA/usa_bugsy_siegel.tga"
+	}
+	
 	
 	
 	spriteType = {

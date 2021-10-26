@@ -1,0 +1,13 @@
+sco_union_category = {
+	icon = GFX_decision_category_thompson
+	picture = GFX_DER_decision_mafia
+	
+	priority = 10
+
+	allowed = {
+			original_tag = SCO
+		}
+	visible = {
+	}
+	visible_when_empty = yes
+}

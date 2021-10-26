@@ -1,0 +1,27 @@
+sco_union_category = {
+
+	sco_promise_union = {
+		icon = GFX_decision_generic_civil_support
+		allowed = { original_tag = SCO }
+		available = {
+		}
+		visible = {
+		}
+
+		cost = 30 
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision sco_promise_union"
+			custom_effect_tooltip = sco_promise_union1
+			WAL = {
+				country_event = wales.1
+			}
+		}
+	}
+}

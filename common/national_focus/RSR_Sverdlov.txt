@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 1
 		modifier = {
-			add = 200
+			add = 2
 			tag = RSR
 		}
 	}
@@ -357,7 +357,7 @@ focus_tree = {
 	
 	focus = {
 		id = rsr_sve_gulag_construction
-		icon = GFX_focus_rsr_sve_new_soviet_union
+		icon = GFX_focus_rsr_sve_gulag_construction
 		cost = 10
 		
 		x = 15
@@ -455,6 +455,45 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = rsr_sve_cut_cheka_credentials
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_welfare_life
+		}
+		x = 13
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_sve_guarantee_inviolability_person
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_welfare_life
+		}
+		x = 11
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_sve_denounce_decret
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_cut_cheka_credentials
+		}
+		prerequisite = {
+			focus = rsr_sve_guarantee_inviolability_person
+		}
+		x = 12
+		y = 14
+
+	}
+	
+	focus = {
 		id = rsr_sve_keep_in_fear
 		icon = GFX_focus_rsr_sve_new_soviet_union
 		cost = 10
@@ -472,6 +511,30 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = rsr_sve_crime_codex
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_keep_in_fear
+		}
+		x = 15
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_sve_denunciation_practic
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_crime_codex
+		}
+		x = 15
+		y = 14
+
+	}
+	
+	focus = {
 		id = rsr_sve_we_just_beginning
 		icon = GFX_focus_rsr_sve_we_just_beginning
 		cost = 10
@@ -485,6 +548,707 @@ focus_tree = {
 		
 		x = 17
 		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_sve_outer_court
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_we_just_beginning
+		}
+		x = 17
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_sve_profilactic_raids
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_we_just_beginning
+		}
+		x = 19
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_sve_supression_on_prison
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_outer_court
+		}
+		prerequisite = {
+			focus = rsr_sve_profilactic_raids
+		}
+		x = 18
+		y = 14
+
+	}
+	
+	focus = {
+		id = rsr_sve_great_industrialization
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		x = 22
+		y = 0
+
+	}
+	
+	focus = {
+		id = rsr_sve_money_problem
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_great_industrialization
+		}
+		x = 20
+		y = 1
+
+	}
+	
+	focus = {
+		id = rsr_sve_gold_of_empire
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_great_industrialization
+		}
+		x = 20
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_sve_work_of_cheka
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_gold_of_empire
+		}
+		x = 20
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_construction_of_wodka_factory
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_work_of_cheka
+		}
+		x = 20
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sve_contrabanda_paths
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_construction_of_wodka_factory
+		}
+		x = 20
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sve_our_bases_on_west_coast
+		icon = GFX_focus_rsr_sve_our_bases_on_west_coast
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_contrabanda_paths
+		}
+		x = 20
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sve_invite_west_specialists
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_great_industrialization
+		}
+		x = 22
+		y = 1
+
+	}
+	
+	focus = {
+		id = rsr_sve_soviet_industrial_revolution
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_invite_west_specialists
+		}
+		x = 22
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_sve_giant_projects
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_soviet_industrial_revolution
+		}
+		x = 22
+		y = 3
+
+	}
+
+	focus = {
+		id = rsr_sve_great_fracture
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_giant_projects
+		}
+		x = 22
+		y = 4
+
+	}	
+	
+	focus = {
+		id = rsr_sve_centralization_planning
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_great_fracture
+		}
+		x = 22
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sve_using_propaganda
+		icon = GFX_focus_rsr_sve_using_propaganda
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_centralization_planning
+		}
+		x = 22
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sve_indigir_expedition
+		icon = GFX_focus_rsr_sve_indigir_expedition
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_money_problem
+		}
+		x = 18
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_sve_dalstroy
+		icon = GFX_focus_rsr_sve_dalstroy
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_indigir_expedition
+		}
+		x = 18
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_colonization_of_east
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_dalstroy
+		}
+		x = 18
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sve_wide_intelligence
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_colonization_of_east
+		}
+		x = 18
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sve_connection_with_gulag
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_wide_intelligence
+		}
+		x = 18
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sve_begin_urbanization
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_great_industrialization
+		}
+		x = 24
+		y = 1
+
+	}
+	
+	focus = {
+		id = rsr_sve_we_build_new_cities
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_begin_urbanization
+		}
+		x = 24
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_sve_with_new_countryside
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_we_build_new_cities
+		}
+		x = 24
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_full_up_trains
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_with_new_countryside
+		}
+		x = 24
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sve_trees
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_full_up_trains
+		}
+		x = 24
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sve_collective_houses
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_trees
+		}
+		x = 24
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sve_plans_of_new_capital
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_begin_urbanization
+		}
+		x = 26
+		y = 2
+
+	}
+	
+	focus = {
+		id = rsr_sve_in_heart_of_union
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_plans_of_new_capital
+		}
+		x = 26
+		y = 3
+
+	}
+	
+	focus = {
+		id = rsr_sve_massive_construction_project
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_in_heart_of_union
+		}
+		x = 26
+		y = 4
+
+	}
+	
+	focus = {
+		id = rsr_sve_infrastructure_base
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_massive_construction_project
+		}
+		x = 26
+		y = 5
+
+	}
+	
+	focus = {
+		id = rsr_sve_emigration_programms
+		icon = GFX_focus_rsr_sve_rebirth
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_infrastructure_base
+		}
+		x = 26
+		y = 6
+
+	}
+	
+	focus = {
+		id = rsr_sve_platform_of_kamenev
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		
+		x = 30
+		y = 9
+
+	}
+	
+	focus = {
+		id = rsr_sve_soviet_reality
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_platform_of_kamenev
+		}
+		x = 26
+		y = 10
+
+	}
+	
+	focus = {
+		id = rsr_sve_prohibition
+		icon = GFX_focus_rsr_sve_prohibition
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_soviet_reality
+		}
+		prerequisite = {
+			focus = rsr_sve_secret_ck_comittee
+		}
+		x = 23
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_sve_closed_alcohol_factories
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_prohibition
+		}
+		x = 21
+		y = 14
+
+	}
+	
+	focus = {
+		id = rsr_sve_propaganda_trezvost
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_prohibition
+		}
+		x = 23
+		y = 14
+
+	}
+	
+	focus = {
+		id = rsr_sve_sobriety
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_prohibition
+		}
+		x = 25
+		y = 14
+
+	}
+	
+	focus = {
+		id = rsr_sve_destroy_grape
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_propaganda_trezvost
+		}
+		prerequisite = {
+			focus = rsr_sve_closed_alcohol_factories
+		}
+		x = 22
+		y = 15
+
+	}
+	
+	focus = {
+		id = rsr_sve_discreditation_alcoholics
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_propaganda_trezvost
+		}
+		prerequisite = {
+			focus = rsr_sve_sobriety
+		}
+		x = 24
+		y = 15
+
+	}
+	
+	focus = {
+		id = rsr_sve_prohibition_bureau
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_destroy_grape
+		}
+		prerequisite = {
+			focus = rsr_sve_discreditation_alcoholics
+		}
+		x = 23
+		y = 16
+
+	}
+	
+	focus = {
+		id = rsr_sve_fight_with_religion
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_platform_of_kamenev
+		}
+		x = 28
+		y = 11
+
+	}
+	
+	focus = {
+		id = rsr_sve_ideology_organs
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_platform_of_kamenev
+		}
+		x = 30
+		y = 11
+
+	}
+	
+	focus = {
+		id = rsr_sve_decret_of_literacy
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_platform_of_kamenev
+		}
+		x = 32
+		y = 11
+
+	}
+	
+	focus = {
+		id = rsr_sve_pressure_islam
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_fight_with_religion
+		}
+		x = 26
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_sve_campaign_against_christianity
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_fight_with_religion
+		}
+		x = 28
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_sve_supress_priests
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_campaign_against_christianity
+		}
+		prerequisite = {
+			focus = rsr_sve_pressure_islam
+		}
+		x = 27
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_sve_khudzhum
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_ideology_organs
+		}
+		x = 30
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_sve_national_alphabetes
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_khudzhum
+		}
+		x = 30
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_sve_secondary_nations
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_national_alphabetes
+		}
+		x = 30
+		y = 14
+
+	}
+	
+	focus = {
+		id = rsr_sve_criticize_luxury
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_decret_of_literacy
+		}
+		x = 32
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_sve_school_of_agitators
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_decret_of_literacy
+		}
+		x = 34
+		y = 12
+
+	}
+	
+	focus = {
+		id = rsr_sve_eradication_envy
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_school_of_agitators
+		}
+		prerequisite = {
+			focus = rsr_sve_criticize_luxury
+		}
+		x = 33
+		y = 13
+
+	}
+	
+	focus = {
+		id = rsr_sve_try_to_equality
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_eradication_envy
+		}
+		prerequisite = {
+			focus = rsr_sve_secondary_nations
+		}
+		x = 32
+		y = 15
+
+	}
+	
+	focus = {
+		id = rsr_sve_destroying_prices
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_supress_priests
+		}
+		prerequisite = {
+			focus = rsr_sve_secondary_nations
+		}
+		x = 28
+		y = 15
+
+	}
+	
+	focus = {
+		id = rsr_sve_fist_phaze_of_new_soviet_man
+		icon = GFX_focus_rsr_sve_new_soviet_union
+		cost = 10
+		prerequisite = {
+			focus = rsr_sve_try_to_equality
+		}
+		prerequisite = {
+			focus = rsr_sve_destroying_prices
+		}
+		
+		prerequisite = {
+			focus = rsr_sve_prohibition_bureau
+		}
+		x = 27
+		y = 17
 
 	}
 	

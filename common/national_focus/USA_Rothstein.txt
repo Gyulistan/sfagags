@@ -59,7 +59,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_rot_legalization_our_bussiness
-		icon = GFX_focus_usa_rot_rothstein_wins
+		icon = GFX_focus_usa_rot_legalization_our_bussiness
 		cost = 10
 		prerequisite = {
 			focus = usa_rot_cancel_prohibition
@@ -94,8 +94,56 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = usa_rot_deal_with_truman
+		icon = GFX_focus_usa_rot_deal_with_truman
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_our_personal_guard
+		}
+		x = 10
+		y = 5
+
+	}
+	
+	focus = {
+		id = usa_rot_crack_down_protests
+		icon = GFX_focus_usa_rot_our_personal_guard
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_deal_with_truman
+		}
+		x = 8
+		y = 6
+
+	}
+	
+	focus = {
+		id = usa_rot_remember_pendergast
+		icon = GFX_focus_usa_rot_our_personal_guard
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_deal_with_truman
+		}
+		x = 10
+		y = 6
+
+	}
+	
+	focus = {
+		id = usa_rot_his_criminal_connections
+		icon = GFX_focus_usa_rot_our_personal_guard
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_deal_with_truman
+		}
+		x = 12
+		y = 6
+
+	}
+	
+	focus = {
 		id = usa_rot_create_new_elite
-		icon = GFX_focus_usa_rot_rothstein_wins
+		icon = GFX_focus_usa_rot_create_new_elite
 		cost = 10
 		prerequisite = {
 			focus = usa_rot_our_personal_guard
@@ -116,7 +164,139 @@ focus_tree = {
 			focus = usa_rot_create_new_elite
 		}
 		x = 15
-		y = 5
+		y = 6
+
+	}
+	
+	focus = {
+		id = usa_rot_squeeze_the_ford 
+		icon = GFX_focus_usa_rot_squeeze_the_ford 
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_war_with_big_bussiness
+		}
+		x = 20
+		y = 7
+
+	}
+	
+	focus = {
+		id = usa_rot_on_legal_line
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_squeeze_the_ford 
+		}
+		x = 19
+		y = 8
+
+	}
+	
+	focus = {
+		id = usa_rot_tax_audits
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_on_legal_line
+		}
+		x = 17
+		y = 9
+
+	}
+	
+	focus = {
+		id = usa_rot_loyal_trade_union
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_on_legal_line
+		}
+		x = 19
+		y = 9
+
+	}
+	
+	focus = {
+		id = usa_rot_buy_little_actions
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_tax_audits
+		}
+		x = 17
+		y = 10
+
+	}
+	
+	focus = {
+		id = usa_rot_red_influence
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_loyal_trade_union
+		}
+		x = 19
+		y = 10
+
+	}
+	
+	focus = {
+		id = usa_rot_and_not
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_squeeze_the_ford 
+		}
+		x = 21
+		y = 8
+
+	}
+	
+	focus = {
+		id = usa_rot_send_boys
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_and_not
+		}
+		x = 21
+		y = 9
+
+	}
+	
+	focus = {
+		id = usa_rot_classic_scheme
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_send_boys
+		}
+		x = 21
+		y = 10
+
+	}
+	
+	focus = {
+		id = usa_rot_menace_actions
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_and_not
+		}
+		x = 23
+		y = 9
+
+	}
+	
+	focus = {
+		id = usa_rot_fabricate_bond
+		icon = GFX_focus_usa_rot_rothstein_wins
+		cost = 10
+		prerequisite = {
+			focus = usa_rot_and_not
+		}
+		x = 23
+		y = 10
 
 	}
 	

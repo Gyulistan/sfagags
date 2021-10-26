@@ -1,0 +1,16 @@
+ideas = {
+country = {
+  alexei_is_back = {	
+			
+			removal_cost = -1
+
+			picture = GFX_idea_power_struggle
+			
+			modifier = {
+				political_power_gain = 0.1
+				stability_weekly = 0.001
+				war_support_factor = 0.05
+			}
+		}
+		}
+		}

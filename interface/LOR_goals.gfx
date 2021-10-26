@@ -2182,4 +2182,94 @@ spriteTypes = {
 		name = "GFX_focus_rsr_sr_prime_kamkov"
 		texturefile = "gfx/interface/goals/focus_rsr_sr_prime_kamkov.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_raid_in_alabama"
+		texturefile = "gfx/interface/goals/focus_usa_raid_in_alabama.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_rot_squeeze_the_ford"
+		texturefile = "gfx/interface/goals/focus_usa_rot_squeeze_the_ford.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_rot_create_new_elite"
+		texturefile = "gfx/interface/goals/focus_usa_rot_create_new_elite.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_rot_deal_with_truman"
+		texturefile = "gfx/interface/goals/focus_usa_rot_deal_with_truman.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_rot_legalization_our_bussiness"
+		texturefile = "gfx/interface/goals/focus_usa_rot_legalization_our_bussiness.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_our_bases_on_west_coast"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_our_bases_on_west_coast.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_gulag_construction"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_gulag_construction.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_using_propaganda"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_using_propaganda.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_indigir_expedition"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_indigir_expedition.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_dalstroy"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_dalstroy.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_dont_have_time"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_dont_have_time.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_bolsheviks_in_army"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_bolsheviks_in_army.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_sve_prohibition"
+		texturefile = "gfx/interface/goals/focus_rsr_sve_prohibition.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_intensive_procurements"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_intensive_procurements.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_dont_quality"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_dont_quality.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_european_bureau"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_european_bureau.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_militant_communism"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_militant_communism.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_first_step_of_zinoviev_plan"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_first_step_of_zinoviev_plan.dds"
+	}
 }

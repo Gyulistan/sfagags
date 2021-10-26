@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 100
+			add = 10
 			tag = USA
 		}
 	}
@@ -242,7 +242,7 @@ focus_tree = {
 	
 	focus = {
 		id = usa_raid_in_alabama
-		icon = GFX_focus_usa_a_little_action
+		icon = GFX_focus_usa_raid_in_alabama
 		cost = 10
 		prerequisite = {
 			focus = usa_a_little_action
