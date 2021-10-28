@@ -397,7 +397,7 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_bilbo_talks.dds"
 	}
 	
-<<<<<<< HEAD
+
 	spriteType = {
 		name = "GFX_event_vodka_and_meatballs"
 		texturefile = "gfx/event_pictures/event_vodka_and_meatballs.dds"
@@ -417,9 +417,21 @@ spriteTypes = {
 		name = "GFX_event_duel2"
 		texturefile = "gfx/event_pictures/event_duel2.dds"
 	}
-=======
->>>>>>> parent of 0383c76 (Add files via upload)
-}
 	
+	spriteType = {
+		name = "GFX_event_white_house"
+		texturefile = "gfx/event_pictures/event_white_house.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_radio"
+		texturefile = "gfx/event_pictures/event_radio.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_grenade"
+		texturefile = "gfx/event_pictures/event_grenade.dds"
+	}
+
 	
 	

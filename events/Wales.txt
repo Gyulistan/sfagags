@@ -1,0 +1,30 @@
+add_namespace = wales
+
+country_event = { # 
+	id = wales.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event wales.1"}
+	title = wales.1.t
+	desc = wales.1.d
+	picture = GFX_event_teddy1
+
+	is_triggered_only = yes
+
+	option = {
+		name = wales.1.a
+		COR = {
+				country_event = cornwall.1
+			}
+		ai_chance = {
+			factor = 90
+			}
+        }
+	
+	option = {
+		name = wales.1.b
+		SCO = {
+				country_event = scotland.1
+			}
+		ai_chance = {
+			factor = 10
+			}
+	}

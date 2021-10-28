@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 20
+			add = 200000
 			tag = RSR
 		}
 	}
@@ -540,7 +540,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_sr_prime_algasov
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_sr_prime_algasov
 		cost = 10
 		prerequisite = {
 			focus = rsr_sr_how_dare_he
@@ -675,7 +675,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_sr_prime_kamkov
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_sr_prime_kamkov
 		cost = 10
 		prerequisite = {
 			focus = rsr_sr_how_dare_he

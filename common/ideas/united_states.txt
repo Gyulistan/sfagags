@@ -86,6 +86,34 @@ ideas = {
 						}
 				}
 				
+		usa_charles_luciano = {
+		
+			picture = GFX_idea_usa_charles_luciano
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				corrupted_premier
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+				
 		}
 		
 		
@@ -145,7 +173,35 @@ ideas = {
 				
 			
 						}
-				}		
+				}	
+
+		usa_waxey_gordon = {
+		
+			picture = GFX_idea_usa_waxey_gordon
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				the_cloak_n_dagger_schemer
+				foreign_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}			
 		}	
 
 	defence_minister = {
@@ -204,7 +260,35 @@ ideas = {
 				
 			
 						}
-				}		
+				}
+				
+		usa_dutch_shulz = {
+		
+			picture = GFX_idea_usa_dutch_shulz
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				former_military_commissar
+				defence_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}			
 		}
 
 	economy_minister = {
@@ -264,6 +348,34 @@ ideas = {
 			
 						}
 				}
+				
+		usa_meyer_lanski = {
+		
+			picture = GFX_idea_usa_meyer_lanski
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				corrupt_kleptocrat
+				economy_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
 		}	
 
 	security_minister = {
@@ -309,6 +421,34 @@ ideas = {
 			traits = {
 				conservatist
 				prince_of_terror
+				security_minister
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+				
+		usa_bugsy_siegel = {
+		
+			picture = GFX_idea_usa_bugsy_siegel
+			
+			available = {
+					OR = {
+						has_government = autoritarian_democracy
+					}
+				}
+			
+			traits = {
+				autoritarist
+				crooked_kleptocrat
 				security_minister
 			}
 			

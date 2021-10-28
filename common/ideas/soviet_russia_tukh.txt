@@ -1,0 +1,461 @@
+ideas = {
+	country = {
+		consequences_of_the_coup_1 = {
+			#picture = 
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.25
+				monthly_population = -0.1
+			}
+		}
+		consequences_of_the_coup_2 = {
+			#picture = 
+			modifier = {
+				stability_factor = -0.08
+				political_power_factor = -0.2
+				monthly_population = -0.08
+			}
+		}
+		consequences_of_the_coup_3 = {
+			#picture = 
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.15
+				monthly_population = -0.06
+			}
+		}
+		consequences_of_the_coup_4 = {
+			#picture = 
+			modifier = {
+				stability_factor = -0.02
+				political_power_factor = -0.1
+				monthly_population = -0.02
+			}
+		}
+		clique_military_1 = {
+
+			picture = GFX_idea_clique_military
+			
+			modifier = {
+				stability_factor = -0.125
+				army_infantry_attack_factor = -0.20
+				army_infantry_defence_factor = -0.20
+				training_time_factor = 0.12
+				army_org_factor = -0.2
+			}
+		}
+		chk_restructurisation = {
+			#picture = 
+
+			modifier = {
+				offensive_war_stability_factor = -0.25
+				defensive_war_stability_factor = -0.25
+				consumer_goods_factor = 0.1
+				command_power_gain_mult = 0.25
+			}
+		}
+		propaganda_narcom = {
+			#picture =  
+
+			modifier = {
+				stability_weekly = 0.01
+			}
+		}
+		tukhachevsky_purge = {
+
+			#picture = GFX_idea_clique_military
+			
+			modifier = {
+				army_infantry_attack_factor = -0.25
+				army_infantry_defence_factor = -0.25
+				training_time_factor = 0.15
+				army_org_factor = -0.35
+				surrender_limit = -0.12
+				experience_gain_army_factor = -0.25
+			}
+		}
+		supreme_soviet_tukh = {
+
+			#picture = GFX_idea_clique_military
+			
+			modifier = {
+				radical_bolshevism_drift = 0.05
+				stability_factor = 0.075
+				party_popularity_stability_factor = 0.25
+			}
+		}
+		unification_progress_0 = {
+			#picture = GFX_idea_clique_military
+			modifier = {
+				custom_modifier_tooltip = unification_trend
+			}
+		}
+		unification_progress_1 = {
+			#picture = GFX_idea_clique_military
+			modifier = {
+				stability_factor = -0.05
+				radical_bolshevism_drift = 0.05
+			}
+		}
+		unification_progress_2 = {
+			#picture = GFX_idea_clique_military
+			modifier = {
+				stability_factor = -0.1
+				radical_bolshevism_drift = 0.1
+			}
+		}
+		unification_progress_3 = {
+			#picture = GFX_idea_clique_military
+			modifier = {
+				stability_factor = -0.15
+				radical_bolshevism_drift = 0.15
+			}
+		}
+		economic_disaster_1 = {
+
+			picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				political_power_gain = -0.06
+				stability_factor = -0.18
+				production_factory_max_efficiency_factor = -0.22
+				line_change_production_efficiency_factor = -0.22
+				production_speed_buildings_factor = -0.18
+				industrial_capacity_factory = -0.22
+				consumer_goods_factor = 0.13
+				production_factory_start_efficiency_factor = -0.13
+			}
+		}
+		economic_disaster_2 = {
+
+			picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				political_power_gain = -0.05
+				stability_factor = -0.15
+				production_factory_max_efficiency_factor = -0.2
+				line_change_production_efficiency_factor = -0.2
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.2
+				consumer_goods_factor = 0.11
+				production_factory_start_efficiency_factor = -0.11
+			}
+		}
+		economic_disaster_3 = {
+
+			picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				political_power_gain = -0.04
+				stability_factor = -0.13
+				production_factory_max_efficiency_factor = -0.16
+				line_change_production_efficiency_factor = -0.16
+				production_speed_buildings_factor = -0.13
+				industrial_capacity_factory = -0.17
+				consumer_goods_factor = 0.11
+				production_factory_start_efficiency_factor = -0.09
+			}
+		}
+		economic_disaster_4 = {
+
+			picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				political_power_gain = -0.03
+				stability_factor = -0.11
+				production_factory_max_efficiency_factor = -0.14
+				line_change_production_efficiency_factor = -0.14
+				production_speed_buildings_factor = -0.11
+				industrial_capacity_factory = -0.15
+				consumer_goods_factor = 0.09
+				production_factory_start_efficiency_factor = -0.08
+			}
+		}
+		economic_disaster_5 = {
+
+			picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				political_power_gain = -0.02
+				stability_factor = -0.09
+				production_factory_max_efficiency_factor = -0.11
+				line_change_production_efficiency_factor = -0.11
+				production_speed_buildings_factor = -0.09
+				industrial_capacity_factory = -0.12
+				consumer_goods_factor = 0.08
+				production_factory_start_efficiency_factor = -0.08
+			}
+		}
+		economic_disaster_6 = {
+
+			picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				stability_factor = -0.09
+				production_factory_max_efficiency_factor = -0.09
+				line_change_production_efficiency_factor = -0.09
+				production_speed_buildings_factor = -0.09
+				industrial_capacity_factory = -0.09
+				consumer_goods_factor = 0.06
+				production_factory_start_efficiency_factor = -0.06
+			}
+		}
+		economic_disaster_7 = {
+
+			picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				stability_factor = -0.09
+				production_speed_buildings_factor = -0.09
+				industrial_capacity_factory = -0.09
+				consumer_goods_factor = 0.06
+				production_factory_start_efficiency_factor = -0.06
+			}
+		}
+		economic_disaster_8 = {
+
+			picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				stability_factor = -0.04
+				consumer_goods_factor = 0.06
+			}
+		}
+		confiscation_war_reb = {
+
+			#picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				global_building_slots_factor = 0.3
+			}
+		}
+		working_labour_general = {
+
+			#picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.075
+				industrial_capacity_factory = 0.075
+			}
+		}
+		irregular_wh = {
+
+			#picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				stability_factor = -0.125
+				production_speed_buildings_factor = 0.125
+				industry_repair_factor = 0.125
+			}
+		}
+		prinuzhd_state = {
+
+			#picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				stability_factor = -0.1
+				production_speed_buildings_factor = 0.075
+				industry_repair_factor = 0.075
+				production_oil_factor = 0.075
+			}
+		}
+		treatment_by_money = {
+
+			#picture = GFX_idea_economic_disaster
+			
+			modifier = {
+				political_power_factor = -0.35
+			}
+		}
+		military_control = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				stability_factor = -0.15
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_start_efficiency_factor = 0.1
+			}
+		}
+		military_control_1 = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = 0.075
+				production_factory_start_efficiency_factor = 0.075
+			}
+		}
+		forward_to_construct = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.3
+				production_speed_infrastructure_factor = 0.3
+				repair_speed_industrial_complex_factor = 0.3
+			}
+		}
+		first_steps = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				conversion_cost_civ_to_mil_factor = -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+			}
+		}
+		military_building_commision = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		bnorms = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		double_use = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				consumer_goods_factor = -0.03
+			}
+		}
+		peasants_work = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				consumer_goods_factor = -0.075
+			}
+		}
+		agricult_cometee = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				consumer_goods_factor = -0.085
+				monthly_population = 0.05
+			}
+		}
+		bread_standards = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				consumer_goods_factor = -0.075
+				stability_factor = -0.035
+			}
+		}
+		state_farms = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				consumer_goods_factor = -0.075
+				political_power_factor = -0.15
+			}
+		}
+		mechano = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_start_efficiency_factor = 0.1
+				production_lack_of_resource_penalty_factor = -0.1
+			}
+		}
+		proxy_war_theory = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				operation_cost = -0.25
+				intel_network_gain_factor = 0.25
+			}
+		}
+		soviet_occupants = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				occupation_cost = -0.25
+				required_garrison_factor = -0.25
+			}
+		}
+		informational_barrier = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				airforce_intel_to_others = -10
+				civilian_intel_to_others = -10
+				navy_intel_to_others = -10
+				enemy_operative_capture_chance_factor = 0.3
+				encryption_factor = 0.075
+			}
+		}
+		red_army_is_ready = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				offence = 0.125
+				defence = 0.125
+				acclimatization_cold_climate_gain_factor = 0.15
+				acclimatization_hot_climate_gain_factor = 0.15
+			}
+		}
+		ter_forces = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				occupation_cost = -0.25
+				local_non_core_manpower = 0.08
+			}
+		}
+		not_addicted_to_war = {
+
+			#picture = GFX_idea_economic_disaster
+
+			modifier = {
+				offensive_war_stability_factor = -0.3
+				political_power_factor = -0.3
+			}
+		}
+		cultural_transforms_era = {
+			#picture = hoi_gavno
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		soldiers_country = {
+			#picture = hoi_gavno
+
+			modifier = {
+				minimum_training_level = -0.1
+			}
+		}
+		christianity_destruction = {
+			#picture = hoi_gavno
+
+			modifier = {
+				political_power_cost = 0.15
+			}
+		}
+	}
+}

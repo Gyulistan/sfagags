@@ -1,0 +1,33 @@
+add_namespace = japan
+
+country_event = { 
+	id = japan.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event japan.100"}
+	title = japan.100.t
+	desc = japan.100.d
+	picture = GFX_event_chekists6
+
+	is_triggered_only = yes
+	
+	option = {
+		name = japan.100.a
+		create_country_leader = {
+			name = "Anatoly Gekker"
+			desc = "POLITICS_ANATOLY_GEKKER_DESC"
+			picture = "Portrait_Japan_Anatoly_Gekker.dds"
+			expire = "1965.1.1"
+			ideology = red_stratocracy
+			traits = {}
+		}
+		set_politics = {
+			ruling_party = radical_bolshevism
+			elections_allowed = no    }
+		set_party_name = {
+			ideology = radical_bolshevism
+			long_name = JAP_radical_bolshevism_soviet_long
+			name = JAP_radical_bolshevism_soviet
+			}
+		set_cosmetic_tag = JAP_soviet
+		}
+	}
+}

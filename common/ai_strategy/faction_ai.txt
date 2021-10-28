@@ -1,0 +1,91 @@
+## Don't leave, please
+
+ITA_dont_leave_from_faction = {
+	enable = {
+		tag = ITA
+		is_in_faction_with = FRA
+		OR = {
+			has_government = conservatism
+			has_government = liberalism
+			has_government = national_militarism
+		}
+		FRA = {
+			OR = {
+				has_government = conservatism
+				has_government = liberalism
+				has_government = national_militarism
+			}
+		}
+	}
+	abort = {
+		tag = ITA
+		NOT = { is_in_faction_with = FRA }
+		NOT = {
+			OR = {
+				has_government = conservatism
+				has_government = liberalism
+				has_government = national_militarism
+			}
+		}
+		FRA = {
+			NOT = {
+				OR = {
+					has_government = conservatism
+					has_government = liberalism
+					has_government = national_militarism
+				}
+			}
+		}
+	}
+
+	ai_strategy = { 
+		type = alliance    
+		id = FRA			      
+		value = 999
+	}
+}
+
+USA_dont_leave_from_faction = {
+	enable = {
+		tag = USA
+		is_in_faction_with = FRA
+		OR = {
+			has_government = conservatism
+			has_government = liberalism
+			has_government = national_militarism
+		}
+		FRA = {
+			OR = {
+				has_government = conservatism
+				has_government = liberalism
+				has_government = national_militarism
+			}
+		}
+	}
+	abort = {
+		tag = USA
+		NOT = { is_in_faction_with = FRA }
+		NOT = {
+			OR = {
+				has_government = conservatism
+				has_government = liberalism
+				has_government = national_militarism
+			}
+		}
+		FRA = {
+			NOT = {
+				OR = {
+					has_government = conservatism
+					has_government = liberalism
+					has_government = national_militarism
+				}
+			}
+		}
+	}
+
+	ai_strategy = { 
+		type = alliance    
+		id = FRA
+		value = 999
+	}
+}

@@ -1,0 +1,33 @@
+add_namespace = scotland
+
+country_event = { # 
+	id = scotland.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event scotland.1"}
+	title = scotland.1.t
+	desc = scotland.1.d
+	picture = GFX_event_teddy1
+
+	is_triggered_only = yes
+
+	option = {
+		name = scotland.1.a
+        }
+	}
+	
+country_event = { # 
+	id = scotland.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event scotland.2"}
+	title = scotland.2.t
+	desc = scotland.2.d
+	picture = GFX_event_teddy1
+
+	is_triggered_only = yes
+
+	option = {
+		name = scotland.2.a
+			create_faction = celtic_union
+			WAL = { add_to_faction = celtic_union }
+			COR = { add_to_faction = celtic_union }
+        }
+	}
+	

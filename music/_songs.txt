@@ -52,3 +52,12 @@ music = {
 		}		
 	}	
 }
+
+music = {
+	song = "johnny"
+	chance = {
+	   modifier = {
+		   factor = 0.25
+	   }
+	}
+}

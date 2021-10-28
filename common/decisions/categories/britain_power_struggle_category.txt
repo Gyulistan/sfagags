@@ -1,0 +1,14 @@
+britain_power_struggle = {
+	icon = GFX_decision_category_thompson
+	 
+	priority = 10
+
+	allowed = {
+			tag = BWF
+		}
+	visible = {
+		tag = BWF
+	}
+	scripted_gui = struggle_map
+	visible_when_empty = no
+}

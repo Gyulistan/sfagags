@@ -217,7 +217,7 @@ country_event = { #Scotland Workers Front
 	}	
 }
 
-country_event = { # Стрела
+country_event = { # 
 	id = sovietbritain.106
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietbritain.106"}
 	title = sovietbritain.106.t
