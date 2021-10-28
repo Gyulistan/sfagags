@@ -52,22 +52,3 @@ music = {
 		}		
 	}	
 }
-music = { 
-	song = "super_7"
-	
-	chance = {
-		modifier = {
-			factor = 0
-		}		
-	}	
-}
-
-music = { 
-	song = "super_8"
-	
-	chance = {
-		modifier = {
-			factor = 0
-		}		
-	}	
-}
