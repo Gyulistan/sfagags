@@ -1,0 +1,328 @@
+SOV_antagonize_ideological_enemies = {
+	enable = {
+		tag = RSR
+		AND = {
+			country_exists = GER
+			country_exists = FRA
+			country_exists = SWE
+			country_exists = CZE
+		}
+		AND = {
+			GER = {
+				NOT = {
+					OR = {
+						has_government = radical_bolshevism
+						has_government = orthodox_socialism
+						has_government = accelerationism
+					}
+				}
+			}
+			FRA = {
+				NOT = {
+					OR = {
+						has_government = radical_bolshevism
+						has_government = orthodox_socialism
+						has_government = accelerationism
+					}
+				}
+			}
+			SWE = {
+				NOT = {
+					OR = {
+						has_government = radical_bolshevism
+						has_government = orthodox_socialism
+						has_government = accelerationism
+					}
+				}
+			}
+			CZE = {
+				NOT = {
+					OR = {
+						has_government = radical_bolshevism
+						has_government = orthodox_socialism
+						has_government = accelerationism
+					}
+				}
+			}
+		}
+	}
+	abort = {
+		tag = RSR
+		OR = {
+			NOT = {
+				country_exists = GER
+				country_exists = FRA
+				country_exists = SWE
+				country_exists = CZE
+			}
+		}
+		AND = {
+			GER = {
+				OR = {
+					has_government = radical_bolshevism
+					has_government = orthodox_socialism
+					has_government = accelerationism
+				}
+			}
+			FRA = {
+				OR = {
+					has_government = radical_bolshevism
+					has_government = orthodox_socialism
+					has_government = accelerationism
+				}
+			}
+			SWE = {
+				OR = {
+					has_government = radical_bolshevism
+					has_government = orthodox_socialism
+					has_government = accelerationism
+				}
+			}
+			CZE = {
+				OR = {
+					has_government = radical_bolshevism
+					has_government = orthodox_socialism
+					has_government = accelerationism
+				}
+			}
+		}
+	}
+
+	ai_strategy = { 
+		type = prepare_for_war     
+		id = "GER"		      
+		value = 50
+	}
+	ai_strategy = { 
+		type = prepare_for_war     
+		id = "FRA"		      
+		value = 25
+	}
+	ai_strategy = { 
+		type = prepare_for_war     
+		id = "SWE"		      
+		value = 25
+	}
+	ai_strategy = { 
+		type = prepare_for_war     
+		id = "CZE"		      
+		value = 50
+	}
+}
+
+SOV_antagonize_revision_HUN = {
+	enable = {
+		tag = RSR
+		country_exists = HUN
+		NOT = {
+			HUN = {
+				is_in_faction_with = RSR
+			}
+		}
+	}
+	abort = {
+		tag = RSR
+		OR = {
+			AND = {
+				NOT = { country_exists = HUN }
+			}
+			AND = {
+				country_exists = HUN
+				HUN = { is_in_faction_with = RSR }
+			}
+			AND = {
+				has_war_with = HUN
+			}
+		}
+	}
+
+	ai_strategy = { 
+		type = prepare_for_war     
+		id = "HUN"		      
+		value = 50
+	}
+}
+
+SOV_antagonize_revision_SLO = {
+	enable = {
+		tag = RSR
+		country_exists = SLO
+		NOT = {
+			SLO = {
+				is_in_faction_with = RSR
+			}
+		}
+	}
+	abort = {
+		tag = RSR
+		OR = {
+			AND = {
+				NOT = { country_exists = SLO }
+			}
+			AND = {
+				country_exists = SLO
+				SLO = { is_in_faction_with = RSR }
+			}
+			AND = {
+				has_war_with = SLO
+			}
+		}
+	}
+
+	ai_strategy = { 
+		type = prepare_for_war     
+		id = "SLO"
+		value = 25
+	}
+}
+
+SOV_antagonize_revision_ROM = {
+	enable = {
+		tag = RSR
+		country_exists = ROM
+		NOT = {
+			ROM = {
+				is_in_faction_with = RSR
+			}
+		}
+	}
+	abort = {
+		tag = RSR
+		OR = {
+			AND = {
+				NOT = { country_exists = ROM }
+			}
+			AND = {
+				country_exists = ROM
+				ROM = { is_in_faction_with = RSR }
+			}
+			AND = {
+				has_war_with = ROM
+			}
+		}
+	}
+
+	ai_strategy = { 
+		type = prepare_for_war
+		id = "ROM"
+		value = 25
+	}
+}
+
+SOV_antagonize_antisoc_iran = {
+	enable = {
+		tag = RSR
+		country_exists = PER
+		NOT = {
+			PER = {
+				is_in_faction_with = RSR
+			}
+		}
+	}
+	abort = {
+		tag = RSR
+		OR = {
+			AND = {
+				NOT = { country_exists = PER }
+			}
+			AND = {
+				country_exists = PER
+				PER = { is_in_faction_with = RSR }
+			}
+			AND = {
+				has_war_with = PER
+			}
+		}
+	}
+
+	ai_strategy = { 
+		type = prepare_for_war
+		id = "PER"
+		value = 40
+	}
+}
+
+SOV_chinese_warlords = {
+	enable = {
+		tag = RSR
+		country_exists = MAN
+		NOT = {
+			MAN = {
+				is_in_faction_with = RSR
+			}
+		}
+	}
+	abort = {
+		tag = RSR
+		OR = {
+			AND = {
+				NOT = { country_exists = MAN }
+			}
+			AND = {
+				country_exists = MAN
+				MAN = { is_in_faction_with = RSR }
+			}
+			AND = {
+				has_war_with = MAN
+			}
+		}
+	}
+
+	ai_strategy = { 
+		type = prepare_for_war
+		id = "MAN"
+		value = 25
+	}
+}
+
+SOV_turks_are_not_allowed = {
+	enable = {
+		tag = RSR
+		country_exists = TUR
+		OR = {
+			AND = {
+				ARM = {
+					is_puppet_of = RSR
+				}
+			}
+			AND = {
+				TUR = {
+					NOT = {
+						OR = {
+							has_government = radical_bolshevism
+							has_government = orthodox_socialism
+							has_government = accelerationism
+						}
+					}
+				}
+			}
+		}
+	}
+	abort = {
+		tag = RSR
+		OR = {
+			AND = {
+				NOT = { country_exists = TUR }
+			}
+			AND = {
+				country_exists = TUR
+				TUR = { is_in_faction_with = RSR }
+			}
+			AND = {
+				TUR = {
+					OR = {
+						has_government = radical_bolshevism
+						has_government = orthodox_socialism
+						has_government = accelerationism
+					}
+				}
+			}
+		}
+	}
+
+	ai_strategy = { 
+		type = prepare_for_war
+		id = "TUR"
+		value = 25
+	}
+}

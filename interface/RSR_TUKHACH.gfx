@@ -79,5 +79,17 @@ spriteTypes = {
 		name = "GFX_idea_economic_disaster_1"
 		texturefile = "gfx/interface/Ideas/RSR/economic_disaster.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_confiscation_war_reb"
+		texturefile = "gfx/interface/Ideas/TUKHA/confiscation_war_comm.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_working_labour_general"
+		texturefile = "gfx/interface/Ideas/TUKHA/working_labour_general.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_irregular_wh"
+		texturefile = "gfx/interface/Ideas/TUKHA/irregular_wh.tga"
+	}
 
 }

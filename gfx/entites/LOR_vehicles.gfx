@@ -1,0 +1,9 @@
+objectTypes = {
+	pdxmesh = {
+		name = "GEN_AB_motorized_mesh"
+		file = "gfx/models/veh/GEN_AB.mesh"
+		
+		animation = { id = "idle"			type = "generic_motorized_01_idle_animation" }
+		animation = { id = "move"			type = "generic_motorized_01_move_animation" }
+	}
+}

@@ -94,17 +94,6 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.15
-				if = {
-					has_war_support > 0.3
-				}	
-			}
-			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_defensive_war = no
-					}
-				}
 			}
 			
 			cost = 150
@@ -128,13 +117,7 @@ ideas = {
 					is_major = yes
 				}
 				modifier = {
-					has_war_support > 0.25
-					factor = 0 #don't even look at it if you could be taking partial mob
-				}
-				modifier = {
-					tag = ENG
-					has_war = no
-					date < 1937.6.1
+					has_war_support < 0.25
 					factor = 0
 				}
    			}
@@ -143,13 +126,21 @@ ideas = {
 		partial_economic_mobilisation = {
 			
 			available = {
-				has_war_support > 0.25
-
-				if = {
-					limit = {
-						has_defensive_war = no
+				OR = {
+					AND = {
+						has_war_support > 0.25
 					}
-					has_war_support > 0.5
+					AND = {
+						has_war_support > 0.35
+						has_war = no
+					}
+					AND = {
+						has_war_support > 0.15
+						OR = {
+							has_government = radical_bolshevism
+							has_government = national_militarism
+						}
+					}
 				}
 			}
 
@@ -165,14 +156,6 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_defensive_war = no
-					}
-				}
-			}
 			ai_will_do = {
    				factor = 2
 
@@ -188,26 +171,26 @@ ideas = {
 			
 			
 			available = {
-				has_war_support > 0.5
 				OR = {
-					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
-						has_war = yes
-						any_enemy_country = {
-							ic_ratio = { 
-								tag = ROOT 
-								ratio > 0.4
+						NOT = {
+							OR = {
+								has_government = radical_bolshevism
+								has_government = national_militarism
 							}
 						}
+						has_defensive_war = no
+						has_war_support > 0.75
+					}
+					AND = {
+						OR = {
+							has_government = radical_bolshevism
+							has_government = national_militarism
+						}
+						has_defensive_war = no
+						has_war_support > 0.5
 					}
 				}
-
-				if = {
-					limit = {
-						has_defensive_war = no
-					}
-					has_war_support > 0.75
-				}		
 			}
 		
 			cost = 150
@@ -245,26 +228,11 @@ ideas = {
 			
 			available = {
 				has_war = yes
-				has_war_support > 0.8
+				has_war_support > 0.75
 				any_enemy_country = {
 					ic_ratio = { 
 						tag = ROOT 
 						ratio > 0.5
-					}
-				}
-
-				if = {
-					limit = {
-						has_defensive_war = no
-					}
-					has_war_support > 0.9
-				}
-			}
-			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_defensive_war = no
 					}
 				}
 			}

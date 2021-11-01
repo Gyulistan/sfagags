@@ -30,6 +30,7 @@ idea_categories = {
 		slot = defence_minister
 		slot = economy_minister
 		slot = security_minister
+		slot = personal_helper
 
 		cost = 150
 		removal_cost = -1 # works

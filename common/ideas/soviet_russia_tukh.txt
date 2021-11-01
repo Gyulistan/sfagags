@@ -457,5 +457,104 @@ ideas = {
 				political_power_cost = 0.15
 			}
 		}
+		our_great_ancestors = {
+			#picture = hoi_gavno
+
+			modifier = {
+				army_core_defence_factor = 0.05
+			}
+		}
+		natural_religion = {
+			#picture = hoi_gavno
+
+			modifier = {
+				stability_factor = -0.25
+				political_power_cost = 0.1
+				drift_defence_factor = -0.3
+			}
+		}
+		natural_religion1 = {
+			#picture = hoi_gavno
+
+			modifier = {
+				stability_factor = -0.2
+				political_power_cost = 0.075
+				drift_defence_factor = -0.25
+			}
+		}
+		natural_religion2 = {
+			#picture = hoi_gavno
+
+			modifier = {
+				stability_factor = -0.15
+				political_power_cost = 0.05
+				drift_defence_factor = -0.2
+			}
+		}
+		natural_religion3 = {
+			#picture = hoi_gavno
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_cost = 0.025
+				drift_defence_factor = -0.15
+			}
+		}
+		natural_religion4 = {
+			#picture = hoi_gavno
+
+			modifier = {
+				stability_factor = -0.05
+				drift_defence_factor = -0.2
+			}
+		}
+		natural_religion5 = {
+			#picture = hoi_gavno
+
+			modifier = {
+				army_org_factor = 0.05
+				drift_defence_factor = 0.1
+			}
+		}
+		natural_religion6 = {
+			#picture = hoi_gavno
+
+			modifier = {
+				army_org_factor = 0.05
+				breakthrough_factor = 0.05
+				drift_defence_factor = 0.1
+			}
+		}
+		blind_trust = {
+			#picture = hoi_gavno
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		blind_trust1 = {
+			#picture = hoi_gavno
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05 
+				command_power_gain_mult = 0.15
+				conscription = 0.02
+			}
+		}
+		revival_rsr = {
+			#picture = hoi_gavno
+
+			modifier = {
+				drift_defence_factor = 0.25
+			}
+		}
+		special_dep = {
+			#picture = hoi_gavno
+
+			modifier = {
+				agency_upgrade_time = -0.15
+			}
+		}
 	}
 }
