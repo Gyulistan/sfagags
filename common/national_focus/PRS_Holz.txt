@@ -1,0 +1,150 @@
+focus_tree = {
+	id = prs_holz
+	country = {
+		factor = 2
+		modifier = {
+			add = 200
+			tag = PRS
+		}
+	}
+	continuous_focus_position = { x = 50 y = 4000 }
+	default = no
+focus = {
+		id = prs_berlin
+		icon = GFX_focus_aboba
+		x = 50
+		y = 0
+		cost = 7
+	}
+focus = {
+		id = prs_renationalisation
+		icon = GFX_focus_aboba
+		x = -2
+		y = 1
+		relative_position_id = prs_berlin
+		cost = 7
+		prerequisite = {
+			focus = prs_berlin
+		}
+	}
+focus = {
+		id = prs_authority_question
+		icon = GFX_focus_aboba
+		x = 2
+		y = 1
+		relative_position_id = prs_berlin
+		prerequisite = {
+			focus = prs_berlin
+		}
+		cost = 7	
+	}
+focus = {
+		id = prs_liberals_punishment
+		icon = GFX_focus_aboba
+		x = 0
+		y = 1
+		relative_position_id = prs_renationalisation
+		prerequisite = {
+			focus = prs_renationalisation
+		}
+		cost = 7	
+	}
+focus = {
+		id = prs_red_army
+		icon = GFX_focus_aboba
+		x = -1
+		y = 1
+		relative_position_id = prs_authority_question
+		prerequisite = {
+			focus = prs_authority_question
+		}
+		mutually_exclusive = {
+	        focus = prs_soviets
+		}
+		cost = 7	
+	}
+focus = {
+		id = prs_soviets
+		icon = GFX_focus_aboba
+		x = 1
+		y = 1
+		relative_position_id = prs_authority_question
+		prerequisite = {
+			focus = prs_authority_question
+		}
+		mutually_exclusive = {
+	        focus = prs_red_army
+		}
+		cost = 7	
+	}
+focus = {
+		id = prs_five_minutes_processes
+		icon = GFX_focus_aboba
+		x = 0
+		y = 1
+		relative_position_id = prs_liberals_punishment
+		prerequisite = {
+			focus = prs_liberals_punishment
+		}
+		cost = 7	
+	}
+focus = {
+		id = prs_purge_the_bureaucrats
+		icon = GFX_focus_aboba
+		x = 1
+		y = 1
+		relative_position_id = prs_red_army
+		prerequisite = {
+			focus = prs_red_army
+			focus = prs_soviets
+		}
+		cost = 7	
+	}
+focus = {
+		id = prs_kriegskommunizmus
+		icon = GFX_focus_aboba
+		x = 2
+		y = 1
+		relative_position_id = prs_five_minutes_processes
+		prerequisite = {
+			focus = prs_five_minutes_processes
+		}
+		prerequisite = {
+			focus = prs_purge_the_bureaucrats
+		}
+		cost = 7	
+	}
+focus = {
+		id = prs_victory_economics
+		icon = GFX_focus_aboba
+		x = -5
+		y = 1
+		relative_position_id = prs_kriegskommunizmus
+		prerequisite = {
+			focus = prs_kriegskommunizmus
+		}
+		cost = 7	
+	}
+focus = {
+		id = prs_revolution_politics
+		icon = GFX_focus_aboba
+		x = 5
+		y = 1
+		relative_position_id = prs_kriegskommunizmus
+		prerequisite = {
+			focus = prs_kriegskommunizmus
+		}
+		cost = 7	
+	}
+focus = {
+		id = prs_rails_of_war
+		icon = GFX_focus_aboba
+		x = 0
+		y = 1
+		relative_position_id = prs_victory_economics
+		prerequisite = {
+			focus = prs_victory_economics
+		}
+		cost = 7	
+	}
+}

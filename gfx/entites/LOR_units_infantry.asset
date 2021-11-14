@@ -194,7 +194,7 @@ entity = {
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
 	scale = 0.8			
-}	
+}
 
 entity = {
 	name = "RSR_infantry_2_entity"
@@ -243,6 +243,7 @@ entity = {
 entity = { 
 	clone = "RSR_infantry_2_entity"
 	name = "RSR_infantry_3_entity"
+	pdxmesh = "RSR_infantry_3_rifle_mesh"
 }
 
 ####

@@ -6,7 +6,7 @@ defined_text = {
 			var = england_influence
 			value = 40
 			compare = less_than_or_equals
-			}
+			}	
 		}
 		localization_key = LONDON_LOW_INFLUENCE
 	}
@@ -128,5 +128,71 @@ defined_text = {
 			}
 		}
 		localization_key = CARDIFF_GREEN
+	}
+}
+defined_text = {
+	name = EDINBURGH_INFLUENCE
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 40
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = EDINBURGH_LOW_INFLUENCE
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 75
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = EDINBURGH_MEDIUM_INFLUENCE
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 100
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = EDINBURGH_HIGH_INFLUENCE
+	}
+}
+defined_text = {
+	name = EDINBURGH_COLOUR
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 40
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = EDINBURGH_RED
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 75
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = EDINBURGH_ORANGE
+	}
+	text = {
+		trigger = { 
+			check_variable = { 
+			var = wales_influence
+			value = 100
+			compare = less_than_or_equals
+			}
+		}
+		localization_key = EDINBURGH_GREEN
 	}
 }

@@ -885,6 +885,7 @@ focus_tree = {
 				id = sovietunion.2006
 				days = 0
 			}
+			add_ideas = natural_religion
 		}
 	}
 	focus = {
@@ -896,7 +897,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 10
-
+		completion_reward = {
+			add_political_power = 75
+		}
 	}
 	focus = {
 		id = rsr_cult_of_ancestors
@@ -907,7 +910,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 11
-
+		completion_reward = {
+			add_ideas = our_great_ancestors
+		}
 	}
 	focus = {
 		id = rsr_idols
@@ -918,7 +923,62 @@ focus_tree = {
 		}
 		x = 20
 		y = 12
-
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = natural_religion
+				}
+				swap_ideas = {
+					add_idea = natural_religion1
+					remove_idea = natural_religion
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion1
+				}
+				swap_ideas = {
+					add_idea = natural_religion2
+					remove_idea = natural_religion1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion2
+				}
+				swap_ideas = {
+					add_idea = natural_religion3
+					remove_idea = natural_religion2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion3
+				}
+				swap_ideas = {
+					add_idea = natural_religion4
+					remove_idea = natural_religion3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion4
+				}
+				swap_ideas = {
+					add_idea = natural_religion5
+					remove_idea = natural_religion4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion5
+				}
+				swap_ideas = {
+					add_idea = natural_religion6
+					remove_idea = natural_religion5
+				}
+			}
+		}
 	}
 	focus = {
 		id = rsr_slavic_revival
@@ -929,7 +989,9 @@ focus_tree = {
 		}
 		x = 19
 		y = 13
-
+		completion_reward = {
+			add_ideas = revival_rsr
+		}
 	}
 	focus = {
 		id = rsr_special_department
@@ -940,7 +1002,9 @@ focus_tree = {
 		}
 		x = 19
 		y = 14
-
+		completion_reward = {
+			add_ideas = special_dep
+		}
 	}
 	focus = {
 		id = rsr_department_geology
@@ -1012,17 +1076,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = rsr_new_teaching
-		icon = GFX_focus_rsr_new_teaching
-		cost = 10
-		prerequisite = {
-			focus = rsr_special_department
-		}
-		x = 17
-		y = 15
-
-	}
-	focus = {
 		id = rsr_new_ideological_doctrine
 		icon = GFX_focus_rsr_new_ideological_doctrine
 		cost = 10
@@ -1031,18 +1084,18 @@ focus_tree = {
 		}
 		x = 19
 		y = 15
-
-	}
-	focus = {
-		id = rsr_great_ryugen_construction
-		icon = GFX_focus_rsr_great_ryugen_construction
-		cost = 10
-		prerequisite = {
-			focus = rsr_new_ideological_doctrine
+		completion_reward = {
+			262 = {
+				add_victory_points = {
+					province = 11047
+					value = 10
+				}
+				set_province_name = {
+				    id = 11047
+				    name = LOC_KEY_RSR
+				}
+			}
 		}
-		x = 19
-		y = 16
-
 	}
 	focus = {
 		id = rsr_semi_automatic_weapons
@@ -1152,7 +1205,62 @@ focus_tree = {
 		}
 		x = 24
 		y = 10
-
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = natural_religion
+				}
+				swap_ideas = {
+					add_idea = natural_religion1
+					remove_idea = natural_religion
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion1
+				}
+				swap_ideas = {
+					add_idea = natural_religion2
+					remove_idea = natural_religion1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion2
+				}
+				swap_ideas = {
+					add_idea = natural_religion3
+					remove_idea = natural_religion2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion3
+				}
+				swap_ideas = {
+					add_idea = natural_religion4
+					remove_idea = natural_religion3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion4
+				}
+				swap_ideas = {
+					add_idea = natural_religion5
+					remove_idea = natural_religion4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion5
+				}
+				swap_ideas = {
+					add_idea = natural_religion6
+					remove_idea = natural_religion5
+				}
+			}
+		}
 	}
 	focus = {
 		id = rsr_commissioner_priest
@@ -1179,7 +1287,62 @@ focus_tree = {
 		}
 		x = 24
 		y = 12
-
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = natural_religion
+				}
+				swap_ideas = {
+					add_idea = natural_religion1
+					remove_idea = natural_religion
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion1
+				}
+				swap_ideas = {
+					add_idea = natural_religion2
+					remove_idea = natural_religion1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion2
+				}
+				swap_ideas = {
+					add_idea = natural_religion3
+					remove_idea = natural_religion2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion3
+				}
+				swap_ideas = {
+					add_idea = natural_religion4
+					remove_idea = natural_religion3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion4
+				}
+				swap_ideas = {
+					add_idea = natural_religion5
+					remove_idea = natural_religion4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion5
+				}
+				swap_ideas = {
+					add_idea = natural_religion6
+					remove_idea = natural_religion5
+				}
+			}
+		}
 	}
 	focus = {
 		id = rsr_mass_release
@@ -2603,7 +2766,62 @@ focus_tree = {
 		}
 		x = 22
 		y = 11
-
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = natural_religion
+				}
+				swap_ideas = {
+					add_idea = natural_religion1
+					remove_idea = natural_religion
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion1
+				}
+				swap_ideas = {
+					add_idea = natural_religion2
+					remove_idea = natural_religion1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion2
+				}
+				swap_ideas = {
+					add_idea = natural_religion3
+					remove_idea = natural_religion2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion3
+				}
+				swap_ideas = {
+					add_idea = natural_religion4
+					remove_idea = natural_religion3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion4
+				}
+				swap_ideas = {
+					add_idea = natural_religion5
+					remove_idea = natural_religion4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion5
+				}
+				swap_ideas = {
+					add_idea = natural_religion6
+					remove_idea = natural_religion5
+				}
+			}
+		}
 	}
 	focus = {
 		id = rsr_cathedral_of_great_perun
@@ -2614,7 +2832,62 @@ focus_tree = {
 		}
 		x = 22
 		y = 12
-
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = natural_religion
+				}
+				swap_ideas = {
+					add_idea = natural_religion1
+					remove_idea = natural_religion
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion1
+				}
+				swap_ideas = {
+					add_idea = natural_religion2
+					remove_idea = natural_religion1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion2
+				}
+				swap_ideas = {
+					add_idea = natural_religion3
+					remove_idea = natural_religion2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion3
+				}
+				swap_ideas = {
+					add_idea = natural_religion4
+					remove_idea = natural_religion3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion4
+				}
+				swap_ideas = {
+					add_idea = natural_religion5
+					remove_idea = natural_religion4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion5
+				}
+				swap_ideas = {
+					add_idea = natural_religion6
+					remove_idea = natural_religion5
+				}
+			}
+		}
 	}
 	focus = {
 		id = rsr_pagan_propaganda_committee
@@ -2631,7 +2904,62 @@ focus_tree = {
 		}
 		x = 22
 		y = 13
-
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = natural_religion
+				}
+				swap_ideas = {
+					add_idea = natural_religion1
+					remove_idea = natural_religion
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion1
+				}
+				swap_ideas = {
+					add_idea = natural_religion2
+					remove_idea = natural_religion1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion2
+				}
+				swap_ideas = {
+					add_idea = natural_religion3
+					remove_idea = natural_religion2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion3
+				}
+				swap_ideas = {
+					add_idea = natural_religion4
+					remove_idea = natural_religion3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion4
+				}
+				swap_ideas = {
+					add_idea = natural_religion5
+					remove_idea = natural_religion4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = natural_religion5
+				}
+				swap_ideas = {
+					add_idea = natural_religion6
+					remove_idea = natural_religion5
+				}
+			}
+		}
 	}
 	focus = {
 		id = rsr_punish_heretics
@@ -2658,7 +2986,9 @@ focus_tree = {
 		}
 		x = 23
 		y = 14
-
+		completion_reward = {
+			add_ideas = blind_trust
+		}
 	}
 	focus = {
 		id = rsr_veles_help_us
@@ -2672,7 +3002,12 @@ focus_tree = {
 		}
 		x = 22
 		y = 15
-
+		completion_reward = {
+			swap_ideas = {
+				add_idea = blind_trust1
+				remove_idea = blind_trust
+			}
+		}
 	}
 	focus = {
 		id = rsr_battle_study
@@ -2744,14 +3079,19 @@ focus_tree = {
 					add_core_of = GIL
 				}
 			}
-			custom_effect_tooltip = RSR_cause_problems
-			add_timed_idea = {
-				idea = not_addicted_to_war
-				days = 320
+			if = {
+				limit = {
+					NOT = { has_completed_focus = rsr_eternal_war }
+				}
+				custom_effect_tooltip = RSR_cause_problems
+				add_timed_idea = {
+					idea = not_addicted_to_war
+					days = 320
+				}
+				add_stability = -0.1
+				add_war_support = -0.15
+				custom_effect_tooltip = end_color
 			}
-			add_stability = -0.1
-			add_war_support = -0.15
-			custom_effect_tooltip = end_color
 		}
 	}
 	focus = {
