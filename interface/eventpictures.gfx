@@ -432,6 +432,11 @@ spriteTypes = {
 		name = "GFX_event_grenade"
 		texturefile = "gfx/event_pictures/event_grenade.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_event_zinoviev"
+		texturefile = "gfx/event_pictures/event_zinoviev.dds"
+	}
 
 	
 	

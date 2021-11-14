@@ -2272,4 +2272,29 @@ spriteTypes = {
 		name = "GFX_focus_rsr_bol_first_step_of_zinoviev_plan"
 		texturefile = "gfx/interface/goals/focus_rsr_bol_first_step_of_zinoviev_plan.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_prepare_masses_to_big_war"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_prepare_masses_to_big_war.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_training_in_germany"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_training_in_germany.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_fast_construction"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_fast_construction.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_rsr_bol_mass_armed_recruitment"
+		texturefile = "gfx/interface/goals/focus_rsr_bol_mass_armed_recruitment.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_usa_support_mcnaughton_army"
+		texturefile = "gfx/interface/goals/focus_usa_support_mcnaughton_army.dds"
+	}
 }

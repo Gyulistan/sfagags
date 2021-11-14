@@ -1826,6 +1826,36 @@ country_event =	{ # Frenkel
 								################ZINOVIEV EVENT#####################
 											    #############
 country_event =	{ # Zinoviev
+	id = sovietunion.3999
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.3999"}
+	title = sovietunion.3999.t
+	desc = sovietunion.3999.d
+	picture = GFX_event_grenade
+
+	is_triggered_only = yes
+
+	option = {
+	name = sovietunion.3999.a
+		set_politics = {
+			ruling_party = radical_bolshevism
+			elections_allowed = no    }
+	create_country_leader = {
+			name = "Grigory Zinoviev"
+			desc = "POLITICS_GRIGORY_ZINOVIEV_DESC"
+			picture = "Portrait_Russian_Grigory_Zinoviev.dds"
+			expire = "1965.1.1"
+			ideology = radical_bolshevism_subtype
+			traits = {}
+		}
+	set_party_name = {
+		ideology = radical_bolshevism
+		long_name = RSR_radical_bolshevism_zin_long
+		name = RSR_radical_bolshevism_zin
+	}
+			}
+	}
+
+country_event =	{ # Zinoviev
 	id = sovietunion.4000
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.4000"}
 	title = sovietunion.4000.t
@@ -1838,7 +1868,22 @@ country_event =	{ # Zinoviev
 	name = sovietunion.4000.a
 
 			}
-	}												
+	}		
+
+country_event =	{ # Zinoviev
+	id = sovietunion.4001
+	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietunion.4001"}
+	title = sovietunion.4001.t
+	desc = sovietunion.4001.d
+	picture = GFX_event_zinoviev
+
+	is_triggered_only = yes
+
+	option = {
+	name = sovietunion.4001.a
+
+			}
+	}	
 												
 
 country_event = { # начало гражданки

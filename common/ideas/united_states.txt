@@ -8,12 +8,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = conservatism
+						has_government = liberalism
 					}
 				}
 			
 			traits = {
-				conservatist
+				liberal
 				silent_workhorse
 				head_of_government
 			}
@@ -36,12 +36,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = liberalism
+						has_government = conservatism
 					}
 				}
 			
 			traits = {
-				liberal
+				conservatist
 				pragmatic_statesman
 				head_of_government
 			}
@@ -63,14 +63,42 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = liberalism
+						has_government = conservatism
 					}
 				}
 			
 			traits = {
-				liberal
+				conservatist
 				corrupted_premier
 				cards_lover
+				head_of_government
+			}
+			
+			allowed = {
+				original_tag = USA
+				}
+				
+			ai_will_do = {
+				factor = 0
+				
+				
+			
+						}
+				}
+				
+		usa_wickliffe_draper = {
+		
+			picture = GFX_idea_usa_wickliffe_draper
+			
+			available = {
+					OR = {
+						has_government = conservatism
+					}
+				}
+			
+			traits = {
+				conservatist
+				political_protege
 				head_of_government
 			}
 			
@@ -125,12 +153,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = conservatism
+						has_government = liberalism
 					}
 				}
 			
 			traits = {
-				conservatist
+				liberal
 				biased_intellectual
 				foreign_minister
 			}
@@ -153,7 +181,7 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = liberalism
+						has_government = conservatism
 					}
 				}
 			
@@ -212,12 +240,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = conservatism
+						has_government = liberalism
 					}
 				}
 			
 			traits = {
-				conservatist
+				liberal
 				military_tycoon
 				defence_minister
 			}
@@ -240,7 +268,7 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = liberalism
+						has_government = conservatism
 					}
 				}
 			
@@ -299,12 +327,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = conservatism
+						has_government = liberalism
 					}
 				}
 			
 			traits = {
-				conservatist
+				liberal
 				bank_president
 				economy_minister
 			}
@@ -327,7 +355,7 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = liberalism
+						has_government = conservatism
 					}
 				}
 			
@@ -386,12 +414,12 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = conservatism
+						has_government = liberalism
 					}
 				}
 			
 			traits = {
-				conservatist
+				liberal
 				silent_lawyer
 				security_minister
 			}
@@ -414,7 +442,7 @@ ideas = {
 			
 			available = {
 					OR = {
-						has_government = liberalism
+						has_government = conservatism
 					}
 				}
 			

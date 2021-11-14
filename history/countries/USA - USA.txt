@@ -63,7 +63,7 @@ give_guarantee = URG
 set_convoys = 400
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = liberalism
 	last_election = "1918.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -73,8 +73,8 @@ set_popularities = {
 	orthodox_socialism = 3
 	accelerationism = 0
 	social_democracy = 0
-	liberalism = 28
-	conservatism = 54
+	liberalism = 54
+	conservatism = 28
 	autoritarian_democracy = 0
 	national_militarism = 5
 	paternalism = 5
@@ -107,7 +107,7 @@ create_country_leader = {
 	desc = "POLITICS_CALVIN_COOLIGE_DESC"
 	picture = "Portrait_USA_Calvin_Coolidge.dds"
 	expire = "1947.1.1"
-	ideology = conservatism_subtype
+	ideology = liberalism_subtype
 	traits = {
 		slacker
 	}
@@ -118,7 +118,7 @@ create_country_leader = {
 	desc = "POLITICS_HARRY_TRUMAN_DESC"
 	picture = "Portrait_USA_Harry_Truman.dds"
 	expire = "1947.1.1"
-	ideology = liberalism_subtype
+	ideology = conservatism_subtype
 	traits = {
 	}
 }

@@ -86,6 +86,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/Ideas/USA/usa_bugsy_siegel.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_usa_wickliffe_draper"
+		texturefile = "gfx/interface/Ideas/USA/usa_wickliffe_draper.tga"
+	}
+	
 	
 	
 	spriteType = {

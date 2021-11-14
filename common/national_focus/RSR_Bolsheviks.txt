@@ -704,7 +704,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_mass_armed_recruitment
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_mass_armed_recruitment
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_dont_have_time
@@ -715,7 +715,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_fast_construction
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_fast_construction
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_dont_have_time
@@ -790,7 +790,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_prepare_masses_to_big_war
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_prepare_masses_to_big_war
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_european_bureau
@@ -804,7 +804,7 @@ focus_tree = {
 	}
 	focus = {
 		id = rsr_bol_training_in_germany
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rsr_bol_training_in_germany
 		cost = 10
 		prerequisite = {
 			focus = rsr_bol_european_bureau

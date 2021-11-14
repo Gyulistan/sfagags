@@ -47,6 +47,38 @@ country_event = {
 					################
 	  ################ИВЕНТЫ БИЛЬБО#####################
 					################
+					
+country_event = { 
+	id = unitedstates.190
+	immediate = {log = "[GetDateText]: [Root.GetName]: event unitedstates.190"}
+	title = unitedstates.190.t
+	desc = unitedstates.190.d
+	picture = GFX_event_interrogation
+
+	is_triggered_only = yes
+
+	option = {
+		name = unitedstates.190.a
+		remove_ideas_with_trait = head_of_government
+		add_ideas = usa_wickliffe_draper
+		remove_ideas_with_trait = foreign_minister
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+		remove_ideas_with_trait = defence_minister
+		set_politics = {
+			ruling_party = conservatism
+			elections_allowed = no   }
+		create_country_leader = {
+			name = "Theodore G. Bilbo"
+			desc = "POLITICS_THEODORE_BILBO_DESC"
+			picture = "Portrait_USA_Theodore_Bilbo.dds"
+			expire = "1965.1.1"
+			ideology = conservatism_subtype
+			traits = {}
+			}
+		}
+	} 
+	
 country_event = {
 	id = unitedstates.200 # Deal
 	immediate = {log = "[GetDateText]: [Root.GetName]: event unitedstates.200"}
@@ -100,12 +132,17 @@ country_event = {
 			desc = "POLITICS_THEODORE_ROOSEVELT_DESC"
 			picture = "Portrait_USA_Theodore_Roosevelt.dds"
 			expire = "1965.1.1"
-			ideology = conservatism_subtype
+			ideology = liberalism_subtype
 			traits = {}
 		}
 		}
 	}
 	
+	
+					################
+	  ################ИВЕНТЫ РОТШТЕЙНА#####################
+					################
+					
 country_event = { 
 	id = unitedstates.205
 	immediate = {log = "[GetDateText]: [Root.GetName]: event unitedstates.205"}
@@ -156,10 +193,6 @@ country_event = {
 			}
 		}
 	}
-	
-					################
-	  ################ИВЕНТЫ РОТШТЕЙНА#####################
-					################
 					
 country_event = {
 	id = unitedstates.201 

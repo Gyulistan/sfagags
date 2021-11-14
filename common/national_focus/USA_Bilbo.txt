@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 2000
+			add = 20
 			tag = USA
 		}
 	}
@@ -18,6 +18,57 @@ focus_tree = {
 		cost = 10
 		x = 15
 		y = 0
+
+	}
+	
+	focus = {
+		id = usa_bil_campaign_for_segregation
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 23
+		y = 2
+		prerequisite = {
+			focus = usa_bil_bilbo_wins
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_denounce_fourteenth_amendment
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 24
+		y = 3
+		prerequisite = {
+			focus = usa_bil_campaign_for_segregation
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_denounce_fifteen_amendment
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 22
+		y = 3
+		prerequisite = {
+			focus = usa_bil_campaign_for_segregation
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_strong_segregation_justice
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 23
+		y = 4
+		prerequisite = {
+			focus = usa_bil_denounce_fifteen_amendment
+		}
+		prerequisite = {
+			focus = usa_bil_denounce_fourteenth_amendment_amendment
+		}
 
 	}
 	
@@ -417,6 +468,370 @@ focus_tree = {
 		x = 7
 		y = 8
 
+	}
+	
+	focus = {
+		id = usa_bil_support_protests
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_fuck_them
+		}
+		x = 7
+		y = 9
+
+	}
+	
+	focus = {
+		id = usa_bil_push_to_the_congress
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_support_protests
+		}
+		x = 7
+		y = 10
+
+	}
+	
+	focus = {
+		id = usa_bil_deal_with_black_jack
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_push_to_the_congress
+		}
+		x = 7
+		y = 11
+
+	}
+	
+	focus = {
+		id = usa_bil_dixie_march_to_the_washington
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_push_to_the_congress
+		}
+		x = 7
+		y = 12
+
+	}
+	
+	focus = {
+		id = usa_bil_invasion_to_the_north
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_new_james_polk
+		}
+		x = 5
+		y = 9
+
+	}
+	
+	focus = {
+		id = usa_bil_activate_the_law
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_new_james_polk
+		}
+		x = 3
+		y = 10
+
+	}
+	
+	focus = {
+		id = usa_bil_mass_military_construction
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_activate_the_law
+		}
+		x = 3
+		y = 11
+
+	}
+	
+	focus = {
+		id = usa_bil_repressions_on_elements
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_activate_the_law
+		}
+		x = 5
+		y = 11
+
+	}
+	
+	focus = {
+		id = usa_bil_mass_mobilization
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_activate_the_law
+		}
+		x = 1
+		y = 11
+
+	}
+	
+	focus = {
+		id = usa_bil_all_for_victory
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_mass_mobilization
+		}
+		prerequisite = {
+			focus = usa_bil_mass_military_construction
+		}
+		x = 2
+		y = 12
+
+	}
+	
+	focus = {
+		id = usa_bil_all_for_the_fatherland
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_mass_mobilization
+		}
+		prerequisite = {
+			focus = usa_bil_repressions_on_elements
+		}
+		x = 4
+		y = 12
+
+	}
+	
+	focus = {
+		id = usa_bil_we_will_fight_for_freedom
+		icon = GFX_focus_usa_bil_fuck_them
+		cost = 10
+		prerequisite = {
+			focus = usa_bil_all_for_the_fatherland
+		}
+		prerequisite = {
+			focus = usa_bil_all_for_victory
+		}
+		x = 3
+		y = 13
+
+	}
+	
+	focus = {
+		id = usa_bil_fight_with_crisis
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 30
+		y = 0
+
+	}
+	
+	focus = {
+		id = usa_bil_temporary_worker_places
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 31
+		y = 1
+		prerequisite = {
+			focus = usa_bil_fight_with_crisis
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_emergency_relief
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 29
+		y = 1
+		prerequisite = {
+			focus = usa_bil_fight_with_crisis
+		}
+
+	}
+	
+	focus = {
+		id = usa_bil_confiscation_of_gold
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 30
+		y = 2
+		prerequisite = {
+			focus = usa_bil_emergency_relief
+		}
+		prerequisite = {
+			focus = usa_bil_temporary_worker_places
+		}
+	}
+	
+	focus = {
+		id = usa_bil_invite_harry_hopkins
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 28
+		y = 3
+		prerequisite = {
+			focus = usa_bil_confiscation_of_gold
+		}
+		mutually_exclusive = {
+			focus = usa_bil_there_is_no_communists
+		}
+		
+		
+	}
+	
+	focus = {
+		id = usa_bil_there_is_no_communists
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 32
+		y = 3
+		prerequisite = {
+			focus = usa_bil_confiscation_of_gold
+		}
+		mutually_exclusive = {
+			focus = usa_bil_invite_harry_hopkins
+		}
+		
+		
+	}
+	
+	focus = {
+		id = usa_bil_revive_tax_system
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 31
+		y = 4
+		prerequisite = {
+			focus = usa_bil_there_is_no_communists
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_deportation_to_liberia
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 31
+		y = 5
+		prerequisite = {
+			focus = usa_bil_revive_tax_system
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_oppose_to_60_families
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 31
+		y = 6
+		prerequisite = {
+			focus = usa_bil_deportation_to_liberia
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_militarization_of_economy
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 33
+		y = 4
+		prerequisite = {
+			focus = usa_bil_there_is_no_communists
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_finance_military_orders
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 33
+		y = 5
+		prerequisite = {
+			focus = usa_bil_militarization_of_economy
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_trade_to_europe
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 33
+		y = 6
+		prerequisite = {
+			focus = usa_bil_finance_military_orders
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_emergency_help_organization
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 29
+		y = 4
+		prerequisite = {
+			focus = usa_bil_invite_harry_hopkins
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_administation_of_work
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 29
+		y = 5
+		prerequisite = {
+			focus = usa_bil_emergency_help_organization
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_brain_trust
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 29
+		y = 6
+		prerequisite = {
+			focus = usa_bil_administation_of_work
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_denounce_prohibition
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 27
+		y = 4
+		prerequisite = {
+			focus = usa_bil_invite_harry_hopkins
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_national_recovery
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 27
+		y = 5
+		prerequisite = {
+			focus = usa_bil_denounce_prohibition
+		}		
+	}
+	
+	focus = {
+		id = usa_bil_stop_banking_debts
+		icon = GFX_focus_usa_bil_bilbo_wins
+		cost = 10
+		x = 27
+		y = 6
+		prerequisite = {
+			focus = usa_bil_national_recovery
+		}		
 	}
 	
 	
