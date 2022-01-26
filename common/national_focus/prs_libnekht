@@ -1,0 +1,1006 @@
+focus_tree = {
+	id = prs_libnekht
+	country = {
+		factor = 0
+		modifier = {
+			add = 1000
+			tag = PRS
+		}
+	}
+	continuous_focus_position = { x = 0 y = 1 }
+	focus = {
+		id = prs_friendly_german
+		icon = GFX_focus_prs_Rose_order
+		x = 25
+		y = 1
+		cost = 5	
+	}
+	
+	focus = {
+		id = prs_new_freedoms
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_friendly_german
+	     }
+		relative_position_id  =  prs_friendly_german
+		x = -12
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_peasants_and_soldiers
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_new_freedoms
+	     }
+		relative_position_id  =  prs_new_freedoms
+		x = -4
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_freedom_press
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_new_freedoms
+	     }
+		relative_position_id  =  prs_new_freedoms
+		x = -2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_german_resorts
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_new_freedoms
+	     }
+		relative_position_id  =  prs_new_freedoms
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_trade_unions_competitions
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_new_freedoms
+	     }
+		relative_position_id  =  prs_new_freedoms
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_debate
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_new_freedoms
+	     }
+		relative_position_id  =  prs_new_freedoms
+		x = 4
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_civil_initiatives
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_peasants_and_soldiers
+	     }
+		relative_position_id  =  prs_peasants_and_soldiers
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_common_goals
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_civil_initiatives
+	     }
+		relative_position_id  =  prs_civil_initiatives
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_freedom_for_soviets
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_freedom_press
+	     }
+		relative_position_id  = prs_freedom_press
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_lux_pioners
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_german_resorts
+	     }
+		relative_position_id  =  prs_german_resorts
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_national_cooperatives
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_trade_unions_competitions
+	     }
+		relative_position_id  = prs_trade_unions_competitions
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_national_economy_institute
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		  focus = prs_lux_pioners
+	     }
+	     prerequisite = {
+		   focus = prs_freedom_for_soviets
+	     }
+		 prerequisite = {
+		   focus = prs_national_cooperatives
+	     }
+		relative_position_id  =  prs_lux_pioners
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_clubs_in_berlin
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_debate
+	     }
+		relative_position_id  =  prs_debate
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_struggle_for_thinking
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_clubs_in_berlin
+	     }
+		relative_position_id  =  prs_clubs_in_berlin
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_socialist_intelligentsia
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_struggle_for_thinking
+	     }
+		 prerequisite = {
+		focus = prs_common_goals
+	     }
+		relative_position_id  = prs_struggle_for_thinking
+		x = -4
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_blagorodnaya_tsel
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_socialist_intelligentsia
+	     }
+		relative_position_id  = prs_socialist_intelligentsia
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_international_project_Autonomy
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_friendly_german
+	     }
+		relative_position_id  =  prs_friendly_german
+		x = -2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_create_SAKRA
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_international_project_Autonomy
+	     }
+		relative_position_id  =  prs_international_project_Autonomy
+		x = -2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_eastern_light_industrial
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_create_SAKRA
+	     }
+		relative_position_id  = prs_create_SAKRA
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_project_new_village
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_international_project_Autonomy
+	     }
+		relative_position_id  =  prs_international_project_Autonomy
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_agriculture_mechanization
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_project_new_village
+	     }
+		relative_position_id  =  prs_project_new_village
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_army_modernization
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_international_project_Autonomy
+	     }
+		relative_position_id  =  prs_international_project_Autonomy
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_autonomy_generals
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_army_modernization
+	     }
+		relative_position_id  =  prs_army_modernization
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_free_germany
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_agriculture_mechanization
+	     }
+		prerequisite = {
+		focus = prs_autonomy_generals
+	     }
+		prerequisite = {
+		focus = prs_eastern_light_industrial
+	     } 
+		relative_position_id  =  prs_agriculture_mechanization
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_save_marxism
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_friendly_german
+	     }
+		relative_position_id  =  prs_friendly_german
+		x = 5
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_our_international
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_save_marxism
+	     }
+		relative_position_id  =  prs_save_marxism
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_peoples_friendship_university
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_our_international
+	     }
+		relative_position_id  =  prs_our_international
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_persuade_poland
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_our_international
+	     }
+		relative_position_id  =  prs_our_international
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_plan_to_liberate_Europe
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_persuade_poland
+	     }
+		relative_position_id  =  prs_persuade_poland
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_red_propaganda
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_plan_to_liberate_Europe
+	     }
+		relative_position_id  =  prs_plan_to_liberate_Europe
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_ultimatum_to_copenhagen
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_plan_to_liberate_Europe
+	     }
+		relative_position_id  =  prs_plan_to_liberate_Europe
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_bring_revolution_to_the_end
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_ultimatum_to_copenhagen
+	     }
+		relative_position_id  =  prs_ultimatum_to_copenhagen
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_forward_to_La_Manche
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_bring_revolution_to_the_end
+	     }
+		relative_position_id  =  prs_bring_revolution_to_the_end
+		x = -1
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_mediterranean_revolutions
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_bring_revolution_to_the_end
+	     }
+		relative_position_id  =  prs_bring_revolution_to_the_end
+		x = 1
+		y = 1 
+		cost = 5	
+	}
+	focus = {
+		id = prs_dream_of_united_europeans
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_mediterranean_revolutions
+	     }
+		 prerequisite = {
+		focus = prs_forward_to_La_Manche
+	     }
+		relative_position_id  =  prs_mediterranean_revolutions
+		x = -1
+		y = 1 
+		cost = 5	
+	}
+	focus = {
+		id = prs_future
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_dream_of_united_europeans
+	     }
+		relative_position_id  =  prs_dream_of_united_europeans
+		x = 0
+		y = 1 
+		cost = 5	
+	}
+	focus = {
+		id = prs_march_to_East
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_persuade_poland
+	     }
+		relative_position_id  =  prs_persuade_poland
+		x = 6
+		y = 1
+		cost = 5	
+	} 
+	focus = {
+		id = prs_lure_workers
+		icon = GFX_focus_prs_Rose_order
+		mutually_exclusive = {
+		focus = prs_negotiation_with_Moscow
+	    }
+		prerequisite = {
+		focus = prs_march_to_East
+	     }
+		relative_position_id  =  prs_march_to_East
+		x = 2
+		y = 1
+		cost = 5	
+	} 
+	focus = {
+		id = prs_negotiation_with_Moscow
+		icon = GFX_focus_prs_Rose_order
+		mutually_exclusive = {
+		focus = prs_lure_workers
+	    }
+		prerequisite = {
+		focus = prs_march_to_East
+	     }
+		relative_position_id  =  prs_march_to_East
+		x = -2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_truce
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_negotiation_with_Moscow
+	     }
+		relative_position_id  =  prs_negotiation_with_Moscow
+		x = 0
+		y = 2
+		cost = 5	
+	} 
+	focus = {
+		id = prs_cold_war 
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_truce
+	     }
+		relative_position_id  =  prs_truce
+		x = 0
+		y = 1
+		cost = 5	
+	} 
+	focus = {
+		id = prs_interaction_with_the_East
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_lure_workers
+	     }
+		relative_position_id  =  prs_lure_workers
+		x = 0
+		y = 1
+		cost = 5	
+	} 
+	focus = {
+		id = prs_backstab
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_interaction_with_the_East
+	     }
+		relative_position_id  =  prs_interaction_with_the_East
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_end_of_hegemony
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_backstab
+	     }
+		relative_position_id  =  prs_backstab
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_find_allies
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_our_international
+	     }
+		relative_position_id  =  prs_our_international
+		x = -2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_removal_of_Moscow
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_find_allies
+	     }
+		relative_position_id  =  prs_find_allies
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_priglasit_anglichan
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_removal_of_Moscow
+	     }
+		relative_position_id  =  prs_removal_of_Moscow
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_AdV 
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_friendly_german
+	     }
+		relative_position_id  =  prs_friendly_german
+		x = -7
+		y = 6
+		cost = 5	
+	}
+	focus = {
+		id = prs_reorganivatsiya_militii
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_AdV
+	     }
+		relative_position_id  =  prs_AdV
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_people_army
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_reorganivatsiya_militii
+	     }
+		 mutually_exclusive = {
+		 focus = prs_prussian_history 
+		 }
+		relative_position_id  =  prs_reorganivatsiya_militii
+		x = -1
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_prussian_history
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_reorganivatsiya_militii
+	     }
+		  mutually_exclusive = {
+		 focus = prs_people_army
+		 }
+		relative_position_id  =  prs_reorganivatsiya_militii
+		x = 1
+		y = 1
+		cost = 5	
+	}
+		focus = {
+		id = prs_vernost_rukovodstvu
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_prussian_history
+	     }
+		relative_position_id  =  prs_prussian_history
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_ierarkhiya
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_vernost_rukovodstvu
+	     }
+		relative_position_id = prs_vernost_rukovodstvu
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_vernost_narodu
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_people_army
+	     }
+		relative_position_id  =  prs_people_army
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_mechta_ravenstva
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_vernost_narodu
+	     }
+		relative_position_id  = prs_vernost_narodu
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_power_of_soviets
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_mechta_ravenstva
+		focus = prs_ierarkhiya
+	     }
+		relative_position_id  = prs_mechta_ravenstva
+		x = 1
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_tekhnika_novoy_voyni
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_AdV
+	     }
+		relative_position_id  =  prs_AdV
+		x = -3
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_letnie_klubi
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_tekhnika_novoy_voyni
+	     }
+		relative_position_id  = prs_tekhnika_novoy_voyni
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_legacy_of_the_red_baron
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_letnie_klubi
+	     }
+		relative_position_id  = prs_letnie_klubi
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_vozdusnie_egerya
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_legacy_of_the_red_baron
+	     }
+		relative_position_id  = prs_legacy_of_the_red_baron
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_stavka_na_tanki
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_tekhnika_novoy_voyni
+	     }
+		relative_position_id  = prs_tekhnika_novoy_voyni
+		x = -2
+		y = 2
+		cost = 5	
+	}
+	focus = {
+		id = prs_KB_grotee
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_stavka_na_tanki
+	     }
+		relative_position_id  = prs_stavka_na_tanki
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_mobilnaya_voyna
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_KB_grotee
+	     }
+		relative_position_id  = prs_KB_grotee
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_voennaya_promyshlennost
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_AdV
+	     }
+		relative_position_id  =  prs_AdV
+		x = 3
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_razreshenie_sovetov 
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_voennaya_promyshlennost
+	     }
+		relative_position_id  =  prs_voennaya_promyshlennost
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_usilit_priziv
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_razreshenie_sovetov
+	     }
+		relative_position_id  =  prs_razreshenie_sovetov
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_ulutshit_usloviya
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_razreshenie_sovetov
+	     }
+		relative_position_id  =  prs_razreshenie_sovetov
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_noviy_vitok_ind
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_ulutshit_usloviya
+	     }
+		relative_position_id  =  prs_ulutshit_usloviya
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_uvelichit_tempy
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_ulutshit_usloviya
+	     }
+		relative_position_id  = prs_ulutshit_usloviya
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_shirokaya_spetsializatsiya
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_uvelichit_tempy
+	     }
+		relative_position_id  = prs_uvelichit_tempy
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_fishing
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_AdV
+	     }
+		relative_position_id  =  prs_AdV
+		x = 10
+		y = 4
+		cost = 5	
+	}
+	focus = {
+		id = prs_perspectivy
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_fishing
+	     }
+		relative_position_id  =  prs_fishing
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_podlodki
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_perspectivy
+	     }
+		relative_position_id  =  prs_perspectivy
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_perestroit_pomeraniyu
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_perspectivy
+	     }
+		relative_position_id  = prs_perspectivy
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_kreysera
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_perestroit_pomeraniyu
+	     }
+		relative_position_id  =  prs_perestroit_pomeraniyu
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_voenniy_budjet
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_perestroit_pomeraniyu
+	     }
+		relative_position_id  = prs_perestroit_pomeraniyu
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_linkory
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_voenniy_budjet
+	     }
+		relative_position_id  =  prs_voenniy_budjet
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_uzkaya_spetsializatsiya
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_voenniy_budjet
+	     }
+		relative_position_id  = prs_voenniy_budjet
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_marines
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_uzkaya_spetsializatsiya
+	     }
+		relative_position_id  =  prs_uzkaya_spetsializatsiya
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_noviy_volksmaline 
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_marines
+	     }
+		relative_position_id  =  prs_marines
+		x = -2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_vnutrenniy_flot
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_fishing
+	     }
+		relative_position_id  =  prs_fishing
+		x = -2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_narodniy_esminets
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_vnutrenniy_flot
+	     }
+		relative_position_id  =  prs_vnutrenniy_flot
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_deshego_i_serdito
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_narodniy_esminets
+	     }
+		relative_position_id  =  prs_narodniy_esminets
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_podvodnie_volki
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_deshego_i_serdito
+	     }
+		relative_position_id  =  prs_deshego_i_serdito
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_oboronitelniy_flot
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_podvodnie_volki
+	     }
+		relative_position_id  =  prs_podvodnie_volki
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_rechnie_flotilii
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_vnutrenniy_flot
+	     }
+		relative_position_id  =  prs_vnutrenniy_flot
+		x = -2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_soveti_ribolovov
+		icon = GFX_focus_prs_Rose_order 
+		prerequisite = {
+		focus = prs_rechnie_flotilii
+	     }
+		relative_position_id  =  prs_rechnie_flotilii
+		x = 0
+		y = 1
+		cost = 5	
+	}
