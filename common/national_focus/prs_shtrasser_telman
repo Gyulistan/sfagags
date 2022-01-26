@@ -1,0 +1,209 @@
+focus_tree = {
+	id = prs_st
+	country = {
+		factor = 0
+		modifier = {
+			add = 10000
+			tag = PRS
+		}
+	}
+	continuous_focus_position = { x = 0 y = 1 }
+	
+	focus = {
+		id = prs_the_new_order
+		icon = GFX_focus_prs_Rose_order
+		x = 15
+		y = 0
+		cost = 5	
+	}
+	focus = {
+		id = prs_okhota
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_the_new_order
+	     }
+		relative_position_id  =  prs_the_new_order
+		x = -1
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_antirevizionism
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_okhota
+	     }
+		relative_position_id  =  prs_okhota
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_okhrana_granitsi
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_the_new_order
+	     }
+		relative_position_id  =  prs_the_new_order
+		x = 1
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_vrag_ne_proydet
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_okhrana_granitsi
+	     }
+		relative_position_id  =  prs_okhrana_granitsi
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_uspokoit_narod
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_vrag_ne_proydet
+	     }
+		 prerequisite = {
+		focus = prs_antirevizionism
+	     }
+		relative_position_id  =  prs_vrag_ne_proydet
+		x = -1
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_net_mesta_na_dvoikh
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_uspokoit_narod
+	     }
+		relative_position_id  =  prs_uspokoit_narod
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_syezd_partiy
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_net_mesta_na_dvoikh
+	     }
+		mutually_exclusive = {
+		focus = prs_nelegalnie_metody
+	    }
+		relative_position_id  =  prs_net_mesta_na_dvoikh
+		x = -2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_nelegalnie_metody 
+		icon = GFX_focus_prs_Rose_order
+		mutually_exclusive = {
+		focus = prs_syezd_partiy
+	    }
+		prerequisite = {
+		focus = prs_net_mesta_na_dvoikh
+	     }
+		relative_position_id  =  prs_net_mesta_na_dvoikh
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_politicheskaya_borba
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_syezd_partiy
+	     }
+		relative_position_id  =  prs_syezd_partiy
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_plamennie_spori
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_politicheskaya_borba
+	     }
+		relative_position_id  =  prs_politicheskaya_borba
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_plamennie_oratori
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_politicheskaya_borba
+	     }
+		relative_position_id  =  prs_politicheskaya_borba
+		x = -2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_politicheskie_metodi
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_plamennie_spori
+	     }
+		 prerequisite = {
+		focus = prs_plamennie_oratori
+	     }
+		relative_position_id  =  prs_plamennie_spori
+		x = -1
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_ulichnie_boi
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_nelegalnie_metody
+	     }
+		relative_position_id  =  prs_nelegalnie_metody
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_privlech_militiu
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_ulichnie_boi
+	     }
+		relative_position_id  = prs_ulichnie_boi
+		x = 0
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_privlech_armiyu
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = prs_ulichnie_boi
+	     }
+		relative_position_id  = prs_ulichnie_boi
+		x = 2
+		y = 1
+		cost = 5	
+	}
+	focus = {
+		id = prs_proletarskie_metodi
+		icon = GFX_focus_prs_Rose_order
+		prerequisite = {
+		focus = 
+	     }
+		 prerequisite = {
+		focus = 
+	     }
+		relative_position_id  = prs_ulichnie_boi
+		x = 2
+		y = 1
+		cost = 5	
+	}
